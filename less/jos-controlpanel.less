@@ -1,0 +1,31 @@
+/* ==================================
+    jos-controlpanel
+=================================== */
+
+.jos-controlpanel{
+  width: @controlpanelWidth;
+  #translucent > .background(@black, .5);
+  color: @white;
+}
+.jos-controlpanel-header{
+  #translucent > .background(@black, .5);
+  padding: @padding;
+}
+
+/* SubMenu
+=================================== */
+.jos-controlpanel-submenu .jos-controlpanel-header .data{
+  line-height: @baseLineHeight*1.25;
+  color: @grayLight;
+}
+.jos-controlpanel-submenu .jos-controlpanel-header h2{
+  font-weight: 300;
+  line-height: @baseLineHeight;
+}
+.jos-controlpanel-submenu figure{
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  border-bottom: 1px solid #6a6a6a;
+}
