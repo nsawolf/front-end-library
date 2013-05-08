@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>view-homePage</title>
+    <title>view-homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- styles -->
@@ -19,12 +19,12 @@
 <body>
 <!--START MODULE-->
 <div class="navbar navbar-inverse jos-navbar-mainmenu">
-    <div class="navbar-inner">
+
         <a href="#"><img class="jos-logo" src="../img/jos-navbar-mainmenu-logo.png"></a>
-        <ul class="nav jos-nav" role="navigation">
+        <ul class="nav navbar-nav jos-nav" role="navigation">
             <li class="dropdown">
-                <a id="dPlan" class="dropdown-toggle" data-toggle="dropdown" data-target="jos-mainmenu-sell" role="button" href="#">Plan <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-lebelledby="dPlan">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Plan <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Ladder</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Staff</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Fonts</a></li>
@@ -36,8 +36,8 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a id="dCreate" class="dropdown-toggle" data-toggle="dropdown" data-target="jos-mainmenu-sell" role="button" href="#">Create <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-lebelledby="dCreate">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Create <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Designer</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Ladder</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cover Designer</a></li>
@@ -50,8 +50,8 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a id="dSell" class="dropdown-toggle" data-toggle="dropdown" data-target="jos-mainmenu-sell" role="button" href="#">Sell <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-lebelledby="dSell">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Sell <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Student List</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Setup Offers</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Enter Sales</a></li>
@@ -64,8 +64,8 @@
             </li>
             <li><a role="button" href="#">Digital Classroom</a></li>
             <li class="dropdown">
-                <a id="dStatus" class="dropdown-toggle" data-toggle="dropdown" data-target="jos-mainmenu-sell" role="button" href="#">Status <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-lebelledby="dStatus">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Status <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Summary Report</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cover</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Submissions</a></li>
@@ -73,10 +73,10 @@
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Soft Proof</a></li>
                 </ul>
             </li>
-            <li><a role="button" href="#">Virtual Book</a></li>
+            <li><a href="#" role="button">Virtual Book</a></li>
             <li class="dropdown">
-                <a id="dAccount" class="dropdown-toggle" data-toggle="dropdown" data-target="jos-mainmenu-sell" role="button" href="#">Hello, User <b class="caret"></b></a>
-                <ul class="dropdown-menu pull-right" role="menu" aria-lebelledby="dAccount">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Hello, User <b class="caret"></b></a>
+                <ul class="dropdown-menu pull-right" role="menu">
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Account</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Need Help?</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sign Out</a></li>
@@ -84,73 +84,74 @@
             </li>
         </ul>
 
-    </div>
 </div>
 <!--END MODULE-->
 
+
 <!--START MODULE: jos-backgroundmedia-->
 <div class="jos-backgroundmedia int-jos-controlpanel">
+
+<!--START MODULE-->
+<div class="jos-controlpanel jos-controlpanel-left jos-controlpanel-submenu">
+    <div class="jos-controlpanel-header">
+        <p class="data">February 12, 2014</p>
+        <h2>Hello, Hallie!</h2>
+        <p class="data">Central High School</p>
+    </div>
     <!--START MODULE-->
-    <div class="jos-controlpanel jos-controlpanel-left jos-controlpanel-submenu">
-        <div class="jos-controlpanel-header">
-            <p class="data">February 12, 2014</p>
-            <h2>Hello, Hallie!</h2>
-            <p class="data">Central High School</p>
-        </div>
-        <!--START MODULE-->
-        <div class="jos-accordion" id="exampleAccordion">
-            <div class="accordion-group">
-                <div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseOne">
-                        Your Assignments
-                    </a>
-                </div>
-                <div id="collapseOne" class="accordion-body collapse in">
-                    <ul class="accordion-inner">
-                        <li>Example Topic 1</li>
-                        <li>Example Topic 2</li>
-                    </ul>
-                </div>
+    <div class="accordion" id="exampleAccordion">
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseOne">
+                    Your Assignments
+                </a>
             </div>
-            <div class="accordion-group">
-                <div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseTwo">
-                        Header
-                    </a>
-                </div>
-                <div id="collapseTwo" class="accordion-body collapse">
-                    <ul class="accordion-inner">
-                        <li>Example Topic 1</li>
-                        <li>Example Topic 2</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="accordion-group">
-                <div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseThree">
-                        Header
-                    </a>
-                </div>
-                <div id="collapseThree" class="accordion-body collapse">
-                    <ul class="accordion-inner">
-                        <li>Example Topic 1</li>
-                        <li>Example Topic 2</li>
-                    </ul>
-                </div>
+            <div id="collapseOne" class="accordion-body collapse in">
+                <ul class="accordion-inner">
+                    <li>Example Topic 1</li>
+                    <li>Example Topic 2</li>
+                </ul>
             </div>
         </div>
-        <!--END MODULE-->
-        <figure class="SubMenu-figure">
-            <img src="http://placehold.it/210x70" />
-        </figure>
-        <figure class="SubMenu-figure">
-            <img src="http://placehold.it/210x70" />
-        </figure>
-        <figure class="SubMenu-figure">
-            <img src="http://placehold.it/210x70" />
-        </figure>
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseTwo">
+                    Header
+                </a>
+            </div>
+            <div id="collapseTwo" class="accordion-body collapse">
+                <ul class="accordion-inner">
+                    <li>Example Topic 1</li>
+                    <li>Example Topic 2</li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseThree">
+                    Header
+                </a>
+            </div>
+            <div id="collapseThree" class="accordion-body collapse">
+                <ul class="accordion-inner">
+                    <li>Example Topic 1</li>
+                    <li>Example Topic 2</li>
+                </ul>
+            </div>
+        </div>
     </div>
     <!--END MODULE-->
+    <figure class="SubMenu-figure">
+        <img src="http://placehold.it/210x70" />
+    </figure>
+    <figure class="SubMenu-figure">
+        <img src="http://placehold.it/210x70" />
+    </figure>
+    <figure class="SubMenu-figure">
+        <img src="http://placehold.it/210x70" />
+    </figure>
+</div>
+<!--END MODULE-->
     <figcaption class="jos-backgroundmedia-caption affix">
         <h4 class="jos-backgroundmedia-title">Caption Title</h4>
         <p class="jos-backgroundmedia-data">
@@ -161,11 +162,13 @@
     </figcaption>
 </div>
 <!--END MODULE: jos-backgroundmedia -->
+
+
 <!--Scripts-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="../js/bootstrap-dropdown.js"></script>
-<script src="../js/jos-bootstrap-collapse.js"></script>
+<script src="../js/jos/jos-bootstrap-collapse.js"></script>
 <script src="../js/libs/waypoints.min.js"></script>
-<script src="../js/jos-backgroundmedia.js"></script>
+<script src="../js/jos/jos-backgroundmedia.js"></script>
 </body>
 </html>
