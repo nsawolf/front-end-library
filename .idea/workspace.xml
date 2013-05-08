@@ -1,57 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="first major update">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphiconshalflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphiconshalflings-regular.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphiconshalflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphiconshalflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/b-accordion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/b-buttons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/b-icons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/b-panels.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/b-typography.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/glyphicons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphiconshalflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-accordion.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jos/jos-backgroundmedia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-backgroundmedia.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jos/jos-bootstrap-collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/jos-callouts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-callouts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-controlpanel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/jos-list-group-checklist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/jos-metrics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/jos-navbar-toolbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/css/jos-pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/css/jos-panel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-theme-01.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-theme-02.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-theme-03.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-theme-04.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-theme-variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jumbotron.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/normalize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
+    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368047580547" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368047674482" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285007" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -183,34 +138,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -276,7 +203,11 @@
       <created>1368047563734</created>
       <updated>1368047563734</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first major update">
+      <created>1368047681636</created>
+      <updated>1368047681636</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
