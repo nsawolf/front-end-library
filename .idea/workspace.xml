@@ -1,270 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/bootstrap-docs-readme.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/bootstrap-mdo-sfmoma-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/bootstrap-mdo-sfmoma-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/bootstrap-mdo-sfmoma-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/bs-docs-bootstrap-features.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/bs-docs-masthead-pattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/bs-docs-responsive-illustrations.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/bs-docs-twitter-github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/example-sites/8020select.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/example-sites/adoptahydrant.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/example-sites/breakingnews.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/example-sites/fleetio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/example-sites/gathercontent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/example-sites/jshint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/example-sites/kippt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/example-sites/soundready.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/examples/bootstrap-example-fluid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/examples/bootstrap-example-marketing-narrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/examples/browser-icon-chrome.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/examples/browser-icon-firefox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/examples/browser-icon-safari.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/examples/slide-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/examples/slide-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/examples/slide-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/grid-baseline-20px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/less-logo-large.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/img/responsive-illustrations.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/js/google-code-prettify/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/js/google-code-prettify/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/base-css.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/.bin/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/.bin/hulk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/.git_ignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/.gitmodules" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/bin/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/bin/hulk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/lib/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/lib/compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/lib/hogan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/lib/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/html/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/html/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/mustache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/Changes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/TESTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/comments.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/comments.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/delimiters.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/delimiters.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/interpolation.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/interpolation.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/inverted.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/inverted.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/partials.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/partials.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/sections.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/sections.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/~lambdas.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/spec/specs/~lambdas.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/templates/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/test/templates/list.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/tools/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/tools/release.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/tools/web_templates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/1.0.0/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/1.0.0/hogan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/1.0.0/hogan.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.0/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.3/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.3/hogan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.3/hogan.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.5/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.mustache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.mustache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.5/template-1.0.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/1.0.5/template-1.0.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/builds/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/images/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/images/noise.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/images/small-hogan-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/images/stripes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/index.html.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/stylesheets/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/stylesheets/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/web/stylesheets/skeleton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/wrappers/Icon&#13;" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/wrappers/amd.js.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/wrappers/common.js.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/wrappers/js.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/node_modules/hogan.js/wrappers/mustache.js.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/build/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/components.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/examples/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/examples/hero.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/examples/marketing-narrow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extend.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/getting-started.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/javascript.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/scaffolding.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/templates/layout.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/templates/pages/base-css.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/templates/pages/components.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/templates/pages/customize.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/templates/pages/extend.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/templates/pages/getting-started.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/templates/pages/index.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/templates/pages/javascript.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/templates/pages/scaffolding.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/jos-accordion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jos-backgroundmedia.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jos-bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jos-controlpanel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/libs/TRASH_jquery_pivot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/libs/TRASH_pivot.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/css/j-backgroundmedia.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/css/jos-theme-01.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/css/jos-theme-variables.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/hero-unit.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-accordion.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-backgroundmedia.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-callouts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-controlpanel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-detailcontent.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-navbar-mainmenu.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-navs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-theme-01.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-theme-02.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-theme-03.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-theme-04.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-theme-variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/jos-variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/labels-badges.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/layouts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/reset.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/responsive-1200px-min.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/responsive-767px-max.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/responsive-768px-979px.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/responsive-navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/responsive.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/sprites.less" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/img/examples/bootstrap-example-signin.png" afterPath="$PROJECT_DIR$/docs/assets/img/examples/bootstrap-example-signin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/.jshintrc" afterPath="$PROJECT_DIR$/js/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/README.md" afterPath="$PROJECT_DIR$/docs/assets/js/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/accordion.less" afterPath="$PROJECT_DIR$/less/accordion.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/alerts.less" afterPath="$PROJECT_DIR$/less/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/application.js" afterPath="$PROJECT_DIR$/docs/assets/js/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-affix.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-affix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-affix.js" afterPath="$PROJECT_DIR$/js/bootstrap-affix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-alert.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-alert.js" afterPath="$PROJECT_DIR$/js/bootstrap-alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-button.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-button.js" afterPath="$PROJECT_DIR$/js/bootstrap-button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-carousel.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-carousel.js" afterPath="$PROJECT_DIR$/js/bootstrap-carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-collapse.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-collapse.js" afterPath="$PROJECT_DIR$/js/bootstrap-collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-dropdown.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-dropdown.js" afterPath="$PROJECT_DIR$/js/bootstrap-dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-modal.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-modal.js" afterPath="$PROJECT_DIR$/js/bootstrap-modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-popover.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-popover.js" afterPath="$PROJECT_DIR$/js/bootstrap-popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-scrollspy.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-scrollspy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-scrollspy.js" afterPath="$PROJECT_DIR$/js/bootstrap-scrollspy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-tab.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-tab.js" afterPath="$PROJECT_DIR$/js/bootstrap-tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-tooltip.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-tooltip.js" afterPath="$PROJECT_DIR$/js/bootstrap-tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-transition.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-transition.js" afterPath="$PROJECT_DIR$/js/bootstrap-transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap-typeahead.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap-typeahead.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-typeahead.js" afterPath="$PROJECT_DIR$/js/bootstrap-typeahead.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/docs/assets/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/bootstrap.less" afterPath="$PROJECT_DIR$/less/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/less/breadcrumbs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/button-groups.less" afterPath="$PROJECT_DIR$/less/button-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/buttons.less" afterPath="$PROJECT_DIR$/less/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/examples/carousel.html" afterPath="$PROJECT_DIR$/docs/examples/carousel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/carousel.less" afterPath="$PROJECT_DIR$/less/carousel.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/close.less" afterPath="$PROJECT_DIR$/less/close.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/code.less" afterPath="$PROJECT_DIR$/less/code.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/component-animations.less" afterPath="$PROJECT_DIR$/less/component-animations.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/customize.html" afterPath="$PROJECT_DIR$/docs/customize.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/css/docs.css" afterPath="$PROJECT_DIR$/docs/assets/css/docs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/dropdowns.less" afterPath="$PROJECT_DIR$/less/dropdowns.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/forms.less" afterPath="$PROJECT_DIR$/less/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/_build/css/global.css" afterPath="$PROJECT_DIR$/less/_build/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/_build/global.less" afterPath="$PROJECT_DIR$/less/_build/global.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/grid.less" afterPath="$PROJECT_DIR$/less/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/holder/holder.js" afterPath="$PROJECT_DIR$/docs/assets/js/holder/holder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/jos-backgroundmedia.html" afterPath="$PROJECT_DIR$/examples/jos-backgroundmedia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/jos-controlpanel-submenu.html" afterPath="$PROJECT_DIR$/examples/jos-controlpanel-submenu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/jos-navbar-mainmenu.html" afterPath="$PROJECT_DIR$/examples/jos-navbar-mainmenu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/js/jquery.js" afterPath="$PROJECT_DIR$/docs/assets/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/examples/justified-nav.html" afterPath="$PROJECT_DIR$/docs/examples/justified-nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/media.less" afterPath="$PROJECT_DIR$/less/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/mixins.less" afterPath="$PROJECT_DIR$/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modals.less" afterPath="$PROJECT_DIR$/less/modals.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/navbar.less" afterPath="$PROJECT_DIR$/less/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/navs.less" afterPath="$PROJECT_DIR$/less/navs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/pager.less" afterPath="$PROJECT_DIR$/less/pager.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/pagination.less" afterPath="$PROJECT_DIR$/less/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/popovers.less" afterPath="$PROJECT_DIR$/less/popovers.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/progress-bars.less" afterPath="$PROJECT_DIR$/less/progress-bars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/less/responsive-utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/scaffolding.less" afterPath="$PROJECT_DIR$/less/scaffolding.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/examples/signin.html" afterPath="$PROJECT_DIR$/docs/examples/signin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/examples/starter-template.html" afterPath="$PROJECT_DIR$/docs/examples/starter-template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/examples/sticky-footer-navbar.html" afterPath="$PROJECT_DIR$/docs/examples/sticky-footer-navbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/examples/sticky-footer.html" afterPath="$PROJECT_DIR$/docs/examples/sticky-footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/tables.less" afterPath="$PROJECT_DIR$/less/tables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/thumbnails.less" afterPath="$PROJECT_DIR$/less/thumbnails.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/tooltip.less" afterPath="$PROJECT_DIR$/less/tooltip.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/type.less" afterPath="$PROJECT_DIR$/less/type.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/utilities.less" afterPath="$PROJECT_DIR$/less/utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/variables.less" afterPath="$PROJECT_DIR$/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-homepage.html" afterPath="$PROJECT_DIR$/examples/view-homepage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-merch.html" afterPath="$PROJECT_DIR$/examples/view-merch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/wells.less" afterPath="$PROJECT_DIR$/less/wells.less" />
+    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="first major update">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphiconshalflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphiconshalflings-regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphiconshalflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphiconshalflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/b-accordion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/b-buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/b-icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/b-panels.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/b-typography.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphiconshalflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-accordion.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jos/jos-backgroundmedia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-backgroundmedia.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jos/jos-bootstrap-collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/jos-callouts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-callouts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-controlpanel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/jos-list-group-checklist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/jos-metrics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/jos-navbar-toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/css/jos-pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/css/jos-panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-theme-01.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-theme-02.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-theme-03.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-theme-04.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-theme-variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368047513768" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368047580547" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285007" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -420,20 +207,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -499,13 +272,18 @@
       <created>1367865095931</created>
       <updated>1367865095931</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first major update">
+      <created>1368047563734</created>
+      <updated>1368047563734</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-400" width="1920" height="1200" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -519,7 +297,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -567,7 +344,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first major update" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -582,6 +359,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initial commit" />
+    <MESSAGE value="first major update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

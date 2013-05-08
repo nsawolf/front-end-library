@@ -1,0 +1,54 @@
+/* ==================================
+    panel overrides
+=================================== */
+
+.panel{
+  position: relative;
+}
+
+/* expand triggers
+=================================== */
+.panel-expand{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+
+  border-left: 	@panel-expand-size solid transparent;
+  border-bottom: @panel-expand-size*2 solid transparent;
+  border-right: @panel-expand-size*2 solid #000;
+  border-top: @panel-expand-size solid #000;
+  cursor: pointer;
+
+}
+.panel-expand-trigger{
+  position: absolute;
+  top: 2px;
+  right: 3px;
+  color: @gray-light;
+  font-weight: 100;
+  font-size: @font-size-small;
+  cursor: pointer;
+}
+.panel-expand-trigger:hover{
+  color: #fff;
+}
+
+
+/* metrics variant
+=================================== */
+.panel-metrics{
+  text-align: center;
+}
+.panel-metrics > h2{
+  font-size: 1.5em;
+  margin: 0;
+}
+.panel-metrics > figure{}
+.panel-metrics > figcaption{}
+.panel-metrics > figcaption > label{
+  font-size: 1.2em;
+  font-weight: normal;
+  line-height: 1.2em;
+}
+.metrics-badge{margin-bottom: 4px;}

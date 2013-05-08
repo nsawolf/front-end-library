@@ -1,0 +1,65 @@
+/* ==================================
+    Pagination overrides
+=================================== */
+
+// Base adjustments
+.pagination{
+  border-radius: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+// Pagination in Panels
+.panel .pagination{
+  display: inline-block;
+  margin: 0px;
+  margin-top: 4px;
+}
+.pagination > li > a,
+.pagination > li > span {
+  border-radius: 50%;
+  color: @gray-dark;
+  font-weight: bold;
+}
+.pagination > .active > a,
+.pagination > .active > span {
+  color: @gray-dark;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: @gray;
+  background-color: @gray-darker;
+}
+
+
+// Sizing
+// --------------------------------------------------
+
+// Small and mini
+.pagination-mini,
+.pagination-small {
+  > li:first-child > a,
+  > li:first-child > span {
+    .border-left-radius(50%);
+//    .border-right-radius(0);
+  }
+  > li:last-child > a,
+  > li:last-child > span {
+    .border-right-radius(50%);
+//    .border-left-radius(0);
+  }
+}
+
+
+// Small
+.pagination-small {
+  > li > a,
+  > li > span {
+    margin: 0px 2px;
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+    font-size: @font-size-small;
+  }
+}

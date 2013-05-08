@@ -1,0 +1,65 @@
+/* ==================================
+    navbar overrides
+=================================== */
+
+
+/* mainmenu variant
+=================================== */
+.jos-navbar-mainmenu{
+  margin-bottom: 0px;
+  border-bottom: 1px solid @gray-light;
+  background: @gray-darker url('../../../img/jos-navbar-mainmenu-bg.png') repeat-x;
+  .box-shadow(@box-shadow);
+
+}
+.jos-navbar-mainmenu .jos-logo{
+  display: inline-block;
+  margin-top: 15px;
+}
+.jos-navbar-mainmenu .nav{
+  float: right;
+  display: inline-block;
+  padding-top: 22px;
+}
+.jos-navbar-mainmenu .nav > li > a {
+  text-transform: uppercase;
+  font-size: @font-size-small;
+  padding: @padding;
+}
+
+/* toolbar variant
+=================================== */
+.jos-navbar-toolbar{
+  padding: 0;
+  #gradient > .vertical(@navbar-toolbar-bg-light, @navbar-toolbar-bg-dark);
+  .box-shadow(@box-shadow);
+}
+.jos-navbar-toolbar > .navbar-nav > li > a {
+  padding: 6px @padding-value;
+  color: darken(@navbar-inverse-link-color, 50%);
+  font-weight: 200;
+  font-size: @font-size-small;
+}
+.jos-navbar-toolbar > .navbar-nav > .active > a,
+.jos-navbar-toolbar > .navbar-nav > li > a:hover{
+  background: #000;
+  color: #fff;
+}
+
+.jos-navbar-footer{
+  .text-center;
+  #gradient > .vertical(@navbar-toolbar-bg-light, @navbar-toolbar-bg-dark);
+  margin-left: -16px;
+  margin-right: -16px;
+  margin-bottom: -16px;
+  margin-top: 0px;
+}
+
+// toolbar in a panel
+.panel .jos-navbar-toolbar{
+
+  margin-left: -16px;
+  margin-right: -16px;
+  margin-top: -15px;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,89 @@
+/* ==================================
+    backgroundmedia
+=================================== */
+
+.jos-backgroundmedia{
+    background: #fff no-repeat top center; /*background-image: url() is set by js*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  position: relative;
+
+}
+.jos-backgroundmedia:before{
+    content: "";
+    background: url(../../../img/jos-backgroundmedia-raster.png) transparent repeat left top;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.jos-backgroundmedia-caption{
+    position: absolute;
+    display: inline-block;
+    width: 28em; /*19.5*16px = 312px*/
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1.25em;
+    padding-right: 4.5em; /*3.5*16px = 56px*/
+    cursor: pointer;
+    right: 0;
+    margin-right: 0px;
+    bottom: 20px;
+}
+
+.jos-backgroundmedia-caption.l-fixed{
+    position: fixed;
+    float: none;
+}
+.jos-backgroundmedia-caption{
+    color: #bcbdbc;
+    font-size: .85em;
+}
+.jos-backgroundmedia-caption a{
+    color: #fff;
+    font-weight: bold;
+}
+.jos-backgroundmedia-title{
+    margin-top: 0px;
+    color: #e5a31b;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 1em;
+    margin-bottom: 5px;
+    text-transform: inherit;
+}
+.jos-backgroundmedia-caption .arrow-right{
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #ffffff;
+    margin-left: 4px;
+}
+.jos-backgroundmedia-caption img{
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+
+
+/* ==================================
+    Integrations
+=================================== */
+
+/*ControlPanel*/
+.int-jos-controlpanel.jos-backgroundmedia{
+//  position: absolute;
+//  bottom: 0;
+//  left: 0;
+//  right: 0;
+//  top: 63px;
+}
+.int-jos-controlpanel.jos-backgroundmedia:before{
+  left: @controlpanel-width !important;
+}
+
+
+
+

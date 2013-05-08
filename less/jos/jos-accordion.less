@@ -1,0 +1,53 @@
+/* ==================================
+    accordion overrides
+=================================== */
+
+
+// Parent container
+.accordion {
+  margin-bottom: 0px;
+  background-color: hsla(hue(#000), saturation(#000), lightness(#000), .5);
+}
+
+// Group == heading + body
+.accordion-group {
+  margin-bottom: 0px;
+  border: 0;
+  border-radius: @border-radius-base;
+}
+
+.accordion-heading .accordion-toggle {
+  display: block;
+  padding: 8px 15px;
+  #gradient > .vertical(#2e2e2e, #222222);
+  border-bottom: 1px solid #080808;
+  border-top: 1px solid #6a6a6a;
+  color: @brand-primary;
+}
+.accordion-heading .accordion-toggle:after{
+  content: "";
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  display: inline-block;
+  float: right;
+  background: url(../../../img/jos-accordion-trigger.png) no-repeat left;
+}
+.accordion-heading.open .accordion-toggle:after{background-position: right;}
+
+// Inner needs the styles because you can't animate properly with any styles on the element
+.accordion-inner {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-top: 0px;
+}
+.accordion-inner li{
+  padding: 8px 15px;
+  cursor: pointer;
+  border-top: 1px solid #666666;
+  color: #fff;
+}
+.accordion-inner li:first-child{border-top: 0px;}
+.accordion-inner li:hover{text-decoration: underline;}
+
