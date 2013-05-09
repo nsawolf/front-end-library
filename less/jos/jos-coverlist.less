@@ -1,0 +1,52 @@
+/* ==================================
+    jos-coverlist
+=================================== */
+
+.jos-coverlist{
+  .thumbnail{
+    border: 0;
+    padding: 0;
+    position: relative;
+  }
+  img{margin-left: 0;}
+
+  .caption{
+    margin-top: -26px;
+    margin-left: 0;
+    padding: 0;
+  }
+  h4{
+    margin-top: 0px;
+    font-size: @font-size-base;
+    margin-bottom: 0;
+  }
+  p{font-size: @font-size-mini;}
+  i{
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: 0px;
+    background: @gray-light;
+    padding: 4px 8px;
+  }
+  .glyphicon-chevron-right{right: 0px; left: inherit;}
+  i:hover{
+    background: @gray-dark;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+// fixed
+.jos-coverlist-fixed{
+  li{
+    display: inline-block;
+    float: left;
+    padding: @padding-small;
+    margin-bottom: @padding-value;
+  }
+  img{width: 100%;}
+  .caption{
+    margin-top: 0;
+  }
+}

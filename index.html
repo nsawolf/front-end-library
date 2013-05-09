@@ -15,6 +15,7 @@
         thead th:hover{background: #aaa; cursor: pointer;}
         .dataTables_paginate a {background: #ccc; color: #000; padding: 8px 15px; cursor: pointer; font-weight: bold; margin-right: 4px; margin-top: 0px; display: inline-block;}
         .dataTables_paginate a:hover {background: #aaa; text-decoration: none;}
+        #myTabContent{margin-bottom: 20px;}
     </style>
 
     <!-- scripts -->
@@ -114,9 +115,9 @@
         ['Common','Responsive Utilities','<a href="examples/b-index.html#responsive-utilities">Bootstrap</a>','Global','Submitted'],
 
         ['Comp:Bootstrap','Icons','<a href="examples/b-index.html#icons">Bootstrap</a> | <a href="examples/b-icons.html">Custom</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Dropdowns','<a href="examples/b-index.html#dropdowns">Bootstrap</a> | <a href="examples/b-button-dropdowns.html">Custom</a>','Global','Submitted'],
+        ['Comp:Bootstrap','Menu Dropdowns','<a href="examples/b-index.html#dropdowns">Bootstrap</a>','Global','Submitted'],
         ['Comp:Bootstrap','Button Groups','<a href="examples/b-index.html#btn-groups">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Button Dropdowns','<a href="examples/b-index.html#btn-dropdowns">Bootstrap</a>','Global','Submitted'],
+        ['Comp:Bootstrap','Button Dropdowns','<a href="examples/b-index.html#btn-dropdowns">Bootstrap</a> | <a href="examples/b-button-dropdowns.html">Custom</a>','Global','Submitted'],
         ['Comp:Bootstrap','Navs','<a href="examples/b-index.html#navs">Bootstrap</a>','Global','Submitted'],
         ['Comp:Bootstrap','Navbar','<a href="examples/b-index.html#navbar">Bootstrap</a>','Global','Submitted'],
         ['Comp:Bootstrap','Breadcrumbs','<a href="examples/b-index.html#breadcrumbs">Bootstrap</a>','Global','Submitted'],
@@ -128,15 +129,13 @@
         ['Comp:Bootstrap','Progress Bars','<a href="examples/b-index.html#progress">Bootstrap</a>','Global','Submitted'],
         ['Comp:Bootstrap','Media Object','<a href="examples/b-index.html#media">Bootstrap</a>','Global','Submitted'],
         ['Comp:Bootstrap','List Group','<a href="examples/b-index.html#list-group">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Panels','<a href="examples/b-index.html#panels">Bootstrap</a>','Global','Submitted'],
+        ['Comp:Bootstrap','Panels','<a href="examples/b-index.html#panels">Bootstrap</a> | <a href="examples/b-panels.html">Custom</a>','Global','Submitted'],
         ['Comp:Bootstrap','Wells','<a href="examples/b-index.html#wells">Bootstrap</a>','Global','Submitted'],
         ['Comp:Bootstrap','Modal','<a href="examples/b-index.html#modals">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Wells','<a href="examples/b-index.html#wells">Bootstrap</a>','Global','Submitted'],
         ['Comp:Bootstrap','Tooltips','<a href="examples/b-index.html#tooltips">Bootstrap</a>','Global','Submitted'],
         ['Comp:Bootstrap','Popovers','<a href="examples/b-index.html#popovers">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Alert','<a href="examples/b-index.html#alert">Bootstrap</a>','Global','Submitted'],
         ['Comp:Bootstrap','Button(JS)','<a href="examples/b-index.html#js-buttons">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Accordion','<a href="examples/b-index.html#collapse">Bootstrap</a>','Global','Submitted'],
+        ['Comp:Bootstrap','Accordion','<a href="examples/b-index.html#collapse">Bootstrap</a> | <a href="examples/b-accordion.html">Custom</a>','Global','Submitted'],
         ['Comp:Bootstrap','Carousel','<a href="examples/b-index.html#carousel">Bootstrap</a>','Global','Submitted'],
         ['Comp:Bootstrap','Typeahead','<a href="examples/b-index.html#typeahead">Bootstrap</a>','Global','Submitted'],
         ['Comp:Bootstrap','Affix','<a href="examples/b-index.html#affix">Bootstrap</a>','Global','Submitted'],
@@ -148,11 +147,15 @@
         ['Comp:Custom','Metrics','<a href="examples/jos-metrics.html">Custom</a>','Global','Submitted'],
         ['Comp:Custom','Navbar - Mainmenu','<a href="examples/jos-navbar-mainmenu.html">Custom</a>','Global','Submitted'],
         ['Comp:Custom','Navbar - Toolbar','<a href="examples/jos-navbar-toolbar.html">Custom</a>','Global','Submitted'],
+        ['Comp:Custom','Cover List','<a href="examples/jos-coverlist.html">Custom</a>','exp:yba | view:coverlaunch','Submitted'],
+        ['Comp:Custom','Autocolumn','<a href="examples/jos-autocolumn.html">Custom</a>','exp:yba | view:coverchoose','Submitted'],
     ];
     var aDataSetViews = [
-//        ['Name','DocsExamples','WhereUsed','Status'],
-        ['Homepage','<a href="examples/view-homepage.html">Custom</a>','Exp:YBA','Submitted'],
-        ['Merch','<a href="examples/view-merch.html">Custom</a>','Exp:YBA','Submitted'],
+//        ['Name','DocsExamples','Experiences','Status'],
+        ['Homepage','<a href="examples/view-homepage.html">Custom</a>','YBA','Submitted'],
+        ['Merch','<a href="examples/view-merch.html">Custom</a>','YBA','Submitted'],
+        ['Cover Launch','<a href="examples/view-coverlaunch.html">Custom</a>','YBA','Submitted'],
+        ['Cover Choose','<a href="examples/view-coverchoose.html">Custom</a>','YBA','Submitted'],
     ];
     var aDataSetExperiences = [
 //        ['Name','Environments','DocsExamples','Status'],
@@ -177,7 +180,7 @@
             "aoColumns": [
                 { "sTitle": "Name" },
                 { "sTitle": "Docs/Examples"},
-                { "sTitle": "Where Used"},
+                { "sTitle": "Experiences"},
                 { "sTitle": "Status" }
 
             ]
