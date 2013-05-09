@@ -7,6 +7,15 @@
 
     <!-- styles -->
     <link href="less/_build/css/global.css" rel="stylesheet"> <!-- build file of all styles for example -->
+    <style>
+        .dataTables_length{float: left;}
+        .dataTables_filter{float: right;}
+        .table{ border-top: 4px double #ccc;}
+        thead th{background: #ccc;}
+        thead th:hover{background: #aaa; cursor: pointer;}
+        .dataTables_paginate a {background: #ccc; color: #000; padding: 8px 15px; cursor: pointer; font-weight: bold; margin-right: 4px; margin-top: 0px; display: inline-block;}
+        .dataTables_paginate a:hover {background: #aaa; text-decoration: none;}
+    </style>
 
     <!-- scripts -->
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -21,8 +30,26 @@
 
 <div class="container">
     <div class="row">
-        <div class="span12">
-            <div id="dynamic"></div>
+        <div class="col col-lg-12">
+            <div class="page-header">
+                <h1>Front End Library <small>enterprise ux lists</small></h1>
+            </div>
+            <ul id="myTab" class="nav nav-tabs">
+                <li class="active"><a href="#components" data-toggle="tab">Components</a></li>
+                <li><a href="#views" data-toggle="tab">Views</a></li>
+                <li><a href="#experiences" data-toggle="tab">Experiences</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="components">
+                    <table id="datagrid-components" class="table table-striped table-hover table-condensed"></table>
+                </div>
+                <div class="tab-pane fade" id="views">
+                    <table id="datagrid-views" class="table table-striped table-hover table-condensed"></table>
+                </div>
+                <div class="tab-pane fade" id="experiences">
+                    <table id="datagrid-experiences" class="table table-striped table-hover table-condensed"></table>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -33,81 +60,58 @@
 <!--Scripts-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/libs/jquery.dataTables.min.js"></script>
+<script src="js/bootstrap-tab.js"></script>
 <script type="text/javascript" charset="utf-8">
     /* Data set - can contain whatever information you want */
-    var aDataSet = [
-        ['Trident','Internet Explorer 4.0','Win 95+','4','X'],
-        ['Trident','Internet Explorer 5.0','Win 95+','5','C'],
-        ['Trident','Internet Explorer 5.5','Win 95+','5.5','A'],
-        ['Trident','Internet Explorer 6','Win 98+','6','A'],
-        ['Trident','Internet Explorer 7','Win XP SP2+','7','A'],
-        ['Trident','AOL browser (AOL desktop)','Win XP','6','A'],
-        ['Gecko','Firefox 1.0','Win 98+ / OSX.2+','1.7','A'],
-        ['Gecko','Firefox 1.5','Win 98+ / OSX.2+','1.8','A'],
-        ['Gecko','Firefox 2.0','Win 98+ / OSX.2+','1.8','A'],
-        ['Gecko','Firefox 3.0','Win 2k+ / OSX.3+','1.9','A'],
-        ['Gecko','Camino 1.0','OSX.2+','1.8','A'],
-        ['Gecko','Camino 1.5','OSX.3+','1.8','A'],
-        ['Gecko','Netscape 7.2','Win 95+ / Mac OS 8.6-9.2','1.7','A'],
-        ['Gecko','Netscape Browser 8','Win 98SE+','1.7','A'],
-        ['Gecko','Netscape Navigator 9','Win 98+ / OSX.2+','1.8','A'],
-        ['Gecko','Mozilla 1.0','Win 95+ / OSX.1+',1,'A'],
-        ['Gecko','Mozilla 1.1','Win 95+ / OSX.1+',1.1,'A'],
-        ['Gecko','Mozilla 1.2','Win 95+ / OSX.1+',1.2,'A'],
-        ['Gecko','Mozilla 1.3','Win 95+ / OSX.1+',1.3,'A'],
-        ['Gecko','Mozilla 1.4','Win 95+ / OSX.1+',1.4,'A'],
-        ['Gecko','Mozilla 1.5','Win 95+ / OSX.1+',1.5,'A'],
-        ['Gecko','Mozilla 1.6','Win 95+ / OSX.1+',1.6,'A'],
-        ['Gecko','Mozilla 1.7','Win 98+ / OSX.1+',1.7,'A'],
-        ['Gecko','Mozilla 1.8','Win 98+ / OSX.1+',1.8,'A'],
-        ['Gecko','Seamonkey 1.1','Win 98+ / OSX.2+','1.8','A'],
-        ['Gecko','Epiphany 2.20','Gnome','1.8','A'],
-        ['Webkit','Safari 1.2','OSX.3','125.5','A'],
-        ['Webkit','Safari 1.3','OSX.3','312.8','A'],
-        ['Webkit','Safari 2.0','OSX.4+','419.3','A'],
-        ['Webkit','Safari 3.0','OSX.4+','522.1','A'],
-        ['Webkit','OmniWeb 5.5','OSX.4+','420','A'],
-        ['Webkit','iPod Touch / iPhone','iPod','420.1','A'],
-        ['Webkit','S60','S60','413','A'],
-        ['Presto','Opera 7.0','Win 95+ / OSX.1+','-','A'],
-        ['Presto','Opera 7.5','Win 95+ / OSX.2+','-','A'],
-        ['Presto','Opera 8.0','Win 95+ / OSX.2+','-','A'],
-        ['Presto','Opera 8.5','Win 95+ / OSX.2+','-','A'],
-        ['Presto','Opera 9.0','Win 95+ / OSX.3+','-','A'],
-        ['Presto','Opera 9.2','Win 88+ / OSX.3+','-','A'],
-        ['Presto','Opera 9.5','Win 88+ / OSX.3+','-','A'],
-        ['Presto','Opera for Wii','Wii','-','A'],
-        ['Presto','Nokia N800','N800','-','A'],
-        ['Presto','Nintendo DS browser','Nintendo DS','8.5','C/A<sup>1</sup>'],
-        ['KHTML','Konqureror 3.1','KDE 3.1','3.1','C'],
-        ['KHTML','Konqureror 3.3','KDE 3.3','3.3','A'],
-        ['KHTML','Konqureror 3.5','KDE 3.5','3.5','A'],
-        ['Tasman','Internet Explorer 4.5','Mac OS 8-9','-','X'],
-        ['Tasman','Internet Explorer 5.1','Mac OS 7.6-9','1','C'],
-        ['Tasman','Internet Explorer 5.2','Mac OS 8-X','1','C'],
-        ['Misc','NetFront 3.1','Embedded devices','-','C'],
-        ['Misc','NetFront 3.4','Embedded devices','-','A'],
-        ['Misc','Dillo 0.8','Embedded devices','-','X'],
-        ['Misc','Links','Text only','-','X'],
-        ['Misc','Lynx','Text only','-','X'],
-        ['Misc','IE Mobile','Windows Mobile 6','-','C'],
-        ['Misc','PSP browser','PSP','-','C'],
-        ['Other browsers','All others','-','-','U']
+    var aDataSetComponents = [
+//        ['Category','Name','DocsExamples','WhereUsed','Status'],
+        ['Common','Buttons','<a href="examples/b-index.html#buttons">Bootstrap</a> | <a href="examples/b-buttons.html">Custom</a>','Where used','Status'],
+        ['Category','Name','Other Examples','Where used','Status']
+    ];
+    var aDataSetViews = [
+//        ['Name','DocsExamples','WhereUsed','Status'],
+        ['Buttons','<a href="examples/b-index.html#buttons">Bootstrap</a> | <a href="examples/b-buttons.html">Custom</a>','Where used','Status'],
+        ['Name','Other Examples','Where used','Status']
+    ];
+    var aDataSetExperiences = [
+//        ['Name','DocsExamples','Status'],
+        ['Buttons','<a href="examples/b-index.html#buttons">Bootstrap</a> | <a href="examples/b-buttons.html">Custom</a>','Status'],
+        ['Name','Other Examples','Status']
     ];
 
     $(document).ready(function() {
-        $('#dynamic').html( '<table cellpadding="0" cellspacing="0" border="0" class="display" id="example"></table>' );
-        $('#example').dataTable( {
-            "aaData": aDataSet,
+        $('#datagrid-components').dataTable( {
+            "aaData": aDataSetComponents,
             "aoColumns": [
-                { "sTitle": "Engine" },
-                { "sTitle": "Browser" },
-                { "sTitle": "Platform" },
-                { "sTitle": "Version", "sClass": "center" },
-                { "sTitle": "Grade", "sClass": "center" }
+                { "sTitle": "Category" },
+                { "sTitle": "Name" },
+                { "sTitle": "Docs/Examples"},
+                { "sTitle": "Where Used"},
+                { "sTitle": "Status" }
+
+            ]
+        } );
+        $('#datagrid-views').dataTable( {
+            "aaData": aDataSetViews,
+            "aoColumns": [
+                { "sTitle": "Name" },
+                { "sTitle": "Docs/Examples"},
+                { "sTitle": "Where Used"},
+                { "sTitle": "Status" }
+
+            ]
+        } );
+        $('#datagrid-experiences').dataTable( {
+            "aaData": aDataSetExperiences,
+            "aoColumns": [
+                { "sTitle": "Name" },
+                { "sTitle": "Docs/Examples"},
+                { "sTitle": "Status" }
+
             ]
         } );
     } );
+
 </script>
 
 
