@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.nojekyll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/b-index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/jquery.dataTables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json_source.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="" />
+    <list id="484532f0-d628-483f-b974-ccf7d6bb7eae" name="New changelist" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/json_source.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/b-index.html" afterPath="$PROJECT_DIR$/examples/b-index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368110420573" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368114209317" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285007" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -59,6 +58,7 @@
     <file path="/jos-panels.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368052434709" ignored="false" />
     <file path="/b-index.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368105881687" ignored="false" />
     <file path="/index2.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368108032924" ignored="false" />
+    <file path="/index.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368113915463" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="b-index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="b-index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/b-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="246" column="22" selection-start="10410" selection-end="10410" vertical-scroll-proportion="0.33333334">
+            <state line="247" column="8" selection-start="10419" selection-end="10419" vertical-scroll-proportion="51.458332">
               <folding>
                 <element signature="n#style#0;n#div#27;n#div#8;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#form#18;n#div#11;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -201,12 +201,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="336" selection-end="336" vertical-scroll-proportion="-6.25">
+            <state line="34" column="64" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.53745925">
               <folding>
-                <element signature="e#4774#5100#0" expanded="true" />
+                <element signature="e#3820#4123#0" expanded="true" />
+                <element signature="e#4167#4423#0" expanded="true" />
+                <element signature="e#4473#4692#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,7 +217,7 @@
       <file leaf-file-name="js_array.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/DataTables-1.9.4/examples/data_sources/js_array.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="12" selection-start="5061" selection-end="5085" vertical-scroll-proportion="-20.0">
+            <state line="0" column="90" selection-start="90" selection-end="90" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -258,6 +260,8 @@
         <option value="$PROJECT_DIR$/examples/json_source.txt" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/examples/b-index.html" />
+        <option value="$PROJECT_DIR$/demo_table.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -307,70 +311,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,6 +378,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="" />
+      <changelist id="484532f0-d628-483f-b974-ccf7d6bb7eae" name="New changelist" comment="" />
       <created>1367864967598</created>
       <updated>1367864967598</updated>
     </task>
@@ -469,19 +410,27 @@
       <created>1368103659218</created>
       <updated>1368103659218</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Redo index as datagrid">
+      <created>1368110840606</created>
+      <updated>1368110840606</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated format for index datagrid">
+      <created>1368114189691</created>
+      <updated>1368114189691</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21171875" sideWeight="0.6701031" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21171875" sideWeight="0.6701031" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911634" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -537,7 +486,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redo index as datagrid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated format for index datagrid" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -555,18 +504,12 @@
     <MESSAGE value="first major update" />
     <MESSAGE value="example: buttons-dropdown" />
     <MESSAGE value="Redo index as datagrid" />
+    <MESSAGE value="Updated format for index datagrid" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/mixins.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="340" column="9" selection-start="12249" selection-end="12257" vertical-scroll-proportion="0.014097745">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/b-button-dropdowns.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="33" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.48433048">
@@ -630,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json_source.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="3" selection-start="2959" selection-end="2959" vertical-scroll-proportion="1.3364055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/libs/jquery.dataTables.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -644,25 +580,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/DataTables-1.9.4/examples/data_sources/js_array.html">
+    <entry file="file://$USER_HOME$/Desktop/DataTables-1.9.4/media/css/demo_table.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="12" selection-start="5061" selection-end="5085" vertical-scroll-proportion="-20.0">
+        <state line="14" column="43" selection-start="0" selection-end="10772" vertical-scroll-proportion="0.32258064">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$USER_HOME$/Desktop/DataTables-1.9.4/examples/data_sources/js_array.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="336" selection-end="336" vertical-scroll-proportion="-6.25">
-          <folding>
-            <element signature="e#4774#5100#0" expanded="true" />
-          </folding>
+        <state line="0" column="90" selection-start="90" selection-end="90" vertical-scroll-proportion="-0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/b-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="22" selection-start="10410" selection-end="10410" vertical-scroll-proportion="0.33333334">
+        <state line="247" column="8" selection-start="10419" selection-end="10419" vertical-scroll-proportion="51.458332">
           <folding>
             <element signature="n#style#0;n#div#27;n#div#8;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#form#18;n#div#11;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -768,6 +702,17 @@
             <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#section#8;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="64" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.53745925">
+          <folding>
+            <element signature="e#3820#4123#0" expanded="true" />
+            <element signature="e#4167#4423#0" expanded="true" />
+            <element signature="e#4473#4692#0" expanded="true" />
           </folding>
         </state>
       </provider>
