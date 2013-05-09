@@ -7,7 +7,7 @@
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368126922604" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368127126604" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285007" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -49,7 +49,7 @@
     <file path="/panels.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367943774125" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/jos/jos-theme-01.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950190597" ignored="false" />
     <file path="/jos-theme-01.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950189184" ignored="false" />
-    <file path="/README.md" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368127113123" ignored="false" />
+    <file path="/README.md" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368127383156" ignored="false" />
     <file path="/b-button-dropdowns.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368050645096" ignored="false" />
     <file path="/dropdowns.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368051096701" ignored="false" />
     <file path="/jos-panels.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368052434709" ignored="false" />
@@ -217,7 +217,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="44" selection-start="369" selection-end="369" vertical-scroll-proportion="0.34562212">
+            <state line="35" column="44" selection-start="829" selection-end="829" vertical-scroll-proportion="0.822884">
               <folding />
             </state>
           </provider>
@@ -460,7 +460,11 @@
       <created>1368126924596</created>
       <updated>1368126924596</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Readme update">
+      <created>1368127128204</created>
+      <updated>1368127128204</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -528,7 +532,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Provided popover aids for Column header titles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme update" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -550,6 +554,7 @@
     <MESSAGE value="New changelist" />
     <MESSAGE value="Updated Library grid data" />
     <MESSAGE value="Provided popover aids for Column header titles" />
+    <MESSAGE value="Readme update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -767,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="369" selection-end="369" vertical-scroll-proportion="0.34562212">
+        <state line="35" column="44" selection-start="829" selection-end="829" vertical-scroll-proportion="0.822884">
           <folding />
         </state>
       </provider>
