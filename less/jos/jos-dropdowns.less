@@ -1,53 +1,65 @@
-  /* ==================================
-      dropdown overrides
-  =================================== */
+/* ==================================
+    dropdown overrides
+=================================== */
 
-  // The dropdown menu (ul)
-  // ----------------------
-  .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: @zindex-dropdown;
-    display: none; // none by default, but block on "open" of the menu
-    float: left;
-    min-width: 160px;
+// The dropdown menu (ul)
+// ----------------------
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: @zindex-dropdown;
+  display: none; // none by default, but block on "open" of the menu
+  float: left;
+  min-width: 160px;
+  padding: 0;
+  margin: 2px 0 0; // override default ul
+  margin-top: -1px;
+  list-style: none;
+//  background-color: transparent;
+  #translucent > .background(@dropdown-bg, .75);
+  border: 1px solid #ccc; // IE8 fallback
+  border: 1px solid @dropdown-border;
+  border-radius: 0;
+  .box-shadow(0 6px 12px rgba(0,0,0,.175));
+  .background-clip(padding-box);
+
+  // Dividers (basically an hr) within the dropdown
+  .divider {
+//    .nav-divider(transparent, transparent); // remove bg for transparency to work
     padding: 0;
-    margin: 2px 0 0; // override default ul
-    margin-top: -1px;
-    list-style: none;
-    background-color: transparent;
-    border: 1px solid #ccc; // IE8 fallback
-    border: 1px solid @dropdown-border;
-    border-radius: 0;
-    .box-shadow(0 6px 12px rgba(0,0,0,.175));
-    .background-clip(padding-box);
-
-    // Links within the dropdown menu
-    > li > a {
-      display: block;
-      padding: @padding;
-      clear: both;
-      font-weight: normal;
-      line-height: @line-height-base;
-      color: @dropdown-link-color;
-      white-space: nowrap; // prevent links from randomly breaking onto new lines
-      #translucent > .background(@dropdown-bg, .75);
-      text-transform: uppercase;
-      font-size: @font-size-small;
-      text-shadow: 0 1px 0 @gray-dark;
-      border-top: 1px solid @gray-dark;
-    }
+    margin: 0;
+    height: 1px;
+    background: darken(@dropdown-link-color, 40%);
   }
 
-  // Hover/Focus state
-  // -----------
-  .dropdown-menu > li > a:hover,
-  .dropdown-menu > li > a:focus,
-  .dropdown-submenu:hover > a,
-  .dropdown-submenu:focus > a {
-    text-decoration: none;
-    color: @dropdown-link-hover-color;
+  // Links within the dropdown menu
+  > li > a {
+    display: block;
+    padding: @padding;
+    clear: both;
+    font-weight: normal;
+    line-height: @line-height-base;
+    color: @dropdown-link-color;
+    white-space: nowrap; // prevent links from randomly breaking onto new lines
+//    #translucent > .background(@dropdown-bg, .75);
     background-color: transparent;
-    #translucent > .background(@dropdown-bg, 1);
+    text-transform: uppercase;
+    font-size: @font-size-small;
+    text-shadow: 0 1px 0 @gray-dark;
+    border-top: 1px solid @gray-dark;
   }
+}
+
+
+// Hover/Focus state
+// -----------
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  text-decoration: none;
+  color: @dropdown-link-hover-color;
+  background-color: transparent;
+  #translucent > .background(@dropdown-bg, 1);
+}
