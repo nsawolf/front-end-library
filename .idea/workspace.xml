@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="Updated format for index datagrid">
+    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368114225685" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368117985667" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285007" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -55,7 +55,7 @@
     <file path="/jos-panels.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368052434709" ignored="false" />
     <file path="/b-index.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368105881687" ignored="false" />
     <file path="/index2.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368108032924" ignored="false" />
-    <file path="/index.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368117628073" ignored="false" />
+    <file path="/index.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368126301762" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,11 +201,14 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="111" selection-start="7550" selection-end="7550" vertical-scroll-proportion="0.3339254">
+            <state line="61" column="22" selection-start="2624" selection-end="2624" vertical-scroll-proportion="0.6384365">
               <folding>
-                <element signature="e#8970#9273#0" expanded="true" />
-                <element signature="e#9317#9573#0" expanded="true" />
-                <element signature="e#9623#9888#0" expanded="true" />
+                <element signature="e#8917#9220#0" expanded="true" />
+                <element signature="e#9264#9520#0" expanded="true" />
+                <element signature="e#9570#9835#0" expanded="true" />
+                <element signature="e#10423#10718#0" expanded="true" />
+                <element signature="e#10752#11041#0" expanded="true" />
+                <element signature="e#11077#11490#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -432,7 +435,11 @@
       <created>1368114339784</created>
       <updated>1368114339784</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated Library grid data">
+      <created>1368117987690</created>
+      <updated>1368117987690</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -500,7 +507,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="New changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Library grid data" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -520,6 +527,7 @@
     <MESSAGE value="Redo index as datagrid" />
     <MESSAGE value="Updated format for index datagrid" />
     <MESSAGE value="New changelist" />
+    <MESSAGE value="Updated Library grid data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -723,11 +731,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="111" selection-start="7550" selection-end="7550" vertical-scroll-proportion="0.3339254">
+        <state line="61" column="22" selection-start="2624" selection-end="2624" vertical-scroll-proportion="0.6384365">
           <folding>
-            <element signature="e#8970#9273#0" expanded="true" />
-            <element signature="e#9317#9573#0" expanded="true" />
-            <element signature="e#9623#9888#0" expanded="true" />
+            <element signature="e#8917#9220#0" expanded="true" />
+            <element signature="e#9264#9520#0" expanded="true" />
+            <element signature="e#9570#9835#0" expanded="true" />
+            <element signature="e#10423#10718#0" expanded="true" />
+            <element signature="e#10752#11041#0" expanded="true" />
+            <element signature="e#11077#11490#0" expanded="true" />
           </folding>
         </state>
       </provider>
