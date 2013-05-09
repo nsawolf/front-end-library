@@ -8,3 +8,15 @@ The purpose of the examples are:
  - Design discussion focus
  - Responsive Testing
  - Reference
+
+Views
+---------
+The purpose of the views are:
+ - one
+ - two
+
+Environments
+-----------
+ - Demo (aka: Prototypes): User testing, dev reference
+ - Dev: development :)
+ - Prod: The real deal holyfield
