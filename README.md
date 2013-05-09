@@ -9,6 +9,12 @@ The purpose of the examples are:
  - Responsive Testing
  - Reference
 
+Docs
+----------
+Docs will:
+ - Give UX rationalle and direction
+ - Give Dev direction as available/necessary
+
 Views
 ---------
 The purpose of the views are:

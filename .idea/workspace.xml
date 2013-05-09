@@ -7,7 +7,7 @@
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368126731665" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368126922604" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285007" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -49,7 +49,7 @@
     <file path="/panels.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367943774125" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/jos/jos-theme-01.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950190597" ignored="false" />
     <file path="/jos-theme-01.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950189184" ignored="false" />
-    <file path="/README.md" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368126915602" ignored="false" />
+    <file path="/README.md" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368127113123" ignored="false" />
     <file path="/b-button-dropdowns.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368050645096" ignored="false" />
     <file path="/dropdowns.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368051096701" ignored="false" />
     <file path="/jos-panels.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368052434709" ignored="false" />
@@ -217,7 +217,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="32" selection-start="458" selection-end="458" vertical-scroll-proportion="0.48387095">
+            <state line="15" column="44" selection-start="369" selection-end="369" vertical-scroll-proportion="0.34562212">
               <folding />
             </state>
           </provider>
@@ -456,7 +456,11 @@
       <created>1368126733524</created>
       <updated>1368126733524</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Provided popover aids for Column header titles">
+      <created>1368126924596</created>
+      <updated>1368126924596</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -763,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="32" selection-start="458" selection-end="458" vertical-scroll-proportion="0.48387095">
+        <state line="15" column="44" selection-start="369" selection-end="369" vertical-scroll-proportion="0.34562212">
           <folding />
         </state>
       </provider>
