@@ -9,13 +9,9 @@
  */
 /*@import "../variables.less";*//*TODO: Consider changing other padding values to be divisible by 2*/
 /* ==================================
-      Jostens Custom Component Variables
-  =================================== */
-/* jos-controlpanel
-  =================================== */
+    Jostens Custom Component Variables
+=================================== */
 /*18*14px = 256px*/
-/* Tabs
-  =================================== */
 /* ==================================
     Theme Variables (For all themes which are a variant of this system/experience using this Library)
 =================================== */
@@ -5653,6 +5649,16 @@ a.list-group-item.active > .badge,
 .accordion-inner li:hover {
   text-decoration: underline;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-accordion\.less}line{font-family:\0000353}}
+.accordion-inner li a {
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-accordion\.less}line{font-family:\0000358}}
+.accordion-inner a:hover {
+  color: #fff;
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/carousel\.less}line{font-family:\000037}}
 .carousel {
   position: relative;
@@ -5891,6 +5897,22 @@ a.list-group-item.active > .badge,
   line-height: 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-controlpanel\.less}line{font-family:\0000325}}
+.jos-controlpanel-submenu .accordion-inner li {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-controlpanel\.less}line{font-family:\0000328}}
+.jos-controlpanel-submenu .jos-detailcontent-indicator {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #ffffff;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-controlpanel\.less}line{font-family:\0000339}}
 .jos-controlpanel-submenu figure {
   margin: 0 auto;
   padding-top: 15px;
@@ -6076,6 +6098,24 @@ a.list-group-item.active > .badge,
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-coverlist\.less}line{font-family:\0000349}}
 .jos-coverlist-fixed .caption {
   margin-top: 0;
+}
+/* ==================================
+    jos-detailcontent
+=================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-detailcontent\.less}line{font-family:\000035}}
+.jos-detailcontent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #ffffff;
+  padding: 10px 15px;
+}
+/* integrated with controlpanel
+=================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-detailcontent\.less}line{font-family:\0000318}}
+.int-jos-controlpanel .jos-detailcontent {
+  left: 18em;
 }
 /* ==================================
     jos-theme-01 (red)
