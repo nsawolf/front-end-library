@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-homepage.html" afterPath="$PROJECT_DIR$/examples/view-homepage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-coverlaunch.html" afterPath="$PROJECT_DIR$/examples/view-coverlaunch.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368479011400" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368479171455" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211425154" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -56,7 +56,7 @@
     <file path="/b-index.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368105881687" ignored="false" />
     <file path="/index2.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368108032924" ignored="false" />
     <file path="/index.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368223237432" ignored="false" />
-    <file path="/view-coverlaunch.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368137371895" ignored="false" />
+    <file path="/view-coverlaunch.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368479467959" ignored="false" />
     <file path="/jos-coverlist.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368140364007" ignored="false" />
     <file path="/jos-coverlist.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368141082345" ignored="false" />
     <file path="/view-coverchoose.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368139749577" ignored="false" />
@@ -85,19 +85,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="view-homepage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="551" selection-end="551" vertical-scroll-proportion="0.21367522">
+            <state line="14" column="56" selection-start="547" selection-end="547" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-coverlaunch.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="view-coverlaunch.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/view-coverlaunch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="95" selection-start="488" selection-end="500" vertical-scroll-proportion="-7.5">
+            <state line="12" column="133" selection-start="526" selection-end="526" vertical-scroll-proportion="0.17094018">
               <folding />
             </state>
           </provider>
@@ -121,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/examples/view-coverlaunch.html" />
         <option value="$PROJECT_DIR$/js/jos/jos-autocolumn.js" />
         <option value="$PROJECT_DIR$/less/jos/jos-coverlist.less" />
         <option value="$PROJECT_DIR$/examples/view-coverchoose.html" />
@@ -137,6 +136,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/less/jos/jos-variables.less" />
         <option value="$PROJECT_DIR$/examples/view-homepage.html" />
+        <option value="$PROJECT_DIR$/examples/view-coverlaunch.html" />
       </list>
     </option>
   </component>
@@ -396,7 +396,11 @@
       <created>1368479013467</created>
       <updated>1368479013467</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Testing css3 media query fix">
+      <created>1368479172926</created>
+      <updated>1368479172926</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -608,16 +612,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/view-coverlaunch.html">
+    <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="95" selection-start="488" selection-end="500" vertical-scroll-proportion="-7.5">
+        <state line="14" column="56" selection-start="547" selection-end="547" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
+    <entry file="file://$PROJECT_DIR$/examples/view-coverlaunch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="551" selection-end="551" vertical-scroll-proportion="0.21367522">
+        <state line="12" column="133" selection-start="526" selection-end="526" vertical-scroll-proportion="0.17094018">
           <folding />
         </state>
       </provider>
