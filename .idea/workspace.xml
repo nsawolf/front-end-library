@@ -7,7 +7,7 @@
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368468646343" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368478622820" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211425154" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -61,7 +61,7 @@
     <file path="/jos-coverlist.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368141082345" ignored="false" />
     <file path="/view-coverchoose.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368139749577" ignored="false" />
     <file path="/jos-autocolumn.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368139143693" ignored="false" />
-    <file path="/view-homepage.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368464722604" ignored="false" />
+    <file path="/view-homepage.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368478700558" ignored="false" />
     <file path="/jos-detailcontent.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211776784" ignored="false" />
     <file path="/jos-detailcontent.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368214944595" ignored="false" />
     <file path="/jos-detailcontent.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368223198019" ignored="false" />
@@ -88,7 +88,7 @@
       <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="559" selection-end="559" vertical-scroll-proportion="0.21367522">
+            <state line="13" column="8" selection-start="412" selection-end="412" vertical-scroll-proportion="0.17094018">
               <folding />
             </state>
           </provider>
@@ -371,7 +371,11 @@
       <created>1368468647902</created>
       <updated>1368468647902</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Testing css3 media query fix">
+      <created>1368478625106</created>
+      <updated>1368478625106</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -439,7 +443,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix array commas for IE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing css3 media query fix" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -468,6 +472,7 @@
     <MESSAGE value="Detail Content component updated" />
     <MESSAGE value="Testing css-mediaqueries.js" />
     <MESSAGE value="Fix array commas for IE" />
+    <MESSAGE value="Testing css3 media query fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -591,7 +596,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="559" selection-end="559" vertical-scroll-proportion="0.21367522">
+        <state line="13" column="8" selection-start="412" selection-end="412" vertical-scroll-proportion="0.17094018">
           <folding />
         </state>
       </provider>
