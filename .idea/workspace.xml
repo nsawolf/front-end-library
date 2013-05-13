@@ -7,7 +7,7 @@
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368479560399" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368479672318" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211425154" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -56,7 +56,7 @@
     <file path="/b-index.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368105881687" ignored="false" />
     <file path="/index2.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368108032924" ignored="false" />
     <file path="/index.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368223237432" ignored="false" />
-    <file path="/view-coverlaunch.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368479467959" ignored="false" />
+    <file path="/view-coverlaunch.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368479845848" ignored="false" />
     <file path="/jos-coverlist.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368140364007" ignored="false" />
     <file path="/jos-coverlist.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368141082345" ignored="false" />
     <file path="/view-coverchoose.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368139749577" ignored="false" />
@@ -97,7 +97,7 @@
       <file leaf-file-name="view-coverlaunch.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/view-coverlaunch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="78" selection-start="471" selection-end="471" vertical-scroll-proportion="0.17094018">
+            <state line="247" column="57" selection-start="13315" selection-end="13315" vertical-scroll-proportion="0.7008547">
               <folding />
             </state>
           </provider>
@@ -408,7 +408,11 @@
       <created>1368479562065</created>
       <updated>1368479562065</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Testing css3 media query fix">
+      <created>1368479673976</created>
+      <updated>1368479673976</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -629,7 +633,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/view-coverlaunch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="78" selection-start="471" selection-end="471" vertical-scroll-proportion="0.17094018">
+        <state line="247" column="57" selection-start="13315" selection-end="13315" vertical-scroll-proportion="0.7008547">
           <folding />
         </state>
       </provider>
