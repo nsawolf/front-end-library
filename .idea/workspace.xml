@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/respond.min.js" />
+    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="Testing css-mediaqueries.js">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-homepage.html" afterPath="$PROJECT_DIR$/examples/view-homepage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368461743248" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368464002075" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211425154" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -61,7 +61,7 @@
     <file path="/jos-coverlist.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368141082345" ignored="false" />
     <file path="/view-coverchoose.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368139749577" ignored="false" />
     <file path="/jos-autocolumn.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368139143693" ignored="false" />
-    <file path="/view-homepage.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368461726442" ignored="false" />
+    <file path="/view-homepage.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368464722604" ignored="false" />
     <file path="/jos-detailcontent.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211776784" ignored="false" />
     <file path="/jos-detailcontent.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368214944595" ignored="false" />
     <file path="/jos-detailcontent.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368223198019" ignored="false" />
@@ -87,7 +87,7 @@
       <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="52" selection-start="547" selection-end="547" vertical-scroll-proportion="0.34768212">
+            <state line="15" column="85" selection-start="644" selection-end="644" vertical-scroll-proportion="0.37251654">
               <folding />
             </state>
           </provider>
@@ -188,8 +188,8 @@
         <option value="$PROJECT_DIR$/js/jos/jos-detailcontent.js" />
         <option value="$PROJECT_DIR$/examples/jos-detailcontent.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/examples/view-homepage.html" />
         <option value="$PROJECT_DIR$/js/libs/respond.min.js" />
+        <option value="$PROJECT_DIR$/examples/view-homepage.html" />
       </list>
     </option>
   </component>
@@ -481,7 +481,11 @@
       <created>1368461746552</created>
       <updated>1368461746552</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Testing css-mediaqueries.js">
+      <created>1368462047201</created>
+      <updated>1368462047201</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -787,7 +791,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="52" selection-start="547" selection-end="547" vertical-scroll-proportion="0.34768212">
+        <state line="15" column="85" selection-start="644" selection-end="644" vertical-scroll-proportion="0.37251654">
           <folding />
         </state>
       </provider>
