@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-coverlaunch.html" afterPath="$PROJECT_DIR$/examples/view-coverlaunch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-homepage.html" afterPath="$PROJECT_DIR$/examples/view-homepage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368479672318" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368479852828" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211425154" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -85,19 +86,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="view-homepage.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="4" selection-start="394" selection-end="411" vertical-scroll-proportion="-7.5">
+            <state line="14" column="8" selection-start="503" selection-end="558" vertical-scroll-proportion="0.1994302">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-coverlaunch.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="view-coverlaunch.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/view-coverlaunch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="247" column="57" selection-start="13315" selection-end="13315" vertical-scroll-proportion="0.7008547">
+            <state line="258" column="9" selection-start="13727" selection-end="13727" vertical-scroll-proportion="-38.875">
               <folding />
             </state>
           </provider>
@@ -135,8 +136,8 @@
         <option value="$PROJECT_DIR$/js/libs/respond.min.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/less/jos/jos-variables.less" />
-        <option value="$PROJECT_DIR$/examples/view-homepage.html" />
         <option value="$PROJECT_DIR$/examples/view-coverlaunch.html" />
+        <option value="$PROJECT_DIR$/examples/view-homepage.html" />
       </list>
     </option>
   </component>
@@ -412,7 +413,11 @@
       <created>1368479673976</created>
       <updated>1368479673976</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Testing css3 media query fix">
+      <created>1368479854627</created>
+      <updated>1368479854627</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -624,16 +629,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
+    <entry file="file://$PROJECT_DIR$/examples/view-coverlaunch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="394" selection-end="411" vertical-scroll-proportion="-7.5">
+        <state line="258" column="9" selection-start="13727" selection-end="13727" vertical-scroll-proportion="-38.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/view-coverlaunch.html">
+    <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="57" selection-start="13315" selection-end="13315" vertical-scroll-proportion="0.7008547">
+        <state line="14" column="8" selection-start="503" selection-end="558" vertical-scroll-proportion="0.1994302">
           <folding />
         </state>
       </provider>
