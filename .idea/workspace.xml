@@ -7,7 +7,7 @@
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368468371669" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368468416188" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211425154" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -87,14 +87,14 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="98" selection-start="12099" selection-end="12099" vertical-scroll-proportion="0.63517916">
+            <state line="115" column="30" selection-start="5744" selection-end="5744" vertical-scroll-proportion="0.19543974">
               <folding>
-                <element signature="e#12188#12491#0" expanded="true" />
-                <element signature="e#12535#12792#0" expanded="true" />
-                <element signature="e#12842#13107#0" expanded="true" />
-                <element signature="e#13696#13991#0" expanded="true" />
-                <element signature="e#14025#14314#0" expanded="true" />
-                <element signature="e#14350#14763#0" expanded="true" />
+                <element signature="e#12004#12307#0" expanded="true" />
+                <element signature="e#12351#12608#0" expanded="true" />
+                <element signature="e#12658#12923#0" expanded="true" />
+                <element signature="e#13512#13807#0" expanded="true" />
+                <element signature="e#13841#14130#0" expanded="true" />
+                <element signature="e#14166#14579#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -369,7 +369,11 @@
       <created>1368468375369</created>
       <updated>1368468375369</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Fix array commas for IE">
+      <created>1368468418615</created>
+      <updated>1368468418615</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -437,7 +441,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing css-mediaqueries.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix array commas for IE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -465,6 +469,7 @@
     <MESSAGE value="Detail Content component" />
     <MESSAGE value="Detail Content component updated" />
     <MESSAGE value="Testing css-mediaqueries.js" />
+    <MESSAGE value="Fix array commas for IE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -668,14 +673,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="98" selection-start="12099" selection-end="12099" vertical-scroll-proportion="0.63517916">
+        <state line="115" column="30" selection-start="5744" selection-end="5744" vertical-scroll-proportion="0.19543974">
           <folding>
-            <element signature="e#12188#12491#0" expanded="true" />
-            <element signature="e#12535#12792#0" expanded="true" />
-            <element signature="e#12842#13107#0" expanded="true" />
-            <element signature="e#13696#13991#0" expanded="true" />
-            <element signature="e#14025#14314#0" expanded="true" />
-            <element signature="e#14350#14763#0" expanded="true" />
+            <element signature="e#12004#12307#0" expanded="true" />
+            <element signature="e#12351#12608#0" expanded="true" />
+            <element signature="e#12658#12923#0" expanded="true" />
+            <element signature="e#13512#13807#0" expanded="true" />
+            <element signature="e#13841#14130#0" expanded="true" />
+            <element signature="e#14166#14579#0" expanded="true" />
           </folding>
         </state>
       </provider>
