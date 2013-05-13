@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-coverlaunch.html" afterPath="$PROJECT_DIR$/examples/view-coverlaunch.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-homepage.html" afterPath="$PROJECT_DIR$/examples/view-homepage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368479852828" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368480134868" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211425154" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -89,7 +88,7 @@
       <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="8" selection-start="503" selection-end="558" vertical-scroll-proportion="0.1994302">
+            <state line="15" column="61" selection-start="620" selection-end="620" vertical-scroll-proportion="0.21367522">
               <folding />
             </state>
           </provider>
@@ -417,7 +416,11 @@
       <created>1368479854627</created>
       <updated>1368479854627</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Testing css3 media query fix">
+      <created>1368480137068</created>
+      <updated>1368480137068</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -638,7 +641,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="503" selection-end="558" vertical-scroll-proportion="0.1994302">
+        <state line="15" column="61" selection-start="620" selection-end="620" vertical-scroll-proportion="0.21367522">
           <folding />
         </state>
       </provider>
