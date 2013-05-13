@@ -7,7 +7,7 @@
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368478855262" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368479011400" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211425154" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -88,7 +88,16 @@
       <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="329" selection-end="329" vertical-scroll-proportion="0.15669516">
+            <state line="15" column="4" selection-start="551" selection-end="551" vertical-scroll-proportion="0.21367522">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view-coverlaunch.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/view-coverlaunch.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="95" selection-start="488" selection-end="500" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
@@ -383,7 +392,11 @@
       <created>1368478857424</created>
       <updated>1368478857424</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Testing css3 media query fix">
+      <created>1368479013467</created>
+      <updated>1368479013467</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -486,13 +499,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/jos/jos-controlpanel.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="54" selection-start="702" selection-end="702" vertical-scroll-proportion="0.44700462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/jos/jos-accordion.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="14" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.74654377">
@@ -602,9 +608,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/view-coverlaunch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="95" selection-start="488" selection-end="500" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="329" selection-end="329" vertical-scroll-proportion="0.15669516">
+        <state line="15" column="4" selection-start="551" selection-end="551" vertical-scroll-proportion="0.21367522">
           <folding />
         </state>
       </provider>
