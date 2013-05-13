@@ -1,0 +1,11 @@
+/* ==================================
+    jos-detailcontent
+=================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-detailcontent\.less}line{font-family:\000035}}
+.jos-detailcontent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #fff;
+}
