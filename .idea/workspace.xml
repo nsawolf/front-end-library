@@ -7,7 +7,7 @@
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368464730160" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368468371669" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211425154" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -87,14 +87,14 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="133" selection-start="11276" selection-end="11276" vertical-scroll-proportion="0.85504884">
+            <state line="174" column="98" selection-start="12099" selection-end="12099" vertical-scroll-proportion="0.63517916">
               <folding>
-                <element signature="e#12190#12493#0" expanded="true" />
-                <element signature="e#12537#12794#0" expanded="true" />
-                <element signature="e#12844#13109#0" expanded="true" />
-                <element signature="e#13698#13993#0" expanded="true" />
-                <element signature="e#14027#14316#0" expanded="true" />
-                <element signature="e#14352#14765#0" expanded="true" />
+                <element signature="e#12188#12491#0" expanded="true" />
+                <element signature="e#12535#12792#0" expanded="true" />
+                <element signature="e#12842#13107#0" expanded="true" />
+                <element signature="e#13696#13991#0" expanded="true" />
+                <element signature="e#14025#14314#0" expanded="true" />
+                <element signature="e#14350#14763#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -365,7 +365,11 @@
       <created>1368464733023</created>
       <updated>1368464733023</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Testing css-mediaqueries.js">
+      <created>1368468375369</created>
+      <updated>1368468375369</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -664,14 +668,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="133" selection-start="11276" selection-end="11276" vertical-scroll-proportion="0.85504884">
+        <state line="174" column="98" selection-start="12099" selection-end="12099" vertical-scroll-proportion="0.63517916">
           <folding>
-            <element signature="e#12190#12493#0" expanded="true" />
-            <element signature="e#12537#12794#0" expanded="true" />
-            <element signature="e#12844#13109#0" expanded="true" />
-            <element signature="e#13698#13993#0" expanded="true" />
-            <element signature="e#14027#14316#0" expanded="true" />
-            <element signature="e#14352#14765#0" expanded="true" />
+            <element signature="e#12188#12491#0" expanded="true" />
+            <element signature="e#12535#12792#0" expanded="true" />
+            <element signature="e#12842#13107#0" expanded="true" />
+            <element signature="e#13696#13991#0" expanded="true" />
+            <element signature="e#14025#14314#0" expanded="true" />
+            <element signature="e#14350#14763#0" expanded="true" />
           </folding>
         </state>
       </provider>
