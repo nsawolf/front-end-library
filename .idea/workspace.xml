@@ -7,7 +7,7 @@
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368478622820" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368478731458" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211425154" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -88,7 +88,7 @@
       <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="8" selection-start="412" selection-end="412" vertical-scroll-proportion="0.17094018">
+            <state line="14" column="4" selection-start="491" selection-end="491" vertical-scroll-proportion="0.1994302">
               <folding />
             </state>
           </provider>
@@ -375,7 +375,11 @@
       <created>1368478625106</created>
       <updated>1368478625106</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Testing css3 media query fix">
+      <created>1368478733894</created>
+      <updated>1368478733894</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -596,7 +600,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="412" selection-end="412" vertical-scroll-proportion="0.17094018">
+        <state line="14" column="4" selection-start="491" selection-end="491" vertical-scroll-proportion="0.1994302">
           <folding />
         </state>
       </provider>
