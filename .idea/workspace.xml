@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="Testing css-mediaqueries.js">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-homepage.html" afterPath="$PROJECT_DIR$/examples/view-homepage.html" />
+    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368464002075" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368464730160" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368211425154" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -84,74 +84,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="85" selection-start="644" selection-end="644" vertical-scroll-proportion="0.37251654">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="respond.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/libs/respond.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="3180" selection-start="4046" selection-end="4046" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jos-detailcontent.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/jos-detailcontent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="29" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="119" selection-start="11262" selection-end="11262" vertical-scroll-proportion="-0.625">
+            <state line="162" column="133" selection-start="11276" selection-end="11276" vertical-scroll-proportion="0.85504884">
               <folding>
-                <element signature="e#12191#12494#0" expanded="true" />
-                <element signature="e#12538#12795#0" expanded="true" />
-                <element signature="e#12845#13110#0" expanded="true" />
-                <element signature="e#13699#13994#0" expanded="true" />
-                <element signature="e#14028#14317#0" expanded="true" />
-                <element signature="e#14353#14766#0" expanded="true" />
+                <element signature="e#12190#12493#0" expanded="true" />
+                <element signature="e#12537#12794#0" expanded="true" />
+                <element signature="e#12844#13109#0" expanded="true" />
+                <element signature="e#13698#13993#0" expanded="true" />
+                <element signature="e#14027#14316#0" expanded="true" />
+                <element signature="e#14352#14765#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jos-detailcontent.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jos/jos-detailcontent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="66" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jos-accordion.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/jos/jos-accordion.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="14" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jos-controlpanel.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/jos/jos-controlpanel.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="54" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -187,9 +131,9 @@
         <option value="$PROJECT_DIR$/less/jos/jos-accordion.less" />
         <option value="$PROJECT_DIR$/js/jos/jos-detailcontent.js" />
         <option value="$PROJECT_DIR$/examples/jos-detailcontent.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/libs/respond.min.js" />
         <option value="$PROJECT_DIR$/examples/view-homepage.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -254,74 +198,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,7 +361,11 @@
       <created>1368462047201</created>
       <updated>1368462047201</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Testing css-mediaqueries.js">
+      <created>1368464733023</created>
+      <updated>1368464733023</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -740,49 +620,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/jos/jos-controlpanel.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="54" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0">
+        <state line="27" column="54" selection-start="702" selection-end="702" vertical-scroll-proportion="0.44700462">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/jos/jos-accordion.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="14" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.0">
+        <state line="55" column="14" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.74654377">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jos/jos-detailcontent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="66" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
+        <state line="31" column="66" selection-start="956" selection-end="956" vertical-scroll-proportion="0.67741936">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/jos-detailcontent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
+        <state line="18" column="29" selection-start="758" selection-end="758" vertical-scroll-proportion="0.114832535">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="119" selection-start="11262" selection-end="11262" vertical-scroll-proportion="-0.625">
-          <folding>
-            <element signature="e#12191#12494#0" expanded="true" />
-            <element signature="e#12538#12795#0" expanded="true" />
-            <element signature="e#12845#13110#0" expanded="true" />
-            <element signature="e#13699#13994#0" expanded="true" />
-            <element signature="e#14028#14317#0" expanded="true" />
-            <element signature="e#14353#14766#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/libs/respond.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3180" selection-start="4046" selection-end="4046" vertical-scroll-proportion="0.0">
+        <state line="5" column="3180" selection-start="4046" selection-end="4046" vertical-scroll-proportion="0.11755486">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -793,6 +659,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="85" selection-start="644" selection-end="644" vertical-scroll-proportion="0.37251654">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="133" selection-start="11276" selection-end="11276" vertical-scroll-proportion="0.85504884">
+          <folding>
+            <element signature="e#12190#12493#0" expanded="true" />
+            <element signature="e#12537#12794#0" expanded="true" />
+            <element signature="e#12844#13109#0" expanded="true" />
+            <element signature="e#13698#13993#0" expanded="true" />
+            <element signature="e#14027#14316#0" expanded="true" />
+            <element signature="e#14352#14765#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
