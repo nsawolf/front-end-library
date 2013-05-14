@@ -9,11 +9,14 @@
 }
 .jos-controlpanel-header{
   #translucent > .background(#000, .5);
-  padding: @padding;
+
 }
 
 /* SubMenu
 =================================== */
+.jos-controlpanel-submenu .jos-controlpanel-header{
+  padding: @padding;
+}
 .jos-controlpanel-submenu .jos-controlpanel-header .data{
   line-height: @line-height-base*1.25;
   color: @gray-light;
@@ -35,6 +38,9 @@
   position: absolute;
   right: 0;
   top: 2px;
+}
+.jos-controlpanel-submenu .list-group .jos-detailcontent-indicator {
+  top: 4px;
 }
 .jos-controlpanel-submenu figure{
   margin: 0 auto;

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>view-homepage</title>
+    <title>view-book</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- styles -->
@@ -91,103 +91,85 @@
 </div>
 <!--END MODULE-->
 
+<!--START MODULE-->
+<div class="navbar jos-navbar-toolbar">
+    <ul class="nav navbar-nav ">
+        <li><a href="#"><span class="glyphicon glyphicon-ok"></span> Task 1</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-plus"></span> Task 2</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-print"></span> Task 3</a></li>
+    </ul>
+</div>
+<!--END MODULE-->
 
-<!--START MODULE: jos-backgroundmedia-->
-<div class="jos-backgroundmedia int-jos-controlpanel">
+<!--START MODULE:-->
+<div class="jos-appcanvas int-jos-controlpanel">
 
     <!--START MODULE-->
-    <div class="jos-controlpanel jos-controlpanel-left jos-controlpanel-submenu">
-        <div class="jos-controlpanel-header">
-            <p class="data">February 12, 2014</p>
-            <h2>Hello, Hallie!</h2>
-            <p class="data">Central High School</p>
+    <div class="jos-controlpanel jos-controlpanel-01">
+        <div class="tabbable">
+            <ul class="nav nav-tabs nav-tabs-small jos-controlpanel-header">
+                <p>Filters Area</p>
+                <li class="active"><a href="#sections" data-toggle="tab">Sections</a></li>
+                <li class=""><a href="#topics" data-toggle="tab">Topics</a></li>
+                <li class=""><a href="#staff" data-toggle="tab">Staff</a></li>
+                <li class=""><a href="#deadlines" data-toggle="tab">Deadlines</a></li>
+            </ul>
         </div>
         <!--START MODULE-->
-        <div class="list-group">
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="gallery">Gallery<i class="jos-detailcontent-indicator"></i></a>
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="status">Status<i class="jos-detailcontent-indicator"></i></a>
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="sales">Sales<i class="jos-detailcontent-indicator"></i></a>
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="images">Images<i class="jos-detailcontent-indicator"></i></a>
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="deadlines">Deadlines<i class="jos-detailcontent-indicator"></i></a>
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="staff">Staff<i class="jos-detailcontent-indicator"></i></a>
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="preview">Preview<i class="jos-detailcontent-indicator"></i></a>
-
-        </div>
+        <!--<div class="accordion" id="exampleAccordion">-->
+            <!--<div class="accordion-group">-->
+                <!--<div class="accordion-heading">-->
+                    <!--<a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseOne">-->
+                        <!--Your Assignments-->
+                    <!--</a>-->
+                <!--</div>-->
+                <!--<div id="collapseOne" class="accordion-body collapse in">-->
+                    <!--<ul class="accordion-inner">-->
+                        <!--<li><a data-target="exampleId01">Example Topic 1</a><i class="jos-detailcontent-indicator"></i></li>-->
+                        <!--<li><a data-target="exampleId02">Example Topic 2</a><i class="jos-detailcontent-indicator"></i></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="accordion-group">-->
+                <!--<div class="accordion-heading">-->
+                    <!--<a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseTwo">-->
+                        <!--Header-->
+                    <!--</a>-->
+                <!--</div>-->
+                <!--<div id="collapseTwo" class="accordion-body collapse">-->
+                    <!--<ul class="accordion-inner">-->
+                        <!--<li>Example Topic 1</li>-->
+                        <!--<li>Example Topic 2</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="accordion-group">-->
+                <!--<div class="accordion-heading">-->
+                    <!--<a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseThree">-->
+                        <!--Header-->
+                    <!--</a>-->
+                <!--</div>-->
+                <!--<div id="collapseThree" class="accordion-body collapse">-->
+                    <!--<ul class="accordion-inner">-->
+                        <!--<li>Example Topic 1</li>-->
+                        <!--<li>Example Topic 2</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
         <!--END MODULE-->
-        <!--<figure class="SubMenu-figure">-->
-            <!--<img src="http://placehold.it/210x70" />-->
-        <!--</figure>-->
-        <!--<figure class="SubMenu-figure">-->
-            <!--<img src="http://placehold.it/210x70" />-->
-        <!--</figure>-->
-        <!--<figure class="SubMenu-figure">-->
-            <!--<img src="http://placehold.it/210x70" />-->
-        <!--</figure>-->
     </div>
     <!--END MODULE-->
 
-    <section class="jos-detailcontent" data-id="gallery">
-        <article>
-            <h2>Gallery</h2>
-            <img src="../img/jos-controlpanel-submenu/gallery.png">
-        </article>
-    </section>
-    <section class="jos-detailcontent" data-id="status">
-        <article>
-            <h2>Status</h2>
-            <img src="../img/jos-controlpanel-submenu/status.png">
-        </article>
-    </section>
-    <section class="jos-detailcontent" data-id="sales">
-        <article>
-            <h2>Sales</h2>
-            <img src="../img/jos-controlpanel-submenu/sales.png">
-        </article>
-    </section>
-    <section class="jos-detailcontent" data-id="images">
-        <article>
-            <h2>Images</h2>
-            <img src="../img/jos-controlpanel-submenu/images.png">
-        </article>
-    </section>
-    <section class="jos-detailcontent" data-id="deadlines">
-        <article>
-            <h2>Deadlines</h2>
-            <img src="../img/jos-controlpanel-submenu/deadlines.png">
-        </article>
-    </section>
-    <section class="jos-detailcontent" data-id="staff">
-        <article>
-            <h2>Staff</h2>
-            <img src="../img/jos-controlpanel-submenu/staff.png">
-        </article>
-    </section>
-    <section class="jos-detailcontent" data-id="preview">
-        <article>
-            <h2>Preview</h2>
-            <img src="../img/jos-controlpanel-submenu/preview.png">
-        </article>
-    </section>
 
-
-    <figcaption class="jos-backgroundmedia-caption affix">
-        <h4 class="jos-backgroundmedia-title">Caption Title</h4>
-        <p class="jos-backgroundmedia-data">
-            <span class="jos-backgroundmedia-credits">Jaime Wonder, West Texas High School, Stinnett, Texas.</span>
-            <a class="jos-backgroundmedia-readmore" href="#">Read more <i class="arrow-right"></i></a>
-        </p>
-        <img src="../img/jos-backgroundmedia-largearrow.png" />
-    </figcaption>
 </div>
-<!--END MODULE: jos-backgroundmedia -->
+<!--END MODULE: -->
 
 
 <!--Scripts-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="../js/bootstrap-dropdown.js"></script>
 <script src="../js/jos/jos-bootstrap-collapse.js"></script>
-<script src="../js/libs/waypoints.min.js"></script>
-<script src="../js/jos/jos-backgroundmedia.js"></script>
-<script src="../js/jos/jos-detailcontent.js"></script>
+<script src="../js/jos/jos-appcanvas.js"></script>
 </body>
 </html>

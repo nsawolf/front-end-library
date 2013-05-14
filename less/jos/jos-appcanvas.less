@@ -1,0 +1,26 @@
+  /* ==================================
+      AppCanvas
+  =================================== */
+
+  .jos-appcanvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .jos-appcanvas-content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .jos-appcanvas-book .jos-appcanvas-content{
+    // Default
+    left: @controlpanel-width; /* Width of ControlPanel */
+  }
+  .jos-appcanvas-book.shift-left{
+    left: 0;
+    right: @controlpanel-width; /* Width of ControlPanel */
+  }

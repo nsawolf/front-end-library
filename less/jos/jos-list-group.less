@@ -2,6 +2,51 @@
     list-group overrides
 =================================== */
 
+// Controlpanel Submenu
+.jos-controlpanel-submenu{
+  .list-group {
+    // No need to set list-style: none; since .list-group-item is block level
+    margin: 0 0 20px; // reset all margins because ul and ol
+    background-color: transparent;
+  }
+  .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 30px 10px 15px;
+    // Place the border on the list items and negative margin up for better styling
+    margin-bottom: -1px;
+    border: 1px solid @gray;
+    border-top: 1px solid @gray-dark;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  a.list-group-item:hover,
+  a.list-group-item:focus {
+    text-decoration: none;
+    background-color: @list-group-hover-bg;
+    border-right: 1px solid @gray-lighter;
+  }
+
+  a.list-group-item.active {
+    z-index: 2; // Place active items above their siblings for proper border styling
+    color: @list-group-active-text;
+    background-color: @list-group-active-bg;
+    border-color: @list-group-active-border;
+    border-right: 0px;
+    .box-shadow(-3px 0px 6px rgba(0,0,0,.125););
+
+    // Force color to inherit for custom content
+    .list-group-item-heading {
+      color: inherit;
+    }
+    .list-group-item-text {
+      color: lighten(@list-group-active-bg, 40%);
+    }
+  }
+}
+
+// Merch
 .jos-list-group-merch.list-group-flush{margin-top: 0; margin-bottom: 0px;}
 .jos-list-group-merch{
   .list-group-item {
