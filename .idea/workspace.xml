@@ -4,38 +4,13 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jos-controlpanel-submenu/excellence1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jos-controlpanel-submenu/excellence2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jos-controlpanel-submenu/excellence3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jos-controlpanel-submenu/sales-goals.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jos-controlpanel-submenu/sales-metrics.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jos-controlpanel-submenu/training.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jos-controlpanel-submenu/ugly.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jos/jos-controlpanel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-footer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jos/jos-toggle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/_build/css/global.css" afterPath="$PROJECT_DIR$/less/_build/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/_build/global.less" afterPath="$PROJECT_DIR$/less/_build/global.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jos/jos-appcanvas.js" afterPath="$PROJECT_DIR$/js/jos/jos-appcanvas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-appcanvas.less" afterPath="$PROJECT_DIR$/less/jos/jos-appcanvas.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jos/jos-backgroundmedia.js" afterPath="$PROJECT_DIR$/js/jos/jos-backgroundmedia.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-backgroundmedia.less" afterPath="$PROJECT_DIR$/less/jos/jos-backgroundmedia.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-controlpanel.less" afterPath="$PROJECT_DIR$/less/jos/jos-controlpanel.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jos/jos-detailcontent.js" afterPath="$PROJECT_DIR$/js/jos/jos-detailcontent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-detailcontent.less" afterPath="$PROJECT_DIR$/less/jos/jos-detailcontent.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-dropdowns.less" afterPath="$PROJECT_DIR$/less/jos/jos-dropdowns.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-list-group.less" afterPath="$PROJECT_DIR$/less/jos/jos-list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/jos-navbar-mainmenu.html" afterPath="$PROJECT_DIR$/examples/jos-navbar-mainmenu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-navbar.less" afterPath="$PROJECT_DIR$/less/jos/jos-navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-variables.less" afterPath="$PROJECT_DIR$/less/jos/jos-variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-book.html" afterPath="$PROJECT_DIR$/examples/view-book.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-homepage.html" afterPath="$PROJECT_DIR$/examples/view-homepage.html" />
+    <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="tons of changes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/diagonals-small.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368709761698" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368810730107" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368716474981" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -121,77 +96,7 @@
     <favorites_list name="library" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="44" selection-start="699" selection-end="699" vertical-scroll-proportion="0.48300537">
-              <folding>
-                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jos-toggle.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jos/jos-toggle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="20" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jos-list-group.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/jos/jos-list-group.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="13" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2289#3412#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="media.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/media.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list-group.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/list-group.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="1359" selection-end="1812" vertical-scroll-proportion="-10.32">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jos-controlpanel.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/jos/jos-controlpanel.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="22" selection-start="2969" selection-end="2969" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jos-variables.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/jos/jos-variables.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="37" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -275,70 +180,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -606,17 +447,22 @@
       <created>1368558446655</created>
       <updated>1368558446655</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="tons of changes">
+      <created>1368810279072</created>
+      <updated>1368810279072</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="742" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2296875" sideWeight="0.93031675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2296875" sideWeight="0.93031675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -626,7 +472,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911634" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -674,7 +519,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="New homepage mvp example" />
+    <option name="LAST_COMMIT_MESSAGE" value="tons of changes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -705,6 +550,7 @@
     <MESSAGE value="Fix array commas for IE" />
     <MESSAGE value="Testing css3 media query fix" />
     <MESSAGE value="New homepage mvp example" />
+    <MESSAGE value="tons of changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -790,14 +636,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/list-group.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1359" selection-end="1812" vertical-scroll-proportion="-10.32">
+        <state line="66" column="0" selection-start="1359" selection-end="1812" vertical-scroll-proportion="0.43434343">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/jos/jos-list-group.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="13" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0">
+        <state line="42" column="13" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.5088853">
           <folding>
             <element signature="e#2289#3412#0" expanded="false" />
           </folding>
@@ -806,7 +652,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jos/jos-toggle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="20" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0">
+        <state line="48" column="20" selection-start="1676" selection-end="1676" vertical-scroll-proportion="1.1631664">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -815,14 +661,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/jos/jos-controlpanel.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="22" selection-start="2969" selection-end="2969" vertical-scroll-proportion="0.0">
+        <state line="128" column="22" selection-start="2969" selection-end="2969" vertical-scroll-proportion="0.84814215">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/jos/jos-variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="37" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.0">
+        <state line="52" column="37" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.96930534">
           <folding />
         </state>
       </provider>
