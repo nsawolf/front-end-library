@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>example: jos-footer</title>
+    <title>view-login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- styles -->
@@ -20,16 +20,34 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
     <style>
-        /*Note: only for this example...specific usage is based on view*/
-        .footer{position: absolute; bottom: 0; right: 0; left: 0;}
+            /*Note: Only for this example*/
+        #design .panel{height: 120px;}
     </style>
-
 </head>
 
 <body>
 
-<!--START MODULE-->
-<footer class="footer">
+<!--START MODULE: jos-backgroundmedia-->
+<div class="jos-backgroundmedia">
+    <!--START MODULE-->
+    <div class="panel panel-inverse panel-login text-center">
+        <img src="../img/jostens-logo.png">
+        <img src="../img/jostens-logo-yba.png">
+        <input type="text" placeholder="Project Year">
+        <input type="text" placeholder="Project Number">
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+
+        <div class="clearfix"><button class="btn btn-primary pull-right">Login</button></div>
+        <button class="btn btn-link">Forgot your password?</button>
+        <button class="btn btn-link">Back to jostens.com</button>
+    </div>
+    <!--END MODULE-->
+
+</div>
+<!--END MODULE: jos-backgroundmedia -->
+
+<footer class="footer jos-appcanvas-below">
     <ul class="list-inline">
         <li>Email Your Rep: <a href="#">Customer Service Topeka</a></li>
         <li>For Technical Support Call: (800) 665-7597 Canada</li>
@@ -43,12 +61,9 @@
 </footer>
 <!--END MODULE-->
 
-
-
 <!--Scripts-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-
-
+<script src="../js/jos/jos-backgroundmedia.js"></script>
+<script src="../js/jos/jos-appcanvas.js"></script>
 </body>
 </html>
