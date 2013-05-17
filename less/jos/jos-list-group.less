@@ -34,8 +34,27 @@ a.list-group-item.active {
   border-color: @list-group-active-border;
 }
 
-// Controlpanel Submenu
-.jos-controlpanel.jos-controlpanel-submenu{
+
+/* Integrations
+=================================== */
+
+// list-group in a controlpanel
+.jos-controlpanel{
+  .list-group{
+    margin-bottom: 0px;
+  }
+  .list-group-item{
+    color: @controlpanel-link-color; // might need to be a different variable
+    background: @black;
+    border: 0px;
+    padding: 10px 30px 10px 15px;
+    margin-bottom: 0px;
+    font-weight: normal;
+  }
+}
+
+// list-group in controlpanel-submenu
+.jos-controlpanel-submenu{
   border-right: 0px;
   .box-shadow(none);
   .list-group {
@@ -44,20 +63,8 @@ a.list-group-item.active {
     background-color: transparent;
   }
   .list-group-item {
-    position: relative;
-    display: block;
-    padding: 10px 30px 10px 15px;
-    // Place the border on the list items and negative margin up for better styling
-    margin-bottom: 0px;
-    border: 0px;
-    background: @black;
     font-size: @font-size-medium;
-    font-weight: normal;
   }
-  .collapse .list-group-item{
-    #translucent > .background(@black, .5);
-  }
-
   a.list-group-item:hover,
   a.list-group-item:focus {
     text-decoration: none;
@@ -65,11 +72,9 @@ a.list-group-item.active {
     #translucent > .background(@black, .8);
     color: @controlpanel-link-hover-color;
   }
-
   a.list-group-item.active {
     z-index: 2; // Place active items above their siblings for proper border styling
     color: @list-group-active-text;
-
     #translucent > .background(@black, .6);
     border: 0;
     border-right: 0px;
@@ -85,7 +90,7 @@ a.list-group-item.active {
   }
 }
 
-// Merch
+// list-group in merch view
 .jos-list-group-merch{
   &.list-group-flush{margin-top: 0; margin-bottom: 0px;}
   .list-group-item {

@@ -2,29 +2,22 @@
     jos-controlpanel
 =================================== */
 
+
+/* Common Parts
+=================================== */
 .jos-controlpanel{
   .transition(@transition);
   width: @controlpanel-width;
-  #translucent > .background(#000, .5);
   display: inline-block;
   color: #fff;
   position: absolute;
   top: 0;
   bottom: 0;
   z-index: @zindex-controlpanel;
+  #translucent > .background(@controlpanel-bg, .70);
 }
 .jos-controlpanel-header{
-  #translucent > .background(#000, .5);
-
-}
-
-
-  /* Common Parts
-  =================================== */
-.jos-controlpanel-header{
-  background: @gray;
-  border-bottom: 1px solid @gray-light;
-//  position: relative;
+  background: transparent;
 }
 .jos-controlpanel-header .btn-group{
   margin-bottom: 4px;
@@ -44,15 +37,15 @@
 .jos-controlpanel-body{
   position: absolute;
   bottom: 0px;
-  width: @controlpanel-width;
+  width: 100%;
   left: 0;
   overflow: auto;
 }
 .jos-controlpanel-body-header{
   padding: @padding;
   position: relative;
-  background: #fff;
-  border: 1px solid @controlpanel-border-color;
+  background: @controlpanel-header-bg;
+  border: 1px solid @controlpanel-border;
   border-bottom: 0px;
   border-top: 0px;
   .box-shadow(0 4px 2px -2px rgba(0,0,0,.125));
@@ -69,9 +62,8 @@
   bottom: 0;
   right: 0;
   left: 0;
-  border-top: 1px solid @gray-light;
   padding: @padding;
-  background: @gray;
+  #translucent > .background(@controlpanel-bg, .8);
 }
 .jos-controlpanel-actions{
 
@@ -104,19 +96,16 @@
 }
 
 
-/* ==================================
-    Variants
+/* Variants
 =================================== */
 // Submenu
 .jos-controlpanel-submenu{
-  #translucent > .background(@controlpanel-background-color, .70);
-
   // Common part overrides
   .jos-controlpanel-header{
     padding: @padding;
-    background: transparent;
-    border: 0px;
   }
+
+  // Custom
   .jos-controlpanel-header .data{
     line-height: @line-height-base;
     color: @gray-light;
@@ -128,11 +117,6 @@
     color: @brand-primary;
     margin-top: 10px;
   }
-  .accordion-inner li{
-    position: relative;
-  }
-
-  // Detail Content
   figure{
     margin: 0 auto;
     padding-top: 15px;
@@ -143,18 +127,7 @@
 }
 
 
-/* ==================================
-    Integrations
-=================================== */
-// List Group
-.jos-controlpanel{
-  .list-group{
-    margin-bottom: 0px;
-  }
-  .list-group-item{
-    color: @controlpanel-link-color;
-  }
-}
+
 
 
 
