@@ -1,26 +1,63 @@
-  /* ==================================
-      AppCanvas
-  =================================== */
+/* ==================================
+    AppCanvas
+=================================== */
 
-  .jos-appcanvas{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .jos-appcanvas-content{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .jos-appcanvas-book .jos-appcanvas-content{
-    // Default
-    left: @controlpanel-width; /* Width of ControlPanel */
-  }
-  .jos-appcanvas-book.shift-left{
+
+/* Common Parts
+=================================== */
+.jos-appcanvas{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.jos-appcanvas-content{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: @padding-value;
+  .transition(@transition);
+}
+.jos-appcanvas-above{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.jos-appcanvas-below{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+
+/* Variants
+=================================== */
+.jos-appcanvas-book{
+  // Default
+  .jos-appcanvas-content{left: @controlpanel-width; /* Width of ControlPanel */}
+
+  // Shift Left
+  &.shift-left .jos-appcanvas-content{
     left: 0;
     right: @controlpanel-width; /* Width of ControlPanel */
   }
+}
+
+.jos-appcanvas-home{
+  // Default
+  .jos-appcanvas-content{left: @controlpanel-width; /* Width of ControlPanel */}
+}
+
+
+/* Integrations
+=================================== */
+
+// Appcanvas with Background Media
+.int-jos-backgroundmedia .jos-appcanvas-content{
+  background: url(../../../img/jos-backgroundmedia-raster.png) transparent repeat left top;
+}

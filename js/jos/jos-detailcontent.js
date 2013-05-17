@@ -7,7 +7,7 @@ $(function(){
     var target = '';
 
     // Defaults
-    $('.jos-detailcontent').hide();
+//    $('.jos-detailcontent').hide();
     $('.jos-detailcontent-indicator').hide();
 
     /* Integrations - SubMenu

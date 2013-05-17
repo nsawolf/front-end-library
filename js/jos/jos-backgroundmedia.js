@@ -71,30 +71,30 @@ $(function(){
     /* Lib Dependency: Waypoint.min.js
     =================================== */
     // Caption Positioning - Change when bottom of Media element hits the viewport
-    $('.jos-backgroundmedia').waypoint(function(direction) {
-        $('.jos-backgroundmedia-caption').toggleClass('affix');
-
-    }, {
-        offset: function() {
-            // Toggle a class when an the bottom of an object comes into the viewport
-            var viewport = $.waypoints('viewportHeight');
-            var object = $('.jos-backgroundmedia').height();
-            return -(object-viewport);
-        }
-    });
+//    $('.jos-backgroundmedia').waypoint(function(direction) {
+//        $('.jos-backgroundmedia-caption').toggleClass('affix');
+//
+//    }, {
+//        offset: function() {
+//            // Toggle a class when an the bottom of an object comes into the viewport
+//            var viewport = $.waypoints('viewportHeight');
+//            var object = $('.jos-backgroundmedia').height();
+//            return -(object-viewport);
+//        }
+//    });
 
     /* Wonky way of resizing. Need to to so because object needs to be "position: relative"
     =================================== */
-    function setBackgroundHeight(){
-        if ( $('.jos-backgroundmedia.int-jos-controlpanel') ){
-            var viewport = $.waypoints('viewportHeight');
-            var object = $('.jos-navbar-mainmenu').height();
-            $('.jos-backgroundmedia.int-jos-controlpanel').height(viewport-object);
-        }
-    }
-    setBackgroundHeight();
-    $(window).resize(function() {
-        setBackgroundHeight();
-    });
+//    function setBackgroundHeight(){
+//        if ( $('.jos-backgroundmedia.int-jos-controlpanel') ){
+//            var viewport = $.waypoints('viewportHeight');
+//            var object = $('.jos-navbar-mainmenu').height();
+//            $('.jos-backgroundmedia.int-jos-controlpanel').height(viewport-object);
+//        }
+//    }
+//    setBackgroundHeight();
+//    $(window).resize(function() {
+//        setBackgroundHeight();
+//    });
 })
 

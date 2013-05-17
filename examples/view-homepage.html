@@ -11,18 +11,23 @@
     <!-- scripts -->
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <script src="../js/libs/css3-mediaqueries.js"></script>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="../js/libs/css3-mediaqueries.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <![endif]-->
     <!-- Typekit Scripts -->
-    <script type="text/javascript" src="//use.typekit.net/hon8eiw.js"></script>
+    <script type="text/javascript" src="http://use.typekit.net/hon8eiw.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <style>
+            /*Note: Only for this example*/
+        #design .panel{height: 120px;}
+    </style>
 </head>
 
 <body>
 <!--START MODULE-->
-<div class="navbar navbar-inverse jos-navbar-mainmenu">
+<div class="navbar navbar-inverse jos-navbar-mainmenu jos-appcanvas-above">
 
     <a href="#"><img class="jos-logo" src="../img/jos-navbar-mainmenu-logo.png"></a>
     <ul class="nav navbar-nav jos-nav" role="navigation">
@@ -79,6 +84,17 @@
         </li>
         <li><a href="#" role="button">Virtual Book</a></li>
         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="glyphicon glyphicon-envelope"></i> <span class="badge">5</span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-envelope"></i> Message 1</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-envelope"></i> Message 2</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-envelope"></i> Message 3</a></li>
+                <li class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-calendar"></i> Event A</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-calendar"></i> Event B</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Hello, User <b class="caret"></b></a>
             <ul class="dropdown-menu pull-right" role="menu">
                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Account</a></li>
@@ -93,7 +109,11 @@
 
 
 <!--START MODULE: jos-backgroundmedia-->
-<div class="jos-backgroundmedia int-jos-controlpanel">
+<div class="jos-backgroundmedia">
+
+</div>
+<!--END MODULE: jos-backgroundmedia -->
+<div class="jos-appcanvas jos-appcanvas-home shift-default int-jos-controlpanel int-jos-backgroundmedia" id="test">
 
     <!--START MODULE-->
     <div class="jos-controlpanel jos-controlpanel-left jos-controlpanel-submenu">
@@ -102,74 +122,176 @@
             <h2>Hello, Hallie!</h2>
             <p class="data">Central High School</p>
         </div>
-        <!--START MODULE-->
-        <div class="list-group">
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="gallery">Gallery<i class="jos-detailcontent-indicator"></i></a>
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="status">Status<i class="jos-detailcontent-indicator"></i></a>
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="sales">Sales<i class="jos-detailcontent-indicator"></i></a>
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="images">Images<i class="jos-detailcontent-indicator"></i></a>
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="deadlines">Deadlines<i class="jos-detailcontent-indicator"></i></a>
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="staff">Staff<i class="jos-detailcontent-indicator"></i></a>
-            <a href="#" class="list-group-item jos-detailcontent-trigger" data-target="preview">Preview<i class="jos-detailcontent-indicator"></i></a>
 
+        <!--START MODULE-->
+        <div class="list-group jos-controlpanel-body">
+            <!--<a href="#myassignments" class="list-group-item" data-toggle="toggle" data-group="detailcontent">My Assignments<i></i></a>-->
+            <!--<div class="toggle" id="myassignments">-->
+                <!--<a href="#assignment1" class="toggle-escape list-group-item" data-toggle="toggle" data-group="test">Assignment 1<i></i></a>-->
+                <!--<a href="#assignment2" class="toggle-escape list-group-item" data-toggle="toggle" data-group="test">Assignment 2<i></i></a>-->
+            <!--</div>-->
+            <a href="#gallery" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Gallery<i></i></a>
+            <a href="#design" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Design Resources<i></i></a>
+            <a href="#status" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Page Status<i></i></a>
+            <a href="#sales" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Sales<i></i></a>
+            <a href="#excellence" class="list-group-item" data-toggle="toggle"  data-group="detailcontent">Excellence Program<i></i></a>
+            <a href="#images" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Images<i></i></a>
+            <a href="#deadlines" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Deadlines<i></i></a>
+            <a href="#staff" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Staff Page Completion<i></i></a>
+            <a href="#preview" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Preview Your Yearbook<i></i></a>
+            <a href="#training" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Training<i></i></a>
+            <a href="#announcements" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Announcements <span class="badge">4</span><i></i></a>
         </div>
         <!--END MODULE-->
-        <!--<figure class="SubMenu-figure">-->
-            <!--<img src="http://placehold.it/210x70" />-->
-        <!--</figure>-->
-        <!--<figure class="SubMenu-figure">-->
-            <!--<img src="http://placehold.it/210x70" />-->
-        <!--</figure>-->
-        <!--<figure class="SubMenu-figure">-->
-            <!--<img src="http://placehold.it/210x70" />-->
-        <!--</figure>-->
     </div>
     <!--END MODULE-->
 
-    <section class="jos-detailcontent" data-id="gallery">
-        <article>
-            <h2>Gallery</h2>
-            <img src="../img/jos-controlpanel-submenu/gallery.png">
-        </article>
-    </section>
-    <section class="jos-detailcontent" data-id="status">
-        <article>
-            <h2>Status</h2>
-            <img src="../img/jos-controlpanel-submenu/status.png">
-        </article>
-    </section>
-    <section class="jos-detailcontent" data-id="sales">
-        <article>
-            <h2>Sales</h2>
-            <img src="../img/jos-controlpanel-submenu/sales.png">
-        </article>
-    </section>
-    <section class="jos-detailcontent" data-id="images">
-        <article>
-            <h2>Images</h2>
-            <img src="../img/jos-controlpanel-submenu/images.png">
-        </article>
-    </section>
-    <section class="jos-detailcontent" data-id="deadlines">
-        <article>
-            <h2>Deadlines</h2>
-            <img src="../img/jos-controlpanel-submenu/deadlines.png">
-        </article>
-    </section>
-    <section class="jos-detailcontent" data-id="staff">
-        <article>
-            <h2>Staff</h2>
-            <img src="../img/jos-controlpanel-submenu/staff.png">
-        </article>
-    </section>
-    <section class="jos-detailcontent" data-id="preview">
-        <article>
-            <h2>Preview</h2>
-            <img src="../img/jos-controlpanel-submenu/preview.png">
-        </article>
-    </section>
+    <div class="jos-appcanvas-content">
+        <!--<section class="toggle jos-detailcontent" id="assignment1">-->
+            <!--<article>-->
+                <!--<h2>Assignment 1</h2>-->
+            <!--</article>-->
+        <!--</section>-->
+        <!--<section class="toggle jos-detailcontent" id="assignment2">-->
+            <!--<article>-->
+                <!--<h2>Assignment 2</h2>-->
+            <!--</article>-->
+        <!--</section>-->
+        <section class="toggle jos-detailcontent" id="gallery">
+            <article>
+                <h2>Gallery</h2>
+                <blockquote class="alert">Notes: This gallery does not have to live on this page. This could link to current YBA gallery page. This page could also be renamed "Design Resources." We could include links to the Digital Classroom, Look Book Galleries, Look Book App, Photo contest, Layout Contest, and Training resources. The word Gallery is not a good fit for the link.</blockquote>
+                <img src="../img/jos-controlpanel-submenu/gallery.png">
+            </article>
+        </section>
+        <section class="toggle jos-detailcontent" id="design">
+            <article>
+                <h2>Design Resources</h2>
+                <div class="container">
+                    <div class="">
+                        <div class="col col-lg-3 ">
+                            <div class="panel">Go to Book Planning</div>
+                        </div>
+                        <div class="col col-lg-3 ">
+                            <div class="panel">Go to Look Book Gallery</div>
+                        </div>
+                        <div class="col col-lg-3 ">
+                            <div class="panel">Go to Digital Classroom</div>
+                        </div>
+                        <div class="col col-lg-3 ">
+                            <div class="panel">Learn about the Photo Contest</div>
+                        </div>
 
+                        <div class="col col-lg-3 ">
+                            <div class="panel">Learn about the Layout Contest</div>
+                        </div>
+                        <div class="col col-lg-3 ">
+                            <div class="panel">Training</div>
+                        </div>
+                        <div class="col col-lg-3 ">
+                            <div class="panel">Ideas & Tips (Maybe)</div>
+                        </div>
+                        <div class="col col-lg-3 ">
+                            <div class="panel">Blah</div>
+                        </div>
 
+                        <div class="col col-lg-3 ">
+                            <div class="panel">Blah</div>
+                        </div>
+                        <div class="col col-lg-3 ">
+                            <div class="panel">Blah</div>
+                        </div>
+                        <div class="col col-lg-3 ">
+                            <div class="panel">Blah</div>
+                        </div>
+                        <div class="col col-lg-3 ">
+                            <div class="panel">Blah</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="toggle jos-detailcontent" id="status">
+            <article>
+                <h2>Page Status</h2>
+                <blockquote class="alert">This button needs to be called "Page Status".
+                    Notes: Can we restyle this data on the right?</blockquote>
+                <img src="../img/jos-controlpanel-submenu/status.png">
+            </article>
+        </section>
+        <section class="toggle jos-detailcontent" id="sales">
+            <article>
+                <h2>Sales</h2>
+                <blockquote class="alert">This button needs to be called "Yearbook sales." Can we add the sales data from the current YBA right tabs? (See screenshot.)</blockquote>
+                <img src="../img/jos-controlpanel-submenu/sales.png">
+                <p class="lead">Yearbook Sales</p>
+                <img src="../img/jos-controlpanel-submenu/sales-goals.png">
+                <p class="lead">Yearbook Ad Sales</p>
+                <img src="../img/jos-controlpanel-submenu/sales-metrics.png">
+            </article>
+        </section>
+        <section class="toggle jos-detailcontent" id="excellence">
+            <article>
+                <h2>Excellence Program</h2>
+                <blockquote class="alert">Notes: This page needs a really nice description of the program and include eligibility requirements. We could also link to similar documentation in Digital Classroom. Could this be designed to be much more inviting.</blockquote>
+                <img src="../img/jos-controlpanel-submenu/excellence1.png">
+                <img src="../img/jos-controlpanel-submenu/excellence2.png">
+                <img src="../img/jos-controlpanel-submenu/excellence3.png">
+            </article>
+        </section>
+        <section class="toggle jos-detailcontent" id="images">
+            <article>
+                <h2>Images</h2>
+                <blockquote class="alert">Notes: Should we include links to the Yearbook Inbox and ReplayIt inbox on this page?</blockquote>
+                <img src="../img/jos-controlpanel-submenu/images.png">
+            </article>
+        </section>
+        <section class="toggle jos-detailcontent" id="deadlines">
+            <article>
+                <h2>Deadlines</h2>
+                <blockquote class="alert">Can we include announcements on this page? Can we include page notes, too? We should also include a link to the calendar. </blockquote>
+                <blockquote class="alert">Adam's Notes: I think this needs to be a reflection of the Book Planning deadlines tab interaction.</blockquote>
+                <img src="../img/jos-controlpanel-submenu/deadlines.png">
+                <p class="lead">Upcoming Events</p>
+                <img src="../img/jos-controlpanel-submenu/ugly.png">
+            </article>
+        </section>
+        <section class="toggle jos-detailcontent" id="staff">
+            <article>
+                <h2>Staff Page Completion</h2>
+                <img src="../img/jos-controlpanel-submenu/staff.png">
+            </article>
+        </section>
+        <section class="toggle jos-detailcontent" id="preview">
+            <article>
+                <h2>Preview Your Yearbook</h2>
+                <img src="../img/jos-controlpanel-submenu/preview.png">
+            </article>
+        </section>
+        <section class="toggle jos-detailcontent" id="training">
+            <article>
+                <h2>Training</h2>
+                <blockquote class="alert">Notes: If we decide to have a "design resources" page, this is a perfect place to link to our library of training videos. This library of videos is NOT well organized/represented in the Digital Classroom.</blockquote>
+                <img src="../img/jos-controlpanel-submenu/training.png">
+            </article>
+        </section>
+        <section class="toggle jos-detailcontent" id="announcements">
+            <article>
+                <h2>Announcements</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Announcement</li>
+                    <li class="list-group-item">Announcement</li>
+                    <li class="list-group-item">Announcement</li>
+                    <li class="list-group-item">Announcement</li>
+                    <li class="list-group-item">Announcement</li>
+                    <li class="list-group-item">Announcement</li>
+                    <li class="list-group-item">Announcement</li>
+                    <li class="list-group-item">Announcement</li>
+                    <li class="list-group-item">Announcement</li>
+                </ul>
+            </article>
+        </section>
+    </div>
     <figcaption class="jos-backgroundmedia-caption affix">
         <h4 class="jos-backgroundmedia-title">Caption Title</h4>
         <p class="jos-backgroundmedia-data">
@@ -179,15 +301,28 @@
         <img src="../img/jos-backgroundmedia-largearrow.png" />
     </figcaption>
 </div>
-<!--END MODULE: jos-backgroundmedia -->
+<!--START MODULE-->
+<footer class="footer jos-appcanvas-below">
+    <ul class="list-inline">
+        <li>Email Your Rep: <a href="#">Customer Service Topeka</a></li>
+        <li>For Technical Support Call: (800) 665-7597 Canada</li>
+        <li><a href="#">More Contact Information</a></li>
+    </ul>
+    <ul class="list-inline">
+        <li>&#169;2013 Jostens, Inc. All rights reserved</li>
+        <li>Contact: <a href="#">yearbookavenue@jostens.com</a></li>
+        <li>Legal Notices</li>
+    </ul>
+</footer>
+<!--END MODULE-->
 
-
-<!--Scripts-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="../js/bootstrap-dropdown.js"></script>
-<script src="../js/jos/jos-bootstrap-collapse.js"></script>
-<script src="../js/libs/waypoints.min.js"></script>
-<script src="../js/jos/jos-backgroundmedia.js"></script>
-<script src="../js/jos/jos-detailcontent.js"></script>
+    <!--Scripts-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/jos/jos-backgroundmedia.js"></script>
+    <script src="../js/jos/jos-appcanvas.js"></script>
+<script src="../js/jos/jos-controlpanel.js"></script>
+<script src="../js/bootstrap-collapse.js"></script>
+<script src="../js/jos/jos-toggle.js"></script>
 </body>
 </html>

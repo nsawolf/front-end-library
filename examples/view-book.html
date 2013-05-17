@@ -11,9 +11,9 @@
     <!-- scripts -->
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <script src="../js/libs/css3-mediaqueries.js"></script>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="../js/libs/css3-mediaqueries.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <![endif]-->
     <!-- Typekit Scripts -->
     <script type="text/javascript" src="//use.typekit.net/hon8eiw.js"></script>
@@ -22,7 +22,7 @@
 
 <body>
 <!--START MODULE-->
-<div class="navbar navbar-inverse jos-navbar-mainmenu">
+<div class="navbar navbar-inverse jos-navbar-mainmenu jos-appcanvas-above">
 
     <a href="#"><img class="jos-logo" src="../img/jos-navbar-mainmenu-logo.png"></a>
     <ul class="nav navbar-nav jos-nav" role="navigation">
@@ -92,7 +92,7 @@
 <!--END MODULE-->
 
 <!--START MODULE-->
-<div class="navbar jos-navbar-toolbar">
+<div class="navbar jos-navbar-toolbar jos-appcanvas-above">
     <ul class="nav navbar-nav ">
         <li><a href="#"><span class="glyphicon glyphicon-ok"></span> Task 1</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-plus"></span> Task 2</a></li>
@@ -102,64 +102,153 @@
 <!--END MODULE-->
 
 <!--START MODULE:-->
-<div class="jos-appcanvas int-jos-controlpanel">
-
+<div class="jos-appcanvas shift-default jos-appcanvas-book int-jos-controlpanel">
     <!--START MODULE-->
-    <div class="jos-controlpanel jos-controlpanel-01">
-        <div class="tabbable">
-            <ul class="nav nav-tabs nav-tabs-small jos-controlpanel-header">
-                <p>Filters Area</p>
-                <li class="active"><a href="#sections" data-toggle="tab">Sections</a></li>
-                <li class=""><a href="#topics" data-toggle="tab">Topics</a></li>
-                <li class=""><a href="#staff" data-toggle="tab">Staff</a></li>
-                <li class=""><a href="#deadlines" data-toggle="tab">Deadlines</a></li>
-            </ul>
-        </div>
-        <!--START MODULE-->
-        <!--<div class="accordion" id="exampleAccordion">-->
-            <!--<div class="accordion-group">-->
-                <!--<div class="accordion-heading">-->
-                    <!--<a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseOne">-->
-                        <!--Your Assignments-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div id="collapseOne" class="accordion-body collapse in">-->
-                    <!--<ul class="accordion-inner">-->
-                        <!--<li><a data-target="exampleId01">Example Topic 1</a><i class="jos-detailcontent-indicator"></i></li>-->
-                        <!--<li><a data-target="exampleId02">Example Topic 2</a><i class="jos-detailcontent-indicator"></i></li>-->
-                    <!--</ul>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="accordion-group">-->
-                <!--<div class="accordion-heading">-->
-                    <!--<a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseTwo">-->
-                        <!--Header-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div id="collapseTwo" class="accordion-body collapse">-->
-                    <!--<ul class="accordion-inner">-->
-                        <!--<li>Example Topic 1</li>-->
-                        <!--<li>Example Topic 2</li>-->
-                    <!--</ul>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="accordion-group">-->
-                <!--<div class="accordion-heading">-->
-                    <!--<a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseThree">-->
-                        <!--Header-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div id="collapseThree" class="accordion-body collapse">-->
-                    <!--<ul class="accordion-inner">-->
-                        <!--<li>Example Topic 1</li>-->
-                        <!--<li>Example Topic 2</li>-->
-                    <!--</ul>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--END MODULE-->
+    <div class="jos-controlpanel jos-controlpanel-browselist">
+        Browse List
     </div>
     <!--END MODULE-->
+    <!--START MODULE-->
+    <div class="jos-controlpanel jos-controlpanel-left">
+        <div class="tabbable">
+            <ul class="nav nav-tabs nav-tabs-small jos-controlpanel-header">
+                <div class="btn-group btn-group-justified">
+                    <a type="button" class="btn btn-link btn-small">
+                        <i class="glyphicon glyphicon-eye-open"></i>
+                        Filter
+                    </a>
+                    <a type="button" class="btn btn-link btn-small">
+                        <i class="glyphicon glyphicon-eye-close"></i>
+                        Filter
+                    </a>
+                    <a type="button" class="btn btn-link btn-small">
+                        <i class="glyphicon glyphicon-eye-close"></i>
+                        Filter
+                    </a>
+                    <a type="button" class="btn btn-link btn-small">
+                        <i class="glyphicon glyphicon-eye-open"></i>
+                        Filter
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+                <li class="active"><a href="#sections" data-toggle="tab">Sections</a></li>
+                <li><a href="#topics" data-toggle="tab">Topics</a></li>
+                <li><a href="#staff" data-toggle="tab">Staff</a></li>
+                <li><a href="#deadlines" data-toggle="tab">Deadlines</a></li>
+            </ul>
+            <div class="tab-content jos-controlpanel-body">
+                <div class="tab-pane active" id="sections">
+                    <div class="jos-controlpanel-body-header">
+                        <div class="jos-controlpanel-actions">
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-small" data-trigger="shift-right" type="button">Action</button>
+                                </span>
+                                <input type="text" class="input-small">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jos-controlpanel-body-content">
+                        <ul class="list-group">
+                            <li class="list-group-item">Section</li>
+                            <li class="list-group-item">Section</li>
+                            <li class="list-group-item">Section</li>
+                            <li class="list-group-item">Section</li>
+                            <li class="list-group-item">Section</li>
+                            <li class="list-group-item">Section</li>
+                            <li class="list-group-item">Section</li>
+                            <li class="list-group-item">Section</li>
+                            <li class="list-group-item">Section</li>
+                            <li class="list-group-item">Section</li>
+                            <li class="list-group-item">Section</li>
+                            <li class="list-group-item">Section</li>
+                            <li class="list-group-item">Section</li>
+                        </ul>
+                    </div>
+                    <div class="jos-controlpanel-body-footer">Footer</div>
+                </div>
+                <div class="tab-pane" id="topics">
+                    <div class="jos-controlpanel-body-header">
+                        <div class="jos-controlpanel-actions">
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-small" type="button">Action</button>
+                                </span>
+                                <input type="text" class="input-small">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jos-controlpanel-body-content">
+                        <ul class="list-group">
+                            <li class="list-group-item">Topic</li>
+                            <li class="list-group-item">Topic</li>
+                            <li class="list-group-item">Topic</li>
+                            <li class="list-group-item">Topic</li>
+                            <li class="list-group-item">Topic</li>
+                            <li class="list-group-item">Topic</li>
+                            <li class="list-group-item">Topic</li>
+                        </ul>
+                    </div>
+                    <div class="jos-controlpanel-body-footer">Footer</div>
+                </div>
+                <div class="tab-pane" id="staff">
+                    <div class="jos-controlpanel-body-header">
+                        <div class="jos-controlpanel-actions">
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-small" type="button">Action</button>
+                                </span>
+                                <input type="text" class="input-small">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jos-controlpanel-body-content">
+                        <ul class="list-group">
+                            <li class="list-group-item">Staff</li>
+                            <li class="list-group-item">Staff</li>
+                            <li class="list-group-item">Staff</li>
+                            <li class="list-group-item">Staff</li>
+                            <li class="list-group-item">Staff</li>
+                            <li class="list-group-item">Staff</li>
+                            <li class="list-group-item">Staff</li>
+                        </ul>
+                    </div>
+                    <div class="jos-controlpanel-body-footer">Footer</div>
+                </div>
+                <div class="tab-pane" id="deadlines">
+                    <div class="jos-controlpanel-body-header">
+                        <div class="jos-controlpanel-actions">
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-small" type="button">Action</button>
+                                </span>
+                                <input type="text" class="input-small">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jos-controlpanel-body-content">
+                        <ul class="list-group">
+                            <li class="list-group-item">Deadline</li>
+                            <li class="list-group-item">Deadline</li>
+                            <li class="list-group-item">Deadline</li>
+                        </ul>
+                    </div>
+                    <div class="jos-controlpanel-body-footer">Footer</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END MODULE-->
+    <!--START MODULE-->
+    <div class="jos-controlpanel jos-controlpanel-right">
+        Right control panel
+    </div>
+    <!--END MODULE-->
+
+    <div class="jos-appcanvas-content">
+        <h3>AppCanvas</h3>
+        <button class="btn" data-trigger="shift-left">Shift Left</button>
+    </div>
 
 
 </div>
@@ -168,8 +257,11 @@
 
 <!--Scripts-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../js/bootstrap-transition.js"></script>
 <script src="../js/bootstrap-dropdown.js"></script>
 <script src="../js/jos/jos-bootstrap-collapse.js"></script>
 <script src="../js/jos/jos-appcanvas.js"></script>
+<script src="../js/bootstrap-tab.js"></script>
+<script src="../js/jos/jos-controlpanel.js"></script>
 </body>
 </html>

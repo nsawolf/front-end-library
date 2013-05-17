@@ -3,49 +3,160 @@
 =================================== */
 
 .jos-controlpanel{
+  .transition(@transition);
   width: @controlpanel-width;
   #translucent > .background(#000, .5);
+  display: inline-block;
   color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: @zindex-controlpanel;
 }
 .jos-controlpanel-header{
   #translucent > .background(#000, .5);
 
 }
 
-/* SubMenu
-=================================== */
-.jos-controlpanel-submenu .jos-controlpanel-header{
-  padding: @padding;
+
+  /* Common Parts
+  =================================== */
+.jos-controlpanel-header{
+  background: @gray;
+  border-bottom: 1px solid @gray-light;
+//  position: relative;
 }
-.jos-controlpanel-submenu .jos-controlpanel-header .data{
-  line-height: @line-height-base*1.25;
+.jos-controlpanel-header .btn-group{
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+.jos-controlpanel-header .btn{
   color: @gray-light;
 }
-.jos-controlpanel-submenu .jos-controlpanel-header h2{
-  font-weight: 300;
-  line-height: @line-height-base;
+.jos-controlpanel-header .btn:hover{
+  text-decoration: none;
+  color: #fff;
 }
-.jos-controlpanel-submenu .accordion-inner li{
-  position: relative;
+.jos-controlpanel-header .btn i{
+  display: block;
+  line-height: 10px;
 }
-.jos-controlpanel-submenu .jos-detailcontent-indicator{
-  width: 0;
-  height: 0;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-right: 15px solid @submenu-indicator-color;
-  display: inline-block;
+.jos-controlpanel-body{
   position: absolute;
+  bottom: 0px;
+  width: @controlpanel-width;
+  left: 0;
+  overflow: auto;
+}
+.jos-controlpanel-body-header{
+  padding: @padding;
+  position: relative;
+  background: #fff;
+  border: 1px solid @controlpanel-border-color;
+  border-bottom: 0px;
+  border-top: 0px;
+  .box-shadow(0 4px 2px -2px rgba(0,0,0,.125));
+  z-index: @zindex-controlpanel-actions;
+}
+.jos-controlpanel-body-content{
+  position: absolute;
+  left: 0;
   right: 0;
-  top: 2px;
+  overflow: auto;
 }
-.jos-controlpanel-submenu .list-group .jos-detailcontent-indicator {
-  top: 4px;
+.jos-controlpanel-body-footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-top: 1px solid @gray-light;
+  padding: @padding;
+  background: @gray;
 }
-.jos-controlpanel-submenu figure{
-  margin: 0 auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  border-bottom: 1px solid #6a6a6a;
+.jos-controlpanel-actions{
+
 }
+
+
+/* Adjustments/states
+=================================== */
+.shift-default{
+  .jos-controlpanel-left{
+    left: 0;
+    .box-shadow(@box-shadow);
+  }
+  .jos-controlpanel-browselist{left: -@controlpanel-width; /*width of ControlPanel--BrowseList*/}
+  .jos-controlpanel-right{
+    right: -@controlpanel-width;
+    border-right: 1px solid @gray-light;  // maybe...
+    .box-shadow(@box-shadow);
+  }
+}
+.shift-right{
+  .jos-controlpanel-left{margin-left: @controlpanel-width;  /*width of ControlPanel--BrowseList*/}
+  .jos-controlpanel-browselist{left: 0;}
+  .jos-controlpanel-right{right: -@controlpanel-width;}
+}
+.shift-left{
+  .jos-controlpanel-left{margin-left: -@controlpanel-width;  /*width of ControlPanel*/}
+  .jos-controlpanel-right{right: 0;}
+  .jos-controlpanel-browselist{margin-left: -@controlpanel-width;}
+}
+
+
+/* ==================================
+    Variants
+=================================== */
+// Submenu
+.jos-controlpanel-submenu{
+  #translucent > .background(@controlpanel-background-color, .70);
+
+  // Common part overrides
+  .jos-controlpanel-header{
+    padding: @padding;
+    background: transparent;
+    border: 0px;
+  }
+  .jos-controlpanel-header .data{
+    line-height: @line-height-base;
+    color: @gray-light;
+    margin-bottom: 0px;
+  }
+  .jos-controlpanel-header h2{
+    font-weight: 300;
+    line-height: @line-height-base*1.25;
+    color: @brand-primary;
+    margin-top: 10px;
+  }
+  .accordion-inner li{
+    position: relative;
+  }
+
+  // Detail Content
+  figure{
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-bottom: 1px solid #6a6a6a;
+  }
+}
+
+
+/* ==================================
+    Integrations
+=================================== */
+// List Group
+.jos-controlpanel{
+  .list-group{
+    margin-bottom: 0px;
+  }
+  .list-group-item{
+    color: @controlpanel-link-color;
+  }
+}
+
+
+
+
+

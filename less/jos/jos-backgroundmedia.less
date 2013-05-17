@@ -3,22 +3,18 @@
 =================================== */
 
 .jos-backgroundmedia{
-    background: #fff no-repeat top center; /*background-image: url() is set by js*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  position: relative;
 
-}
-.jos-backgroundmedia:before{
-    content: "";
-    background: url(../../../img/jos-backgroundmedia-raster.png) transparent repeat left top;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  position: absolute;
+  top: @mainmenu-height; // wonky way to do this...might change based on view
+  left: 0;
+  right: 0;
+  bottom: @footer-height;
+  background: #fff no-repeat top center; /*background-image: url() is set by js*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 .jos-backgroundmedia-caption{
@@ -31,7 +27,7 @@
     cursor: pointer;
     right: 0;
     margin-right: 0px;
-    bottom: 20px;
+    bottom: @footer-height + 20px;
 }
 
 .jos-backgroundmedia-caption.l-fixed{

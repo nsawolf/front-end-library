@@ -10,24 +10,29 @@
 // Grays
 // -------------------------
 
+@black:                  #232323;
 @gray-darker:            lighten(#000, 13.5%); // #222
 @gray-dark:              lighten(#000, 20%);   // #333
 @gray:                   lighten(#000, 33.5%); // #555
 @gray-light:             lighten(#000, 60%);   // #999
 @gray-lighter:           lighten(#000, 93.5%); // #eee
+@white:                  #fdfdfd;
 
 // Brand colors
 // -------------------------
 
-@brand-primary:         #e5a31b;
+@brand-primary:         #fcb319;
+@brand-secondary:       #216d9d;
 @brand-success:         #5cb85c;
 @brand-warning:         #f0ad4e;
 @brand-danger:          #d9534f;
 @brand-info:            #5bc0de;
 
+
 // Decoration
 // ------------------------------
 @box-shadow:            0 3px 8px rgba(0,0,0,.125);
+@transition:            .5s;
 
 // Scaffolding
 // -------------------------
@@ -45,12 +50,13 @@
 // -------------------------
 
 @font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-serif:       "Jubilat", Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
 @font-size-base:          14px;
 @font-size-large:         (@font-size-base * 1.25); // ~18px
+@font-size-medium:        16px;
 @font-size-small:         (@font-size-base * 0.85); // ~12px
 @font-size-mini:          (@font-size-base * 0.75); // ~11px
 
@@ -76,7 +82,7 @@
 @border-radius-large:     0px;
 @border-radius-small:     0px;
 
-@component-active-bg:            @brand-primary;
+@component-active-bg:            @brand-secondary;
 
 
 // Tables
@@ -158,8 +164,11 @@
 
 @zindex-dropdown:          1000;
 @zindex-popover:           1010;
+@zindex-controlpanel:      1010;
+@zindex-detailcontent:      1010;
 @zindex-tooltip:           1030;
 @zindex-navbar-fixed:      1030;
+@zindex-controlpanel-actions: 1030;
 @zindex-modal-background:  1040;
 @zindex-modal:             1050;
 
@@ -196,11 +205,11 @@
 @navbar-inverse-bg:                         #111;
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 #fff;
+@navbar-inverse-link-color:                 @white;
 @navbar-inverse-link-hover-color:           #fff;
 @navbar-inverse-link-hover-bg:              transparent;
 @navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
-@navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-link-active-bg:             darken(@brand-secondary, 10%);
 @navbar-inverse-link-disabled-color:        #444;
 @navbar-inverse-link-disabled-bg:           transparent;
 
@@ -424,8 +433,15 @@
     Jostens Custom Component Variables
 =================================== */
 
+// jos-navbar-mainmenu
+@mainmenu-height:         55px;
+
 // jos-controlpanel
-@controlpanel-width:     20em; /*20*14px = 280px*/
+@controlpanel-width:            20em; /*20*14px = 280px*/
+@controlpanel-border-color:     @list-group-border;
+@controlpanel-background-color: #434343;
+@controlpanel-link-color:       @white;
+@controlpanel-link-hover-color: @gray-light;
 
 // Submenu
 @submenu-indicator-color: #fff;
@@ -435,5 +451,9 @@
 @tabs-merch-width:        100px;
 
 // jos-detailcontent
-@detailcontent-bg:        #fff;
+@detailcontent-bg:        @white;
+
+// jos-footer
+@footer-height:           90px;
+@footer-background-color: @black;
 
