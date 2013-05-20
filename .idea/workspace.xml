@@ -10,7 +10,7 @@
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369067046415" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369067108692" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368823554055" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -107,7 +107,7 @@
       <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="491" selection-end="491" vertical-scroll-proportion="0.20192307">
+            <state line="15" column="0" selection-start="551" selection-end="551" vertical-scroll-proportion="0.21634616">
               <folding>
                 <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -485,7 +485,11 @@
       <created>1369067048570</created>
       <updated>1369067048571</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="IE8 Issue testing">
+      <created>1369067110746</created>
+      <updated>1369067110746</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -716,7 +720,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="491" selection-end="491" vertical-scroll-proportion="0.20192307">
+        <state line="15" column="0" selection-start="551" selection-end="551" vertical-scroll-proportion="0.21634616">
           <folding>
             <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
