@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jos/jos-book.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jos/jos-bootstrap-button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jos/jos-bootstrap-tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-button-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/_build/css/global.css" afterPath="$PROJECT_DIR$/less/_build/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/_build/global.less" afterPath="$PROJECT_DIR$/less/_build/global.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-appcanvas.less" afterPath="$PROJECT_DIR$/less/jos/jos-appcanvas.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-buttons.less" afterPath="$PROJECT_DIR$/less/jos/jos-buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-navbar.less" afterPath="$PROJECT_DIR$/less/jos/jos-navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-variables.less" afterPath="$PROJECT_DIR$/less/jos/jos-variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-book.html" afterPath="$PROJECT_DIR$/examples/view-book.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-homepage.html" afterPath="$PROJECT_DIR$/examples/view-homepage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368818248143" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369066967514" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368823554055" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -75,7 +64,7 @@
     <file path="/jos-coverlist.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368141082345" ignored="false" />
     <file path="/view-coverchoose.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368139749577" ignored="false" />
     <file path="/jos-autocolumn.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368139143693" ignored="false" />
-    <file path="/view-homepage.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368809020506" ignored="false" />
+    <file path="/view-homepage.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369067020031" ignored="false" />
     <file path="/jos-detailcontent.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368651432960" ignored="false" />
     <file path="/jos-detailcontent.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368555550490" ignored="false" />
     <file path="/jos-detailcontent.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368546893999" ignored="false" />
@@ -118,7 +107,7 @@
       <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="43" selection-start="99" selection-end="99" vertical-scroll-proportion="0.057692308">
+            <state line="15" column="53" selection-start="611" selection-end="611" vertical-scroll-proportion="0.21634616">
               <folding>
                 <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -488,7 +477,11 @@
       <created>1368818249375</created>
       <updated>1368818249375</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Book example explored">
+      <created>1369066971038</created>
+      <updated>1369066971038</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -556,7 +549,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Book example started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Book example explored" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -593,6 +586,7 @@
     <MESSAGE value="added footer example" />
     <MESSAGE value="Login view example added" />
     <MESSAGE value="Book example started" />
+    <MESSAGE value="Book example explored" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -717,7 +711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="43" selection-start="99" selection-end="99" vertical-scroll-proportion="0.057692308">
+        <state line="15" column="53" selection-start="611" selection-end="611" vertical-scroll-proportion="0.21634616">
           <folding>
             <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
