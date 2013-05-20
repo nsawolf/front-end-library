@@ -44,26 +44,26 @@
 =================================== */
 .jos-navbar-toolbar{
   padding: 0;
-//  #gradient > .vertical(@navbar-toolbar-bg-light, @navbar-toolbar-bg-dark);
-  background: @navbar-toolbar-bg-light;
-//  .box-shadow(@box-shadow);
+  background: @toolbar-bg;
   margin-bottom: 0;
 }
 .jos-navbar-toolbar > .navbar-nav > li > a {
   padding: 6px @padding-value;
-  color: darken(@navbar-inverse-link-color, 50%);
+  color: @toolbar-link;
   font-weight: 200;
   font-size: @font-size-small;
+  border-top: 1px solid transparent;
 }
 .jos-navbar-toolbar > .navbar-nav > .active > a,
 .jos-navbar-toolbar > .navbar-nav > li > a:hover{
-  background: #000;
-  color: @white;
+  background: @toolbar-link-hover-bg;
+  color: @toolbar-link-hover;
+  border-top: 1px solid @toolbar-link-hover-bg;
 }
 
 .jos-navbar-footer{
   .text-center;
-  #gradient > .vertical(@navbar-toolbar-bg-light, @navbar-toolbar-bg-dark);
+  #gradient > .vertical(@toolbar-bg, @black);
   margin-left: -16px;
   margin-right: -16px;
   margin-bottom: -16px;

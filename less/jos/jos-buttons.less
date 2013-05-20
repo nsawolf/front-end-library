@@ -9,3 +9,31 @@
 .btn-link:focus{
   color: @link-inverse-hover-color;
 }
+
+/* Integrations
+=================================== */
+
+// Buttons in jos-navbar-toolbar
+.jos-navbar-toolbar{
+  .btn{
+    padding: 6px @padding-value;
+    color: @toolbar-link;
+    font-weight: 200;
+    font-size: @font-size-small;
+    background: @toolbar-bg;
+    border: 0px;
+    border-top: 1px solid @toolbar-bg;
+  }
+  .btn:hover{
+    background: @toolbar-link-hover-bg;
+    color: @toolbar-link-hover;
+    border-top: 1px solid @toolbar-link-hover-bg;
+  }
+  .btn.active{
+    border: 0px;
+    border-top: 1px solid @brand-primary;
+    background: lighten(@toolbar-link-hover-bg, 5%);
+    color: @toolbar-link-hover;
+    .box-shadow(none);
+  }
+}
