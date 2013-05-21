@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   right: 0;
-  bottom: @footer-height;
+  bottom: 0;
   background: #fff no-repeat top center; /*background-image: url() is set by js*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,12 +15,15 @@
   background-size: cover;
 
 }
+.jos-backgroundmedia.int-footer{
+  bottom: @footer-height;
+}
 
 .jos-backgroundmedia-caption{
     position: absolute;
     display: inline-block;
     width: 28em; /*19.5*16px = 312px*/
-    background: rgba(0, 0, 0, 0.7);
+  #translucent > .background(@component-bg-dark, @component-bg-dark-opacity);
     padding: 1.25em;
     padding-right: 4.5em; /*3.5*16px = 56px*/
     cursor: pointer;
@@ -34,7 +37,7 @@
     float: none;
 }
 .jos-backgroundmedia-caption{
-    color: #bcbdbc;
+    color: @background-media-color;
     font-size: .85em;
 }
 .jos-backgroundmedia-caption a{

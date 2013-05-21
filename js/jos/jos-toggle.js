@@ -45,6 +45,7 @@ $(function(){
                     var targetObject = $(target);
 
                     targetObject.hide();
+                    $(this).removeClass('active');
                 });
             }
         }

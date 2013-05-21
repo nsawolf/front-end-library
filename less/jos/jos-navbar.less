@@ -20,25 +20,33 @@
 //  .box-shadow(@box-shadow);
   z-index: @zindex-navbar-fixed;
 
-}
-.jos-navbar-mainmenu .jos-logo{
-  display: inline-block;
-  margin-top: 15px;
-}
-.jos-navbar-mainmenu .nav{
-  float: right !important; /*TODO: Verify that this is necessary...Im nervous that this IE hack (important) should be fixed in another fashion.*/
-  display: inline-block;
+  .jos-logo{
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .nav{
+    float: right !important; /*TODO: Verify that this is necessary...Im nervous that this IE hack (important) should be fixed in another fashion.*/
+    display: inline-block;
 
+  }
+  .nav > li > a {
+    text-transform: uppercase;
+    font-size: @font-size-small;
+    padding: @padding;
+    padding-top: 25px;
+  }
+  .nav > li > a:hover{
+    background: @component-hover-bg;
+  }
+
+  .navbar-nav li.dropdown.open > .dropdown-toggle {
+    background-color: @navbar-inverse-link-selected-bg;
+    color: @navbar-inverse-link-color;
+  }
 }
-.jos-navbar-mainmenu .nav > li > a {
-  text-transform: uppercase;
-  font-size: @font-size-small;
-  padding: @padding;
-  padding-top: 25px;
-}
-.jos-navbar-mainmenu .nav > li > a:hover{
-  background: @brand-secondary;
-}
+
+
+
 
 /* toolbar variant
 =================================== */

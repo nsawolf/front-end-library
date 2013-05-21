@@ -10,13 +10,14 @@
 // Grays
 // -------------------------
 
-@black:                  #232323;
+@black:                  #1b1b1b;
 @gray-darker:            lighten(#000, 13.5%); // #222
 @gray-dark:              lighten(#000, 20%);   // #333
 @gray:                   lighten(#000, 33.5%); // #555
 @gray-light:             lighten(#000, 60%);   // #999
 @gray-lighter:           lighten(#000, 93.5%); // #eee
 @white:                  #fdfdfd;
+
 
 // Brand colors
 // -------------------------
@@ -39,6 +40,7 @@
 
 @body-bg:               #fff;
 @text-color:            @gray-dark;
+@metadata-color:        @gray-light;
 
 // Links
 // -------------------------
@@ -84,7 +86,12 @@
 @border-radius-large:     0px;
 @border-radius-small:     0px;
 
-@component-active-bg:            @brand-secondary;
+@component-hover-bg:        @brand-secondary;
+@component-active-bg:       @brand-primary;
+@component-selected-bg:     darken(@brand-secondary,10%);
+
+@component-bg-dark:         @black;
+@component-bg-dark-opacity: .85;
 
 
 // Tables
@@ -142,7 +149,7 @@
 // Dropdowns
 // -------------------------
 
-@dropdown-bg:                    #000;
+@dropdown-bg:                    @black;
 @dropdown-border:                rgba(0,0,0,.15);
 @dropdown-divider-top:           #e5e5e5;
 @dropdown-divider-bottom:        #fff;
@@ -152,7 +159,7 @@
 
 @dropdown-link-color:            #fff;
 @dropdown-link-hover-color:      #fff;
-@dropdown-link-hover-bg:         @dropdown-link-active-bg;
+@dropdown-link-hover-bg:         @component-hover-bg;
 
 
 // COMPONENT VARIABLES
@@ -211,7 +218,8 @@
 @navbar-inverse-link-hover-color:           #fff;
 @navbar-inverse-link-hover-bg:              transparent;
 @navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
-@navbar-inverse-link-active-bg:             darken(@brand-secondary, 10%);
+@navbar-inverse-link-active-bg:             @component-active-bg;
+@navbar-inverse-link-selected-bg:           @component-selected-bg;
 @navbar-inverse-link-disabled-color:        #444;
 @navbar-inverse-link-disabled-bg:           transparent;
 
@@ -328,14 +336,18 @@
 
 // List group
 // -------------------------
-@list-group-bg:               #fff;
+@list-group-bg:               @white;
 @list-group-border:           #ddd;
 @list-group-border-radius:    @border-radius-base;
 
-@list-group-hover-bg:         #f5f5f5;
-@list-group-active-text:      #fff;
+@list-group-hover-bg:         @component-hover-bg;
+@list-group-active-text:      @white;
 @list-group-active-bg:        @component-active-bg;
 @list-group-active-border:    @list-group-active-bg;
+
+@list-group-selected-bg:      @component-selected-bg;
+
+
 
 // Panels
 // -------------------------
@@ -448,15 +460,21 @@
 
 // jos-controlpanel
 @controlpanel-width:            20em; /*20*14px = 280px*/
-@controlpanel-bg:               #434343;
+@controlpanel-bg:               @black;
 @controlpanel-border:           @list-group-border;
+
+@controlpanel-header-color:     #ccc;
 @controlpanel-header-bg:        @white;
 
+@controlpanel-hover-bg:         @list-group-hover-bg;
+@controlpanel-active-bg:        @list-group-active-bg;
+@controlpanel-selected-bg:      darken(@list-group-hover-bg, 10%);
+
 @controlpanel-link-color:       @white;
-@controlpanel-link-hover-color: @gray-light;
+@controlpanel-link-hover-color: @white;
 
 // Submenu
-@submenu-indicator-color: #fff;
+@submenu-indicator-color: @white;
 
 // Tabs
 @tabs-merch-height:       110px;
@@ -468,4 +486,9 @@
 // jos-footer
 @footer-height:           90px;
 @footer-background-color: @black;
+
+// jos-backgroundmedia
+@background-media-color:  @metadata-color;
+
+
 

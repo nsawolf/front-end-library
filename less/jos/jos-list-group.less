@@ -6,17 +6,16 @@
 .list-group i{
   width: 0;
   height: 0;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-right: 15px solid @submenu-indicator-color;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-right: 17px solid @submenu-indicator-color;
   display: inline-block;
   position: absolute;
   right: 0;
-  top: 4px;
+  top: 2px;
   visibility: hidden;
 }
 a.list-group-item:hover i{
-  visibility: visible;
   border-right-color: darken(@submenu-indicator-color, 50%);
 }
 a.list-group-item.active i,
@@ -25,6 +24,16 @@ a.list-group-item.active:hover i{
   border-right-color: @submenu-indicator-color;
 }
 
+// Carat
+.list-group .caret {
+  border-top-color: @controlpanel-link-color;
+  margin-top: @line-height-base/3;
+}
+.list-group .active .caret {
+  border-top-color: transparent;
+  border-bottom: 4px solid @controlpanel-link-color;
+  margin-top: @line-height-base/5;
+}
 
 // Active class on item itself, not parent
 a.list-group-item.active {
@@ -64,18 +73,27 @@ a.list-group-item.active {
   }
   .list-group-item {
     font-size: @font-size-medium;
+    #translucent > .background(@component-bg-dark, @component-bg-dark-opacity);
   }
+  .toggle .list-group-item{
+    padding-left: @padding-value*2;
+    #translucent > .background(@controlpanel-bg,.5);
+  }
+  .toggle .list-group-item.active{
+    background: @controlpanel-selected-bg;
+  }
+//  [data-group] {display: none;}
   a.list-group-item:hover,
   a.list-group-item:focus {
     text-decoration: none;
     background-color: inherit;
-    #translucent > .background(@black, .8);
+    background: @controlpanel-hover-bg;
     color: @controlpanel-link-hover-color;
   }
   a.list-group-item.active {
     z-index: 2; // Place active items above their siblings for proper border styling
     color: @list-group-active-text;
-    #translucent > .background(@black, .6);
+    background: @controlpanel-active-bg;
     border: 0;
     border-right: 0px;
     .box-shadow(none);
@@ -87,6 +105,12 @@ a.list-group-item.active {
     .list-group-item-text {
       color: lighten(@list-group-active-bg, 40%);
     }
+  }
+  // Chevrons and badges within list items
+  // -------------------------
+
+  .list-group-item > .badge{
+    float: none;
   }
 }
 
