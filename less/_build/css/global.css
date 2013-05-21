@@ -590,7 +590,7 @@ button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-ap
 .navbar-nav>li>.dropdown-menu{margin-top:-1px;border-top-left-radius:0;border-top-right-radius:0;}
 .jos-navbar-mainmenu{margin-bottom:0px;background:#232323;z-index:1030;}
 .jos-navbar-mainmenu .jos-logo{display:inline-block;margin-top:15px;}
-.jos-navbar-mainmenu .nav{float:right;display:inline-block;}
+.jos-navbar-mainmenu .nav{float:right !important;display:inline-block;}
 .jos-navbar-mainmenu .nav>li>a{text-transform:uppercase;font-size:11.9px;padding:10px 15px;padding-top:25px;}
 .jos-navbar-mainmenu .nav>li>a:hover{background:#216d9d;}
 .jos-navbar-toolbar{padding:0;background:#404040;margin-bottom:0;}

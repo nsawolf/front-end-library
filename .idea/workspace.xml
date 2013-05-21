@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-navbar.less" afterPath="$PROJECT_DIR$/less/jos/jos-navbar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/_build/css/global.css" afterPath="$PROJECT_DIR$/less/_build/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-homepage.html" afterPath="$PROJECT_DIR$/examples/view-homepage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369149543129" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369149552195" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368823554055" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -104,19 +105,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="view-homepage.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="56" selection-start="252" selection-end="252" vertical-scroll-proportion="-0.625">
+            <state line="321" column="70" selection-start="18085" selection-end="18085" vertical-scroll-proportion="0.8269231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jos-navbar.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="jos-navbar.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/jos/jos-navbar.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="145" selection-start="712" selection-end="712" vertical-scroll-proportion="0.6104651">
+            <state line="40" column="6" selection-start="957" selection-end="957" vertical-scroll-proportion="-24.0">
               <folding />
             </state>
           </provider>
@@ -161,10 +162,10 @@
         <option value="$PROJECT_DIR$/less/jos/jos-panels.less" />
         <option value="$PROJECT_DIR$/examples/view-login.html" />
         <option value="$PROJECT_DIR$/less/buttons.less" />
-        <option value="$PROJECT_DIR$/examples/view-homepage.html" />
         <option value="$PROJECT_DIR$/less/jos/jos-controlpanel.less" />
         <option value="$PROJECT_DIR$/less/jos/jos-variables.less" />
         <option value="$PROJECT_DIR$/less/jos/jos-navbar.less" />
+        <option value="$PROJECT_DIR$/examples/view-homepage.html" />
       </list>
     </option>
   </component>
@@ -549,7 +550,11 @@
       <created>1369149217155</created>
       <updated>1369149217156</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="IE8 Issue testing">
+      <created>1369149555428</created>
+      <updated>1369149555428</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -574,11 +579,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-400" width="1920" height="1200" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2265625" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -778,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="56" selection-start="252" selection-end="252" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/jos/jos-navs.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -794,7 +792,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/jos/jos-navbar.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="145" selection-start="712" selection-end="712" vertical-scroll-proportion="0.6104651">
+        <state line="40" column="6" selection-start="957" selection-end="957" vertical-scroll-proportion="-24.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="321" column="70" selection-start="18085" selection-end="18085" vertical-scroll-proportion="0.8269231">
           <folding />
         </state>
       </provider>
