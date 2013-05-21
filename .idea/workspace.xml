@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/_build/css/global.css" afterPath="$PROJECT_DIR$/less/_build/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-list-group.less" afterPath="$PROJECT_DIR$/less/jos/jos-list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-mixins.less" afterPath="$PROJECT_DIR$/less/jos/jos-mixins.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-homepage.html" afterPath="$PROJECT_DIR$/examples/view-homepage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369163976177" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369174874835" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368823554055" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -112,7 +108,7 @@
       <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="317" column="0" selection-start="17987" selection-end="17987" vertical-scroll-proportion="0.5670628">
+            <state line="319" column="50" selection-start="18145" selection-end="18145" vertical-scroll-proportion="0.61799663">
               <folding />
             </state>
           </provider>
@@ -582,7 +578,11 @@
       <created>1369163979844</created>
       <updated>1369163979844</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="ie8 testing&#10;">
+      <created>1369174877707</created>
+      <updated>1369174877707</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -670,7 +670,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home page styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="ie8 testing&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -684,7 +684,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="first major update" />
     <MESSAGE value="example: buttons-dropdown" />
     <MESSAGE value="Redo index as datagrid" />
     <MESSAGE value="Updated format for index datagrid" />
@@ -709,6 +708,7 @@
     <MESSAGE value="Book example explored" />
     <MESSAGE value="IE8 Issue testing" />
     <MESSAGE value="Home page styling" />
+    <MESSAGE value="ie8 testing&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -797,7 +797,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="317" column="0" selection-start="17987" selection-end="17987" vertical-scroll-proportion="0.5670628">
+        <state line="319" column="50" selection-start="18145" selection-end="18145" vertical-scroll-proportion="0.61799663">
           <folding />
         </state>
       </provider>
