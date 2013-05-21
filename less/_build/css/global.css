@@ -462,7 +462,7 @@ a.list-group-item.active .list-group-item-text{color:#fff6e2;}
 .list-group-item>.badge,.list-group-item>.glyphicon-chevron-right{float:right;margin-right:-15px;}
 .list-group-item>.glyphicon-chevron-right{margin-right:-15px;}
 .list-group-item>.glyphicon+.badge{margin-right:5px;}
-.list-group i{width:0;height:0;border-top:17px solid transparent;border-bottom:17px solid transparent;border-right:17px solid #fdfdfd;display:inline-block;position:absolute;right:0;top:2px;visibility:hidden;}
+.list-group i{width:0;height:0;border-top:17px solid transparent;border-bottom:17px solid transparent;border-right:17px solid #fdfdfd;display:inline-block;position:absolute;right:0;top:3px;visibility:hidden;}
 a.list-group-item:hover i{border-right-color:#7e7e7e;}
 a.list-group-item.active i,a.list-group-item.active:hover i{visibility:visible;border-right-color:#fdfdfd;}
 .list-group .caret{border-top-color:#fdfdfd;margin-top:6.666666666666667px;}
