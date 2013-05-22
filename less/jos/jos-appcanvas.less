@@ -37,29 +37,35 @@
 }
 
 
-/* Variants
-=================================== */
-.jos-appcanvas-book{
-  // Default
-  .jos-appcanvas-content{left: @controlpanel-width; /* Width of ControlPanel */}
-
-  // Shift Left
-  &.shift-left .jos-appcanvas-content{
-    left: 0;
-    right: @controlpanel-width; /* Width of ControlPanel */
-  }
-}
-
-.jos-appcanvas-home{
-  // Default
-  .jos-appcanvas-content{left: @controlpanel-width; /* Width of ControlPanel */}
-}
-
 
 /* Integrations
 =================================== */
 
 // Appcanvas with Background Media
-.int-jos-backgroundmedia .jos-appcanvas-content{
+.jos-backgroundmedia .jos-appcanvas-content{
   background: url(../../../img/jos-backgroundmedia-raster.png) transparent repeat left top;
+}
+
+// Appcanvas with ControlPanel(s)
+.int-jos-controlpanel{
+  &.shift-default .jos-appcanvas-content{
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  &.shift-right .jos-appcanvas-content{
+    left: @controlpanel-width; /* Width of ControlPanel */;
+    right: 0;
+  }
+  &.shift-left .jos-appcanvas-content{
+    left: 0;
+    right: @controlpanel-width; /* Width of ControlPanel */
+  }
+
+  // Variants
+  &.shift-browselist .jos-appcanvas-content{
+    left: @controlpanel-width; /* Width of ControlPanel */;
+    right: 0;
+  }
 }

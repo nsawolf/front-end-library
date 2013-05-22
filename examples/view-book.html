@@ -97,12 +97,12 @@
     <div class="navbar jos-navbar-toolbar">
         <ul class="nav navbar-nav">
             <li><a href="#"><span class="glyphicon glyphicon-ok"></span> Task 1</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-plus"></span> Task 2</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-circle_plus"></span> Task 2</a></li>
             <li><a href="#"><span class="glyphicon glyphicon-print"></span> Task 3</a></li>
         </ul>
         <div class="btn-group pull-right" data-toggle="buttons-radio">
             <label class="btn"><input type="radio" name="options" id="option1" data-toggle="view"><i class="glyphicon glyphicon-book"></i> Book</label>
-            <label class="btn active"><input type="radio" name="options" id="option2" data-toggle="view"><i class="glyphicon glyphicon-th"></i> Group</label>
+            <label class="btn active"><input type="radio" name="options" id="option2" data-toggle="view"><i class="glyphicon glyphicon-show_big_thumbnails"></i> Group</label>
             <label class="btn"><input type="radio" name="options" id="option3" data-toggle="view"><i class="glyphicon glyphicon-file"></i> Page</label>
         </div>
     </div>
@@ -110,7 +110,7 @@
 </div>
 
 <!--START MODULE:-->
-<div class="jos-appcanvas shift-default jos-appcanvas-book int-jos-controlpanel">
+<div class="jos-appcanvas shift-right jos-appcanvas-book int-jos-controlpanel">
     <!--START MODULE-->
     <div class="jos-controlpanel jos-controlpanel-browselist">
         Browse List
@@ -122,19 +122,19 @@
             <ul class="nav nav-tabs nav-tabs-small jos-controlpanel-header">
                 <div class="btn-group btn-group-justified">
                     <a type="button" class="btn btn-link btn-small">
-                        <i class="glyphicon glyphicon-eye-open"></i>
+                        <i class="glyphicon glyphicon-eye_open"></i>
                         Filter
                     </a>
                     <a type="button" class="btn btn-link btn-small">
-                        <i class="glyphicon glyphicon-eye-close"></i>
+                        <i class="glyphicon glyphicon-eye_close"></i>
                         Filter
                     </a>
                     <a type="button" class="btn btn-link btn-small">
-                        <i class="glyphicon glyphicon-eye-close"></i>
+                        <i class="glyphicon glyphicon-eye_close"></i>
                         Filter
                     </a>
                     <a type="button" class="btn btn-link btn-small">
-                        <i class="glyphicon glyphicon-eye-open"></i>
+                        <i class="glyphicon glyphicon-eye_open"></i>
                         Filter
                     </a>
                 </div>
@@ -254,6 +254,11 @@
     <!--END MODULE-->
 
     <div class="jos-appcanvas-content">
+        <div class="text-center">
+            <button class="btn btn-small" data-trigger="shift-browselist" type="button">Browselist</button>
+            <button class="btn btn-small" data-trigger="shift-right" type="button">Shift Right</button>
+            <button class="btn btn-small" data-trigger="shift-left" type="button">Shift Left</button>
+        </div>
         <div class="view view-book">
             <h3>View-Book</h3>
         </div>

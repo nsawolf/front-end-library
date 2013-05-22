@@ -65,35 +65,6 @@
   padding: @padding;
   #translucent > .background(@controlpanel-bg, .8);
 }
-.jos-controlpanel-actions{
-
-}
-
-
-/* Adjustments/states
-=================================== */
-.shift-default{
-  .jos-controlpanel-left{
-    left: 0;
-    .box-shadow(@box-shadow);
-  }
-  .jos-controlpanel-browselist{left: -@controlpanel-width; /*width of ControlPanel--BrowseList*/}
-  .jos-controlpanel-right{
-    right: -@controlpanel-width;
-    border-right: 1px solid @gray-light;  // maybe...
-    .box-shadow(@box-shadow);
-  }
-}
-.shift-right{
-  .jos-controlpanel-left{margin-left: @controlpanel-width;  /*width of ControlPanel--BrowseList*/}
-  .jos-controlpanel-browselist{left: 0;}
-  .jos-controlpanel-right{right: -@controlpanel-width;}
-}
-.shift-left{
-  .jos-controlpanel-left{margin-left: -@controlpanel-width;  /*width of ControlPanel*/}
-  .jos-controlpanel-right{right: 0;}
-  .jos-controlpanel-browselist{margin-left: -@controlpanel-width;}
-}
 
 
 /* Variants
@@ -125,6 +96,49 @@
     border-bottom: 1px solid #6a6a6a;
   }
 }
+
+/* Variants
+=================================== */
+
+
+/* Integrations
+=================================== */
+
+// ControlPanel on AppCanvas - Default
+.jos-appcanvas{
+  &.shift-default{
+    .jos-controlpanel-left{left: -@controlpanel-width;}
+    .jos-controlpanel-right{right: -@controlpanel-width;}
+  }
+  &.shift-right{
+    .jos-controlpanel-left{
+      left: 0;
+      .box-shadow(@box-shadow);
+    }
+    .jos-controlpanel-right{
+      right: -@controlpanel-width;
+      border-right: 1px solid @gray-light;  // maybe...
+      .box-shadow(@box-shadow);
+    }
+  }
+  &.shift-left{
+    .jos-controlpanel-left{margin-left: -@controlpanel-width;  /*width of ControlPanel*/}
+    .jos-controlpanel-right{right: 0;}
+  }
+
+  // Variants
+  &.jos-appcanvas-book{
+    .jos-controlpanel-browselist{left: -@controlpanel-width;}
+    &.shift-browselist{
+      .jos-controlpanel-browselist{left: 0;}
+      .jos-controlpanel-left{margin-left: @controlpanel-width;}
+      .jos-controlpanel-right{right: -@controlpanel-width;}
+    }
+  }
+}
+
+
+
 
 
 
