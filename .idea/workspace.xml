@@ -8,12 +8,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/glyphicons/images/glyphicons-white.svg" afterPath="$PROJECT_DIR$/docs/glyphicons/images/glyphicons-white.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/glyphicons/images/glyphicons.svg" afterPath="$PROJECT_DIR$/docs/glyphicons/images/glyphicons.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/glyphicons/scripts/modernizr.js" afterPath="$PROJECT_DIR$/docs/glyphicons/scripts/modernizr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-homepage.html" afterPath="$PROJECT_DIR$/examples/view-homepage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369336944828" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369337220694" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369256425900" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -655,7 +654,11 @@
       <created>1369336951765</created>
       <updated>1369336951765</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="IE8 teting">
+      <created>1369337223999</created>
+      <updated>1369337224000</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
