@@ -14,6 +14,24 @@
     <!-- Typekit Scripts -->
     <script type="text/javascript" src="//use.typekit.net/hon8eiw.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <style>
+        /*Note: This is dangerous. Need to figure out the ideal relationship between Library and prototypes*/
+        #example .modal-dialog{
+            left: 50%;
+            right: auto;
+            width: 800px;
+            margin-left: -400px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .jos-coverlist{
+            margin-top: 20px;
+        }
+        .thumbnail{cursor: pointer;}
+        .current-cover{ margin-bottom: 20px;}
+        .current-cover h3{margin-top: 0px;}
+    </style>
 </head>
 
 <body>
@@ -94,16 +112,158 @@
                 <h1>Cover Setup <small>Choose your cover</small></h1>
             </div>
         </div>
-        <div class="col col-lg-12 text-center">
+        </div>
+    <div class="row">
+        <div class="col col-lg-4 col-push-8 text-center current-cover">
             <h3>Current Cover</h3>
-            <img src="http://placehold.it/260x310" />
+            <img src="http://placehold.it/300x360" />
             <br>
             <br>
-            <a class="btn">Choose A Cover</a>
             <a class="btn btn-primary">Submit Choice</a>
+        </div>
+        <div class="col col-lg-8 col-pull-4">
+            <!-- Single button -->
+            <div class="btn-group btn-group-select btn-group-select-color">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" value="default">
+                    <img src="http://placehold.it/16x16"> Select Text Color <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#" value="01"><img src="http://placehold.it/16x16"> Color 01</a></li>
+                    <li><a href="#" value="02"><img src="http://placehold.it/16x16"> Color 02</a></li>
+                </ul>
+            </div>
+            <!-- Single button -->
+            <div class="btn-group btn-group-select btn-group-select-personalization">
+                <button class="btn dropdown-toggle" data-toggle="dropdown" value="off">
+                    Personalization Off <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#" value="on">Personalization On</a></li>
+                    <li><a href="#" value="off">Personalization Off</a></li>
+                </ul>
+            </div>
+            <ul class="list-unstyled jos-coverlist jos-coverlist-fixed jos-autocolumn" data-maxsize="145">
+                <!--01-->
+                <li class="jos-autocolumn-item" data-color="01" data-personalization="on">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameA 01 on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="01" data-personalization="off">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameA 01 off</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="01" data-personalization="on">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameB 01 on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="01" data-personalization="off">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameB 01 off</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="01" data-personalization="on">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameC 01 on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="01" data-personalization="off">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameC 01 off</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="01" data-personalization="on">
+                    <div class="thumbnail">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameD 01 on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="01" data-personalization="off">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameD 01 off</h4></div>
+                    </div>
+                </li>
+                <!--02-->
+                <li class="jos-autocolumn-item" data-color="02" data-personalization="on">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameA 02 on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="02" data-personalization="off">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameA 02 off</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="02" data-personalization="on">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameB 02 on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="02" data-personalization="off">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameB 02 off</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="02" data-personalization="on">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameC 02 on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="02" data-personalization="off">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameC 02 off</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="02" data-personalization="on">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameD 02 on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="02" data-personalization="off">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameD 02 off</h4></div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="example">
+    <!-- Modal -->
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Choose Cover</h4>
+            </div>
+            <div class="modal-body text-center">
+                <img src="http://placehold.it/700x400">
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal">Cancel</a>
+                <a href="#" class="btn btn-primary" data-dismiss="modal">Choose This Cover</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dalog -->
+</div><!-- /.modal -->
 
 
 
@@ -113,12 +273,17 @@
 <script src="../js/bootstrap-dropdown.js"></script>
 <script src="../js/bootstrap-alert.js"></script>
 <script src="../js/bootstrap-modal.js"></script>
+<script src="../js/jos/jos-autocolumn.js"></script>
+<script src="../js/jos/jos-bootstrap-button.js"></script>
+<script src="../js/jos/jos-coverchoose.js"></script>
 <script>
     $(function(){
-        $('#alert-trigger').on('click',function(){
-            $('.alert').parent().show();
+        $('.current-cover').css('visibility', 'hidden');
+        $('.modal-footer .btn-primary').on('click',function(){
+            $('.current-cover').css('visibility','visible');
         });
     });
 </script>
+
 </body>
 </html>
