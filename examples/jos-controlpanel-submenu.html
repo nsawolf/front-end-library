@@ -21,62 +21,32 @@
 <!--START MODULE-->
 <div class="jos-controlpanel jos-controlpanel-left jos-controlpanel-submenu">
     <div class="jos-controlpanel-header">
-        <p class="data">February 12, 2014</p>
+        <p class="data data-date-full"></p>
         <h2>Hello, Hallie!</h2>
         <p class="data">Central High School</p>
     </div>
+
     <!--START MODULE-->
-    <div class="accordion" id="exampleAccordion">
-        <div class="accordion-group">
-            <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseOne">
-                    Your Assignments
-                </a>
-            </div>
-            <div id="collapseOne" class="accordion-body collapse in">
-                <ul class="accordion-inner">
-                    <li>Example Topic 1</li>
-                    <li>Example Topic 2</li>
-                </ul>
-            </div>
+    <div class="list-group jos-controlpanel-body">
+        <a href="#myassignments" class="list-group-item" data-toggle="toggle" data-group="detailcontent">My Assignments <b class="caret"></b></a>
+        <div class="toggle" id="myassignments">
+            <a href="#assignment1" class="toggle-escape list-group-item" data-toggle="toggle" data-group="test">Assignment 1<i></i></a>
+            <a href="#assignment2" class="toggle-escape list-group-item" data-toggle="toggle" data-group="test">Assignment 2<i></i></a>
         </div>
-        <div class="accordion-group">
-            <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseTwo">
-                    Header
-                </a>
-            </div>
-            <div id="collapseTwo" class="accordion-body collapse">
-                <ul class="accordion-inner">
-                    <li>Example Topic 1</li>
-                    <li>Example Topic 2</li>
-                </ul>
-            </div>
-        </div>
-        <div class="accordion-group">
-            <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapseThree">
-                    Header
-                </a>
-            </div>
-            <div id="collapseThree" class="accordion-body collapse">
-                <ul class="accordion-inner">
-                    <li>Example Topic 1</li>
-                    <li>Example Topic 2</li>
-                </ul>
-            </div>
-        </div>
+        <a href="#announcements" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Announcements <span class="badge">4</span><i></i></a>
+        <a href="#gallery" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Gallery<i></i></a>
+        <!--<a href="#design" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Design Resources<i></i></a>-->
+        <a href="#status" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Page Status<i></i></a>
+        <a href="#sales" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Sales<i></i></a>
+        <a href="#excellence" class="list-group-item" data-toggle="toggle"  data-group="detailcontent">Excellence Program<i></i></a>
+        <a href="#images" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Images<i></i></a>
+        <a href="#deadlines" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Deadlines<i></i></a>
+        <a href="#staff" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Staff Page Completion<i></i></a>
+        <!--<a href="#preview" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Preview Your Yearbook<i></i></a>-->
+        <a href="#training" class="list-group-item" data-toggle="toggle" data-group="detailcontent">Training<i></i></a>
+
     </div>
     <!--END MODULE-->
-    <figure class="SubMenu-figure">
-        <img src="http://placehold.it/210x70" />
-    </figure>
-    <figure class="SubMenu-figure">
-        <img src="http://placehold.it/210x70" />
-    </figure>
-    <figure class="SubMenu-figure">
-        <img src="http://placehold.it/210x70" />
-    </figure>
 </div>
 <!--END MODULE-->
 
@@ -85,5 +55,8 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="../js/bootstrap-dropdown.js"></script>
 <script src="../js/jos/jos-bootstrap-collapse.js"></script>
+<script src="../js/jos/jos-date.js"></script>
+<script src="../js/jos/jos-controlpanel.js"></script>
+<script src="../js/jos/jos-toggle.js"></script>
 </body>
 </html>

@@ -7,13 +7,13 @@
     <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/glyphicons/images/glyphicons-white.svg" afterPath="$PROJECT_DIR$/docs/glyphicons/images/glyphicons-white.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/glyphicons/images/glyphicons.svg" afterPath="$PROJECT_DIR$/docs/glyphicons/images/glyphicons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/jos-controlpanel-submenu.html" afterPath="$PROJECT_DIR$/examples/jos-controlpanel-submenu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/glyphicons/scripts/modernizr.js" afterPath="$PROJECT_DIR$/docs/glyphicons/scripts/modernizr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-homepage.html" afterPath="$PROJECT_DIR$/examples/view-homepage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369323889538" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369324002287" ignored="false" />
     <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369256425900" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
@@ -38,7 +38,7 @@
     <file path="$PROJECT_DIR$/../library3.0/less/jos/jos-mixins-suplimental.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367878680019" ignored="false" />
     <file path="/jos-mixins-suplimental.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367878446629" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/examples/jos-controlpanel-submenu.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367878971893" ignored="false" />
-    <file path="/jos-controlpanel-submenu.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367878953975" ignored="false" />
+    <file path="/jos-controlpanel-submenu.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369324086181" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/jos/jos-backgroundmedia.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367940150800" ignored="false" />
     <file path="/jos-backgroundmedia.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369158090539" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/examples/jos-backgroundmedia.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367940496713" ignored="false" />
@@ -134,10 +134,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-homepage.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="view-homepage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="43" selection-start="6897" selection-end="6897" vertical-scroll-proportion="0.66502464">
+            <state line="322" column="0" selection-start="18198" selection-end="18245" vertical-scroll-proportion="-16.734694">
+              <folding>
+                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jos-controlpanel-submenu.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/jos-controlpanel-submenu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="47" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.84045583">
               <folding />
             </state>
           </provider>
@@ -172,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/examples/jos-navbar-mainmenu.html" />
         <option value="$PROJECT_DIR$/js/jos/jos-appcanvas.js" />
         <option value="$PROJECT_DIR$/examples/jos-appcanvas.html" />
         <option value="$PROJECT_DIR$/less/jos/jos-appcanvas.less" />
@@ -188,6 +199,7 @@
         <option value="$PROJECT_DIR$/js/jos/jos-controlpanel.js" />
         <option value="$PROJECT_DIR$/js/jos/jos-date.js" />
         <option value="$PROJECT_DIR$/examples/view-homepage.html" />
+        <option value="$PROJECT_DIR$/examples/jos-controlpanel-submenu.html" />
       </list>
     </option>
   </component>
@@ -639,7 +651,11 @@
       <created>1369323893567</created>
       <updated>1369323893567</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Date.js edit">
+      <created>1369324006864</created>
+      <updated>1369324006864</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -727,7 +743,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cover Chooser MVP and Date.js addition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date.js edit" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -741,7 +757,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Updated format for index datagrid" />
     <MESSAGE value="New changelist" />
     <MESSAGE value="Updated Library grid data" />
     <MESSAGE value="Provided popover aids for Column header titles" />
@@ -766,16 +781,12 @@
     <MESSAGE value="ie8 testing&#10;" />
     <MESSAGE value="New glyphicons added AppCanvas updated" />
     <MESSAGE value="Cover Chooser MVP and Date.js addition" />
+    <MESSAGE value="Date.js edit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/jos/jos-bootstrap-button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="65" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/view-book.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="84" selection-start="6075" selection-end="6075" vertical-scroll-proportion="0.27431905" />
@@ -863,7 +874,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/view-homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="43" selection-start="6897" selection-end="6897" vertical-scroll-proportion="0.66502464">
+        <state line="322" column="0" selection-start="18198" selection-end="18245" vertical-scroll-proportion="-16.734694">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/jos-controlpanel-submenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="47" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.84045583">
           <folding />
         </state>
       </provider>
