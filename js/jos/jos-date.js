@@ -23,7 +23,7 @@ $(function(){
     var dataDate = $('.data-date-full');
 
     // formats
-    var dateFull = d.getMonthName() + ' ' + d.getDay() + ', ' + d.getFullYear();
+    var dateFull = d.getMonthName() + ' ' + d.getUTCDate() + ', ' + d.getFullYear();
 
     dataDate.html(dateFull);
 });
