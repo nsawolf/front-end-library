@@ -53,7 +53,7 @@
                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creative Ideas</a></li>
             </ul>
         </li>
-        <li class="dropdown">
+        <li class="dropdown active">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Create <b class="caret"></b></a>
             <ul class="dropdown-menu" role="menu">
                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Designer</a></li>
@@ -92,10 +92,21 @@
             </ul>
         </li>
         <li><a href="#" role="button">Virtual Book</a></li>
+        <!--<li class="dropdown">-->
+        <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="glyphicon glyphicon-envelope"></i> <span class="badge">5</span></a>-->
+        <!--<ul class="dropdown-menu" role="menu">-->
+        <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-envelope"></i> Message 1</a></li>-->
+        <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-envelope"></i> Message 2</a></li>-->
+        <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-envelope"></i> Message 3</a></li>-->
+        <!--<li class="divider"></li>-->
+        <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-calendar"></i> Event A</a></li>-->
+        <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-calendar"></i> Event B</a></li>-->
+        <!--</ul>-->
+        <!--</li>-->
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Hello, User <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">My Account<b class="caret"></b></a>
             <ul class="dropdown-menu pull-right" role="menu">
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Account</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Need Help?</a></li>
                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sign Out</a></li>
             </ul>
@@ -125,17 +136,18 @@
             <!-- Single button -->
             <div class="btn-group btn-group-select btn-group-select-color">
                 <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" value="default">
-                    <img src="http://placehold.it/16x16"> Select Text Color <span class="caret"></span>
+                    <img src="http://placehold.it/16x16"> Default Color <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
+                    <li><a href="#" value="default"><img src="http://placehold.it/16x16"> Default Color</a></li>
                     <li><a href="#" value="01"><img src="http://placehold.it/16x16"> Color 01</a></li>
                     <li><a href="#" value="02"><img src="http://placehold.it/16x16"> Color 02</a></li>
                 </ul>
             </div>
             <!-- Single button -->
             <div class="btn-group btn-group-select btn-group-select-personalization">
-                <button class="btn dropdown-toggle" data-toggle="dropdown" value="off">
-                    Personalization Off <span class="caret"></span>
+                <button class="btn dropdown-toggle" data-toggle="dropdown" value="on">
+                    Personalization On <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
                     <li><a href="#" value="on">Personalization On</a></li>
@@ -143,6 +155,55 @@
                 </ul>
             </div>
             <ul class="list-unstyled jos-coverlist jos-coverlist-fixed jos-autocolumn" data-maxsize="145">
+                <!--default-->
+                <li class="jos-autocolumn-item" data-color="default" data-personalization="on">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameA default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="default" data-personalization="off">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameA default off</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="default" data-personalization="on">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameB default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="default" data-personalization="off">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameB default off</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="default" data-personalization="on">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameC default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="default" data-personalization="off">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameC default off</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="default" data-personalization="on">
+                    <div class="thumbnail">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameD default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item" data-color="default" data-personalization="off">
+                    <div class="thumbnail" data-toggle="modal" data-target="#example">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameD default off</h4></div>
+                    </div>
+                </li>
                 <!--01-->
                 <li class="jos-autocolumn-item" data-color="01" data-personalization="on">
                     <div class="thumbnail" data-toggle="modal" data-target="#example">
