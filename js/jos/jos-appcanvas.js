@@ -31,29 +31,6 @@ $(function(){
         var classList = appcanvas.attr('class').split(/\s+/);
 
         $.each( classList, function(index, item){
-//            // toggle self
-//            if ( item === 'shift-left' && trigger === 'shift-left' ){
-//                appcanvas.removeClass(trigger);
-//                appcanvas.toggleClass('shift-default');
-//            }
-//            else if ( item === 'shift-right' && trigger === 'shift-right' ){
-//                appcanvas.removeClass(trigger);
-//                appcanvas.toggleClass('shift-default');
-//            }
-//            // toggle opposites
-//            else if ( item === 'shift-left' && trigger === 'shift-right' ){
-//                appcanvas.removeClass('shift-left');
-//                appcanvas.toggleClass(trigger);
-//            }
-//            else if ( item === 'shift-right' && trigger === 'shift-left' ){
-//                appcanvas.removeClass('shift-right');
-//                appcanvas.toggleClass(trigger);
-//            }
-//            // toggle from default
-//            else if ( item === 'shift-default'){
-//                appcanvas.removeClass('shift-default');
-//                appcanvas.toggleClass(trigger);
-//            }
             // toggle self
             if ( item.match('^shift') ){
                 appcanvas.removeClass(item);

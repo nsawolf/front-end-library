@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>view-coverlaunchMVPv2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- styles -->
+    <link href="../less/_build/css/global.css" rel="stylesheet"> <!-- build file of all styles for example -->
+
+    <!-- scripts -->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!-- Typekit Scripts -->
+    <script type="text/javascript" src="//use.typekit.net/hon8eiw.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <style>
+        /*Note: This is dangerous. Need to figure out the ideal relationship between Library and prototypes*/
+        .modal-dialog{
+            left: 50%;
+            right: auto;
+            width: 800px;
+            margin-left: -400px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .jos-coverlist{
+            margin-top: 20px;
+        }
+        .thumbnail{cursor: pointer;}
+        .current-cover{ margin-bottom: 20px;}
+        .current-cover h3{margin-top: 0px;}
+        .filters{float: right; margin-top: -25px; margin-right: 30px;}
+    </style>
+</head>
+
+<body>
+<!--START MODULE-->
+<div class="navbar navbar-inverse jos-navbar-mainmenu">
+
+    <a href="#"><img class="jos-logo" src="../img/jos-navbar-mainmenu-logo.png"></a>
+    <ul class="nav navbar-nav jos-nav" role="navigation">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Plan <b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Ladder</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Staff</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Fonts</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Styles</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Features</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ReplayIt</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Order Supplies</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creative Ideas</a></li>
+            </ul>
+        </li>
+        <li class="dropdown active">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Create <b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Designer</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Ladder</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cover Designer</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Mover</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Image Library</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Panel Pages</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Index Flow</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Coverage Report</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creative Ideas</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Sell <b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Student List</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Setup Offers</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Enter Sales</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Plan & Promote</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">See Reports</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Submit Personalization</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Submit Final Qty</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Plant</a></li>
+            </ul>
+        </li>
+        <li><a role="button" href="#">Digital Classroom</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Status <b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Summary Report</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cover</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Submissions</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Deposits</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Soft Proof</a></li>
+            </ul>
+        </li>
+        <li><a href="#" role="button">Virtual Book</a></li>
+        <!--<li class="dropdown">-->
+        <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="glyphicon glyphicon-envelope"></i> <span class="badge">5</span></a>-->
+        <!--<ul class="dropdown-menu" role="menu">-->
+        <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-envelope"></i> Message 1</a></li>-->
+        <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-envelope"></i> Message 2</a></li>-->
+        <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-envelope"></i> Message 3</a></li>-->
+        <!--<li class="divider"></li>-->
+        <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-calendar"></i> Event A</a></li>-->
+        <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="glyphicon glyphicon-calendar"></i> Event B</a></li>-->
+        <!--</ul>-->
+        <!--</li>-->
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">My Account<b class="caret"></b></a>
+            <ul class="dropdown-menu pull-right" role="menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Need Help?</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sign Out</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+<!--END MODULE-->
+
+<div class="container">
+    <div class="row">
+        <div class="col col-lg-12">
+            <div class="page-header">
+                <h1>Cover Setup <small>Choose your cover</small></h1>
+            </div>
+        </div>
+        </div>
+    <div class="row">
+        <div class="col col-lg-6 col-push-6 text-center current-cover">
+            <h3>Current Cover</h3>
+            <img src="http://placehold.it/300x360" />
+            <br>
+            <br>
+            <a class="btn btn-primary">Submit Choice</a>
+        </div>
+        <div class="col col-lg-12">
+            <p class="alert">Note, these will always be what we default them to. They don't change after we make a selection in the modal.</p>
+            <ul class="list-unstyled jos-coverlist jos-coverlist-fixed jos-autocolumn" data-maxsize="145">
+                <!--default-->
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameA default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameB default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameC default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameD default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameE default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameF default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameG default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameH default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameI default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameJ default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameK default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameL default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameM default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameN default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameO default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameP default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameQ default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameR default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameS default on</h4></div>
+                    </div>
+                </li>
+                <li class="jos-autocolumn-item">
+                    <div class="thumbnail" data-toggle="modal" data-target="#exampleA">
+                        <img src="http://placehold.it/130x155" />
+                        <div class="caption"><h4>Example NameT default on</h4></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleA">
+    <!-- Modal -->
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Choose Cover</h4>
+                <div class="filters">
+                <!-- Single button -->
+                <div class="btn-group btn-group-select btn-group-select-personalization">
+                <button class="btn dropdown-toggle" data-toggle="dropdown" value="on">
+                Personalization On <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                <li><a href="#" value="on">Personalization On</a></li>
+                <li><a href="#" value="off">Personalization Off</a></li>
+                </ul>
+                </div>
+                <!-- Single button -->
+                <div class="btn-group btn-group-select btn-group-select-color">
+                    <button class="btn dropdown-toggle" data-toggle="dropdown" value="default">
+                        <img src="http://placehold.it/16x16"> Default Color <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" value="default"><img src="http://placehold.it/16x16"> Default Color</a></li>
+                        <li><a href="#" value="01"><img src="http://placehold.it/16x16/ff1212"> Color 01</a></li>
+                        <li><a href="#" value="02"><img src="http://placehold.it/16x16/ab6f2c"> Color 02</a></li>
+                        <li><a href="#" value="03"><img src="http://placehold.it/16x16/5cb85c"> Color 03</a></li>
+                        <li><a href="#" value="04"><img src="http://placehold.it/16x16/bfda38"> Color 04</a></li>
+                        <li><a href="#" value="05"><img src="http://placehold.it/16x16/dd6767"> Color 05</a></li>
+                        <li><a href="#" value="06"><img src="http://placehold.it/16x16/1d5e88"> Color 06</a></li>
+                        <li><a href="#" value="07"><img src="http://placehold.it/16x16/ff89aa"> Color 07</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="modal-body text-center">
+                <img src="http://placehold.it/700x400&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="default">
+                <img src="http://placehold.it/700x400/ff1212&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="01">
+                <img src="http://placehold.it/700x400/ab6f2c&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="02">
+                <img src="http://placehold.it/700x400/5cb85c&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="03">
+                <img src="http://placehold.it/700x400/bfda38&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="04">
+                <img src="http://placehold.it/700x400/dd6767&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="05">
+                <img src="http://placehold.it/700x400/1d5e88&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="06">
+                <img src="http://placehold.it/700x400/ff89aa&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="07">
+
+                <img src="http://placehold.it/700x400&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="default">
+                <img src="http://placehold.it/700x400/ff1212&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="01">
+                <img src="http://placehold.it/700x400/ab6f2c&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="02">
+                <img src="http://placehold.it/700x400/5cb85c&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="03">
+                <img src="http://placehold.it/700x400/bfda38&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="04">
+                <img src="http://placehold.it/700x400/dd6767&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="05">
+                <img src="http://placehold.it/700x400/1d5e88&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="06">
+                <img src="http://placehold.it/700x400/ff89aa&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="07">
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal">Cancel</a>
+                <a href="#" class="btn btn-primary" data-dismiss="modal">Choose This Cover</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dalog -->
+</div><!-- /.modal -->
+
+
+
+<!--Scripts-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../js/bootstrap-transition.js"></script>
+<script src="../js/bootstrap-dropdown.js"></script>
+<script src="../js/bootstrap-alert.js"></script>
+<script src="../js/bootstrap-modal.js"></script>
+<script src="../js/jos/jos-autocolumn.js"></script>
+<script src="../js/jos/jos-bootstrap-button.js"></script>
+<!--<script src="../js/jos/jos-coverchoose.js"></script>-->
+<script>
+    $(function(){
+        $('.current-cover').hide();
+        // adjust visibility
+        $('.modal-footer .btn-primary').on('click',function(){
+            $('.current-cover').show();
+            $('.jos-coverlist').parent().removeClass('col-lg-12').addClass('col-lg-6').addClass('col-pull-6');
+            autocolumn.size();
+        });
+
+        // assign current cover image
+        $('.modal-footer .btn-primary').on('click',function(){
+
+            var image = $('.jos-coverlist-preview:visible');
+            var src = image.attr('src');
+            $('.current-cover img').attr('src', src);
+
+        });
+    });
+
+    /* ==================================
+     jos-coverchoose.js (custom)
+     =================================== */
+
+    $(function(){
+        var coverItems = $('.jos-coverlist-preview');
+        var color;
+        var personalization;
+
+        function sort(){
+
+            color =  $('.btn-group-select-color .btn').val();
+            personalization =  $('.btn-group-select-personalization .btn').val();
+
+            coverItems.hide();
+            coverItems.each(function(){
+                var thisColor = $(this).attr('data-color');
+                var thisPersonalization = $(this).attr('data-personalization');
+                if ( thisColor == color && thisPersonalization == personalization ){
+                    $(this).show();
+                }
+            });
+        }
+
+        // Button Group Select
+        $(".btn-group-select .dropdown-menu li a").click(function(){
+            sort();
+        });
+        sort();
+
+    });
+</script>
+
+</body>
+</html>

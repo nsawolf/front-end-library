@@ -15,9 +15,6 @@
     <script src="../js/libs/css3-mediaqueries.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <![endif]-->
-    <!-- Typekit Scripts -->
-    <script type="text/javascript" src="//use.typekit.net/hon8eiw.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
 <body>
@@ -95,15 +92,13 @@
     <!--END MODULE-->
     <!--START MODULE-->
     <div class="navbar jos-navbar-toolbar">
-        <ul class="nav navbar-nav">
-            <li><a href="#"><span class="glyphicon glyphicon-ok"></span> Task 1</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-circle_plus"></span> Task 2</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-print"></span> Task 3</a></li>
-        </ul>
+        <button class="btn btn-small" data-trigger="shift-browselist" type="button">Browselist</button>
+        <button class="btn btn-small" data-trigger="shift-right" type="button">Shift Right</button>
+        <button class="btn btn-small" data-trigger="shift-left" type="button">Shift Left</button>
         <div class="btn-group pull-right" data-toggle="buttons-radio">
-            <label class="btn"><input type="radio" name="options" id="option1" data-toggle="view"><i class="glyphicon glyphicon-book"></i> Book</label>
-            <label class="btn active"><input type="radio" name="options" id="option2" data-toggle="view"><i class="glyphicon glyphicon-show_big_thumbnails"></i> Group</label>
-            <label class="btn"><input type="radio" name="options" id="option3" data-toggle="view"><i class="glyphicon glyphicon-file"></i> Page</label>
+            <label class="btn"><input type="radio" name="options" id="jos-view-book" data-toggle="view"><i class="glyphicon glyphicon-book"></i> Book</label>
+            <label class="btn active"><input type="radio" name="options" id="jos-view-group" data-toggle="view"><i class="glyphicon glyphicon-show_big_thumbnails"></i> Group</label>
+            <label class="btn"><input type="radio" name="options" id="jos-view-page" data-toggle="view"><i class="glyphicon glyphicon-file"></i> Page</label>
         </div>
     </div>
     <!--END MODULE-->
@@ -254,18 +249,121 @@
     <!--END MODULE-->
 
     <div class="jos-appcanvas-content">
-        <div class="text-center">
-            <button class="btn btn-small" data-trigger="shift-browselist" type="button">Browselist</button>
-            <button class="btn btn-small" data-trigger="shift-right" type="button">Shift Right</button>
-            <button class="btn btn-small" data-trigger="shift-left" type="button">Shift Left</button>
-        </div>
-        <div class="view view-book">
+        <div class="jos-view jos-view-book">
             <h3>View-Book</h3>
         </div>
-        <div class="view view-group">
-            <h3>View-Group</h3>
+        <div class="jos-view jos-view-group jos-autocolumn" data-maxsize="400">
+            <ul class="jos-page-group jos-page-group-16 jos-autocolumn-item">
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+            </ul>
+            <ul class="jos-page-group jos-page-group-16 jos-autocolumn-item">
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+            </ul>
+            <ul class="jos-page-group jos-page-group-16 jos-autocolumn-item">
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+            </ul>
+            <ul class="jos-page-group jos-page-group-16 jos-autocolumn-item">
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+            </ul>
+            <ul class="jos-page-group jos-page-group-16 jos-autocolumn-item">
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+            </ul>
+            <ul class="jos-page-group jos-page-group-16 jos-autocolumn-item">
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+            </ul>
+            <div class="clearfix"></div>
         </div>
-        <div class="view view-page">
+        <div class="jos-view jos-view-page">
             <h3>View-Page</h3>
         </div>
         <!--<button class="btn" data-trigger="shift-left">Shift Left</button>-->
@@ -274,6 +372,10 @@
 
 </div>
 <!--END MODULE: -->
+
+<!-- Typekit Scripts -->
+<!--<script type="text/javascript" src="http://use.typekit.net/hon8eiw.js"></script>-->
+<!--<script type="text/javascript">try{Typekit.load();}catch(e){}</script>-->
 
 
 <!--Scripts-->
@@ -288,5 +390,7 @@
 <script src="../js/jos/jos-bootstrap-tab.js"></script>
 <script src="../js/jos/jos-book.js"></script>
 <script src="../js/jos/jos-bootstrap-button.js"></script>
+<script src="../js/jos/jos-autocolumn.js"></script>
+<script src="../js/jos/jos-page-group.js"></script>
 </body>
 </html>

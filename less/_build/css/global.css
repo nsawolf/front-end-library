@@ -1061,7 +1061,7 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#fcb319;backgr
 @media screen and (min-width:768px){.jumbotron{padding:50px 60px;border-radius:0px;}.jumbotron h1{font-size:63px;}}.jos-controlpanel{-webkit-transition:0.5s;-moz-transition:0.5s;-o-transition:0.5s;transition:0.5s;width:20em;display:inline-block;color:#fff;position:absolute;top:0;bottom:0;z-index:1010;background-color:rgba(28, 28, 28, 0.5);}
 .jos-controlpanel-header{background:transparent;}
 .jos-controlpanel-header .btn-group{margin-bottom:4px;margin-top:4px;}
-.jos-controlpanel-header .btn{color:#999999;}
+.jos-controlpanel-header .btn{color:#555555;}
 .jos-controlpanel-header .btn:hover{text-decoration:none;color:#fff;}
 .jos-controlpanel-header .btn i{display:block;line-height:10px;}
 .jos-controlpanel-body{position:absolute;bottom:0px;width:100%;left:0;overflow:auto;}
@@ -1106,8 +1106,8 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#fcb319;backgr
 .jos-coverlist-fixed img{width:100%;}
 .jos-coverlist-fixed .caption{margin-top:0;}
 .jos-detailcontent{position:absolute;top:0;right:0;left:0;bottom:0px;background:#fdfdfd;padding:10px 15px;overflow:auto;z-index:1010;}
-.jos-appcanvas{position:absolute;top:0;right:0;bottom:0;left:0;overflow-x:hidden;overflow-y:auto;}
-.jos-appcanvas-content{position:absolute;top:0;right:0;bottom:0;left:0;padding:15px;-webkit-transition:0.5s;-moz-transition:0.5s;-o-transition:0.5s;transition:0.5s;}
+.jos-appcanvas{position:absolute;top:0;right:0;bottom:0;left:0;overflow:hidden;}
+.jos-appcanvas-content{position:absolute;top:0;right:0;bottom:0;left:0;overflow-x:hidden;overflow-y:auto;padding:15px;-webkit-transition:0.5s;-moz-transition:0.5s;-o-transition:0.5s;transition:0.5s;}
 .jos-appcanvas-above{position:absolute;top:0;right:0;left:0;}
 .jos-appcanvas-below{position:absolute;bottom:0;right:0;left:0;}
 .jos-backgroundmedia .jos-appcanvas-content{background:url(../../../img/jos-backgroundmedia-raster.png) transparent repeat left top;}
@@ -1120,6 +1120,15 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#fcb319;backgr
 .footer ul>li{padding-right:10px;border-right:1px solid #999999;}
 .footer ul>li:last-child{border:0px;}
 .footer a{color:#fdfdfd;}
+.jos-page-group{list-style-type:none;padding:0px;margin:0px;display:inline-block;}
+.jos-page-group-16{padding-left:7.5px;padding-right:7.5px;padding-bottom:15px;margin-bottom:15px;border-bottom:1px dashed #555555;}.jos-page-group-16 li{display:inline-block;float:left;width:50%;height:20px;border:1px solid #555555;}
+.jos-page-group-16 li:nth-child(1){border-top-width:2px;border-left-width:2px;border-right-width:2px;}
+.jos-page-group-16 li:nth-child(2){border-top-width:2px;}
+.jos-page-group-16 li:nth-child(odd){border-right-width:2px;}
+.jos-page-group-16 li:nth-child(even){border-left-width:2px;}
+.jos-page-group-16 li:nth-child(15){border-bottom-width:2px;}
+.jos-page-group-16 li:nth-child(16){border-bottom-width:2px;border-left-width:2px;border-right-width:2px;}
+.jos-page-group-16 li:first-child{margin-left:50%;}
 .tabs-merch .jos-theme-01 .callout,.tabs-merch .jos-theme-01 .box--primary .box-header,.tabs-merch .jos-theme-01 .ProgressBar-progress,.tabs-merch .jos-theme-01 .DateList-date{background-color:#972736;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#bf3244), to(#972736));background-image:-webkit-linear-gradient(top, #bf3244, #972736);background-image:-moz-linear-gradient(top, #bf3244, #972736);background-image:linear-gradient(to bottom, #bf3244, #972736);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbf3244', endColorstr='#ff972736', GradientType=0);}
 .tabs-merch .nav-tabs>.active.jos-theme-01>a,.tabs-merch .nav-tabs>.active.jos-theme-01>a:hover,.tabs-merch .nav-tabs>.active.jos-theme-01>a:focus{background-color:#d25263;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#d76675), to(#d25263));background-image:-webkit-linear-gradient(top, #d76675, #d25263);background-image:-moz-linear-gradient(top, #d76675, #d25263);background-image:linear-gradient(to bottom, #d76675, #d25263);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd76675', endColorstr='#ffd25263', GradientType=0);}
 .jos-theme-01 .panel-primary{border-color:#bf3244;}.jos-theme-01 .panel-primary .panel-heading{color:#fff;background-color:#972736;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#bf3244), to(#972736));background-image:-webkit-linear-gradient(top, #bf3244, #972736);background-image:-moz-linear-gradient(top, #bf3244, #972736);background-image:linear-gradient(to bottom, #bf3244, #972736);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbf3244', endColorstr='#ff972736', GradientType=0);border-color:transparent;}

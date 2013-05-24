@@ -1,0 +1,44 @@
+/* ==================================
+    jos-page-group
+=================================== */
+
+.jos-page-group{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+}
+
+/* Variants
+=================================== */
+.jos-page-group-16{
+
+  padding-left: @padding-value/2;
+  padding-right: @padding-value/2;
+  padding-bottom: @padding-value;
+  margin-bottom: @padding-value;
+  border-bottom: 1px dashed @gray;
+
+  li{
+    display: inline-block;
+    float: left;
+    width: @page-group-16-width;
+    height: 20px;
+    border: 1px solid @gray;
+  }
+  li:nth-child(1){
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+  }
+  li:nth-child(2){border-top-width: 2px;}
+  li:nth-child(odd){border-right-width: 2px;}
+  li:nth-child(even){border-left-width: 2px;}
+  li:nth-child(15){border-bottom-width: 2px;}
+  li:nth-child(16){
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+  }
+  li:first-child{margin-left: @page-group-16-width;}
+}

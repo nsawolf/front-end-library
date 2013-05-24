@@ -2,14 +2,16 @@
  jos-autocolumn
  =================================== */
 
-$(function(){
 
-    // Defaults - Set all items to float
-    $('.jos-autocolumn-item').css('float','left');
+var autocolumn = {
+
 
     /* Function Definition
      =================================== */
-    function autocolumn(){
+    size: function(){
+        // Defaults - Set all items to float
+        $('.jos-autocolumn-item').css('float','left');
+
         // Iterate through all AutoColumn Containers
         $('.jos-autocolumn').each(function(){
             // Grab all objects
@@ -31,14 +33,18 @@ $(function(){
 
         });
     }
+}
+
+$(function(){
 
     /* Initial Run and on Events
      =================================== */
-    autocolumn();
+    autocolumn.size();
 
     $(window).resize(function(){  /*TODO: There may be a better way to do this...delay it or something.*/
-        autocolumn();
+        autocolumn.size();
     });
+
 
 
 
