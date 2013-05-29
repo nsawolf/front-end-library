@@ -5,16 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f033882-2cd1-47cb-84e6-848fd40bd97e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/adamschnaare.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/b-modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/data-sections.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jos/jos-modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/view-test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-modal.js" afterPath="$PROJECT_DIR$/js/bootstrap-modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/_build/css/global.css" afterPath="$PROJECT_DIR$/less/_build/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/_build/global.less" afterPath="$PROJECT_DIR$/less/_build/global.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/glyphicons/images/glyphicons-white.svg" afterPath="$PROJECT_DIR$/docs/glyphicons/images/glyphicons-white.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/glyphicons/images/glyphicons.svg" afterPath="$PROJECT_DIR$/docs/glyphicons/images/glyphicons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jos/jos-appcanvas.js" afterPath="$PROJECT_DIR$/js/jos/jos-appcanvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jos/jos-book.js" afterPath="$PROJECT_DIR$/js/jos/jos-book.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jos/jos-controlpanel.js" afterPath="$PROJECT_DIR$/js/jos/jos-controlpanel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-page-group.less" afterPath="$PROJECT_DIR$/less/jos/jos-page-group.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jos/jos-variables.less" afterPath="$PROJECT_DIR$/less/jos/jos-variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/library.iml" afterPath="$PROJECT_DIR$/.idea/library.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/glyphicons/scripts/modernizr.js" afterPath="$PROJECT_DIR$/docs/glyphicons/scripts/modernizr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-coverlaunchMVPv2.html" afterPath="$PROJECT_DIR$/examples/view-coverlaunchMVPv2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/view-book.html" afterPath="$PROJECT_DIR$/examples/view-book.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369403480725" ignored="false" />
-    <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369345225721" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369841712340" ignored="false" />
+    <file path="/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369843007347" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/_build/global.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950285587" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367870933662" ignored="false" />
     <file path="/test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369174337603" ignored="false" />
@@ -27,7 +45,7 @@
     <file path="$PROJECT_DIR$/../library3.0/less/jos/jos-variables.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367950326146" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/less/jos/jos-dropdowns.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367878724837" ignored="false" />
     <file path="/jos-dropdowns.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369159216310" ignored="false" />
-    <file path="/jos-variables.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369345440073" ignored="false" />
+    <file path="/jos-variables.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369771807501" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/examples/view-homePage.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367877400988" ignored="false" />
     <file path="/view-homePage.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367877714655" ignored="false" />
     <file path="$PROJECT_DIR$/../library3.0/examples/view-homepage.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1367940057689" ignored="false" />
@@ -61,7 +79,7 @@
     <file path="/jos-panels.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369085845767" ignored="false" />
     <file path="/b-index.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368105881687" ignored="false" />
     <file path="/index2.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368108032924" ignored="false" />
-    <file path="/index.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369257925175" ignored="false" />
+    <file path="/index.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369843379880" ignored="false" />
     <file path="/view-coverlaunch.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368479845848" ignored="false" />
     <file path="/jos-coverlist.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368140364007" ignored="false" />
     <file path="/jos-coverlist.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368141082345" ignored="false" />
@@ -72,12 +90,12 @@
     <file path="/jos-detailcontent.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368555550490" ignored="false" />
     <file path="/jos-detailcontent.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368546893999" ignored="false" />
     <file path="/global.css" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368480798213" ignored="false" />
-    <file path="/view-book.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369347390442" ignored="false" />
+    <file path="/view-book.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369832906370" ignored="false" />
     <file path="/jos-appcanvas.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369348127920" ignored="false" />
     <file path="/a.dummy" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368539776218" ignored="false" />
-    <file path="/jos-appcanvas.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369245029936" ignored="false" />
+    <file path="/jos-appcanvas.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369424837601" ignored="false" />
     <file path="/jos-list-group.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369164535372" ignored="false" />
-    <file path="/jos-controlpanel.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369323729070" ignored="false" />
+    <file path="/jos-controlpanel.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369842119203" ignored="false" />
     <file path="/jos-navbar.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369163599628" ignored="false" />
     <file path="/jos-footer.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369158545725" ignored="false" />
     <file path="/jos-toggle.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369156642365" ignored="false" />
@@ -86,7 +104,7 @@
     <file path="/jos-buttons.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369153392907" ignored="false" />
     <file path="/jos-button-groups.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368823532036" ignored="false" />
     <file path="/jos-bootstrap-tab.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1368826474661" ignored="false" />
-    <file path="/jos-book.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369344845251" ignored="false" />
+    <file path="/jos-book.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369836348536" ignored="false" />
     <file path="/jos-bootstrap-button.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369252520948" ignored="false" />
     <file path="/jos-mixins.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369164499494" ignored="false" />
     <file path="/jos-appcanvas.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369245083681" ignored="false" />
@@ -95,9 +113,14 @@
     <file path="/jos-coverchoose.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369252775023" ignored="false" />
     <file path="/jos-glyphicons.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369256727470" ignored="false" />
     <file path="/jos-date.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369325116068" ignored="false" />
-    <file path="/jos-page-group.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369349143132" ignored="false" />
+    <file path="/jos-page-group.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369835821246" ignored="false" />
     <file path="/jos-page-group.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369347311844" ignored="false" />
     <file path="/view-coverlaunchMVPv2.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369403448990" ignored="false" />
+    <file path="/view-test.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369768009353" ignored="false" />
+    <file path="/bootstrap-modal.js" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369762059736" ignored="false" />
+    <file path="/jos-modal.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369843273709" ignored="false" />
+    <file path="/jos-modals.less" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369843286227" ignored="false" />
+    <file path="/b-modal.html" changelist="0f033882-2cd1-47cb-84e6-848fd40bd97e" time="1369843167804" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,17 +140,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="view-coverchooseMVP.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/view-coverchooseMVP.html">
+      <file leaf-file-name="jos-book.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jos/jos-book.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.875">
-              <folding />
+            <state line="28" column="7" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#1399#1469#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-coverlaunchMVP.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/view-coverlaunchMVP.html">
+      <file leaf-file-name="jos-controlpanel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jos/jos-controlpanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="22" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1046#1407#0" expanded="true" />
+                <element signature="e#1133#1362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="b-panels.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/b-panels.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -135,33 +173,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-coverlaunchMVPv2.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/view-coverlaunchMVPv2.html">
+      <file leaf-file-name="b-icons.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/b-icons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="256" column="73" selection-start="14639" selection-end="14639" vertical-scroll-proportion="0.28063944">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jos-autocolumn.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jos/jos-autocolumn.js">
+      <file leaf-file-name="b-buttons.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/b-buttons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="5" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="b-modal.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/b-modal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="54" selection-start="4424" selection-end="4424" vertical-scroll-proportion="-17.5">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jos-coverchoose.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jos/jos-coverchoose.js">
+      <file leaf-file-name="jos-modals.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/jos/jos-modals.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="117" selection-end="818" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="6" column="1" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="143" column="56" selection-start="9051" selection-end="9051" vertical-scroll-proportion="0.34338522">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jos-navbar.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/jos/jos-navbar.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jos-page-group.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/jos/jos-page-group.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="23" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -184,29 +256,55 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/jos/jos-controlpanel.js" />
-        <option value="$PROJECT_DIR$/examples/jos-controlpanel-submenu.html" />
-        <option value="$PROJECT_DIR$/js/jos/jos-date.js" />
-        <option value="$PROJECT_DIR$/examples/view-coverlaunchMVP.html" />
-        <option value="$PROJECT_DIR$/examples/view-homepage.html" />
-        <option value="$PROJECT_DIR$/js/jos/jos-appcanvas.js" />
-        <option value="$PROJECT_DIR$/less/jos/jos-controlpanel.less" />
-        <option value="$PROJECT_DIR$/js/jos/jos-book.js" />
-        <option value="$PROJECT_DIR$/less/_build/global.less" />
-        <option value="$PROJECT_DIR$/less/jos/jos-variables.less" />
-        <option value="$PROJECT_DIR$/js/jos/jos-page-group.js" />
-        <option value="$PROJECT_DIR$/examples/view-book.html" />
-        <option value="$PROJECT_DIR$/less/jos/jos-appcanvas.less" />
-        <option value="$PROJECT_DIR$/less/jos/jos-page-group.less" />
-        <option value="$PROJECT_DIR$/js/jos/jos-autocolumn.js" />
         <option value="$PROJECT_DIR$/examples/view-coverlaunchMVPv2.html" />
+        <option value="$PROJECT_DIR$/js/bootstrap-carousel.js" />
+        <option value="$PROJECT_DIR$/js/bootstrap-modal.js" />
+        <option value="$PROJECT_DIR$/examples/view-test.html" />
+        <option value="$PROJECT_DIR$/js/jos/jos-appcanvas2.js" />
+        <option value="$PROJECT_DIR$/js/jos/jos-appcanvas.js" />
+        <option value="$PROJECT_DIR$/less/jos/jos-variables.less" />
+        <option value="$PROJECT_DIR$/examples/view-book.html" />
+        <option value="$PROJECT_DIR$/less/jos/jos-page-group.less" />
+        <option value="$PROJECT_DIR$/js/jos/jos-book.js" />
+        <option value="$PROJECT_DIR$/js/jos/jos-controlpanel.js" />
+        <option value="$PROJECT_DIR$/examples/jos-modal.html" />
+        <option value="$PROJECT_DIR$/less/_build/global.less" />
+        <option value="$PROJECT_DIR$/examples/b-modal.html" />
+        <option value="$PROJECT_DIR$/less/jos/jos-modals.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="774" />
+    <option name="x" value="1280" />
+    <option name="y" value="-400" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>UnterminatedStatementJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -234,6 +332,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -312,52 +411,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front-end-library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yba/_library/yba-front-end-library" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yba/2013-03-10 - Winter Sales Meeting/prototype" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -365,10 +445,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/examples" />
+      <recent name="$PROJECT_DIR$/js/jos" />
       <recent name="$PROJECT_DIR$/js/libs" />
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/fonts" />
-      <recent name="$PROJECT_DIR$/less/jos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fonts" />
@@ -740,10 +820,14 @@
       <created>1369403484230</created>
       <updated>1369403484230</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="coverLaunchMVPv2">
+      <created>1369404166088</created>
+      <updated>1369404166088</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -764,23 +848,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="1280" y="-400" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842416" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25390625" sideWeight="0.6701031" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16927083" sideWeight="0.97375566" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911634" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -872,120 +956,147 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/_build/global.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="35" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.72611463">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/jos-appcanvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/jos/jos-page-group.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="82" selection-start="969" selection-end="969" vertical-scroll-proportion="0.78503186">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/view-coverchoose.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="109" selection-start="6144" selection-end="6178" vertical-scroll-proportion="0.024834437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/jos/jos-appcanvas.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="19" selection-start="251" selection-end="251" vertical-scroll-proportion="0.02388535">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/view-book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="363" column="34" selection-start="20743" selection-end="20743" vertical-scroll-proportion="0.047231272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jos/jos-book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="402" selection-end="402" vertical-scroll-proportion="0.29953918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/jos/jos-variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="493" column="29" selection-start="14728" selection-end="14728" vertical-scroll-proportion="0.76489025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jos/jos-appcanvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="48" selection-start="597" selection-end="597" vertical-scroll-proportion="0.3778802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jos/jos-page-group.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="507" selection-end="507" vertical-scroll-proportion="0.41474655">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/jos/jos-controlpanel.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="585" selection-end="585" vertical-scroll-proportion="0.023041476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/view-coverchooseMVP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jos/jos-coverchoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="117" selection-end="818" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/view-coverlaunchMVP.html">
+    <entry file="file://$PROJECT_DIR$/less/jos/jos-dropdowns.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jos/jos-autocolumn.js">
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-transition.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1224#1469#0" expanded="true" />
+            <element signature="e#1685#1721#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/view-coverlaunchMVPv2.html">
+    <entry file="file://$PROJECT_DIR$/examples/view-book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="73" selection-start="14639" selection-end="14639" vertical-scroll-proportion="0.28063944">
+        <state line="287" column="20" selection-start="16614" selection-end="17696" vertical-scroll-proportion="-13.625">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/jos/jos-page-group.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="23" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/jos/jos-book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="7" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1399#1469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/data-sections.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jos/jos-controlpanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="22" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1046#1407#0" expanded="true" />
+            <element signature="e#1133#1362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/b-panels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/b-icons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/b-buttons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/jos/jos-navbar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/_build/global.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="57" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.71768063">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/b-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="54" selection-start="4424" selection-end="4424" vertical-scroll-proportion="-17.5">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/modals.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.013927577">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/jos/jos-modals.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="56" selection-start="9051" selection-end="9051" vertical-scroll-proportion="0.34338522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37878788" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

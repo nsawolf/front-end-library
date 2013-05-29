@@ -249,3 +249,5 @@
       .on('hidden', '.modal', function () { $body.removeClass('modal-open') })
 
 }(window.jQuery);
+
+

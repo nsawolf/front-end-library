@@ -4,7 +4,8 @@
 
 $(function(){
 
-    // Process Sizes of parts
+    /* Sizing
+    =================================== */
     function sectionSizing(selector){
         $(selector).each(function(){
             // Find Values
@@ -22,4 +23,45 @@ $(function(){
     }
 
     sectionSizing('.jos-controlpanel');
+
+    /* Functionality
+    =================================== */
+    // Load Autocomplete Data
+    jQuery.extend({
+        getValues: function(url) {
+            var result = null;
+            $.ajax({
+                url: url,
+                type: 'get',
+                dataType: 'text',
+                async: false,
+                success: function(data) {
+                    result = data;
+                }
+            });
+            return result;
+        }
+    });
+
+    var dataSectionsOrig = $.getValues("data-sections.txt");
+    var dataSections = dataSectionsOrig.split(',');
+
+    // Load Section Values
+    function loadSectionValues(){
+        var sectionValue1 = getParameterByName('section1');
+        var sectionValue2 = getParameterByName('section2');
+        var sectionValue3 = getParameterByName('section3');
+        $('.sectionValue').each(function(i){
+            if( i<=0 ){
+                $(this).val(sectionValue1);
+            }
+            else if ( i>0 && i<=2 ){
+                $(this).val(sectionValue2);
+            }
+            else{
+                $(this).val(sectionValue3);
+            }
+        });
+
+    }
 })
