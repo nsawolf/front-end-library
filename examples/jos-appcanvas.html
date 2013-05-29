@@ -44,6 +44,47 @@
 
     <div class="jos-appcanvas-content">
         <h3>jos-appcanvas-content</h3>
+
+        <pre>
+<div class="appcanvas-above"></div>
+<div class="appcanvas">
+    <div class="appcanvas-content"></div>
+</div>
+<div class="appcanvas-below"></div></pre>
+        <p><strong>Note:</strong> Jostens uses <code>jos-appcanvas</code> as initialized in other examples</p>
+        <h3>Options</h3>
+        <table class="table table-bordered table-striped">
+            <thead>
+            <tr>
+                <th style="width: 100px;">Name</th>
+                <th style="width: 50px;">type</th>
+                <th style="width: 50px;">default</th>
+                <th>description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>siblingsAbove</td>
+                <td>string</td>
+                <td>.appcanvas-above</td>
+                <td>jQuery selector to identify DOM element that sits above the appcanvas</td>
+            </tr>
+            <tr>
+                <td>siblingsBelow</td>
+                <td>string</td>
+                <td>.appcanvas-below</td>
+                <td>jQuery selector to identify DOM element that sits below the appcanvas</td>
+            </tr>
+            <tr>
+                <td>shift</td>
+                <td>string</td>
+                <td>shift-default</td>
+                <td>The class that is attached to the appcanvas to control the shift state of its children</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <h3>ControlPanel Integration</h3>
         <button class="btn" data-trigger="shift-right">Assign Shift-Right</button>
         <button class="btn" data-trigger="shift-left">Assign Shift-Left</button>
         <button class="btn" data-trigger="shift-default">Assign Shift-Default</button>
@@ -70,5 +111,13 @@
 <script src="../js/jos/jos-bootstrap-tab.js"></script>
 <!--<script src="../js/jos/jos-book.js"></script>-->
 <script src="../js/jos/jos-bootstrap-button.js"></script>
+
+<script>
+//    Note: Just for example
+    $(function(){
+        var t = $('pre');
+        t.text(t.html());
+    });
+</script>
 </body>
 </html>
