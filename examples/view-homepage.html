@@ -99,7 +99,7 @@
 <!--END MODULE-->
 
 
-<div class="jos-appcanvas jos-backgroundmedia shift-right int-jos-controlpanel" id="test">
+<div class="jos-appcanvas jos-backgroundmedia int-jos-controlpanel" id="test">
 
     <!--START MODULE-->
     <div class="jos-controlpanel jos-controlpanel-left jos-controlpanel-submenu">
@@ -310,6 +310,7 @@
 
 <!--Page Scripts-->
 <script src="../js/libs/jquery.min.js"></script>
+<script src="../js/bootstrap-typeahead.js"></script>
 <script src="../js/bootstrap-dropdown.js"></script>
 <script src="../js/bootstrap-collapse.js"></script>
 <script src="../js/jos/jos-appcanvas.js"></script>
@@ -317,6 +318,18 @@
 <script src="../js/jos/jos-date.js"></script>
 <script src="../js/jos/jos-controlpanel.js"></script>
 <script src="../js/jos/jos-toggle.js"></script>
+
+<!--Plugin Instances-->
+<script>
+    $(function(){
+        // Instance of appcanvas
+        $('.jos-appcanvas').appcanvas({
+            siblingsAbove: '.jos-appcanvas-above',
+            siblingsBelow: '.jos-appcanvas-below',
+            shift: 'shift-right'
+        });
+    });
+</script>
 
 <!--Footer Scripts-->
 <!--<script src="../js/libs/selectivizr-min.js"></script>-->

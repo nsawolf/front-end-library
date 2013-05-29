@@ -24,7 +24,7 @@ $(function(){
 
     sectionSizing('.jos-controlpanel');
 
-    /* Functionality
+    /* Variant Functionality - Book Control Panel (Sections)
     =================================== */
     // Load Autocomplete Data
     jQuery.extend({
@@ -46,22 +46,34 @@ $(function(){
     var dataSectionsOrig = $.getValues("data-sections.txt");
     var dataSections = dataSectionsOrig.split(',');
 
-    // Load Section Values
-    function loadSectionValues(){
-        var sectionValue1 = getParameterByName('section1');
-        var sectionValue2 = getParameterByName('section2');
-        var sectionValue3 = getParameterByName('section3');
-        $('.sectionValue').each(function(i){
-            if( i<=0 ){
-                $(this).val(sectionValue1);
-            }
-            else if ( i>0 && i<=2 ){
-                $(this).val(sectionValue2);
-            }
-            else{
-                $(this).val(sectionValue3);
+
+    assignTypeahead('#sections');
+
+    // Typeahead
+    function assignTypeahead(listId){
+        $(listId + ' .typeahead').typeahead({
+            source: dataSections,
+            updater: function(item){
+                // add new topic
+                addListItem(item,listId);
             }
         });
-
     }
-})
+
+    // Add List Item
+    function addListItem(item, listId){
+        var newItem = $('.list-group-item.cloner')
+            .clone()
+            .removeClass('cloner hide')
+            .html(item);
+        $(listId + ' .list-group').append(newItem);
+    }
+
+//    function updateList(){
+//        isListEmpty(); // Check to see if list is empty
+//        sortTopicsAlpha(); // Sort the list alphabetically
+//        dragAndDrop(); // show/hide things as applicable
+//    };
+
+
+});

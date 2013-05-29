@@ -1166,6 +1166,7 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#fcb319;backgr
 .invisible{visibility:hidden;}
 .text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
 .affix{position:fixed;}
+.notransition{-webkit-transition:0s;-moz-transition:0s;-o-transition:0s;transition:0s;}
 @-ms-viewport{width:device-width;}@media screen and (max-width:400px){@-ms-viewport{width:320px;}}.hidden{display:none;visibility:hidden;}
 .visible-phone{display:inherit !important;}
 .visible-tablet{display:none !important;}
