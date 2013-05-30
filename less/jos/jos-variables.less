@@ -171,15 +171,16 @@
 // Used for a bird's eye view of components dependent on the z-axis
 // Try to avoid customizing these :)
 
-@zindex-dropdown:          1000;
-@zindex-popover:           1010;
-@zindex-controlpanel:      1010;
-@zindex-detailcontent:      1010;
-@zindex-tooltip:           1030;
-@zindex-navbar-fixed:      1030;
+@zindex-dropdown:             1000;
+@zindex-popover:              1010;
+@zindex-page-group:           1010;
+@zindex-detailcontent:        1010;
+@zindex-controlpanel:         1020;
+@zindex-tooltip:              1030;
+@zindex-navbar-fixed:         1030;
 @zindex-controlpanel-actions: 1030;
-@zindex-modal-background:  1040;
-@zindex-modal:             1050;
+@zindex-modal-background:     1040;
+@zindex-modal:                1050;
 
 
 // Glyphicons font path
@@ -425,6 +426,9 @@
 // So media queries don't overlap when required, provide a maximum
 @screen-small-max:           (@screen-medium - 1);
 @screen-tablet-max:          @screen-small-max;
+
+// Jostens Specific - Main Menu
+@screen-mainmenu-max:             1100px;
 
 // Large screen / wide desktop
 @screen-large:               1200px;

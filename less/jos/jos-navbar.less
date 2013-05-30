@@ -12,6 +12,9 @@
 }
 
 
+
+
+
 /* mainmenu variant
 =================================== */
 .jos-navbar-mainmenu{
@@ -25,8 +28,8 @@
     margin-top: 10px;
   }
   .nav{
-    float: right !important; /*TODO: Verify that this is necessary...Im nervous that this IE hack (important) should be fixed in another fashion.*/
-    display: inline-block;
+//    float: right !important; /*TODO: Verify that this is necessary...Im nervous that this IE hack (important) should be fixed in another fashion.*/
+//    display: inline-block;
 
   }
   .nav > li > a {
@@ -43,6 +46,34 @@
     background-color: @navbar-inverse-link-selected-bg;
     color: @navbar-inverse-link-color;
   }
+
+  .nav-collapse{
+    display: inline-block;
+    float: right;
+  }
+
+  // Responsive navbar
+  // --------------------------------------------------
+  @media screen and (max-width: @screen-tablet){
+    min-height: 55px;
+    .nav-collapse{
+      display: block;
+      float: none;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .jos-logo-yba{display: none;}
+  }
+  @media screen and (max-width: 1100px) {
+    .nav {
+      > li a{
+        padding: 10px 8px;
+        padding-top: 25px;
+      }
+    }
+  }
+
+
 }
 
 

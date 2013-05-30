@@ -855,10 +855,11 @@ button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-ap
 .navbar-inverse .navbar-link{color:#fdfdfd;}.navbar-inverse .navbar-link:hover{color:#ffffff;}
 .navbar-nav>li>.dropdown-menu{margin-top:-1px;border-top-left-radius:0;border-top-right-radius:0;}
 .jos-navbar-mainmenu{margin-bottom:0px;background:#1b1b1b;z-index:1030;}.jos-navbar-mainmenu .jos-logo{display:inline-block;margin-top:10px;}
-.jos-navbar-mainmenu .nav{float:right !important;display:inline-block;}
 .jos-navbar-mainmenu .nav>li>a{text-transform:uppercase;font-size:11.9px;padding:10px 15px;padding-top:25px;}
 .jos-navbar-mainmenu .nav>li>a:hover{background:#216d9d;}
 .jos-navbar-mainmenu .navbar-nav li.dropdown.open>.dropdown-toggle{background-color:#185073;color:#fdfdfd;}
+.jos-navbar-mainmenu .nav-collapse{display:inline-block;float:right;}
+@media screen and (max-width:768px){.jos-navbar-mainmenu{min-height:55px;}.jos-navbar-mainmenu .nav-collapse{display:block;float:none;}}@media screen and (max-width:1000px){.jos-navbar-mainmenu .jos-logo-yba{display:none;}}@media screen and (max-width:1100px){.jos-navbar-mainmenu .nav>li a{padding:10px 8px;padding-top:25px;}}
 .jos-navbar-toolbar{padding:0;background:#404040;margin-bottom:0;}
 .jos-navbar-toolbar>.navbar-nav>li>a{padding:6px 15px;color:#7e7e7e;font-weight:200;font-size:11.9px;border-top:1px solid transparent;}
 .jos-navbar-toolbar>.navbar-nav>.active>a,.jos-navbar-toolbar>.navbar-nav>li>a:hover{background:#1b1b1b;color:#fdfdfd;border-top:1px solid #1b1b1b;}
@@ -1059,7 +1060,7 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#fcb319;backgr
 .carousel-caption{position:absolute;left:15%;right:15%;bottom:20px;z-index:10;padding-top:20px;padding-bottom:20px;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0, 0, 0, 0.6);}.carousel-caption .btn{text-shadow:none;}
 @media screen and (min-width:768px){.carousel-control .glyphicon{width:30px;height:30px;margin-top:-15px;margin-left:-15px;font-size:30px;} .carousel-caption{left:20%;right:20%;padding-bottom:30px;}}.jumbotron{padding:30px;margin-bottom:30px;font-size:21px;font-weight:200;line-height:30px;color:inherit;background-color:#eeeeee;}.jumbotron h1{line-height:1;color:inherit;}
 .jumbotron p{line-height:1.4;}
-@media screen and (min-width:768px){.jumbotron{padding:50px 60px;border-radius:0px;}.jumbotron h1{font-size:63px;}}.jos-controlpanel{-webkit-transition:0.5s;-moz-transition:0.5s;-o-transition:0.5s;transition:0.5s;width:20em;display:inline-block;color:#fff;position:absolute;top:0;bottom:0;z-index:1010;background-color:rgba(28, 28, 28, 0.5);}
+@media screen and (min-width:768px){.jumbotron{padding:50px 60px;border-radius:0px;}.jumbotron h1{font-size:63px;}}.jos-controlpanel{-webkit-transition:0.5s;-moz-transition:0.5s;-o-transition:0.5s;transition:0.5s;width:20em;display:inline-block;color:#fff;position:absolute;top:0;bottom:0;z-index:1020;background-color:rgba(28, 28, 28, 0.5);}
 .jos-controlpanel-header{background:transparent;}
 .jos-controlpanel-header .btn-group{margin-bottom:4px;margin-top:4px;}
 .jos-controlpanel-header .btn{color:#555555;}
@@ -1080,7 +1081,7 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#fcb319;backgr
 .jos-appcanvas.shift-left .jos-controlpanel-left{margin-left:-20em;}
 .jos-appcanvas.shift-left .jos-controlpanel-right{right:0;}
 .jos-appcanvas.jos-appcanvas-book .jos-controlpanel-browselist{left:-20em;}
-.jos-appcanvas.jos-appcanvas-book.shift-browselist .jos-controlpanel-browselist{left:0;}
+.jos-appcanvas.jos-appcanvas-book.shift-browselist .jos-controlpanel-browselist{left:0;border-right:1px solid #555555;}
 .jos-appcanvas.jos-appcanvas-book.shift-browselist .jos-controlpanel-left{margin-left:20em;}
 .jos-appcanvas.jos-appcanvas-book.shift-browselist .jos-controlpanel-right{right:-20em;}
 .jos-backgroundmedia{position:absolute;top:0;left:0;right:0;bottom:0;background:#ffffff no-repeat top center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
@@ -1092,6 +1093,7 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#fcb319;backgr
 .jos-backgroundmedia-title{margin-top:0px;color:#e5a31b;font-style:italic;font-size:1em;line-height:1em;margin-bottom:5px;text-transform:inherit;}
 .jos-backgroundmedia-caption .arrow-right{border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:4px solid #ffffff;margin-left:4px;}
 .jos-backgroundmedia-caption img{position:absolute;right:0;top:7px;}
+@media screen and (max-width:630px){.jos-backgroundmedia-caption{display:none;}}
 .int-jos-controlpanel.jos-backgroundmedia:before{left:20em !important;}
 .callout--circle{width:46px;height:46px;padding-top:.75em;margin:0 auto;border-radius:50%;background:#666;display:block;font-family:"Jubilat",Georgia,serif;font-size:16px;font-weight:bold;text-align:center;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.25);color:#fff;}
 .callout--circle.calloutLg{width:70px;height:70px;font-size:1.5em;padding-top:1em;}
@@ -1130,7 +1132,7 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#fcb319;backgr
 .meta-info-persistent .meta-info-page-number{position:absolute;left:5px;}
 .meta-info-persistent .meta-info-more{margin-left:-10px;}
 .meta-info-persistent .meta-info-page-date{position:absolute;right:5px;}
-.hoveritem{position:absolute;z-index:2000;background:green;overflow:visible;top:-2px;right:-100px;left:-2px;border:2px solid #555555;-webkit-box-shadow:0px 3px 20px rgba(0, 0, 0, 0.325);box-shadow:0px 3px 20px rgba(0, 0, 0, 0.325);}.hoveritem .meta-info-preview{width:100%;height:100%;position:absolute;}
+.hoveritem{position:absolute;z-index:1010;background:green;overflow:visible;top:-2px;right:-100px;left:-2px;border:2px solid #555555;-webkit-box-shadow:0px 3px 20px rgba(0, 0, 0, 0.325);box-shadow:0px 3px 20px rgba(0, 0, 0, 0.325);}.hoveritem .meta-info-preview{width:100%;height:100%;position:absolute;}
 .hoveritem .meta-info-dynamic{list-style-type:none;padding:0px;margin:6px 12px 16px 6px;position:relative;overflow:visible;}
 .hoveritem .meta-info-persistent{position:relative;margin-top:3.75px;}
 .jos-page-group-16{padding-left:7.5px;padding-right:7.5px;padding-bottom:15px;margin-bottom:15px;border-bottom:1px dashed #555555;}.jos-page-group-16>li{display:inline-block;float:left;width:50%;height:20px;border:1px solid #555555;}
