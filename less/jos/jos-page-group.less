@@ -95,7 +95,9 @@
 
   /* Variants
   =================================== */
-.jos-page-group-16 {
+.jos-view-page,
+.jos-view-group,
+.jos-view-book{
 
   padding-left: @padding-value/2;
   padding-right: @padding-value/2;
@@ -125,4 +127,45 @@
     border-right-width: 2px;
   }
   > li:first-child{margin-left: @page-group-16-width;}
+}
+
+.jos-view-page{
+  width: 100%;
+}
+.jos-view-book{
+  .meta-info-dynamic,
+  .meta-info-preview,
+  .meta-info-persistent .meta-info-page-date,
+  .meta-info-persistent .meta-info-more{display: none;}
+}
+
+// Horizontal
+.horizontal {
+
+  .jos-view-book{
+    width: 100% !important;
+    > li {
+      width: 11.1110% !important;
+    }
+    > li:nth-child(1){
+      border-top-width: 2px;
+      border-left-width: 2px;
+      border-bottom-width: 2px;
+    }
+    > li:nth-child(2){border-left-width: 2px;}
+    > li:nth-child(odd){border-top-width: 2px;}
+    > li:nth-child(even){border-bottom-width: 2px;}
+    > li:nth-child(15){border-right-width: 2px;}
+    > li:nth-child(16){
+      border-bottom-width: 2px;
+      border-top-width: 2px;
+      border-right-width: 2px;
+    }
+
+
+    > li:nth-child(odd){margin-left: -11.1110%;}
+    > li:nth-child(even){margin-top: 61px;}
+    > li:first-child{margin-left: 0;}
+
+  }
 }
