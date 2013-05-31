@@ -24,69 +24,89 @@
     <!--START MODULE-->
     <div class="navbar navbar-inverse jos-navbar-mainmenu">
 
-        <a href="#"><img class="jos-logo" src="../img/jos-navbar-mainmenu-logo.png"></a>
-        <ul class="nav navbar-nav jos-nav" role="navigation">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Plan <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Ladder</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Staff</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Fonts</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Styles</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Features</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ReplayIt</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Order Supplies</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creative Ideas</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Create <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Designer</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Ladder</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cover Designer</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Mover</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Image Library</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Panel Pages</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Index Flow</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Coverage Report</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creative Ideas</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Sell <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Student List</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Setup Offers</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Enter Sales</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Plan & Promote</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">See Reports</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Submit Personalization</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Submit Final Qty</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Plant</a></li>
-                </ul>
-            </li>
-            <li><a role="button" href="#">Digital Classroom</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Status <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Summary Report</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cover</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Submissions</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Deposits</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Soft Proof</a></li>
-                </ul>
-            </li>
-            <li><a href="#" role="button">Virtual Book</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Hello, User <b class="caret"></b></a>
-                <ul class="dropdown-menu pull-right" role="menu">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Account</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Need Help?</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sign Out</a></li>
-                </ul>
-            </li>
-        </ul>
+
+        <a href="#"><img class="jos-logo" src="../img/jostens-logo.png"></a>
+        <a href="#"><img class="jos-logo jos-logo-yba" src="../img/jostens-logo-yba-beta.png"></a>
+        <a href="#"><img class="jos-logo jos-logo-yba-small" src="../img/jostens-logo-yba-small-beta.png"></a>
+
+        <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <div class="dropdown pull-right dropdown-myaccount">
+            <a href="#" class="dropdown-toggle btn" data-toggle="dropdown" role="button"><i class="glyphicon glyphicon-user"></i> My Account <b class="caret"></b></a>
+            <ul class="dropdown-menu pull-right" role="menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Need Help?</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sign Out</a></li>
+            </ul>
+        </div>
+
+
+
+        <!-- Place everything within .navbar-collapse to hide it until above 768px -->
+        <div class="nav-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav jos-nav" role="navigation">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Plan <b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Ladder</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Staff</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Fonts</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Styles</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Features</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ReplayIt</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Order Supplies</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creative Ideas</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Create <b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Designer</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Ladder</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cover Designer</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Mover</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Image Library</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Panel Pages</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Index Flow</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Coverage Report</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creative Ideas</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Sell <b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Student List</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Setup Offers</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Enter Sales</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Plan & Promote</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">See Reports</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Submit Personalization</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Submit Final Qty</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Plant</a></li>
+                    </ul>
+                </li>
+                <li><a role="button" href="#">Digital Classroom</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Status <b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Summary Report</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cover</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Submissions</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Deposits</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Soft Proof</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" role="button">Virtual Book</a></li>
+            </ul>
+
+        </div><!-- /.nav-collapse -->
+
+
 
     </div>
     <!--END MODULE-->
@@ -134,13 +154,13 @@
                     </a>
                 </div>
                 <div class="clearfix"></div>
-                <li class="active"><a href="#sections" data-toggle="tab" data-filter="section">Sections</a></li>
-                <li><a href="#topics" data-toggle="tab" data-filter="topic">Topics</a></li>
+                <li class="active"><a href="#section" data-toggle="tab" data-filter="section">Sections</a></li>
+                <li><a href="#topic" data-toggle="tab" data-filter="topic">Topics</a></li>
                 <li><a href="#staff" data-toggle="tab" data-filter="staff">Staff</a></li>
-                <li><a href="#deadlines" data-toggle="tab" data-filter="deadline">Deadlines</a></li>
+                <li><a href="#deadline" data-toggle="tab" data-filter="deadline">Deadlines</a></li>
             </ul>
             <div class="tab-content jos-controlpanel-body">
-                <div class="tab-pane active" id="sections">
+                <div class="tab-pane active" id="section">
                     <div class="jos-controlpanel-body-header">
                         <div class="jos-controlpanel-actions">
                             <div class="input-group">
@@ -157,14 +177,14 @@
                     </div>
                     <div class="jos-controlpanel-body-footer">Footer</div>
                 </div>
-                <div class="tab-pane" id="topics">
+                <div class="tab-pane" id="topic">
                     <div class="jos-controlpanel-body-header">
                         <div class="jos-controlpanel-actions">
                             <div class="input-group">
                                 <span class="input-group-btn">
                                     <button class="btn btn-small" type="button">Action</button>
                                 </span>
-                                <input type="text" class="input-small">
+                                <input type="text" class="input-small typeahead">
                             </div>
                         </div>
                     </div>
@@ -188,7 +208,7 @@
                                 <span class="input-group-btn">
                                     <button class="btn btn-small" type="button">Action</button>
                                 </span>
-                                <input type="text" class="input-small">
+                                <input type="text" class="input-small typeahead">
                             </div>
                         </div>
                     </div>
@@ -205,14 +225,14 @@
                     </div>
                     <div class="jos-controlpanel-body-footer">Footer</div>
                 </div>
-                <div class="tab-pane" id="deadlines">
+                <div class="tab-pane" id="deadline">
                     <div class="jos-controlpanel-body-header">
                         <div class="jos-controlpanel-actions">
                             <div class="input-group">
                                 <span class="input-group-btn">
                                     <button class="btn btn-small" type="button">Action</button>
                                 </span>
-                                <input type="text" class="input-small">
+                                <input type="text" class="input-small typeahead">
                             </div>
                         </div>
                     </div>
@@ -392,12 +412,7 @@
 
 <!--Templates-->
 <li class="list-group-item hide cloner"></li>
-<!--<li class="topic cloner">-->
-    <!--<span class="topicText"></span> <i class="pages-used topicPagesUsed hide">(pg <span class="pagesUsedList">2</span> )</i>-->
-    <!--<button class="btn btn-small topicRemove hide pull-right"><i class="icon-remove"></i></button>-->
-    <!--<button class="btn btn-small topicMove hide pull-right"><i class="icon-move"></i></button>-->
-    <!--<button class="btn btn-small btn-link pull-right topicOk hide"><i class="icon-ok"></i></button>-->
-<!--</li>-->
+
 
 <!-- Typekit Scripts -->
 <!--<script type="text/javascript" src="http://use.typekit.net/hon8eiw.js"></script>-->
@@ -406,6 +421,7 @@
 
 <!--Scripts-->
 <script src="../js/libs/jquery.min.js"></script>
+<script src="../js/libs/jquery-ui-1.10.3.custom.min.js"></script>
 <script src="../js/bootstrap-transition.js"></script>
 <script src="../js/bootstrap-typeahead.js"></script>
 <script src="../js/bootstrap-dropdown.js"></script>

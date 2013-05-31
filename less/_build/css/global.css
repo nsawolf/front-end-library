@@ -728,8 +728,9 @@ a.list-group-item.active i,a.list-group-item.active:hover i{visibility:visible;b
 .list-group .caret{border-top-color:#fdfdfd;margin-top:6.666666666666667px;}
 .list-group .active .caret{border-top-color:transparent;border-bottom:4px solid #fdfdfd;margin-top:4px;}
 a.list-group-item.active{z-index:2;color:#fdfdfd;background-color:#fcb319;border-color:#fcb319;}
+.ui-draggable-helper{color:#fdfdfd;background-color:rgba(28, 28, 28, 0.5);border:0px;padding:10px 30px 10px 15px;margin-bottom:0px;font-weight:normal;width:20em;z-index:1020;cursor:all-scroll;}
 .jos-controlpanel .list-group{margin-bottom:0px;}
-.jos-controlpanel .list-group-item{color:#fdfdfd;background:#1b1b1b;border:0px;padding:10px 30px 10px 15px;margin-bottom:0px;font-weight:normal;}
+.jos-controlpanel .list-group-item{color:#fdfdfd;background:#1b1b1b;border:0px;padding:10px 30px 10px 15px;margin-bottom:0px;font-weight:normal;cursor:all-scroll;}
 .jos-controlpanel-submenu{border-right:0px;-webkit-box-shadow:none;box-shadow:none;}.jos-controlpanel-submenu .list-group{margin:0px;background-color:transparent;}
 .jos-controlpanel-submenu .list-group-item{font-size:16px;background-color:rgba(28, 28, 28, 0.85);}
 .jos-controlpanel-submenu .toggle .list-group-item{padding-left:30px;background-color:rgba(28, 28, 28, 0.5);}
@@ -1129,7 +1130,8 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#fcb319;backgr
 .jos-page-group{list-style-type:none;padding:0px;margin:0px;display:inline-block;}
 .jos-page-group-item{position:relative;}
 .meta-info-preview{width:100%;height:100%;}
-.meta-info-dynamic{list-style-type:none;padding:0px;margin:0px;position:absolute;top:3.75px;bottom:25.75px;left:3.75px;right:3.75px;overflow:hidden;}
+.meta-info-dynamic{list-style-type:none;padding:0px;margin:0px;position:absolute;top:3.75px;bottom:25.75px;left:3.75px;right:3.75px;overflow:hidden;}.meta-info-dynamic.hover{background:#fcb319;}
+.meta-info-dynamic .list-group-item{border:0px;}
 .meta-info-dynamic>li{background-color:rgba(87, 87, 87, 0.5);padding:3.75px;margin-bottom:3.75px;}
 .meta-info-persistent{position:absolute;bottom:0;width:100%;height:22px;text-align:center;background-color:rgba(0, 0, 0, 0.25);}.meta-info-persistent div,.meta-info-persistent button{display:inline-block;}
 .meta-info-persistent .meta-info-page-number{position:absolute;left:5px;}

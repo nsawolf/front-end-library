@@ -46,8 +46,11 @@ $(function(){
     var dataSectionsOrig = $.getValues("data-sections.txt");
     var dataSections = dataSectionsOrig.split(',');
 
-
-    assignTypeahead('#sections');
+    // initialize
+    assignTypeahead('#section');
+    assignTypeahead('#topic');
+    assignTypeahead('#staff');
+    dragAndDrop('#deadline');
 
     // Typeahead
     function assignTypeahead(listId){
@@ -56,6 +59,8 @@ $(function(){
             updater: function(item){
                 // add new topic
                 addListItem(item,listId);
+                sortListAlpha(listId);
+                dragAndDrop(listId);
             }
         });
     }
@@ -67,6 +72,47 @@ $(function(){
             .removeClass('cloner hide')
             .html(item);
         $(listId + ' .list-group').append(newItem);
+    }
+
+    // Sort List Alphabetically
+    function sortListAlpha(listId){
+        var mylist = $(listId + ' .list-group');
+        var listitems = mylist.children('li');
+        listitems.sort(function(a, b) {
+            return $(a)
+                .text()
+                .toUpperCase()
+                .localeCompare($(b).text().toUpperCase());
+        });
+        $.each(listitems, function(idx, itm) { mylist.append(itm); });
+    }
+
+    // drag and drop
+    function dragAndDrop(listId) {
+        var newListId = listId
+        var notchar = /[^a-zA-Z]/g;
+        newListId = newListId.replace(notchar, '');
+
+        $(".list-group-item").draggable({
+            appendTo: "body",
+            helper: "clone",
+            start: function(event, ui) {
+                $(ui.helper).addClass("ui-draggable-helper");
+            },
+//            stop: function(event, ui){
+//                isPageUsed($(this));
+//            }
+        });
+        $(".meta-info-dynamic").droppable({       // TODO: Figure out how to have this work with the less/more button. It doesn't bind, because the object isn't there when this is called...unless you add another list item while it's open as a "more" list
+            hoverClass: 'hover',
+            accept: ":not(.ui-sortable-helper)",
+            drop: function( event, ui ) {
+                $(ui.draggable)
+                    .clone()
+                    .removeClass('ui-draggable').addClass('meta-info-' + newListId)
+                    .appendTo(this);
+            }
+        });
     }
 
 //    function updateList(){

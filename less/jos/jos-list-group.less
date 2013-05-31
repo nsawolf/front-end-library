@@ -48,6 +48,19 @@ a.list-group-item.active {
 /* Integrations
 =================================== */
 
+// jquery-ui-draggable
+.ui-draggable-helper{
+  color: @controlpanel-link-color; // might need to be a different variable
+  #translucent > .background(@black, .5);
+  border: 0px;
+  padding: 10px 30px 10px 15px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  width: @controlpanel-width;
+  z-index: @zindex-controlpanel;
+  cursor: all-scroll;
+}
+
 // list-group in a controlpanel
 .jos-controlpanel{
   .list-group{
@@ -60,6 +73,7 @@ a.list-group-item.active {
     padding: 10px 30px 10px 15px;
     margin-bottom: 0px;
     font-weight: normal;
+    cursor: all-scroll;
   }
 }
 
