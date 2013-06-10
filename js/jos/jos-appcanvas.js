@@ -44,7 +44,6 @@
     };
     Appcanvas.prototype.shift = function(){
         var base = this;
-        console.log('HEYEYEYEEy');
 
         $('body').on('click', '[data-trigger*="shift-"]', function(){
             var trigger = $(this).attr('data-trigger');

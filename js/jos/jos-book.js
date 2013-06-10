@@ -10,6 +10,19 @@ $(function(){
     function switchView(viewTrigger){
         var target = viewTrigger.attr('id');
 
+        // Integrate with pageGroup plugin
+        var maxSize = viewTrigger.attr('data-maxsize');
+        var rows = viewTrigger.attr('data-rows');
+        var grouping = viewTrigger.attr('data-grouping');
+
+        // specific settings per view
+
+        $('.jos-autocolumn').pageGroup({
+            rows: rows,
+            grouping: grouping
+        });
+
+        // Give Classes
         // Remove all "shift" classes
         var classList = $('.jos-page-group').attr('class').split(/\s+/);
         $.each( classList, function(index, item){
@@ -17,28 +30,15 @@ $(function(){
                 $('.jos-page-group').removeClass(item);
             }
         });
-
         // Add new class
         $('.jos-page-group').addClass(target);
 
-        // Integrate with pageGroupHeight plugin
-        var maxSize = viewTrigger.attr('data-maxsize');
-        var rows = viewTrigger.attr('data-rows');
-        console.log(target);
-        $('.' + target).pageGroupHeight({
-            rows: rows
-        });
-
 
         // Integrate with Autocolumn
-        if (maxSize){
-            $('.jos-autocolumn').attr('data-maxsize', maxSize);
-        }
-        else{
-            $('.jos-autocolumn').attr('data-maxsize', '');
-        }
+        if (maxSize){$('.jos-autocolumn').attr('data-maxsize', maxSize);}
+        else{$('.jos-autocolumn').attr('data-maxsize', '');}
         autocolumn.size();
-    };
+    }
 
     // Display default active trigger
     var activeTrigger = '';

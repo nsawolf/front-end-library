@@ -102,7 +102,14 @@
   padding: 0;
   background: @toolbar-bg;
   margin-bottom: 0;
+  z-index: @zindex-toolbar;
 }
+.jos-navbar-toolbar .btn .caret{  border-top-color: @toolbar-link;}
+.jos-navbar-toolbar .btn:hover .caret{  border-top-color: @toolbar-link-hover;}
+.jos-navbar-toolbar .btn-group.open { .box-shadow(none);}
+.jos-navbar-toolbar .btn-group.open .btn { .box-shadow(none); background: @toolbar-link-hover-bg; border-top-color: @toolbar-link-hover-bg;}
+.jos-navbar-toolbar .open .btn {  color: @toolbar-link-hover;}
+.jos-navbar-toolbar .open .btn .caret{  border-top-color: @toolbar-link-hover;}
 .jos-navbar-toolbar > .navbar-nav > li > a {
   padding: 6px @padding-value;
   color: @toolbar-link;

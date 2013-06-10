@@ -115,6 +115,63 @@ $(function(){
         });
     }
 
+    /* Layers
+    =================================== */
+    // TODO Store Defaults for the Tabs, then load them through the setDefaults function to reset all the visibility and toggle states, etc...
+
+    // Set Default State
+    function setDefaults(){
+        $('[data-toggle="layer"]').each(function(){
+            var isDefault = $(this).attr('data-default');
+            var target = $(this).attr('data-target');
+            var targetItems = $('.' + target);
+
+            if ( isDefault){
+                toggleButton($(this));
+                targetItems.css('visibility','visible')
+            }
+            else{ targetItems.css('visibility','hidden'); }
+
+        });
+    }
+    setDefaults();
+
+
+    // On Click Event
+    $('[data-toggle="layer"]').on('click',function(){
+        var target = $(this).attr('data-target');
+        var targetItems = $('.' + target);
+
+        toggleButton($(this));
+        switchVisibility(targetItems);
+    });
+
+    // Toggle Active State of a Trigger
+    function toggleButton($elem){
+        $elem.toggleClass('active');
+        $elem.find('i').toggleClass(function(){
+            if ($(this).hasClass('glyphicon-eye_open')){
+                $(this).removeClass('glyphicon-eye_open');
+                return 'glyphicon-eye_close';
+            }
+            else{
+                $(this).removeClass('glyphicon-eye_close');
+                return 'glyphicon-eye_open';
+            }
+        });
+    }
+
+    // Switch Visibility
+    function switchVisibility(targetItems){
+        var visibility = targetItems.css('visibility');
+        if ( visibility == 'visible' ){
+            targetItems.css('visibility','hidden');
+        }
+        else if ( visibility == 'hidden' ){
+            targetItems.css('visibility','visible');
+        }
+    }
+
 //    function updateList(){
 //        isListEmpty(); // Check to see if list is empty
 //        sortTopicsAlpha(); // Sort the list alphabetically

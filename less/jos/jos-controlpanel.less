@@ -25,10 +25,16 @@
 }
 .jos-controlpanel-header .btn{
   color: @gray;
+  &.active{
+    color: @white;
+    background: transparent;
+    .box-shadow(none);
+  }
 }
 .jos-controlpanel-header .btn:hover{
   text-decoration: none;
-  color: #fff;
+//  color: @gray-lighter;
+//  &.active{color: @white;}
 }
 .jos-controlpanel-header .btn i{
   display: block;

@@ -112,14 +112,24 @@
     <!--END MODULE-->
     <!--START MODULE-->
     <div class="navbar jos-navbar-toolbar">
-        <button class="btn btn-small" data-trigger="shift-browselist" type="button">Browselist</button>
-        <button class="btn btn-small" data-trigger="shift-right" type="button">Shift Right</button>
-        <button class="btn btn-small" data-trigger="shift-left" type="button">Shift Left</button>
-        <button class="btn btn-small horizontalToggle">Horizontal</button>
+        <!--<button class="btn btn-small" data-trigger="shift-browselist" type="button">Browselist</button>-->
+        <!--<button class="btn btn-small" data-trigger="shift-right" type="button">Shift Right</button>-->
+        <!--<button class="btn btn-small" data-trigger="shift-left" type="button">Shift Left</button>-->
+        <!-- Single button -->
+        <div class="btn-group">
+            <button class="btn btn-small dropdown-toggle" data-toggle="dropdown">
+                <i class="glyphicon glyphicon-print"></i> Print <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">All <span class="badge pull-right">96</span></a></a></li>
+                <li><a href="#">Selected <span class="badge pull-right">15</span></a></li>
+            </ul>
+        </div>
+        <button class="btn btn-small disabled"><i class="glyphicon glyphicon-move"></i> Move</button>
         <div class="btn-group pull-right" data-toggle="buttons-radio">
-            <label class="btn"><input type="radio" name="options" id="jos-view-book" data-toggle="view" data-maxsize="120" data-rows="9"><i class="glyphicon glyphicon-book"></i> Book</label>
-            <label class="btn active"><input type="radio" name="options" id="jos-view-group" data-toggle="view" data-maxsize="400" data-rows="9"><i class="glyphicon glyphicon-show_big_thumbnails"></i> Group</label>
-            <label class="btn"><input type="radio" name="options" id="jos-view-page" data-toggle="view" data-rows="2"><i class="glyphicon glyphicon-file"></i> Page</label>
+            <label class="btn"><input type="radio" name="options" id="jos-view-book" data-toggle="view" data-maxsize="120" data-rows="9" data-grouping="none"><i class="glyphicon glyphicon-book"></i> Book</label>
+            <label class="btn active"><input type="radio" name="options" id="jos-view-group" data-toggle="view" data-maxsize="400" data-rows="9" data-grouping="16"><i class="glyphicon glyphicon-show_big_thumbnails"></i> Group</label>
+            <label class="btn"><input type="radio" name="options" id="jos-view-page" data-toggle="view" data-rows="2" data-grouping="16"><i class="glyphicon glyphicon-file"></i> Page</label>
         </div>
     </div>
     <!--END MODULE-->
@@ -137,22 +147,24 @@
         <div class="tabbable">
             <ul class="nav nav-tabs nav-tabs-small jos-controlpanel-header">
                 <div class="btn-group btn-group-justified">
-                    <a type="button" class="btn btn-link btn-small">
+
+                    <a type="button" class="btn btn-link btn-small" data-toggle="layer" data-target="meta-page-number" data-default="active">
                         <i class="glyphicon glyphicon-eye_open"></i>
-                        Filter
+                        Page #
                     </a>
-                    <a type="button" class="btn btn-link btn-small">
-                        <i class="glyphicon glyphicon-eye_close"></i>
-                        Filter
-                    </a>
-                    <a type="button" class="btn btn-link btn-small">
-                        <i class="glyphicon glyphicon-eye_close"></i>
-                        Filter
-                    </a>
-                    <a type="button" class="btn btn-link btn-small">
+                    <a type="button" class="btn btn-link btn-small" data-toggle="layer" data-target="meta-due-date" data-default>
                         <i class="glyphicon glyphicon-eye_open"></i>
-                        Filter
+                        Due Date
+                        <!--AKA Deadline Group-->
                     </a>
+                    <a type="button" class="btn btn-link btn-small" data-toggle="layer" data-target="meta-status" data-default>
+                        <i class="glyphicon glyphicon-eye_close"></i>
+                        Status
+                    </a>
+                    <!--<a type="button" class="btn btn-link btn-small">-->
+                        <!--<i class="glyphicon glyphicon-eye_open"></i>-->
+                        <!--Filter-->
+                    <!--</a>-->
                 </div>
                 <div class="clearfix"></div>
                 <li class="active"><a href="#section" data-toggle="tab" data-filter="section">Sections</a></li>
@@ -256,364 +268,148 @@
     </div>
     <!--END MODULE-->
 
+
     <div class="jos-appcanvas-content">
-    <div class="jos-autocolumn">
-        <ul class="jos-page-group jos-autocolumn-item">
-            <li class="jos-page-group-item">
-                <img class="meta-info-preview" src="http://placehold.it/85x110">
-                <ul class="meta-info-dynamic">
-                    <li class="meta-info-section">Section One</li>
-                    <li class="meta-info-topic">Topic One</li>
-                    <li class="meta-info-topic">Topic Two</li>
-                    <li class="meta-info-staff">Staff One</li>
-                    <li class="meta-info-staff">Staff Two</li>
-                    <li class="meta-info-staff">Staff Three</li>
-                </ul>
-                <div class="meta-info-persistent">
-                    <div class="meta-info-page-number">01</div>
-                    <button class="btn btn-mini meta-info-more">More</button>
-                    <div class="meta-info-page-date">03/13</div>
-                </div>
-            </li>
-            <li class="jos-page-group-item">
-                <img class="meta-info-preview" src="http://placehold.it/85x110">
-                <ul class="meta-info-dynamic">
-                    <li class="meta-info-section">Section One</li>
-                    <li class="meta-info-topic">Topic One</li>
-                    <li class="meta-info-topic">Topic Two</li>
-                    <li class="meta-info-staff">Staff One</li>
-                    <li class="meta-info-staff">Staff Two</li>
-                    <li class="meta-info-staff">Staff Three</li>
-                </ul>
-                <div class="meta-info-persistent">
-                    <div class="meta-info-page-number">02</div>
-                    <button class="btn btn-mini meta-info-more">More</button>
-                    <div class="meta-info-page-date">03/13</div>
-                </div>
-            </li>
-            <li class="jos-page-group-item">3</li>
-            <li class="jos-page-group-item">4</li>
-            <li class="jos-page-group-item">5</li>
-            <li class="jos-page-group-item">6</li>
-            <li class="jos-page-group-item">7</li>
-            <li class="jos-page-group-item">8</li>
-            <li class="jos-page-group-item">9</li>
-            <li class="jos-page-group-item">10</li>
-            <li class="jos-page-group-item">11</li>
-            <li class="jos-page-group-item">12</li>
-            <li class="jos-page-group-item">13</li>
-            <li class="jos-page-group-item">14</li>
-            <li class="jos-page-group-item">15</li>
-            <li class="jos-page-group-item">16</li>
-        </ul>
-        <ul class="jos-page-group jos-autocolumn-item">
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-        </ul>
-        <ul class="jos-page-group jos-autocolumn-item">
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-        </ul>
-        <ul class="jos-page-group jos-autocolumn-item">
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-        </ul>
-        <ul class="jos-page-group jos-autocolumn-item">
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-        </ul>
-        <ul class="jos-page-group jos-autocolumn-item">
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-            <li class="jos-page-group-item">Page</li>
-        </ul>
-        <div class="clearfix"></div>
-    </div>
-    <!--<div class="jos-view jos-view-group jos-autocolumn" data-maxsize="400">-->
-            <!--<ul class="jos-page-group jos-autocolumn-item">-->
-                <!--<li class="jos-page-group-item">-->
-                    <!--<img class="meta-info-preview" src="http://placehold.it/85x110">-->
-                    <!--<ul class="meta-info-dynamic">-->
-                        <!--<li class="meta-info-section">Section One</li>-->
-                        <!--<li class="meta-info-topic">Topic One</li>-->
-                        <!--<li class="meta-info-topic">Topic Two</li>-->
-                        <!--<li class="meta-info-staff">Staff One</li>-->
-                        <!--<li class="meta-info-staff">Staff Two</li>-->
-                        <!--<li class="meta-info-staff">Staff Three</li>-->
-                    <!--</ul>-->
-                    <!--<div class="meta-info-persistent">-->
-                        <!--<div class="meta-info-page-number">01</div>-->
-                        <!--<button class="btn btn-mini meta-info-more">More</button>-->
-                        <!--<div class="meta-info-page-date">03/13</div>-->
-                    <!--</div>-->
-                <!--</li>-->
-                <!--<li class="jos-page-group-item">-->
-                    <!--<img class="meta-info-preview" src="http://placehold.it/85x110">-->
-                    <!--<ul class="meta-info-dynamic">-->
-                        <!--<li class="meta-info-section">Section One</li>-->
-                        <!--<li class="meta-info-topic">Topic One</li>-->
-                        <!--<li class="meta-info-topic">Topic Two</li>-->
-                        <!--<li class="meta-info-staff">Staff One</li>-->
-                        <!--<li class="meta-info-staff">Staff Two</li>-->
-                        <!--<li class="meta-info-staff">Staff Three</li>-->
-                    <!--</ul>-->
-                    <!--<div class="meta-info-persistent">-->
-                        <!--<div class="meta-info-page-number">01</div>-->
-                        <!--<button class="btn btn-mini meta-info-more">More</button>-->
-                        <!--<div class="meta-info-page-date">03/13</div>-->
-                    <!--</div>-->
-                <!--</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-            <!--</ul>-->
-            <!--<ul class="jos-page-group jos-autocolumn-item">-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-            <!--</ul>-->
-            <!--<ul class="jos-page-group jos-autocolumn-item">-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-            <!--</ul>-->
-            <!--<ul class="jos-page-group jos-autocolumn-item">-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-            <!--</ul>-->
-            <!--<ul class="jos-page-group jos-autocolumn-item">-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-            <!--</ul>-->
-            <!--<ul class="jos-page-group jos-autocolumn-item">-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-                <!--<li class="jos-page-group-item">Page</li>-->
-            <!--</ul>-->
-            <!--<div class="clearfix"></div>-->
-        <!--</div>-->
-        <!--<div class="jos-view jos-view-page">-->
-            <!--<div class="jos-view jos-view-page jos-autocolumn">-->
-                <!--<ul class="jos-page-group jos-page-group-2 jos-autocolumn-item">-->
-                    <!--<li class="jos-page-group-item">-->
-                        <!--<img class="meta-info-preview" src="http://placehold.it/85x110">-->
-                        <!--<ul class="meta-info-dynamic">-->
-                            <!--<li class="meta-info-section">Section One</li>-->
-                            <!--<li class="meta-info-topic">Topic One</li>-->
-                            <!--<li class="meta-info-topic">Topic Two</li>-->
-                            <!--<li class="meta-info-staff">Staff One</li>-->
-                            <!--<li class="meta-info-staff">Staff Two</li>-->
-                            <!--<li class="meta-info-staff">Staff Three</li>-->
-                        <!--</ul>-->
-                        <!--<div class="meta-info-persistent">-->
-                            <!--<div class="meta-info-page-number">01</div>-->
-                            <!--<button class="btn btn-mini meta-info-more">More</button>-->
-                            <!--<div class="meta-info-page-date">03/13</div>-->
-                        <!--</div>-->
-                    <!--</li>-->
-                    <!--<li class="jos-page-group-item">-->
-                        <!--<img class="meta-info-preview" src="http://placehold.it/85x110">-->
-                        <!--<ul class="meta-info-dynamic">-->
-                            <!--<li class="meta-info-section">Section One</li>-->
-                            <!--<li class="meta-info-topic">Topic One</li>-->
-                            <!--<li class="meta-info-topic">Topic Two</li>-->
-                            <!--<li class="meta-info-staff">Staff One</li>-->
-                            <!--<li class="meta-info-staff">Staff Two</li>-->
-                            <!--<li class="meta-info-staff">Staff Three</li>-->
-                        <!--</ul>-->
-                        <!--<div class="meta-info-persistent">-->
-                            <!--<div class="meta-info-page-number">01</div>-->
-                            <!--<button class="btn btn-mini meta-info-more">More</button>-->
-                            <!--<div class="meta-info-page-date">03/13</div>-->
-                        <!--</div>-->
-                    <!--</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                <!--</ul>-->
-                <!--<ul class="jos-page-group jos-page-group-n jos-autocolumn-item">-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                    <!--<li class="jos-page-group-item">Page</li>-->
-                <!--</ul>-->
-                <!--<div class="clearfix"></div>-->
-            <!--</div>-->
+        <div class="jos-autocolumn">
+            <ul class="jos-page-group jos-autocolumn-item">
+                <li class="jos-page-group-item">
+                    <img class="meta-info-preview" src="http://placehold.it/85x110">
+                    <ul class="meta-info-dynamic">
+                        <li class="meta-info-section">Section One</li>
+                        <li class="meta-info-topic">Topic One</li>
+                        <li class="meta-info-topic">Topic Two</li>
+                        <li class="meta-info-staff">Staff One</li>
+                        <li class="meta-info-staff">Staff Two</li>
+                        <li class="meta-info-staff">Staff Three</li>
+                    </ul>
+                    <div class="meta-info-persistent">
+                        <div class="meta-page-number">01</div>
+                        <button class="btn btn-mini meta-info-more">More</button>
+                        <div class="meta-due-date">03/13</div>
+                    </div>
+                </li>
+                <li class="jos-page-group-item">
+                    <img class="meta-info-preview" src="http://placehold.it/85x110">
+                    <ul class="meta-info-dynamic">
+                        <li class="meta-info-section">Section One</li>
+                        <li class="meta-info-topic">Topic One</li>
+                        <li class="meta-info-topic">Topic Two</li>
+                        <li class="meta-info-staff">Staff One</li>
+                        <li class="meta-info-staff">Staff Two</li>
+                        <li class="meta-info-staff">Staff Three</li>
+                    </ul>
+                    <div class="meta-info-persistent">
+                        <div class="meta-page-number">02</div>
+                        <button class="btn btn-mini meta-info-more">More</button>
+                        <div class="meta-due-date">03/13</div>
+                    </div>
+                </li>
+                <li class="jos-page-group-item">3</li>
+                <li class="jos-page-group-item">4</li>
+                <li class="jos-page-group-item">5</li>
+                <li class="jos-page-group-item">6</li>
+                <li class="jos-page-group-item">7</li>
+                <li class="jos-page-group-item">8</li>
+                <li class="jos-page-group-item">9</li>
+                <li class="jos-page-group-item">10</li>
+                <li class="jos-page-group-item">11</li>
+                <li class="jos-page-group-item">12</li>
+                <li class="jos-page-group-item">13</li>
+                <li class="jos-page-group-item">14</li>
+                <li class="jos-page-group-item">15</li>
+                <li class="jos-page-group-item">16</li>
+
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+                <li class="jos-page-group-item">Page</li>
+            </ul>
+            <div class="clearfix"></div>
         </div>
-        <!--<button class="btn" data-trigger="shift-left">Shift Left</button>-->
+
+
+
     </div>
-
-
 </div>
 <!--END MODULE: -->
 
@@ -650,9 +446,7 @@
 
 <script>
     $(function(){
-       $('.horizontalToggle').on('click',function(){
-           $('.jos-autocolumn').toggleClass('horizontal');
-       });
+
     });
 </script>
 
