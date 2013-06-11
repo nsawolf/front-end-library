@@ -85,10 +85,12 @@ a.list-group-item.active {
     // No need to set list-style: none; since .list-group-item is block level
     margin: 0px; // reset all margins because ul and ol
     background-color: transparent;
+
   }
   .list-group-item {
     font-size: @font-size-medium;
     #translucent > .background(@component-bg-dark, @component-bg-dark-opacity);
+    cursor: pointer;
   }
   .toggle .list-group-item{
     padding-left: @padding-value*2;

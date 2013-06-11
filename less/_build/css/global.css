@@ -732,7 +732,7 @@ a.list-group-item.active{z-index:2;color:#fdfdfd;background-color:#fcb319;border
 .jos-controlpanel .list-group{margin-bottom:0px;}
 .jos-controlpanel .list-group-item{color:#fdfdfd;background:#1b1b1b;border:0px;padding:10px 30px 10px 15px;margin-bottom:0px;font-weight:normal;cursor:all-scroll;}
 .jos-controlpanel-submenu{border-right:0px;-webkit-box-shadow:none;box-shadow:none;}.jos-controlpanel-submenu .list-group{margin:0px;background-color:transparent;}
-.jos-controlpanel-submenu .list-group-item{font-size:16px;background-color:rgba(28, 28, 28, 0.85);}
+.jos-controlpanel-submenu .list-group-item{font-size:16px;background-color:rgba(28, 28, 28, 0.85);cursor:pointer;}
 .jos-controlpanel-submenu .toggle .list-group-item{padding-left:30px;background-color:rgba(28, 28, 28, 0.5);}
 .jos-controlpanel-submenu .toggle .list-group-item.active{background:#185073;}
 .jos-controlpanel-submenu a.list-group-item:hover,.jos-controlpanel-submenu a.list-group-item:focus{text-decoration:none;background-color:inherit;background:#216d9d;color:#fdfdfd;}
