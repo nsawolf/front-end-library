@@ -24,69 +24,89 @@
 <!--START MODULE-->
 <div class="navbar navbar-inverse jos-navbar-mainmenu">
 
-    <a href="#"><img class="jos-logo" src="../img/jos-navbar-mainmenu-logo.png"></a>
-    <ul class="nav navbar-nav jos-nav" role="navigation">
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Plan <b class="caret"></b></a>
-            <ul class="dropdown-menu" role="menu">
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Ladder</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Staff</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Fonts</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Styles</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Features</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ReplayIt</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Order Supplies</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creative Ideas</a></li>
-            </ul>
-        </li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Create <b class="caret"></b></a>
-            <ul class="dropdown-menu" role="menu">
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Designer</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Ladder</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cover Designer</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Mover</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Image Library</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Panel Pages</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Index Flow</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Coverage Report</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creative Ideas</a></li>
-            </ul>
-        </li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Sell <b class="caret"></b></a>
-            <ul class="dropdown-menu" role="menu">
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Student List</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Setup Offers</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Enter Sales</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Plan & Promote</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">See Reports</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Submit Personalization</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Submit Final Qty</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Plant</a></li>
-            </ul>
-        </li>
-        <li><a role="button" href="#">Digital Classroom</a></li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Status <b class="caret"></b></a>
-            <ul class="dropdown-menu" role="menu">
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Summary Report</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cover</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Submissions</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Deposits</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Soft Proof</a></li>
-            </ul>
-        </li>
-        <li><a href="#" role="button">Virtual Book</a></li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Hello, User <b class="caret"></b></a>
-            <ul class="dropdown-menu pull-right" role="menu">
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Account</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Need Help?</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sign Out</a></li>
-            </ul>
-        </li>
-    </ul>
+
+    <a href="#"><img class="jos-logo" src="../img/jostens-logo.png"></a>
+    <a href="#"><img class="jos-logo jos-logo-yba" src="../img/jostens-logo-yba-beta.png"></a>
+    <a href="#"><img class="jos-logo jos-logo-yba-small" src="../img/jostens-logo-yba-small-beta.png"></a>
+
+    <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+
+    <div class="dropdown pull-right dropdown-myaccount">
+        <a href="#" class="dropdown-toggle btn" data-toggle="dropdown" role="button"><i class="glyphicon glyphicon-user"></i> My Account <b class="caret"></b></a>
+        <ul class="dropdown-menu pull-right" role="menu">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Need Help?</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sign Out</a></li>
+        </ul>
+    </div>
+
+
+
+    <!-- Place everything within .navbar-collapse to hide it until above 768px -->
+    <div class="nav-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav jos-nav" role="navigation">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Plan <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Ladder</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Staff</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Fonts</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Styles</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Features</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ReplayIt</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Order Supplies</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creative Ideas</a></li>
+                </ul>
+            </li>
+            <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Create <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Designer</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Ladder</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cover Designer</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Mover</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Image Library</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Panel Pages</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Index Flow</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Coverage Report</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creative Ideas</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Sell <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Student List</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Setup Offers</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Enter Sales</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Plan & Promote</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">See Reports</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Submit Personalization</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Submit Final Qty</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Plant</a></li>
+                </ul>
+            </li>
+            <li><a role="button" href="#">Digital Classroom</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Status <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Summary Report</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Cover</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Page Submissions</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Deposits</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Soft Proof</a></li>
+                </ul>
+            </li>
+            <li><a href="#" role="button">Virtual Book</a></li>
+        </ul>
+
+    </div><!-- /.nav-collapse -->
+
+
 
 </div>
 <!--END MODULE-->
@@ -141,17 +161,18 @@
                     <div class="panel-heading">Checklist</div>
                     <div class="navbar jos-navbar-toolbar">
                         <ul class="nav navbar-nav ">
-                            <li><a href="#"><span class="glyphicon glyphicon-ok"></span> See Completed Tasks</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-plus"></span> Add Task</a></li>
+                            <li><a href="#" class="completed-tasks"><span class="glyphicon glyphicon-ok"></span> See Completed Tasks</a></li>
+                            <!--<li><a href="#"><span class="glyphicon glyphicon-plus"></span> Add Task</a></li>-->
                             <li><a href="#"><span class="glyphicon glyphicon-print"></span> Print</a></li>
                         </ul>
                     </div>
                     <ul class="list-group list-group-flush jos-list-group-merch">
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox" class="" type="checkbox" value="None" name="check" />
+                                <!--<input id="task1-checkbox" class="" type="checkbox" value="None" name="check" />-->
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -168,9 +189,10 @@
                         </li>
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox2" class="" type="checkbox" value="None" name="check" />
+                                <!--<input id="task1-checkbox" class="" type="checkbox" value="None" name="check" />-->
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -187,9 +209,10 @@
                         </li>
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox3" class="" type="checkbox" value="None" name="check" />
+                                <!--<input id="task1-checkbox" class="" type="checkbox" value="None" name="check" />-->
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -206,9 +229,10 @@
                         </li>
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox4" class="" type="checkbox" value="None" name="check" />
+                                <!--<input id="task1-checkbox" class="" type="checkbox" value="None" name="check" />-->
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -240,7 +264,7 @@
             <div class="col col-lg-2">
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
                     <h2>Your Sales</h2>
                     <figure>
                         <div class="progress progress-striped">
@@ -252,7 +276,7 @@
                 </div>
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
 
                     <figure>
                         <img src="http://placehold.it/100x100" class="img-circle">
@@ -261,7 +285,7 @@
                 </div>
                 <div class="panel panel-metrics metrics-user">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
                     <figure>
                         <span class="glyphicon glyphicon-user"></span>
                         <span class="glyphicon glyphicon-user"></span>
@@ -285,7 +309,7 @@
                 </div>
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
                     <figure>
                         <img src="http://placehold.it/40x40" class="img-circle metrics-badge">
                         <img src="http://placehold.it/40x40" class="img-circle metrics-badge">
@@ -323,17 +347,17 @@
                     <div class="panel-heading">Checklist</div>
                     <div class="navbar jos-navbar-toolbar">
                         <ul class="nav navbar-nav ">
-                            <li><a href="#"><span class="glyphicon glyphicon-ok"></span> See Completed Tasks</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-plus"></span> Add Task</a></li>
+                            <li><a href="#" class="completed-tasks"><span class="glyphicon glyphicon-ok"></span> See Completed Tasks</a></li>
+                            <!--<li><a href="#"><span class="glyphicon glyphicon-plus"></span> Add Task</a></li>-->
                             <li><a href="#"><span class="glyphicon glyphicon-print"></span> Print</a></li>
                         </ul>
                     </div>
                     <ul class="list-group list-group-flush jos-list-group-merch">
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox" class="" type="checkbox" value="None" name="check" />
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -350,9 +374,9 @@
                         </li>
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox2" class="" type="checkbox" value="None" name="check" />
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -369,9 +393,9 @@
                         </li>
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox3" class="" type="checkbox" value="None" name="check" />
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -388,9 +412,9 @@
                         </li>
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox4" class="" type="checkbox" value="None" name="check" />
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -422,7 +446,7 @@
             <div class="col col-lg-2">
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
                     <h2>Your Sales</h2>
                     <figure>
                         <div class="progress progress-striped">
@@ -434,7 +458,7 @@
                 </div>
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
 
                     <figure>
                         <img src="http://placehold.it/100x100" class="img-circle">
@@ -443,7 +467,7 @@
                 </div>
                 <div class="panel panel-metrics metrics-user">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
                     <figure>
                         <span class="glyphicon glyphicon-user"></span>
                         <span class="glyphicon glyphicon-user"></span>
@@ -467,7 +491,7 @@
                 </div>
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
                     <figure>
                         <img src="http://placehold.it/40x40" class="img-circle metrics-badge">
                         <img src="http://placehold.it/40x40" class="img-circle metrics-badge">
@@ -505,17 +529,17 @@
                     <div class="panel-heading">Checklist</div>
                     <div class="navbar jos-navbar-toolbar">
                         <ul class="nav navbar-nav ">
-                            <li><a href="#"><span class="glyphicon glyphicon-ok"></span> See Completed Tasks</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-plus"></span> Add Task</a></li>
+                            <li><a href="#" class="completed-tasks"><span class="glyphicon glyphicon-ok"></span> See Completed Tasks</a></li>
+                            <!--<li><a href="#"><span class="glyphicon glyphicon-plus"></span> Add Task</a></li>-->
                             <li><a href="#"><span class="glyphicon glyphicon-print"></span> Print</a></li>
                         </ul>
                     </div>
                     <ul class="list-group list-group-flush jos-list-group-merch">
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox" class="" type="checkbox" value="None" name="check" />
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -532,9 +556,9 @@
                         </li>
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox2" class="" type="checkbox" value="None" name="check" />
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -551,9 +575,9 @@
                         </li>
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox3" class="" type="checkbox" value="None" name="check" />
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -570,9 +594,9 @@
                         </li>
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox4" class="" type="checkbox" value="None" name="check" />
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -604,7 +628,7 @@
             <div class="col col-lg-2">
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
                     <h2>Your Sales</h2>
                     <figure>
                         <div class="progress progress-striped">
@@ -616,7 +640,7 @@
                 </div>
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
 
                     <figure>
                         <img src="http://placehold.it/100x100" class="img-circle">
@@ -625,7 +649,7 @@
                 </div>
                 <div class="panel panel-metrics metrics-user">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
                     <figure>
                         <span class="glyphicon glyphicon-user"></span>
                         <span class="glyphicon glyphicon-user"></span>
@@ -649,7 +673,7 @@
                 </div>
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
                     <figure>
                         <img src="http://placehold.it/40x40" class="img-circle metrics-badge">
                         <img src="http://placehold.it/40x40" class="img-circle metrics-badge">
@@ -687,17 +711,17 @@
                     <div class="panel-heading">Checklist</div>
                     <div class="navbar jos-navbar-toolbar">
                         <ul class="nav navbar-nav ">
-                            <li><a href="#"><span class="glyphicon glyphicon-ok"></span> See Completed Tasks</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-plus"></span> Add Task</a></li>
+                            <li><a href="#" class="completed-tasks"><span class="glyphicon glyphicon-ok"></span> See Completed Tasks</a></li>
+                            <!--<li><a href="#"><span class="glyphicon glyphicon-plus"></span> Add Task</a></li>-->
                             <li><a href="#"><span class="glyphicon glyphicon-print"></span> Print</a></li>
                         </ul>
                     </div>
                     <ul class="list-group list-group-flush jos-list-group-merch">
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox" class="" type="checkbox" value="None" name="check" />
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -714,9 +738,9 @@
                         </li>
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox2" class="" type="checkbox" value="None" name="check" />
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -733,9 +757,9 @@
                         </li>
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox3" class="" type="checkbox" value="None" name="check" />
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -752,9 +776,9 @@
                         </li>
                         <li class="list-group-item">
                             <div class="checkbox">
-                                <input id="task1-checkbox4" class="" type="checkbox" value="None" name="check" />
+                                <i class="glyphicon glyphicon-unchecked"></i>
                             </div>
-                            <h3 class="list-group-item-heading"><a href="#">Watch Back-to-School blitz video</a></h3>
+                            <h3 class="list-group-item-heading"><a href="#" data-toggle="modal" data-target="#taskModal">Watch Back-to-School blitz video</a></h3>
                             <div class="list-group-item-text">
                                 <ul class="list-group-item-meta">
                                     <li><em>Due:</em> 09-09-2013</li>
@@ -786,7 +810,7 @@
             <div class="col col-lg-2">
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
                     <h2>Your Sales</h2>
                     <figure>
                         <div class="progress progress-striped">
@@ -798,7 +822,7 @@
                 </div>
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
 
                     <figure>
                         <img src="http://placehold.it/100x100" class="img-circle">
@@ -807,7 +831,7 @@
                 </div>
                 <div class="panel panel-metrics metrics-user">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
                     <figure>
                         <span class="glyphicon glyphicon-user"></span>
                         <span class="glyphicon glyphicon-user"></span>
@@ -831,7 +855,7 @@
                 </div>
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
-                    <span class="panel-expand-trigger glyphicon glyphicon-fullscreen"></span>
+                    <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
                     <figure>
                         <img src="http://placehold.it/40x40" class="img-circle metrics-badge">
                         <img src="http://placehold.it/40x40" class="img-circle metrics-badge">
@@ -857,12 +881,108 @@
 <!--END MODULE-->
 
 
+<div class="modal fade" id="taskModal">
+
+    <!-- Modal -->
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn">Close</a>
+                <a href="#" class="btn btn-primary">Save changes</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!--Modal Variant - Halts & requires specific action to proceed-->
+<div class="modal fade in" id="taxModal">
+    <!-- Modal -->
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+                <h4 class="modal-title">Tax Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>Guess what? You need to accept our terms in order for you to proceed. Do you?</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn">Do not accept</a>
+                <a href="#" class="btn btn-primary" data-dismiss="modal">Accept</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 
 <!--Scripts-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../js/bootstrap-transition.js"></script>
 <script src="../js/bootstrap-dropdown.js"></script>
 <script src="../js/bootstrap-tab.js"></script>
+<script src="../js/bootstrap-modal.js"></script>
+
+<script>
+    $(function(){
+        // Function definition
+        function checkbox(elem){
+            var $elem = $(elem);
+            var icon = $elem.find('i');
+
+            if ( icon.hasClass('glyphicon-unchecked') ){
+                icon.removeClass('glyphicon-unchecked');
+                icon.addClass('glyphicon-check');
+
+            }
+            else if ( icon.hasClass('glyphicon-check') ){
+                icon.removeClass('glyphicon-check');
+                icon.addClass('glyphicon-unchecked');
+            }
+
+            $elem.parent('.list-group-item').toggleClass('active');
+        }
+
+        // Click event
+        $('.checkbox').on('click',function(){
+            checkbox(this);
+        });
+
+
+        /* Completed Tasks Filter
+        =================================== */
+        function filterCompleted(elem,list){
+            var $elem = $(elem);
+            var $list = $(list);
+            var $listItems = $list.find('.list-group-item');
+
+            $elem.parents('li').toggleClass('active');
+
+            $listItems.each(function(){
+                if ( !$(this).hasClass('active') ){
+                    $(this).toggle();
+                }
+            });
+
+        }
+
+        $('.completed-tasks').on('click',function(){
+            filterCompleted('.completed-tasks','.jos-list-group-merch');
+        });
+
+
+        /* Tax Modal Stuff
+        =================================== */
+        $('#taxModal').modal();
+
+    });
+</script>
 
 
 

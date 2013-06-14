@@ -27,16 +27,17 @@
 }
 .panel-expand-trigger{
   position: absolute;
-  top: 2px;
+  top: 4px;
   right: 3px;
   color: @gray-light;
-  font-weight: 100;
-  font-size: @font-size-small;
+  font-weight: normal;
+  font-size: @font-size-medium;
   cursor: pointer;
 }
 .panel-expand-trigger:hover{
   color: #fff;
 }
+.panel-primary{border-bottom-width: 2px;}
 
 
 /* Variants
@@ -84,5 +85,14 @@
     margin-bottom: 30px;
     margin-right: 50px;
   }
+}
+
+
+/* Integrations
+=================================== */
+
+// accordions in panels
+.accordion-flush {
+  margin: 0px -15px -15px;
 }
 

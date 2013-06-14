@@ -58,3 +58,61 @@
 .accordion-inner a:hover{
   color: #fff;
 }
+
+
+/* Variants
+=================================== */
+
+// Checklist
+.jos-accordion-checklist{
+  background: @white;
+
+  .accordion-group:nth-child(even){background: @gray-lighter;}
+  .jos-checkbox{
+    display: inline-block;
+    padding: 14px 12px 14px 18px;
+    border-right: 4px double #ccc;
+    margin-right: @padding-value;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+    vertical-align: top;
+    font-size: 24px;
+    color: @gray-light;
+    &:hover{color: @black; cursor: pointer;}
+  }
+  .accordion-heading{border-bottom: 1px solid #ccc;}
+  .accordion-heading .accordion-toggle{
+    background: transparent;
+    border: 0px;
+    display: inline-block;
+    font-size: @font-size-medium;
+    padding: 0px;
+    padding-top: 18px;
+
+  }
+  .accordion-heading.active .accordion-toggle{text-decoration: line-through; color: @gray-light;}
+  .accordion-heading .accordion-toggle:after{
+    // glyphicon integration
+    font-family: 'Glyphicons';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    content:"\e191";
+    background: none;
+
+    float: none;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+  .accordion-heading.open .accordion-toggle:after{content:"\e192";}
+  .accordion-inner{
+    padding: @padding-value;
+    border-bottom: 1px solid #ccc;
+
+    img.pull-right{padding-left: @padding-value; padding-bottom: @padding-value;}
+    img.pull-left{padding-right: @padding-value; padding-bottom: @padding-value;}
+    a:hover{color: @link-hover-color;}
+    a.btn:hover{color: @link-inverse-color;}
+  }
+}
