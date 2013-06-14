@@ -114,5 +114,18 @@
     img.pull-left{padding-right: @padding-value; padding-bottom: @padding-value;}
     a:hover{color: @link-hover-color;}
     a.btn:hover{color: @link-inverse-color;}
+    ul{
+      margin-left: 0px;
+      padding-left: @padding-value*2;
+      margin-bottom: @padding-value;
+    }
+    ul > li{
+      color: @text-color;
+      border: 0px;
+      padding: @padding-small;
+
+      list-style-position: outside;
+      &:hover{text-decoration: none; cursor: default;}
+    }
   }
 }
