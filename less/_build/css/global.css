@@ -1048,6 +1048,7 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#fcb319;backgr
 .jos-accordion-checklist .accordion-heading .accordion-toggle{background:transparent;border:0px;display:inline-block;font-size:16px;padding:0px;padding-top:18px;}
 .jos-accordion-checklist .accordion-heading.active .accordion-toggle{text-decoration:line-through;color:#999999;}
 .jos-accordion-checklist .accordion-heading .accordion-toggle:after{font-family:'Glyphicons';font-style:normal;font-weight:normal;line-height:1;content:"\e191";background:none;float:none;margin-left:6px;vertical-align:middle;}
+.jos-accordion-checklist .accordion-heading.open{-webkit-box-shadow:0 3px 8px rgba(0, 0, 0, 0.125);box-shadow:0 3px 8px rgba(0, 0, 0, 0.125);}
 .jos-accordion-checklist .accordion-heading.open .accordion-toggle:after{content:"\e192";}
 .jos-accordion-checklist .accordion-inner{padding:15px;border-bottom:1px solid #ccc;}.jos-accordion-checklist .accordion-inner img.pull-right{padding-left:15px;padding-bottom:15px;}
 .jos-accordion-checklist .accordion-inner img.pull-left{padding-right:15px;padding-bottom:15px;}
