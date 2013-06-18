@@ -8,10 +8,12 @@
     <link href="../less/_build/css/global.css" rel="stylesheet"> <!-- build file of all styles for example -->
 
     <!-- html5.js for IE less than 9 -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-
-    <!--<script type="text/javascript" src="https://use.typekit.net/hle8wjq.js"></script>-->
-    <!--<script type="text/javascript">try{Typekit.load();}catch(e){}</script>-->
+    <script type="text/javascript" src="https://use.typekit.net/hle8wjq.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
 <body>
@@ -888,48 +890,51 @@
 
 <!--Scripts-->
 <script src="../js/libs/jquery.min.js"></script>
-<!--<script src="../js/bootstrap-transition.js"></script>-->
-<!--<script src="../js/bootstrap-dropdown.js"></script>-->
-<!--<script src="../js/jos/jos-bootstrap-collapse.js"></script>-->
-<!--<script src="../js/bootstrap-tab.js"></script>-->
-<!--<script src="../js/bootstrap-modal.js"></script>-->
-<!--<script src="../js/jos/jos-toggle.js"></script>-->
-<!--<script src="../js/jos/jos-checklist.js"></script>-->
+<script src="../js/bootstrap-transition.js"></script>
+<script src="../js/bootstrap-dropdown.js"></script>
+<script src="../js/jos/jos-bootstrap-collapse.js"></script>
+<script src="../js/bootstrap-tab.js"></script>
+<script src="../js/bootstrap-modal.js"></script>
+<script src="../js/jos/jos-toggle.js"></script>
+<script src="../js/jos/jos-checklist.js"></script>
 
-<!--&lt;!&ndash;Custom Script for this page&ndash;&gt;-->
-<!--<script>-->
-    <!--$(function(){-->
-
-
-        <!--/* Completed Tasks Filter-->
-         <!--=================================== */-->
-        <!--function filterCompleted(elem,list){-->
-            <!--var $elem = $(elem);-->
-            <!--var $list = $(list);-->
-            <!--var $listItems = $list.find('.list-group-item');-->
-
-            <!--$elem.parents('li').toggleClass('active');-->
-
-            <!--$listItems.each(function(){-->
-                <!--if ( !$(this).hasClass('active') ){-->
-                    <!--$(this).toggle();-->
-                <!--}-->
-            <!--});-->
-
-        <!--}-->
-
-        <!--$('.completed-tasks').on('click',function(){-->
-            <!--filterCompleted('.completed-tasks','.jos-list-group-merch');-->
-        <!--});-->
+<!--Custom Script for this page-->
+<script>
+    $(function(){
 
 
-        <!--/* Tax Modal Stuff-->
-         <!--=================================== */-->
-        <!--$('#taxModal').modal();-->
+        /* Completed Tasks Filter
+         =================================== */
+        function filterCompleted(elem,list){
+            var $elem = $(elem);
+            var $list = $(list);
+            var $listItems = $list.find('.list-group-item');
 
-    <!--});-->
-<!--</script>-->
+            $elem.parents('li').toggleClass('active');
 
+            $listItems.each(function(){
+                if ( !$(this).hasClass('active') ){
+                    $(this).toggle();
+                }
+            });
+
+        }
+
+        $('.completed-tasks').on('click',function(){
+            filterCompleted('.completed-tasks','.jos-list-group-merch');
+        });
+
+
+        /* Tax Modal Stuff
+         =================================== */
+        $('#taxModal').modal();
+
+    });
+</script>
+<!--[if lt IE 9]>
+<!--<script src="../js/libs/selectivizr-min.js"></script>-->
+<script src="../js/libs/css3-mediaqueries.js"></script>
+<![endif]-->
 
 
 
