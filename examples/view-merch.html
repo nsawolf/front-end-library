@@ -890,47 +890,47 @@
 
 <!--Scripts-->
 <script src="../js/libs/jquery.min.js"></script>
-<script src="../js/bootstrap-transition.js"></script>
-<script src="../js/bootstrap-dropdown.js"></script>
-<script src="../js/jos/jos-bootstrap-collapse.js"></script>
-<script src="../js/bootstrap-tab.js"></script>
-<script src="../js/bootstrap-modal.js"></script>
-<script src="../js/jos/jos-toggle.js"></script>
-<script src="../js/jos/jos-checklist.js"></script>
+<!--<script src="../js/bootstrap-transition.js"></script>-->
+<!--<script src="../js/bootstrap-dropdown.js"></script>-->
+<!--<script src="../js/jos/jos-bootstrap-collapse.js"></script>-->
+<!--<script src="../js/bootstrap-tab.js"></script>-->
+<!--<script src="../js/bootstrap-modal.js"></script>-->
+<!--<script src="../js/jos/jos-toggle.js"></script>-->
+<!--<script src="../js/jos/jos-checklist.js"></script>-->
 
-<!--Custom Script for this page-->
-<script>
-    $(function(){
-
-
-        /* Completed Tasks Filter
-         =================================== */
-        function filterCompleted(elem,list){
-            var $elem = $(elem);
-            var $list = $(list);
-            var $listItems = $list.find('.list-group-item');
-
-            $elem.parents('li').toggleClass('active');
-
-            $listItems.each(function(){
-                if ( !$(this).hasClass('active') ){
-                    $(this).toggle();
-                }
-            });
-
-        }
-
-        $('.completed-tasks').on('click',function(){
-            filterCompleted('.completed-tasks','.jos-list-group-merch');
-        });
+<!--&lt;!&ndash;Custom Script for this page&ndash;&gt;-->
+<!--<script>-->
+    <!--$(function(){-->
 
 
-        /* Tax Modal Stuff
-         =================================== */
-        $('#taxModal').modal();
+        <!--/* Completed Tasks Filter-->
+         <!--=================================== */-->
+        <!--function filterCompleted(elem,list){-->
+            <!--var $elem = $(elem);-->
+            <!--var $list = $(list);-->
+            <!--var $listItems = $list.find('.list-group-item');-->
 
-    });
-</script>
+            <!--$elem.parents('li').toggleClass('active');-->
+
+            <!--$listItems.each(function(){-->
+                <!--if ( !$(this).hasClass('active') ){-->
+                    <!--$(this).toggle();-->
+                <!--}-->
+            <!--});-->
+
+        <!--}-->
+
+        <!--$('.completed-tasks').on('click',function(){-->
+            <!--filterCompleted('.completed-tasks','.jos-list-group-merch');-->
+        <!--});-->
+
+
+        <!--/* Tax Modal Stuff-->
+         <!--=================================== */-->
+        <!--$('#taxModal').modal();-->
+
+    <!--});-->
+<!--</script>-->
 <!--[if lt IE 9]>
 <!--<script src="../js/libs/selectivizr-min.js"></script>-->
 <script src="../js/libs/css3-mediaqueries.js"></script>
