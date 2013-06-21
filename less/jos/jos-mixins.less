@@ -6,6 +6,8 @@
 #translucent {
   .background(@color: @white, @alpha: 1) {
     background-color: hsla(hue(@color), saturation(@color), lightness(@color), @alpha);
+    @value: @alpha*100;
+    filter: ~"alpha(opacity=@{value})";
   }
   .border(@color: @white, @alpha: 1) {
     border-color: hsla(hue(@color), saturation(@color), lightness(@color), @alpha);
