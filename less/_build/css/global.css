@@ -807,7 +807,7 @@ button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-ap
 .tabs-merch .tabs-merch-season{font-size:1.4em;font-weight:normal;}
 .tabs-merch .tab-content{background:#232323;}
 .tabs-merch .tab-pane{background:url(../../../img/jos-navs-bg.png);padding:16px 8px;margin-left:100px;}
-@media screen and (max-width:1000px){.tabs-merch .col-lg-6{width:100%;} .tabs-merch .col-lg-3{width:50%;} .tabs-merch .col-push-3,.tabs-merch .col-pull-6{left:0px;}}.navbar{position:relative;margin-bottom:20px;padding-left:15px;padding-right:15px;background-color:#eeeeee;border-radius:0px;}.navbar:before,.navbar:after{content:" ";display:table;}
+@media screen and (max-width:900px){.tabs-merch .col-lg-6{width:100%;} .tabs-merch .col-lg-3{width:50%;} .tabs-merch .col-push-3,.tabs-merch .col-pull-6{left:0px;}}.navbar{position:relative;margin-bottom:20px;padding-left:15px;padding-right:15px;background-color:#eeeeee;border-radius:0px;}.navbar:before,.navbar:after{content:" ";display:table;}
 .navbar:after{clear:both;}
 .navbar:before,.navbar:after{content:" ";display:table;}
 .navbar:after{clear:both;}
