@@ -66,31 +66,31 @@
 // Checklist
 .jos-accordion-checklist{
   background: @white;
-
   .accordion-group:nth-child(even){background: @gray-lighter;}
   .jos-checkbox{
     display: inline-block;
-    padding: 14px 12px 14px 18px;
-    border-right: 4px double #ccc;
-    margin-right: @padding-value;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin: -7px 15px 0px 20px;
     cursor: pointer;
     vertical-align: top;
     font-size: 24px;
     color: @gray-light;
     &:hover{color: @black; cursor: pointer;}
   }
-  .accordion-heading{border-bottom: 1px solid #ccc;}
+  .accordion-heading{
+    border-bottom: 1px solid #ccc;
+    display: table;
+  }
   .accordion-heading .accordion-toggle{
-    background: transparent;
     .reset-filter();
+    background: transparent;
     border: 0px;
     display: inline-block;
     font-size: @font-size-medium;
-    padding: 0px;
-    padding-top: 18px;
-    background-color: #fff;
+    padding: @padding-value;
+//    padding-top: 18px;
+    display: table-cell;
+    border-left: 4px double #ccc;
+    width: 100%;
 
   }
   .accordion-heading.active .accordion-toggle{text-decoration: line-through; color: @gray-light;}
