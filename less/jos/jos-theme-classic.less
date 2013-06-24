@@ -1,0 +1,165 @@
+// YBA Header Stuff
+#udm li {
+  line-height:inherit !important;
+  box-sizing: content-box !important;
+  webkit-box-sizing: content-box !important;
+}
+#udm li a{
+  box-sizing: content-box !important;
+  webkit-box-sizing: content-box !important;
+}
+
+// Accordion overrides
+.accordion-inner ul > li a{color: @link-color; display: inline;}
+
+// page header
+.page-header{
+  padding: 0px; margin: 0px; border: 0px;
+  h1{font-size: 18px; font-weight: bold; padding: 0px;margin: 0px;margin-left: @padding-value;font-family: Arial;}
+}
+
+// video
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: @padding-value;
+}
+.video iframe,
+.video object,
+.video embed{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+video{width: 100%; margin-bottom: @padding-value; border: 1px solid @gray-lighter;}
+
+.accordion-inner p{}
+
+.panel-metrics-fixed figure{
+  height: 120px;
+}
+.panel-ie{display: none;}
+
+
+/* Components
+=================================== */
+// jos-navs.less
+.nav-tabs-small {
+  > li {
+
+    > a {
+
+      padding: 10px 8px;
+      border-radius: 0px;
+      &:hover { // TODO: Might want to integrate this into overall theme
+        border-color: @gray-lighter @gray-lighter transparent;
+      }
+    }
+  }
+}
+
+
+.tabs-merch{
+  margin-left: 20px;
+}
+.tabs-merch > .nav-tabs{
+  margin: 0;
+  //  background: #232323;
+  background: #fff;
+  float: left;
+  border-bottom: 0;
+  margin-top: @padding-value;
+  border-right: 1px solid #ccc;
+
+}
+.tabs-merch > .nav-tabs > li{
+  //  background: #232323;
+  background: #fff;
+  text-align: center;
+  margin: 0;
+  font-weight: normal;
+
+  float: none;
+  border: 0px;
+}
+.tabs-merch > .nav-tabs > li > a {
+  height: @tabs-merch-height;
+  background: none !important;
+  background-image: none !important;
+  font-family: @font-family-sans-serif;
+  width: @tabs-merch-width;
+  //  color: #fff;
+  color: #000;
+  border: none;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  font-weight: normal;
+}
+.tabs-merch .nav-tabs > li > a:hover{
+  background-color: @gray-lighter !important;
+  background-image: none;
+}
+
+.tabs-merch .nav-tabs > .active > a,
+.tabs-merch .nav-tabs > .active > a:hover,
+.tabs-merch .nav-tabs > .active > a:focus {
+  color: #fff;
+  filter: none !important;
+  background-color: @gray !important;
+  background-image: none !important;
+  border: none;
+  border-bottom-color: none;
+  cursor: pointer;
+  font-weight: normal;
+}
+.tabs-merch .nav-tabs > .active > a:after{
+  content:"\e211";
+  font-family: Glyphicons;
+  font-size: 36px;
+  line-height: 18px;
+  display: inline-block;
+  float: right;
+  margin-top: -55%;
+  margin-right: 0px;
+  text-shadow: 0px;
+  background: none !important;
+
+  //  background: url(../../../img/jos-navs-arrow-left.png) no-repeat left;
+}
+.tabs-merch > .nav-tabs > li span{
+  display: block;
+  font-weight: normal;
+}
+.tabs-merch > .nav-tabs > li .callout{
+  margin-top: .5em;
+  background: none;
+  background-image: none;
+  filter: none;
+  color: #aaa;
+  text-shadow: none;
+}
+.tabs-merch .nav-tabs > .active > a > .callout{
+  color: #fff;
+}
+.tabs-merch .tabs-merch-season { font-size: 1.4em; font-weight: normal;}
+.tabs-merch .tab-content{
+  //  background: #232323;
+  background: #fff;
+}
+.tabs-merch .tab-pane{
+  //  background: url(../../../img/jos-navs-bg.png);
+  background: #fff;
+  padding: @padding-value-base @padding-value-half;
+  margin-left: @tabs-merch-width;
+  padding-top: @padding-value;
+}
+.tabs-merch .panel{
+
+}
+
