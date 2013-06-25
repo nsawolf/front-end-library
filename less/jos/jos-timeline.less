@@ -1,0 +1,196 @@
+
+/* ==================================
+    jos-jos-timeline
+=================================== */
+
+.jos-timeline {
+  position: relative; height: 74px; margin: 58px 0;
+  li { list-style: none; }
+  img { display: block; max-width: none; margin: 0 auto; }
+}
+
+
+/* Dates
+=================================== */
+
+.jos-timeline-currentOffer {
+	position: absolute;
+	top: -32px;
+	right: 71.75%;
+	height: 58px;
+	margin-right: 16px;
+	background: transparent url('../images/tl_arrow_offerBlitz.png') no-repeat right bottom;
+	font-size: .8em;
+}
+.jos-timeline-currentBlitz {
+	position: absolute;
+	top: -32px;
+	left: 31.375%;
+	height: 58px;
+	margin-left: -8px;
+	background: transparent url('../images/tl_arrow_offerBlitz.png') no-repeat left bottom;
+	font-size: .8em;
+}
+.jos-timeline-currentOffer div,
+.jos-timeline-currentBlitz div {
+	height: 25px;
+	margin-right: -6px;
+	padding: 5px;
+	background: #232323;
+	color: white;
+}
+.jos-timeline-currentOffer img {
+	float: right;
+	margin: -5px -5px -5px 7px;
+	width: 25px;
+}
+.jos-timeline-currentBlitz img {
+	float: left;
+	margin: -5px 7px -5px -5px;
+	width: 25px;
+}
+.jos-timeline-todaysDate {
+	position: absolute;
+	bottom: -36px;
+	left: 30%;
+	height: 62px;
+	margin-left: -8px;
+	background: transparent url('../images/tl_arrow_todaysDate.png') no-repeat left top;
+	font-size: .8em;
+}
+.jos-timeline-todaysDate div {
+	margin: 38px 0 0 -6px;
+	padding: 5px;
+	background-color: #232323;
+	border: 2px solid #232323;
+	vertical-align: middle;
+	line-height: .85em;
+	text-indent: 0;
+	white-space: nowrap;
+	color: #fff;
+}
+
+
+/* Offer Labels
+=================================== */
+
+.jos-timeline-offerLabels {
+	position: relative;
+	height: 20px;
+	padding: 0;
+	margin: 0 0 6px 0;
+	font-family: "Jubilat",Georgia,serif;
+	font-size: 17px;
+	line-height: 1em;
+	font-weight: 100;
+	color: #000;
+	text-align: left;
+}
+
+@media screen and (max-width: 1060px) {
+	.jos-timeline-offerLabels { font-size: 14px; }
+}
+
+@media screen and (min-width: 1061px) and (max-width: 1200px) {
+	.jos-timeline-offerLabels { font-size: 16px; }
+}
+
+@media screen and (min-width: 1201px) {
+	.jos-timeline-offerLabels { font-size: 17px; }
+}
+
+
+/* The widths are the same as the respective offers. */
+.jos-timeline-offerLabels li {
+	float: left;
+	height: 20px;
+	overflow: hidden;
+}
+.jos-timeline-offerLabel1 { width: 35%; }
+.jos-timeline-offerLabel2 { width: 8%; }
+.jos-timeline-offerLabel3 { width: 26%; }
+.jos-timeline-offerLabel4 { width: 31%; }
+.jos-timeline-offerLabels li span { font-weight: bold; }
+
+
+/* Bars
+=================================== */
+
+.jos-timeline-offerBarsContainer {
+	height: 23px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 0 2px 2px 0;
+	margin: 0;
+}
+.jos-timeline-offerBars {
+	position: relative;
+	height: 20px;
+	padding: 0;
+	margin: 0 2px 0 0;
+}
+.jos-timeline-offerBars li {
+	position: absolute;
+	top: 0;
+	height: 20px;
+	text-indent: -6000px;
+	overflow: hidden;
+}
+
+/* Offer Bars */
+.jos-timeline-offerBar {
+	border-left: 2px solid #fff;
+}
+
+/* Blitz Bars */
+.jos-timeline-blitzBar {
+	left: 28.25%; /* <-- Length of offer 1 (35%), less the width of blitz1 (6.25%), less .5% (bumper) --> */
+	width: 6.25%; /* <-- 3 weeks divided by 52 (width of the 1st offer) --> */
+}
+.jos-timeline-blitzBar img {
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+}
+
+
+/* Month Ruler
+=================================== */
+
+.jos-timeline-rules {
+	height: 12px;
+	border-right: 1px solid black;
+	padding: 0;
+	margin: 0;
+}
+.jos-timeline-rules li {
+	float: left;
+	width: 8.333%; /* <-- Percentage of a month in a year (e.g.: 1/12) --> */
+	height: 12px;
+}
+.jos-timeline-rules hr {
+	float: left;
+	height: 12px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-left: 1px solid black;
+}
+.jos-timeline-rulerValues {
+	margin-top: 5px;
+	height: 10px;
+	padding: 0;
+	margin: 5px 0 0 0;
+}
+.jos-timeline-rulerValues li {
+	float: left;
+	width: 8.333%; /* <-- Percentage of a month in a year (e.g.: 1/12) --> */
+	height: 10px;
+	text-align: left;
+	font-size: 0.6em;
+	line-height: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+}

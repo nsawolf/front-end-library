@@ -1164,6 +1164,33 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#fcb319;backgr
 .jos-view-book{width:100% !important;border-bottom:0px;padding-bottom:0px;margin-bottom:7.5px;}.jos-view-book .meta-info-dynamic,.jos-view-book .meta-info-preview,.jos-view-book .meta-info-persistent .meta-due-date,.jos-view-book .meta-info-persistent .meta-info-more{display:none;}
 .jos-view-book>li{width:60px !important;height:60px !important;border-width:1px !important;}
 .jos-view-book>li:first-child{margin-left:0;}
+.jos-timeline{position:relative;height:74px;margin:58px 0;}.jos-timeline li{list-style:none;}
+.jos-timeline img{display:block;max-width:none;margin:0 auto;}
+.jos-timeline-currentOffer{position:absolute;top:-32px;right:71.75%;height:58px;margin-right:16px;background:transparent url('../images/tl_arrow_offerBlitz.png') no-repeat right bottom;font-size:.8em;}
+.jos-timeline-currentBlitz{position:absolute;top:-32px;left:31.375%;height:58px;margin-left:-8px;background:transparent url('../images/tl_arrow_offerBlitz.png') no-repeat left bottom;font-size:.8em;}
+.jos-timeline-currentOffer div,.jos-timeline-currentBlitz div{height:25px;margin-right:-6px;padding:5px;background:#232323;color:white;}
+.jos-timeline-currentOffer img{float:right;margin:-5px -5px -5px 7px;width:25px;}
+.jos-timeline-currentBlitz img{float:left;margin:-5px 7px -5px -5px;width:25px;}
+.jos-timeline-todaysDate{position:absolute;bottom:-36px;left:30%;height:62px;margin-left:-8px;background:transparent url('../images/tl_arrow_todaysDate.png') no-repeat left top;font-size:.8em;}
+.jos-timeline-todaysDate div{margin:38px 0 0 -6px;padding:5px;background-color:#232323;border:2px solid #232323;vertical-align:middle;line-height:.85em;text-indent:0;white-space:nowrap;color:#fff;}
+.jos-timeline-offerLabels{position:relative;height:20px;padding:0;margin:0 0 6px 0;font-family:"Jubilat",Georgia,serif;font-size:17px;line-height:1em;font-weight:100;color:#000;text-align:left;}
+@media screen and (max-width:1060px){.jos-timeline-offerLabels{font-size:14px;}}@media screen and (min-width:1061px) and (max-width:1200px){.jos-timeline-offerLabels{font-size:16px;}}@media screen and (min-width:1201px){.jos-timeline-offerLabels{font-size:17px;}}.jos-timeline-offerLabels li{float:left;height:20px;overflow:hidden;}
+.jos-timeline-offerLabel1{width:35%;}
+.jos-timeline-offerLabel2{width:8%;}
+.jos-timeline-offerLabel3{width:26%;}
+.jos-timeline-offerLabel4{width:31%;}
+.jos-timeline-offerLabels li span{font-weight:bold;}
+.jos-timeline-offerBarsContainer{height:23px;border-left:1px solid black;border-right:1px solid black;border-bottom:1px solid black;padding:0 2px 2px 0;margin:0;}
+.jos-timeline-offerBars{position:relative;height:20px;padding:0;margin:0 2px 0 0;}
+.jos-timeline-offerBars li{position:absolute;top:0;height:20px;text-indent:-6000px;overflow:hidden;}
+.jos-timeline-offerBar{border-left:2px solid #fff;}
+.jos-timeline-blitzBar{left:28.25%;width:6.25%;}
+.jos-timeline-blitzBar img{position:absolute;left:50%;margin-left:-100px;}
+.jos-timeline-rules{height:12px;border-right:1px solid black;padding:0;margin:0;}
+.jos-timeline-rules li{float:left;width:8.333%;height:12px;}
+.jos-timeline-rules hr{float:left;height:12px;width:1px;margin:0;padding:0;border:none;border-left:1px solid black;}
+.jos-timeline-rulerValues{margin-top:5px;height:10px;padding:0;margin:5px 0 0 0;}
+.jos-timeline-rulerValues li{float:left;width:8.333%;height:10px;text-align:left;font-size:0.6em;line-height:1em;font-weight:bold;text-transform:uppercase;}
 .tabs-merch .jos-theme-01 .callout,.tabs-merch .jos-theme-01 .box--primary .box-header,.tabs-merch .jos-theme-01 .ProgressBar-progress,.tabs-merch .jos-theme-01 .DateList-date{background-color:#972736;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#bf3244), to(#972736));background-image:-webkit-linear-gradient(top, #bf3244, #972736);background-image:-moz-linear-gradient(top, #bf3244, #972736);background-image:linear-gradient(to bottom, #bf3244, #972736);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbf3244', endColorstr='#ff972736', GradientType=0);}
 .tabs-merch .nav-tabs>.active.jos-theme-01>a,.tabs-merch .nav-tabs>.active.jos-theme-01>a:hover,.tabs-merch .nav-tabs>.active.jos-theme-01>a:focus{background-color:#d25263;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#d76675), to(#d25263));background-image:-webkit-linear-gradient(top, #d76675, #d25263);background-image:-moz-linear-gradient(top, #d76675, #d25263);background-image:linear-gradient(to bottom, #d76675, #d25263);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd76675', endColorstr='#ffd25263', GradientType=0);}
 .jos-theme-01 .panel-primary{border-color:#bf3244;}.jos-theme-01 .panel-primary .panel-heading{color:#fff;background-color:#972736;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#bf3244), to(#972736));background-image:-webkit-linear-gradient(top, #bf3244, #972736);background-image:-moz-linear-gradient(top, #bf3244, #972736);background-image:linear-gradient(to bottom, #bf3244, #972736);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbf3244', endColorstr='#ff972736', GradientType=0);border-color:transparent;}
@@ -1198,7 +1225,7 @@ video{width:100%;margin-bottom:15px;border:1px solid #eeeeee;}
 .tabs-merch .nav-tabs>.active>a,.tabs-merch .nav-tabs>.active>a:hover,.tabs-merch .nav-tabs>.active>a:focus{color:#fff;filter:none !important;background-color:#555555 !important;background-image:none !important;border:none;border-bottom-color:none;cursor:pointer;font-weight:normal;}
 .tabs-merch .nav-tabs>.active>a:after{content:"\e211";font-family:Glyphicons;font-size:36px;line-height:18px;display:inline-block;float:right;margin-top:-55%;margin-right:0px;text-shadow:0px;background:none !important;}
 .tabs-merch>.nav-tabs>li span{display:block;font-weight:normal;}
-.tabs-merch>.nav-tabs>li .callout{margin-top:.5em;background:none;background-image:none;filter:none;color:#aaa;text-shadow:none;}
+.tabs-merch>.nav-tabs>li .callout{margin-top:.5em;filter:none;text-shadow:none;}
 .tabs-merch .nav-tabs>.active>a>.callout{color:#fff;}
 .tabs-merch .tabs-merch-season{font-size:1.4em;font-weight:normal;}
 .tabs-merch .tab-content{background:#fff;}
