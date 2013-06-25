@@ -1045,7 +1045,7 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#fcb319;backgr
 .jos-accordion-checklist{background:#fdfdfd;}.jos-accordion-checklist .accordion-group:nth-child(even){background:#eeeeee;}
 .jos-accordion-checklist .jos-checkbox{display:inline-block;margin:-7px 15px 0px 20px;cursor:pointer;vertical-align:top;font-size:24px;color:#999999;}.jos-accordion-checklist .jos-checkbox:hover{color:#1b1b1b;cursor:pointer;}
 .jos-accordion-checklist .accordion-heading{border-bottom:1px solid #ccc;display:table;}
-.jos-accordion-checklist .accordion-heading .accordion-toggle{filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);background:transparent;border:0px;display:inline-block;font-size:16px;padding:15px;display:table-cell;border-left:4px double #ccc;width:100%;}
+.jos-accordion-checklist .accordion-heading .accordion-toggle{filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);background:transparent;border:0px;display:inline-block;font-size:16px;padding:15px;display:table-cell;border-left:4px double #ccc;width:100%;color:#333333;}
 .jos-accordion-checklist .accordion-heading.active .accordion-toggle{text-decoration:line-through;color:#999999;}
 .jos-accordion-checklist .accordion-heading .accordion-toggle:after{font-family:'Glyphicons';font-style:normal;font-weight:normal;line-height:1;content:"\e191";background:none;float:none;margin-left:6px;vertical-align:middle;}
 .jos-accordion-checklist .accordion-heading.open{-webkit-box-shadow:0 3px 8px rgba(0, 0, 0, 0.125);box-shadow:0 3px 8px rgba(0, 0, 0, 0.125);}
