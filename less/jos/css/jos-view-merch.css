@@ -1,0 +1,46 @@
+/* ==================================
+    jos-view-merch.html
+
+    Important - do not put styles regarding specific components in here, but rather styles that cannot be abstracted,
+    and thus only apply to this view. Probably responsive styles and media queries.
+=================================== */
+/*TODO: Consider changing other padding values to be divisible by 2*/
+/* ==================================
+    Jostens Custom Component Variables
+=================================== */
+/*20*14px = 280px*/
+@media screen and (max-width: 480px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-view-merch\.less}line{font-family:\0000311}}
+  .col-metrics,
+  .col-pull-6 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-view-merch\.less}line{font-family:\0000315}}
+  .col-metrics,
+  .col-pull-6 {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-view-merch\.less}line{font-family:\0000319}}
+  .col-checklist {
+    left: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-view-merch\.less}line{font-family:\0000320}}
+  .col-pull-6 {
+    width: 50%;
+    left: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-view-merch\.less}line{font-family:\0000321}}
+  .col-metrics {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 992px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-view-merch\.less}line{font-family:\0000324}}
+  .col-timeline {
+    display: none;
+  }
+}

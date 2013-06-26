@@ -1,0 +1,40 @@
+/* ==================================
+    jos-view-merch.html
+
+    Important - do not put styles regarding specific components in here, but rather styles that cannot be abstracted,
+    and thus only apply to this view. Probably responsive styles and media queries.
+=================================== */
+@import "jos-variables.less";
+@import "../mixins.less";
+
+@media screen and (max-width: @screen-phone){
+  .col-metrics,
+  .col-pull-6{width: 100%;}
+}
+@media screen and (min-width: @screen-phone) and (max-width: @screen-tablet){
+  .col-metrics,
+  .col-pull-6{width: 50%;}
+}
+@media screen and (min-width: @screen-tablet) and (max-width: @screen-desktop){
+  .col-checklist{left: 0;}
+  .col-pull-6{width: 50%; left: 0;}
+  .col-metrics{width: 50%;}
+}
+@media screen and (max-width: @screen-desktop){
+  .col-timeline{display: none;}
+}
+
+
+
+
+
+// view specific media queries
+//@media screen and (max-width: @tabs-merch-breakpoint){
+//  .tabs-merch {
+//    .col-lg-6{ width: 100%;}
+//    .col-lg-3{ width: 50%; }
+//
+//    .col-push-3,
+//    .col-pull-6{left: 0px;}
+//  }
+//}
