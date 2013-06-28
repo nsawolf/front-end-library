@@ -11,18 +11,17 @@
 }
 
   /* lighter gradient */
-.tabs-merch .nav-tabs > .active.jos-theme-01 > a,
-.tabs-merch .nav-tabs > .active.jos-theme-01 > a:hover,
-.tabs-merch .nav-tabs > .active.jos-theme-01 > a:focus {
-  #gradient > .vertical(@theme-01Lighter, @theme-01Light);
+.tabs-merch .nav-tabs > .jos-theme-01 > a{background: @theme-01;}
+.tabs-merch .nav-tabs > .jos-theme-01 > a:hover,
+.tabs-merch .nav-tabs > .jos-theme-01 > a:focus{
+  #translucent > .background(@theme-01, .5);
 }
 
 .jos-theme-01 .panel-primary {
-  border-color: @theme-01;
   .panel-heading {
     color: #fff;
     #gradient > .vertical(@theme-01, darken(@theme-01, 10%));
     border-color: transparent;
   }
 }
-.jos-theme-01 .progress-bar{background-color: @theme-01;}
+.jos-theme-01 .progress-bar{background-color: @theme-01-light;}

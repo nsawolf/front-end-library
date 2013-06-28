@@ -6,6 +6,10 @@
 .panel {
   position: relative;
 }
+.panel-heading{
+  color: @panel-heading-text;
+  text-transform: uppercase;
+}
 .panel-inverse {
   #translucent > .background(@panel-inverse-bg, .8);
   border: 0px;
@@ -37,7 +41,10 @@
 .panel-expand-trigger:hover{
   color: #fff;
 }
-.panel-primary{border-bottom-width: 2px;}
+.panel-primary{
+  border-bottom-width: 2px;
+  border-color: @panel-border;
+}
 
 
 /* Variants

@@ -50,9 +50,7 @@ video{width: 100%; margin-bottom: @padding-value; border: 1px solid @gray-lighte
 // jos-navs.less
 .nav-tabs-small {
   > li {
-
     > a {
-
       padding: 10px 8px;
       border-radius: 0px;
       &:hover { // TODO: Might want to integrate this into overall theme
@@ -62,38 +60,32 @@ video{width: 100%; margin-bottom: @padding-value; border: 1px solid @gray-lighte
   }
 }
 
-
+// merch tabs
 .tabs-merch{
-  margin-left: 20px;
+  background: #333;
+  height: 100%;
 }
 .tabs-merch > .nav-tabs{
   margin: 0;
-  //  background: #232323;
   background: #fff;
   float: left;
   border-bottom: 0;
-  margin-top: @padding-value;
-  border-right: 1px solid #ccc;
-
+  border-top: 1px solid #ccc;
+  background: #333;
 }
 .tabs-merch > .nav-tabs > li{
-  //  background: #232323;
-  background: #fff;
+  background: #333;
   text-align: center;
   margin: 0;
   font-weight: normal;
-
   float: none;
   border: 0px;
+  margin-bottom: 1px;
 }
 .tabs-merch > .nav-tabs > li > a {
   height: @tabs-merch-height;
-  background: none !important;
-  background-image: none !important;
   font-family: @font-family-sans-serif;
   width: @tabs-merch-width;
-  //  color: #fff;
-  color: #000;
   border: none;
   margin: 0;
   padding-left: 0;
@@ -101,23 +93,17 @@ video{width: 100%; margin-bottom: @padding-value; border: 1px solid @gray-lighte
   border-radius: 0;
   font-weight: normal;
 }
-.tabs-merch .nav-tabs > li > a:hover{
-  background-color: @gray-lighter !important;
-  background-image: none;
-}
-
 .tabs-merch .nav-tabs > .active > a,
 .tabs-merch .nav-tabs > .active > a:hover,
 .tabs-merch .nav-tabs > .active > a:focus {
   color: #fff;
   filter: none !important;
-  background-color: @gray !important;
-  background-image: none !important;
-  border: none;
+  border: 0px;
   border-bottom-color: none;
   cursor: pointer;
   font-weight: normal;
 }
+//Arrow
 .tabs-merch .nav-tabs > .active > a:after{
   content:"\e211";
   font-family: Glyphicons;
@@ -125,41 +111,55 @@ video{width: 100%; margin-bottom: @padding-value; border: 1px solid @gray-lighte
   line-height: 18px;
   display: inline-block;
   float: right;
-  margin-top: -55%;
+  margin-top: -65px;
   margin-right: 0px;
   text-shadow: 0px;
   background: none !important;
-
-  //  background: url(../../../img/jos-navs-arrow-left.png) no-repeat left;
+  color: #DFDFDF;
 }
 .tabs-merch > .nav-tabs > li span{
   display: block;
   font-weight: normal;
+  text-transform: uppercase;
+  line-height: 18px;
+  font-size: 14px;
 }
+// callout
 .tabs-merch > .nav-tabs > li .callout{
-  margin-top: .5em;
-//  background: none;
-//  background-image: none;
+  margin-top: 8px;
   filter: none;
-//  color: #aaa;
   text-shadow: none;
+  border-radius: 0px;
+  background: none;
+  padding: 0px;
+  font-family: @font-family-serif;
+  font-size: 24px;
+  font-weight: normal;
+
 }
-.tabs-merch .nav-tabs > .active > a > .callout{
-  color: #fff;
-}
-.tabs-merch .tabs-merch-season { font-size: 1.4em; font-weight: normal;}
+.tabs-merch .tabs-merch-season { font-size: 1em; font-weight: normal;}
 .tabs-merch .tab-content{
   //  background: #232323;
-  background: #fff;
+  background: #333;
 }
 .tabs-merch .tab-pane{
   //  background: url(../../../img/jos-navs-bg.png);
-  background: #fff;
+  background: #DFDFDF;
   padding: @padding-value-base @padding-value-half;
+  padding-left: @padding-value*2;
   margin-left: @tabs-merch-width;
   padding-top: @padding-value;
 }
-.tabs-merch .panel{
+
+// header
+.col-page-title{
+  h1{
+    padding: 0px;
+    padding-top: @padding-value-half;
+    margin: 0px;
+    margin-bottom: @padding-value*2;
+    text-transform: uppercase;
+    font-weight: normal;}
 
 }
 

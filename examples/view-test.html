@@ -7,88 +7,39 @@
 
     <!-- styles -->
     <link href="../less/_build/css/global.css" rel="stylesheet"> <!-- build file of all styles for example -->
-
+    <script type="text/javascript" src="http://html5video.org/kgit/tags/v1.8.3.rc1/mwEmbedLoader.php/p/943871/uiconf_id/7838722"></script>
 </head>
 
 <body>
-<div class="jos-appcanvas-above">Above</div>
-<div class="jos-appcanvas">Test
-    <a class="btn" data-trigger="shift-left">Shift Left</a>
-    <a class="btn" data-trigger="shift-default">Shift Default</a>
-    <a class="btn" data-trigger="shift-right">Shift Right</a>
-</div>
-<div class="jos-appcanvas-below">Below</div>
+<div id="testVideo"></div>
 
 
-
-<div class="modal fade" id="exampleA">
-    <!-- Modal -->
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Choose Cover</h4>
-                <div class="filters">
-                    <!-- Single button -->
-                    <div class="btn-group btn-group-select btn-group-select-personalization">
-                        <button class="btn dropdown-toggle" data-toggle="dropdown" value="on">
-                            Personalization On <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a href="#" value="on">Personalization On</a></li>
-                            <li><a href="#" value="off">Personalization Off</a></li>
-                        </ul>
-                    </div>
-                    <!-- Single button -->
-                    <div class="btn-group btn-group-select btn-group-select-color">
-                        <button class="btn dropdown-toggle" data-toggle="dropdown" value="default">
-                            <img src="http://placehold.it/16x16"> Default Color <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a href="#" value="default"><img src="http://placehold.it/16x16"> Default Color</a></li>
-                            <li><a href="#" value="01"><img src="http://placehold.it/16x16/ff1212"> Color 01</a></li>
-                            <li><a href="#" value="02"><img src="http://placehold.it/16x16/ab6f2c"> Color 02</a></li>
-                            <li><a href="#" value="03"><img src="http://placehold.it/16x16/5cb85c"> Color 03</a></li>
-                            <li><a href="#" value="04"><img src="http://placehold.it/16x16/bfda38"> Color 04</a></li>
-                            <li><a href="#" value="05"><img src="http://placehold.it/16x16/dd6767"> Color 05</a></li>
-                            <li><a href="#" value="06"><img src="http://placehold.it/16x16/1d5e88"> Color 06</a></li>
-                            <li><a href="#" value="07"><img src="http://placehold.it/16x16/ff89aa"> Color 07</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body text-center">
-                <img src="http://placehold.it/700x400&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="default">
-                <img src="http://placehold.it/700x400/ff1212&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="01">
-                <img src="http://placehold.it/700x400/ab6f2c&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="02">
-                <img src="http://placehold.it/700x400/5cb85c&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="03">
-                <img src="http://placehold.it/700x400/bfda38&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="04">
-                <img src="http://placehold.it/700x400/dd6767&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="05">
-                <img src="http://placehold.it/700x400/1d5e88&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="06">
-                <img src="http://placehold.it/700x400/ff89aa&text=withoutPersonalization" class="jos-coverlist-preview" data-personalization="off" data-color="07">
-
-                <img src="http://placehold.it/700x400&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="default">
-                <img src="http://placehold.it/700x400/ff1212&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="01">
-                <img src="http://placehold.it/700x400/ab6f2c&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="02">
-                <img src="http://placehold.it/700x400/5cb85c&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="03">
-                <img src="http://placehold.it/700x400/bfda38&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="04">
-                <img src="http://placehold.it/700x400/dd6767&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="05">
-                <img src="http://placehold.it/700x400/1d5e88&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="06">
-                <img src="http://placehold.it/700x400/ff89aa&text=withPersonalization" class="jos-coverlist-preview" data-personalization="on" data-color="07">
-            </div>
-            <div class="modal-footer">
-                <a href="#" class="btn" data-dismiss="modal">Cancel</a>
-                <a href="#" class="btn btn-primary" data-dismiss="modal">Choose This Cover</a>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dalog -->
-</div><!-- /.modal -->
 
 <!--Scripts-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
+    $(function(){
 
 
+
+        /* Video Stuff
+         =================================== */
+        kWidget.embed({
+            'targetId': 'testVideo',
+            'wid': '_943871',
+            'uiconf_id': '7838722',
+            'entry_id': '1_0kaya2it',
+            'width': '100%',
+            'height': '100%',
+            'flashvars': {
+                'autoPlay': false
+            },
+            'params':{
+                'wmode': 'transparent'
+            }
+        });
+
+    });
 </script>
 </body>
 </html>

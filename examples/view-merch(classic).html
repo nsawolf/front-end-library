@@ -22,12 +22,13 @@
 
     <script type="text/javascript" src="https://use.typekit.net/hle8wjq.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="http://html5video.org/kgit/tags/v1.8.3.rc1/mwEmbedLoader.php/p/943871/uiconf_id/7838722"></script>
 </head>
 
 <body>
 <div class="page-header">
     <img src="../img/header.png">
-    <h1>Blitz Campaign</h1>
+
 </div>
 
 <!--START MODULE-->
@@ -64,9 +65,12 @@
     </ul>
     <div class="tab-content">
         <div class="tab-pane active jos-theme-01" id="exampleTab01">
+            <div class="col col-lg-12 col-page-title">
+                <h1><strong>Blitz</strong> Campaign</h1>
+            </div>
             <div class="col col-lg-12 col-timeline">
                 <div class="panel">
-                    <div class="panel-heading">Your Timline</div>
+                    <div class="panel-heading">Your Timeline</div>
                     <div class="jos-timeline ">
                         <div class="jos-timeline-currentOffer BTS" style="right:80.0%">
                             <div><img src="../img/view-merch/tl_offer1_bg.png" alt="">Offer: June 19 - October 06</div>
@@ -153,7 +157,7 @@
 
             <div class="col col-lg-6 col-push-3 col-checklist">
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Checklist</div>
+                    <div class="panel-heading"><i class="glyphicon glyphicon-star"></i> Back to School Checklist</div>
                     <div class="navbar jos-navbar-toolbar">
                         <ul class="nav navbar-nav ">
                             <li><a href="#"><span class="glyphicon glyphicon-print"></span> Print</a></li>
@@ -340,21 +344,14 @@
                             <div class="accordion-heading">
                                 <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion" href="#collapse7">
-                                    Play the Jostens Yearbook Commercial
+                                    Show the Jostens Yearbook Commercial
                                 </a>
                             </div>
                             <div id="collapse7" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <p class="lead">This commercial is a catchy and fun way to let students and parents at your school know that
                                         yearbooks are on sale.</p>
-                                    <video controls="" preload="none" poster="http://placehold.it/420x236&text=tbd">
-                                        <source id="mp4"
-                                                src="http://resources.yearbookavenue.jostens.com/wp-content/uploads/2012/10/Yearbook-Commercial.mp4"
-                                                type="video/mp4">
-                                        <!--<source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">-->
-                                        <!--<source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">-->
-                                        <p>Your user agent does not support the HTML5 Video element.</p>
-                                    </video>
+                                    <div id="video-yearbook-commercial"></div>
                                     <label>Commercial Viewing Ideas:</label>
                                     <ul>
                                         <li>At a school pep rally</li>
@@ -363,8 +360,7 @@
                                         <li>Post on Facebook and Twitter, don’t forget to include the information on the Blitz end date and a
                                             link to <a href="http://jostensyearbooks.com" target="_blank">jostensyearbooks.com</a></li>
                                     </ul>
-                                    <a href="https://www.dropbox.com/s/fmht6m4adrgrfl2/Yearbook%20Commercial.mp4" class="btn" target="_blank"><i
-                                            class="glyphicon glyphicon-download"></i> Download Video</a>
+                                    <a href="http://cdnakmi.kaltura.com/p/943871/raw/entry_id/1_n22gcbwd/file_name/name" class="btn">Download Video</a>
                                 </div>
                             </div>
                         </div>
@@ -587,18 +583,15 @@
                     <div class="jos-navbar-footer"></div>
                 </div>
             </div>
-            <div class="col col-lg-3 col-pull-6 col-sm-12">
+            <div class="col col-lg-3 col-pull-6">
                 <div class="panel ">
                     <div class="panel-heading">Here's the Deal</div>
                     <p>Bacon ipsum dolor sit amet ground round shankle pork belly drumstick swine t-bone. Sausage corned beef spare ribs, cow jowl pastrami brisket.</p>
                     <label>Awesome Video!</label>
-                    <video controls="" preload="none" poster="http://placehold.it/420x236&text=tbd">
-                        <source id="mp4" src="http://resources.yearbookavenue.jostens.com/wp-content/uploads/2012/10/Yearbook-Commercial.mp4" type="video/mp4">
-                        <p>Your user agent does not support the HTML5 Video element.</p>
-                    </video>
+                    <div id="testVideo"></div>
                 </div>
             </div>
-            <div class="col col-lg-3 col-metrics col-sm-12">
+            <div class="col col-lg-3 col-metrics">
                 <div class="panel panel-metrics">
                     <div class="panel-expand"></div>
                     <span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>
@@ -634,46 +627,6 @@
                     <figcaption><label>Covered: 200</label></figcaption>
                     <figcaption><label>Goal: 600</label></figcaption>
                 </div>
-                <!--<div class="panel panel-metrics metrics-user">-->
-                    <!--<div class="panel-expand"></div>-->
-                    <!--<span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>-->
-                    <!--<figure>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                        <!--<span class="glyphicon glyphicon-user"></span>-->
-                    <!--</figure>-->
-                    <!--<h2>127</h2>-->
-
-                    <!--<figcaption><label>ReplayIt Users</label></figcaption>-->
-                <!--</div>-->
-                <!--<div class="panel panel-metrics">-->
-                    <!--<div class="panel-expand"></div>-->
-                    <!--<span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>-->
-                    <!--<figure>-->
-                        <!--<img src="http://placehold.it/40x40" class="img-circle metrics-badge">-->
-                        <!--<img src="http://placehold.it/40x40" class="img-circle metrics-badge">-->
-                        <!--<img src="http://placehold.it/40x40" class="img-circle metrics-badge">-->
-                        <!--<img src="http://placehold.it/40x40" class="img-circle metrics-badge">-->
-                        <!--<img src="http://placehold.it/40x40" class="img-circle metrics-badge">-->
-                        <!--<img src="http://placehold.it/40x40" class="img-circle metrics-badge">-->
-                        <!--<img src="http://placehold.it/40x40" class="img-circle metrics-badge">-->
-                        <!--<img src="http://placehold.it/40x40" class="img-circle metrics-badge">-->
-                        <!--<img src="http://placehold.it/40x40" class="img-circle metrics-badge">-->
-                    <!--</figure>-->
-                    <!--<h2>Badge Board</h2>-->
-                <!--</div>-->
             </div>
             <div class="clearfix"></div>
 
@@ -683,7 +636,7 @@
 
             <div class="col col-lg-6 col-push-3">
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Checklist</div>
+                    <div class="panel-heading"><i class="glyphicon glyphicon-star"></i> Fall Checklist</div>
                     <div class="navbar jos-navbar-toolbar">
                         <ul class="nav navbar-nav ">
                             <li><a href="#"><span class="glyphicon glyphicon-print"></span> Print</a></li>
@@ -795,7 +748,6 @@
                             <div id="collapseB06" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <p class="lead">Get ahead of the game by reaching out to Winter Coaches and club leaders now, before their activities begin.</p>
-                                    <img src="http://placehold.it/150x195&text=invite" class="pull-right">
                                     <p>Custom invitations can be used to invite leaders of different clubs and organizations at your school to take part in using ReplayIt to get more coverage of members in the yearbook.  Print out custom invitations and hand deliver them to the Winter Coaches and Club Leaders, make sure to explain how ReplayIt works.</p>
                                     <p class="clearfix"><strong>Great Idea:</strong> Take this task to the next level by assigning staff members to present to the different sports teams, clubs and organizations in your school.  The presentation could include staff members giving an overview of the yearbook, explaining and demonstrating the ReplayIt app and handing out business cards.</p>
                                     <a href="http://resources.yearbookavenue.jostens.com/blog/2012/09/05/promotional-documents/" class="btn" target="_blank">Invitation Templates</a>
@@ -821,6 +773,82 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB001">
+                                    Social Media Marketing Resources
+                                </a>
+                            </div>
+                            <div id="collapseB001" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <p class="lead">Woot! It's time to sell more yearbooks using social media marketing.</p>
+                                    <p>Once your social media accounts are setup the next step will be gathering friends and
+                                        followers and providing them with all sorts of information to promote your yearbook. We have put
+                                        together a great selection of digital images and much more to keep your social posts fresh and
+                                        exciting all year long.</p>
+                                    <label>Social Media Content includes:</label>
+                                    <ul class="clearfix">
+                                        <li><a href="#tbd" target="_blank">Social media posts</a> Plus more detail about this item</li>
+                                        <li><a href="#tbd" target="_blank">Fun promotional images</a> Plus more detail about this item</li>
+                                        <li><a href="#tbd" target="_blank">Social media contest ideas</a> Plus more detail about this item</li>
+                                        <li><a href="#tbd" target="_blank">Promotional image templates</a> Plus more detail about this item<div class="pull-right">
+                                            <img src="http://placehold.it/90x90&text=img"><br>
+                                            <img src="http://placehold.it/90x90&text=img">
+                                        </div></li>
+                                    </ul>
+                                    <!--<a class="btn" href="#" target="_blank">Download All Images</a>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB09">
+                                    Distribute Custom Digital Fliers
+                                </a>
+                            </div>
+                            <div id="collapseB09" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <p class="lead">The Digital Classroom is stocked with digital fliers that advertise the yearbook sale.</p>
+                                    <p>Some flyers are ready to print immediately while others are editable and allow you to enter school specific content.  Use these flyers to advertise the yearbook sale during the Fall Blitz.  Let everyone know that the book will never cost less and that there is a deadline quickly approaching.</p>
+                                    <a href="http://resources.yearbookavenue.jostens.com/blog/2012/08/18/flyers-2/" target="_blank" class="btn">Download Flyers</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB10">
+                                    Place Ad in School Newspaper
+                                </a>
+                            </div>
+                            <div id="collapseB10" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <p class="lead">The school newspaper is a great place to advertise.</p>
+                                    <p>The best way to sell the yearbook is to let everyone know that is on sale now, it will never cost less and that the price is going up soon and clearly state the deadline. Clearly state the deadline in your ad and provide information on where to buy including <a href="http://www.jostensyearbooks.com" target="_blank">www.jostensyearbooks.com</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB101">
+                                    Enter Sales in Yearbook Avenue
+                                </a>
+                            </div>
+                            <div id="collapseB101" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <p class="lead">Don’t forget to record all in-school yearbook sales on YBA at the end of the Back to School Blitz.</p>
+                                    <p> This
+                                        will make sure that automated marketing materials are only sent to non-buyers during the Fall Blitz.</p>
+                                    <a href="http://yearbookavenue.jostens.com/Itpays/salesentry.asp?mode=addnew" class="btn">Enter
+                                        Sales</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB08">
                                     Social Media Marketing Introduction
                                 </a>
@@ -828,11 +856,7 @@
                             <div id="collapseB08" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <p class="lead">Many yearbook staffs have fun and success marketing their yearbook using social media.</p>
-                                    <!--<a href="http://resources.yearbookavenue.jostens.com/blog/2013/01/02/social-media/" target="_blank"><img src="http://placehold.it/150x195&text=thumb+of+guide" class="pull-right"></a>-->
-                                    <p class="clearfix">Take a look at the <a
-                                            href="#tbd" target="_blank">Yearbook
-                                        Social Media Marketing Guide</a> and Social Media video to determine how your staff can best use social
-                                        media to promote the yearbook at your school.</p>
+                                    <p>If you haven't already, take a look at the <a href="#tbd" target="_blank">Yearbook Social Media Marketing Guide</a> and Social Media video to determine how your staff can best use social media to promote the yearbook at your school.</p>
 
                                     <div class="video">
                                         <object id="kaltura_player_1348179517" name="kaltura_player_1348179517"
@@ -857,68 +881,7 @@
                                                                                                   content="315"></span><span
                                                 property="media:type" content="application/x-shockwave-flash"></span></object>
                                     </div>
-                                    <a class="btn" href="#tbd"
-                                       target="_blank">View the Guide</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB09">
-                                    Distribute Custom Digital Fliers
-                                </a>
-                            </div>
-                            <div id="collapseB09" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                    <p class="lead">The Digital Classroom is stocked with digital fliers that advertise the yearbook sale.</p>
-                                    <p>Some flyers are ready to print immediately while others are editable and allow you to enter school specific content.  Use these flyers to advertise the yearbook sale during the Fall Blitz.  Let everyone know that the book will never cost less and that there is a deadline quickly approaching.</p>
-                                    <a href="http://resources.yearbookavenue.jostens.com/blog/2012/08/18/flyers-2/" target="_blank" class="btn">Download Flyers</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB10">
-                                    Place Ad in School Newspaper
-                                </a>
-                            </div>
-                            <div id="collapseB10" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                    <p class="lead">The school newspaper is a great place to advertise.</p>
-                                    <p>The best way to sell the yearbook is to let everyone know that is on sale now, it will never cost less and that the price is going up soon and clearly state the deadline. Clearly state the deadline in your ad and provide information on where to buy including <a href="www.jostensyearbooks.com" target="_blank">www.jostensyearbooks.com</a>.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB101">
-                                    Enter Sales in Yearbook Avenue
-                                </a>
-                            </div>
-                            <div id="collapseB101" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                    <p class="lead">Don’t forget to record all in-school yearbook sales on YBA at the end of the Back to School Blitz.</p>
-                                    <p> This
-                                        will make sure that automated marketing materials are only sent to non-buyers during the Fall Blitz.</p>
-                                    <a href="http://yearbookavenue.jostens.com/Itpays/salesentry.asp?mode=addnew" class="btn">Enter
-                                        Sales</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB11">
-                                    Social Media Marketing Introduction
-                                </a>
-                            </div>
-                            <div id="collapseB11" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                    <p class="lead">Many yearbook staffs have fun and success marketing their yearbook using social media.</p>
-                                    <p>If you haven't already take a look at the Yearbook Social Media Marketing Guide and Social Media video to determine how your staff can best use social media to promote the yearbook at your school.</p>
+                                    <a class="btn" href="#tbd" target="_blank">View the Guide</a>
                                 </div>
                             </div>
                         </div>
@@ -945,7 +908,7 @@
                                         <li>Set up a yearbook table during parent/teacher conferences and hand out cards to parents.</li>
                                         <li>Ask the school office staff to include a business card in home mailings.</li>
                                     </ul>
-                                    <a href="http://www.jostens.com/apps/shop/catalog.asp?CID=266889&PFID=2004092414000849045&GID=" class="btn" target="_blank">Reorder Cards</a>
+                                    <a href="http://yearbookavenue.jostens.com/gotoShop.asp" class="btn" target="_blank">Reorder Cards</a>
                                     <a href="http://resources.yearbookavenue.jostens.com/blog/2012/08/16/business-cards/" class="btn" target="_blank">Print Your Own Cards</a>
                                 </div>
                             </div>
@@ -954,7 +917,7 @@
                             <div class="accordion-heading">
                                 <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB13">
-                                    Play the Jostens Yearbook Commercial
+                                    Show the Jostens Yearbook Commercial
                                 </a>
                             </div>
                             <div id="collapseB13" class="accordion-body collapse">
@@ -977,8 +940,7 @@
                                         <li>Post on Facebook and Twitter, don’t forget to include the information on the Blitz end date and a
                                             link to <a href="http://jostensyearbooks.com" target="_blank">jostensyearbooks.com</a></li>
                                     </ul>
-                                    <a href="https://www.dropbox.com/s/fmht6m4adrgrfl2/Yearbook%20Commercial.mp4" class="btn" target="_blank"><i
-                                            class="glyphicon glyphicon-download"></i> Download Video</a>
+                                    <a href="http://cdnakmi.kaltura.com/p/943871/raw/entry_id/1_n22gcbwd/file_name/name" class="btn"> Download Video</a>
                                 </div>
                             </div>
                         </div>
@@ -1029,11 +991,11 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB15">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB015">
                                     Create and Print Order Form
                                 </a>
                             </div>
-                            <div id="collapseB15" class="accordion-body collapse">
+                            <div id="collapseB015" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <p class="lead">Use the easy order form creation tool on Yearbook Avenue to create custom order forms.</p>
 
@@ -1076,7 +1038,7 @@
                             <div class="accordion-heading">
                                 <i class="glyphicon glyphicon-unchecked jos-checkbox"></i>
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#exampleAccordion2" href="#collapseB17">
-                                    Create Your Social Media Presence
+                                    Review Your Social Media Presence
                                 </a>
                             </div>
                             <div id="collapseB17" class="accordion-body collapse">
@@ -1206,7 +1168,7 @@
             </div>
             <div class="col col-lg-6">
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Checklist</div>
+                    <div class="panel-heading"><i class="glyphicon glyphicon-star"></i> Winter Checklist</div>
                     <div class="navbar jos-navbar-toolbar">
                         <ul class="nav navbar-nav ">
                             <!--<li><a href="#" class="completed-tasks"><span class="glyphicon glyphicon-ok"></span> See Completed Tasks</a></li>-->
@@ -1355,7 +1317,7 @@
             </div>
             <div class="col col-lg-6">
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Checklist</div>
+                    <div class="panel-heading"><i class="glyphicon glyphicon-star"></i> Spring Checklist</div>
                     <div class="navbar jos-navbar-toolbar">
                         <ul class="nav navbar-nav ">
                             <!--<li><a href="#" class="completed-tasks"><span class="glyphicon glyphicon-ok"></span> See Completed Tasks</a></li>-->
@@ -1578,12 +1540,45 @@
 
 
         var g = new JustGage({
+
             id: "gauge",
             value: 67,
             min: 0,
             max: 100,
             title: "Students",
             levelColors: ["#222222"]
+        });
+
+        /* Video Stuff
+         =================================== */
+//        mw.setConfig('Kaltura.LeadWithHTML5', true);
+        kWidget.embed({
+            'targetId': 'testVideo',
+            'wid': '_943871',
+            'uiconf_id': '7838722',
+            'entry_id': '1_0kaya2it',
+            'width': '100%',
+            'height': '100%',
+            'flashvars': {
+                'autoPlay': false
+            },
+            'params':{
+                'wmode': 'transparent'
+            }
+        });
+        kWidget.embed({
+            'targetId': 'video-yearbook-commercial',
+            'wid': '_943871',
+            'uiconf_id': '7838722',
+            'entry_id': '1_n22gcbwd',
+            'width': '100%',
+            'height': '100%',
+            'flashvars': {
+                'autoPlay': false
+            },
+            'params':{
+                'wmode': 'transparent'
+            }
         });
 
     });

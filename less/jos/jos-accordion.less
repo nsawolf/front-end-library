@@ -131,5 +131,9 @@
       list-style-position: outside;
       &:hover{text-decoration: none; cursor: default;}
     }
+
+    // Video
+    > span{.video(); border: 1px solid @gray-lighter;}  // kaltura creates this element
+    object{.video-inner();}
   }
 }
