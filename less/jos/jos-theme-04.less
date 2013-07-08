@@ -7,11 +7,13 @@
 .tabs-merch .jos-theme-04 .box--primary .box-header,
 .tabs-merch .jos-theme-04 .ProgressBar-progress,
 .tabs-merch .jos-theme-04 .DateList-date {
-  #gradient > .vertical(@theme-04, darken(@theme-04, 10%));
+  #gradient > .vertical(@theme-04-light, @theme-04);
 }
 
-/* lighter gradient */
-.tabs-merch .nav-tabs > .jos-theme-04 > a{background: @theme-04;}
+  /* lighter gradient */
+.tabs-merch .nav-tabs > .jos-theme-04 > a{
+	#gradient > .vertical(@theme-04-light, @theme-04);
+	}
 .tabs-merch .nav-tabs > .jos-theme-04 > a:hover,
 .tabs-merch .nav-tabs > .jos-theme-04 > a:focus{
   #translucent > .background(@theme-04, .5);
@@ -20,9 +22,8 @@
 .jos-theme-04 .panel-primary {
   .panel-heading {
     color: #fff;
-    #gradient > .vertical(@theme-04, darken(@theme-04, 10%));
+    #gradient > .vertical(@theme-04-light, @theme-04);
     border-color: transparent;
   }
 }
-
-.jos-theme-04 .progress-bar{background-color: @theme-04-light;}
+.jos-theme-04 .progress-bar{#gradient > .vertical(@theme-04-light, @theme-04);}
