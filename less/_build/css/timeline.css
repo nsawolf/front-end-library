@@ -34,7 +34,7 @@
   display: inline-block;
   height: 20px;
   width: 20px;
-  background: #ce434d;
+  background: #b1192c;
   text-align: center;
   padding-top: 2px;
   color: #fdfdfd;
@@ -125,75 +125,75 @@
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000363}}
 .jos-timeline2 .jos-timeline-range .jos-theme-01 .range-offer-range {
-  background-color: #ce434d;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d55e67), to(#ce434d));
-  background-image: -webkit-linear-gradient(top, #d55e67, #ce434d);
-  background-image: -moz-linear-gradient(top, #d55e67, #ce434d);
-  background-image: linear-gradient(to bottom, #d55e67, #ce434d);
+  background-color: #b1192c;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ce434d), to(#b1192c));
+  background-image: -webkit-linear-gradient(top, #ce434d, #b1192c);
+  background-image: -moz-linear-gradient(top, #ce434d, #b1192c);
+  background-image: linear-gradient(to bottom, #ce434d, #b1192c);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd55e67', endColorstr='#ffce434d', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce434d', endColorstr='#ffb1192c', GradientType=0);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000364}}
 .jos-timeline2 .jos-timeline-range .jos-theme-01 .range-offer-offer {
-  background: #b02e37;
+  background: #841321;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000365}}
 .jos-timeline2 .jos-timeline-range .jos-theme-01 .range-offer-blitz {
-  background: #ce434d;
+  background: #b1192c;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000367}}
 .jos-timeline2 .jos-timeline-range .jos-theme-02 .range-offer-range {
-  background-color: #f67c38;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f78f55), to(#f67c38));
-  background-image: -webkit-linear-gradient(top, #f78f55, #f67c38);
-  background-image: -moz-linear-gradient(top, #f78f55, #f67c38);
-  background-image: linear-gradient(to bottom, #f78f55, #f67c38);
+  background-color: #c86311;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f67c38), to(#c86311));
+  background-image: -webkit-linear-gradient(top, #f67c38, #c86311);
+  background-image: -moz-linear-gradient(top, #f67c38, #c86311);
+  background-image: linear-gradient(to bottom, #f67c38, #c86311);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff78f55', endColorstr='#fff67c38', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff67c38', endColorstr='#ffc86311', GradientType=0);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000368}}
 .jos-timeline2 .jos-timeline-range .jos-theme-02 .range-offer-offer {
-  background: #f05d0b;
+  background: #994c0d;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000369}}
 .jos-timeline2 .jos-timeline-range .jos-theme-02 .range-offer-blitz {
-  background: #f67c38;
+  background: #c86311;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000371}}
 .jos-timeline2 .jos-timeline-range .jos-theme-03 .range-offer-range {
-  background-color: #52b5be;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6bc0c8), to(#52b5be));
-  background-image: -webkit-linear-gradient(top, #6bc0c8, #52b5be);
-  background-image: -moz-linear-gradient(top, #6bc0c8, #52b5be);
-  background-image: linear-gradient(to bottom, #6bc0c8, #52b5be);
+  background-color: #209da8;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5ebac3), to(#209da8));
+  background-image: -webkit-linear-gradient(top, #5ebac3, #209da8);
+  background-image: -moz-linear-gradient(top, #5ebac3, #209da8);
+  background-image: linear-gradient(to bottom, #5ebac3, #209da8);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6bc0c8', endColorstr='#ff52b5be', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5ebac3', endColorstr='#ff209da8', GradientType=0);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000372}}
 .jos-timeline2 .jos-timeline-range .jos-theme-03 .range-offer-offer {
-  background: #3c98a1;
+  background: #18757d;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000373}}
 .jos-timeline2 .jos-timeline-range .jos-theme-03 .range-offer-blitz {
-  background: #52b5be;
+  background: #209da8;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000375}}
 .jos-timeline2 .jos-timeline-range .jos-theme-04 .range-offer-range {
-  background-color: #8ea534;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9fb251), to(#8ea534));
-  background-image: -webkit-linear-gradient(top, #9fb251, #8ea534);
-  background-image: -moz-linear-gradient(top, #9fb251, #8ea534);
-  background-image: linear-gradient(to bottom, #9fb251, #8ea534);
+  background-color: #7f9900;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9fb251), to(#7f9900));
+  background-image: -webkit-linear-gradient(top, #9fb251, #7f9900);
+  background-image: -moz-linear-gradient(top, #9fb251, #7f9900);
+  background-image: linear-gradient(to bottom, #9fb251, #7f9900);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9fb251', endColorstr='#ff8ea534', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9fb251', endColorstr='#ff7f9900', GradientType=0);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000376}}
 .jos-timeline2 .jos-timeline-range .jos-theme-04 .range-offer-offer {
-  background: #6d7e28;
+  background: #556600;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000377}}
 .jos-timeline2 .jos-timeline-range .jos-theme-04 .range-offer-blitz {
-  background: #8ea534;
+  background: #7f9900;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000381}}
 .jos-timeline2 .jos-timeline-range .range-bottom {
