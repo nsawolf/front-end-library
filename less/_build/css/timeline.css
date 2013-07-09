@@ -1,246 +1,28 @@
-/*!
- * Bootstrap v3.0.0
- *
- * Copyright 2013 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world by @mdo and @fat.
- */
-/*@import "../variables.less";*//*TODO: Consider changing other padding values to be divisible by 2*/
-/* ==================================
-    Jostens Custom Component Variables
-=================================== */
-/*20*14px = 280px*/
-/* ==================================
-    Theme Variables (For all themes which are a variant of this system/experience using this Library)
-=================================== */
-/* ==================================
-    Supplimental Mixins (waiting to see if these get included in BS3 or not
-=================================== */
-/* ==================================
-    jos-timeline2.less
-=================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000311}}
-.jos-timeline2 .jos-timeline-offer-title {
-  margin-top: 0px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000312}}
-.jos-timeline2 .jos-timeline-legend {
-  margin-left: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000314}}
-.jos-timeline2 .jos-timeline-legend .jos-timeline-legend-blitz {
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  background: #b1192c;
-  text-align: center;
-  padding-top: 2px;
-  color: #fdfdfd;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000320}}
-.jos-timeline2 .jos-timeline-legend p {
-  display: inline-block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000321}}
-.jos-timeline2 .jos-timeline-legend .jos-timeline-legend-offer {
-  display: inline-block;
-  width: 5px;
-  height: 20px;
-  background: #1b1b1b;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000324}}
-.jos-timeline2 .jos-timeline-legend p.offer-text {
-  vertical-align: middle;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000327}}
-.jos-timeline2 .jos-timeline-range {
-  width: 100%;
-  height: 60px;
-  border-right: 2px solid #1b1b1b;
-  border-left: 2px solid #1b1b1b;
-  margin-bottom: 16px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000333}}
-.jos-timeline2 .jos-timeline-range .range-top {
-  height: 50%;
-  border-bottom: 2px solid #1b1b1b;
-  padding: 4px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000334}}
-.jos-timeline2 .jos-timeline-range .range-offer {
-  display: inline-block;
-  float: left;
-  height: 100%;
-  width: 25%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000338}}
-.jos-timeline2 .jos-timeline-range .range-offer:first-of-type .range-offer-inner {
-  margin-left: 0px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000339}}
-.jos-timeline2 .jos-timeline-range .range-offer:first-of-type .range-offer-range {
-  right: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000342}}
-.jos-timeline2 .jos-timeline-range .range-offer-inner {
-  margin-left: 2px;
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000346}}
-.jos-timeline2 .jos-timeline-range .range-offer-range {
-  position: absolute;
-  height: 100%;
-  left: 0;
-  right: 2px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000347}}
-.jos-timeline2 .jos-timeline-range .range-offer-striped {
-  background: url('../../../img/progress-bar-striped.png') repeat-x;
-  width: 100%;
-  height: 100%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000351}}
-.jos-timeline2 .jos-timeline-range .range-offer-offer {
-  display: inline-block;
-  position: absolute;
-  width: 5px;
-  height: 120%;
-  left: 20%;
-  top: -10%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000355}}
-.jos-timeline2 .jos-timeline-range .range-offer-blitz {
-  display: inline-block;
-  position: absolute;
-  width: 20%;
-  height: 100%;
-  left: 40%;
-  text-align: center;
-  padding-top: 2px;
-  color: #fdfdfd;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000363}}
-.jos-timeline2 .jos-timeline-range .jos-theme-01 .range-offer-range {
-  background-color: #b1192c;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ce434d), to(#b1192c));
-  background-image: -webkit-linear-gradient(top, #ce434d, #b1192c);
-  background-image: -moz-linear-gradient(top, #ce434d, #b1192c);
-  background-image: linear-gradient(to bottom, #ce434d, #b1192c);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce434d', endColorstr='#ffb1192c', GradientType=0);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000364}}
-.jos-timeline2 .jos-timeline-range .jos-theme-01 .range-offer-offer {
-  background: #841321;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000365}}
-.jos-timeline2 .jos-timeline-range .jos-theme-01 .range-offer-blitz {
-  background: #b1192c;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000367}}
-.jos-timeline2 .jos-timeline-range .jos-theme-02 .range-offer-range {
-  background-color: #c86311;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f67c38), to(#c86311));
-  background-image: -webkit-linear-gradient(top, #f67c38, #c86311);
-  background-image: -moz-linear-gradient(top, #f67c38, #c86311);
-  background-image: linear-gradient(to bottom, #f67c38, #c86311);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff67c38', endColorstr='#ffc86311', GradientType=0);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000368}}
-.jos-timeline2 .jos-timeline-range .jos-theme-02 .range-offer-offer {
-  background: #994c0d;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000369}}
-.jos-timeline2 .jos-timeline-range .jos-theme-02 .range-offer-blitz {
-  background: #c86311;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000371}}
-.jos-timeline2 .jos-timeline-range .jos-theme-03 .range-offer-range {
-  background-color: #209da8;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5ebac3), to(#209da8));
-  background-image: -webkit-linear-gradient(top, #5ebac3, #209da8);
-  background-image: -moz-linear-gradient(top, #5ebac3, #209da8);
-  background-image: linear-gradient(to bottom, #5ebac3, #209da8);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5ebac3', endColorstr='#ff209da8', GradientType=0);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000372}}
-.jos-timeline2 .jos-timeline-range .jos-theme-03 .range-offer-offer {
-  background: #18757d;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000373}}
-.jos-timeline2 .jos-timeline-range .jos-theme-03 .range-offer-blitz {
-  background: #209da8;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000375}}
-.jos-timeline2 .jos-timeline-range .jos-theme-04 .range-offer-range {
-  background-color: #7f9900;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9fb251), to(#7f9900));
-  background-image: -webkit-linear-gradient(top, #9fb251, #7f9900);
-  background-image: -moz-linear-gradient(top, #9fb251, #7f9900);
-  background-image: linear-gradient(to bottom, #9fb251, #7f9900);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9fb251', endColorstr='#ff7f9900', GradientType=0);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000376}}
-.jos-timeline2 .jos-timeline-range .jos-theme-04 .range-offer-offer {
-  background: #556600;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000377}}
-.jos-timeline2 .jos-timeline-range .jos-theme-04 .range-offer-blitz {
-  background: #7f9900;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000381}}
-.jos-timeline2 .jos-timeline-range .range-bottom {
-  height: 50%;
-  position: relative;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000382}}
-.jos-timeline2 .jos-timeline-range .range-month {
-  display: inline-block;
-  float: left;
-  position: relative;
-  width: 8.333333333333334%;
-  height: 100%;
-  border-left: 2px solid #1b1b1b;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000386}}
-.jos-timeline2 .jos-timeline-range .range-month:first-of-type {
-  border-left: 0px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000388}}
-.jos-timeline2 .jos-timeline-range .range-month-name {
-  display: inline-block;
-  position: absolute;
-  top: 80%;
-  font-size: 10.5px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000394}}
-.jos-timeline2 .jos-timeline-range .range-today {
-  display: inline-block;
-  position: absolute;
-  left: 5%;
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000398}}
-.jos-timeline2 .jos-timeline-range .range-today i {
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000399}}
-.jos-timeline2 .jos-timeline-range .range-today p {
-  display: block;
-  padding: 0px 4px;
-  margin: 0;
-  margin-top: -6px;
-  font-size: 11.9px;
-  text-transform: uppercase;
-  border: 2px solid #1b1b1b;
-  background: #fdfdfd;
-  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
-}
+
+.jos-timeline2 .jos-timeline-offer-title{margin-top:0px;}
+.jos-timeline2 .jos-timeline-offer-data{float:left;font-size:17.5px;color:#999999;margin-top:7px;margin-left:15px;}
+.jos-timeline2 .jos-timeline-legend{margin-left:10px;}.jos-timeline2 .jos-timeline-legend .jos-timeline-legend-blitz{display:inline-block;height:20px;width:20px;background:#555555;text-align:center;padding-top:2px;color:#fdfdfd;}
+.jos-timeline2 .jos-timeline-legend p{display:inline-block;}
+.jos-timeline2 .jos-timeline-legend .jos-timeline-legend-offer{display:inline-block;width:5px;height:20px;background:#1b1b1b;}
+.jos-timeline2 .jos-timeline-legend p.offer-text{vertical-align:middle;}
+.jos-timeline2 .jos-timeline-range{width:100%;height:40px;border-right:2px solid #1b1b1b;border-left:2px solid #1b1b1b;margin-bottom:16px;}.jos-timeline2 .jos-timeline-range .range-top{height:75%;border-bottom:2px solid #1b1b1b;padding:4px;position:relative;}
+.jos-timeline2 .jos-timeline-range .range-offer-offer{display:inline-block;position:absolute;width:5px;height:100%;left:20%;top:0%;background:#1b1b1b;-webkit-box-shadow:0 3px 8px rgba(0, 0, 0, 0.125);box-shadow:0 3px 8px rgba(0, 0, 0, 0.125);}
+.jos-timeline2 .jos-timeline-range .range-offer{display:inline-block;float:left;height:100%;width:25%;}.jos-timeline2 .jos-timeline-range .range-offer:first-of-type .range-offer-inner{margin-left:0px;}
+.jos-timeline2 .jos-timeline-range .range-offer:first-of-type .range-offer-range{right:0;}
+.jos-timeline2 .jos-timeline-range .range-offer-inner{margin-left:2px;position:relative;height:100%;width:100%;}
+.jos-timeline2 .jos-timeline-range .range-offer-range{position:absolute;height:100%;left:0;right:2px;background-color:#555555;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#999999), to(#555555));background-image:-webkit-linear-gradient(top, #999999, #555555);background-image:-moz-linear-gradient(top, #999999, #555555);background-image:linear-gradient(to bottom, #999999, #555555);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff999999', endColorstr='#ff555555', GradientType=0);}
+.jos-timeline2 .jos-timeline-range .range-offer-striped{background:url('../../../img/progress-bar-striped.png') repeat-x;width:100%;height:100%;}
+.jos-timeline2 .jos-timeline-range .range-offer-blitz{display:inline-block;position:absolute;width:20%;height:100%;left:40%;text-align:center;padding-top:2px;color:#fdfdfd;background:#555555;}
+.jos-timeline2 .jos-timeline-range .active .jos-theme-01 .range-offer-range{background-color:#b1192c;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ce434d), to(#b1192c));background-image:-webkit-linear-gradient(top, #ce434d, #b1192c);background-image:-moz-linear-gradient(top, #ce434d, #b1192c);background-image:linear-gradient(to bottom, #ce434d, #b1192c);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce434d', endColorstr='#ffb1192c', GradientType=0);}
+.jos-timeline2 .jos-timeline-range .active .jos-theme-01 .range-offer-blitz{background:#b1192c;}
+.jos-timeline2 .jos-timeline-range .active .jos-theme-02 .range-offer-range{background-color:#c86311;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#f67c38), to(#c86311));background-image:-webkit-linear-gradient(top, #f67c38, #c86311);background-image:-moz-linear-gradient(top, #f67c38, #c86311);background-image:linear-gradient(to bottom, #f67c38, #c86311);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff67c38', endColorstr='#ffc86311', GradientType=0);}
+.jos-timeline2 .jos-timeline-range .active .jos-theme-02 .range-offer-blitz{background:#c86311;}
+.jos-timeline2 .jos-timeline-range .active .jos-theme-03 .range-offer-range{background-color:#209da8;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#5ebac3), to(#209da8));background-image:-webkit-linear-gradient(top, #5ebac3, #209da8);background-image:-moz-linear-gradient(top, #5ebac3, #209da8);background-image:linear-gradient(to bottom, #5ebac3, #209da8);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5ebac3', endColorstr='#ff209da8', GradientType=0);}
+.jos-timeline2 .jos-timeline-range .active .jos-theme-03 .range-offer-blitz{background:#209da8;}
+.jos-timeline2 .jos-timeline-range .active .jos-theme-04 .range-offer-range{background-color:#7f9900;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#9fb251), to(#7f9900));background-image:-webkit-linear-gradient(top, #9fb251, #7f9900);background-image:-moz-linear-gradient(top, #9fb251, #7f9900);background-image:linear-gradient(to bottom, #9fb251, #7f9900);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9fb251', endColorstr='#ff7f9900', GradientType=0);}
+.jos-timeline2 .jos-timeline-range .active .jos-theme-04 .range-offer-blitz{background:#7f9900;}
+.jos-timeline2 .jos-timeline-range .range-bottom{height:25%;position:relative;}
+.jos-timeline2 .jos-timeline-range .range-month{display:inline-block;float:left;position:relative;width:8.333333333333334%;height:100%;border-left:2px solid #1b1b1b;}.jos-timeline2 .jos-timeline-range .range-month:first-of-type{border-left:0px;}
+.jos-timeline2 .jos-timeline-range .range-month-name{display:inline-block;position:absolute;top:80%;font-size:10.5px;}
+.jos-timeline2 .jos-timeline-range .range-today{display:inline-block;position:absolute;left:5%;text-align:center;}.jos-timeline2 .jos-timeline-range .range-today i{display:block;}
+.jos-timeline2 .jos-timeline-range .range-today p{display:block;padding:0px 4px;margin:0;margin-top:-6px;font-size:11.9px;text-transform:uppercase;border:2px solid #1b1b1b;background:#fdfdfd;-webkit-box-shadow:0 3px 8px rgba(0, 0, 0, 0.125);box-shadow:0 3px 8px rgba(0, 0, 0, 0.125);}
