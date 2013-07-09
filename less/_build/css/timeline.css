@@ -37,23 +37,24 @@
   background: #ce434d;
   text-align: center;
   padding-top: 2px;
+  color: #fdfdfd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000320}}
 .jos-timeline2 .jos-timeline-legend p {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000321}}
 .jos-timeline2 .jos-timeline-legend .jos-timeline-legend-offer {
   display: inline-block;
   width: 5px;
   height: 20px;
   background: #1b1b1b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000324}}
 .jos-timeline2 .jos-timeline-legend p.offer-text {
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000327}}
 .jos-timeline2 .jos-timeline-range {
   width: 100%;
   height: 60px;
@@ -61,48 +62,48 @@
   border-left: 2px solid #1b1b1b;
   margin-bottom: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000333}}
 .jos-timeline2 .jos-timeline-range .range-top {
   height: 50%;
   border-bottom: 2px solid #1b1b1b;
   padding: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000334}}
 .jos-timeline2 .jos-timeline-range .range-offer {
   display: inline-block;
   float: left;
   height: 100%;
   width: 25%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000338}}
 .jos-timeline2 .jos-timeline-range .range-offer:first-of-type .range-offer-inner {
   margin-left: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000339}}
 .jos-timeline2 .jos-timeline-range .range-offer:first-of-type .range-offer-range {
   right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000342}}
 .jos-timeline2 .jos-timeline-range .range-offer-inner {
   margin-left: 2px;
   position: relative;
   height: 100%;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000346}}
 .jos-timeline2 .jos-timeline-range .range-offer-range {
   position: absolute;
   height: 100%;
   left: 0;
   right: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000347}}
 .jos-timeline2 .jos-timeline-range .range-offer-striped {
   background: url('../../../img/progress-bar-striped.png') repeat-x;
   width: 100%;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000351}}
 .jos-timeline2 .jos-timeline-range .range-offer-offer {
   display: inline-block;
   position: absolute;
@@ -111,7 +112,7 @@
   left: 20%;
   top: -10%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000355}}
 .jos-timeline2 .jos-timeline-range .range-offer-blitz {
   display: inline-block;
   position: absolute;
@@ -122,7 +123,7 @@
   padding-top: 2px;
   color: #fdfdfd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000363}}
 .jos-timeline2 .jos-timeline-range .jos-theme-01 .range-offer-range {
   background-color: #ce434d;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d55e67), to(#ce434d));
@@ -132,15 +133,15 @@
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd55e67', endColorstr='#ffce434d', GradientType=0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000364}}
 .jos-timeline2 .jos-timeline-range .jos-theme-01 .range-offer-offer {
   background: #b02e37;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000365}}
 .jos-timeline2 .jos-timeline-range .jos-theme-01 .range-offer-blitz {
   background: #ce434d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000367}}
 .jos-timeline2 .jos-timeline-range .jos-theme-02 .range-offer-range {
   background-color: #f67c38;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f78f55), to(#f67c38));
@@ -150,15 +151,15 @@
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff78f55', endColorstr='#fff67c38', GradientType=0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000368}}
 .jos-timeline2 .jos-timeline-range .jos-theme-02 .range-offer-offer {
   background: #f05d0b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000369}}
 .jos-timeline2 .jos-timeline-range .jos-theme-02 .range-offer-blitz {
   background: #f67c38;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000371}}
 .jos-timeline2 .jos-timeline-range .jos-theme-03 .range-offer-range {
   background-color: #52b5be;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6bc0c8), to(#52b5be));
@@ -168,15 +169,15 @@
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6bc0c8', endColorstr='#ff52b5be', GradientType=0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000372}}
 .jos-timeline2 .jos-timeline-range .jos-theme-03 .range-offer-offer {
   background: #3c98a1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000373}}
 .jos-timeline2 .jos-timeline-range .jos-theme-03 .range-offer-blitz {
   background: #52b5be;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000375}}
 .jos-timeline2 .jos-timeline-range .jos-theme-04 .range-offer-range {
   background-color: #8ea534;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9fb251), to(#8ea534));
@@ -186,20 +187,20 @@
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9fb251', endColorstr='#ff8ea534', GradientType=0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000376}}
 .jos-timeline2 .jos-timeline-range .jos-theme-04 .range-offer-offer {
   background: #6d7e28;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000377}}
 .jos-timeline2 .jos-timeline-range .jos-theme-04 .range-offer-blitz {
   background: #8ea534;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000381}}
 .jos-timeline2 .jos-timeline-range .range-bottom {
   height: 50%;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000382}}
 .jos-timeline2 .jos-timeline-range .range-month {
   display: inline-block;
   float: left;
@@ -208,29 +209,29 @@
   height: 100%;
   border-left: 2px solid #1b1b1b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000386}}
 .jos-timeline2 .jos-timeline-range .range-month:first-of-type {
   border-left: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000388}}
 .jos-timeline2 .jos-timeline-range .range-month-name {
   display: inline-block;
   position: absolute;
   top: 80%;
   font-size: 10.5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000394}}
 .jos-timeline2 .jos-timeline-range .range-today {
   display: inline-block;
   position: absolute;
   left: 5%;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000398}}
 .jos-timeline2 .jos-timeline-range .range-today i {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/Google Drive\/Design\/Jostens\/front-end-library\/less\/jos\/jos-timeline2\.less}line{font-family:\0000399}}
 .jos-timeline2 .jos-timeline-range .range-today p {
   display: block;
   padding: 0px 4px;
