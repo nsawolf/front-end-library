@@ -21,74 +21,75 @@
 
 /* merch variant
 =================================== */
-.tabs-merch > .nav-tabs{
-  margin: 0;
-  background: #232323;
-  float: left;
-  border-bottom: 0;
+.tabs-merch{
+  > .nav-tabs{
+    margin: 0;
+    background: #232323;
+    float: left;
+    border-bottom: 0;
 
-}
-.tabs-merch > .nav-tabs > li{
-  background: #232323;
-  text-align: center;
-  margin: 0;
-  font-weight: normal;
-  border-bottom: 1px solid #ccc;
-  float: none;
-}
-.tabs-merch > .nav-tabs > li > a {
-  height: @tabs-merch-height;
-  background: url('../../../img/jos-navs-header.gif') repeat-x left top;
-  font-family: @font-family-sans-serif;
-  width: @tabs-merch-width;
-  color: #fff;
-  border: none;
-  margin: 0;
-  padding-left: 0;
-  padding-right: 0;
-  border-radius: 0;
-  font-weight: normal;
-}
-.tabs-merch .nav-tabs > li > a:hover{
-  background-color: @gray-darker;
-  background-image: none;
-}
+    > li{
+      background: #232323;
+      text-align: center;
+      margin: 0;
+      font-weight: normal;
+      border-bottom: 1px solid #ccc;
+      float: none;
+    }
+    > li > a {
+      height: @tabs-merch-height;
+      background: url('../../../img/jos-navs-header.gif') repeat-x left top;
+      font-family: @font-family-sans-serif;
+      width: @tabs-merch-width;
+      color: @black;
+      border: none;
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+      border-radius: 0;
+      font-weight: normal;
+    }
+    > li > a:hover,
+    > li > a:hover .callout{color: @white;}
+    > li span{
+      display: block;
+      font-weight: normal;
+    }
+    > li .callout{margin-top: .5em; color: @black;}
 
-.tabs-merch .nav-tabs > .active > a,
-.tabs-merch .nav-tabs > .active > a:hover,
-.tabs-merch .nav-tabs > .active > a:focus {
-  color: #fff;
-  background-color: @gray;
-  background-image: none;
-  border: none;
-  border-bottom-color: none;
-  cursor: pointer;
-  font-weight: normal;
-}
-.tabs-merch .nav-tabs > .active > a:after{
-  content: "";
-  width: 18px;
-  height: 26px;
-  line-height: 18px;
-  display: inline-block;
-  float: right;
-  margin-top: -55%;
-  background: url(../../../img/jos-navs-arrow-left.png) no-repeat left;
-}
-.tabs-merch > .nav-tabs > li span{
-  display: block;
-  font-weight: normal;
-}
-.tabs-merch > .nav-tabs > li .callout{margin-top: .5em;}
-.tabs-merch .tabs-merch-season { font-size: 1.4em; font-weight: normal;}
-.tabs-merch .tab-content{
-  background: #232323;
-}
-.tabs-merch .tab-pane{
-  background: url(../../../img/jos-navs-bg.png);
-  padding: @padding-value-base @padding-value-half;
-  margin-left: @tabs-merch-width;
-}
-.tabs-merch .panel{
+    > li > a:hover{
+//      background-color: @gray-darker;
+//      background-image: none;
+    }
+    > .active > a,
+    > .active > a:hover,
+    > .active > a:focus {
+      color: @white;
+      border: none;
+      border-bottom-color: none;
+      cursor: pointer;
+      font-weight: normal;
+    }
+    > .active > a:after{
+      content: "";
+      width: 18px;
+      height: 26px;
+      line-height: 18px;
+      display: inline-block;
+      float: right;
+      margin-top: -55%;
+      background: url(../../../img/jos-navs-arrow-left.png) no-repeat left;
+    }
+  }
+
+  .tabs-merch-season { font-size: 1.4em; font-weight: normal;}
+  .tab-content{
+    background: #232323;
+  }
+  .tab-pane{
+    background: url(../../../img/jos-navs-bg.png);
+    padding: @padding-value-base @padding-value-half;
+    margin-left: @tabs-merch-width;
+  }
 
 }
