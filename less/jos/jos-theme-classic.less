@@ -64,92 +64,96 @@ video{width: 100%; margin-bottom: @padding-value; border: 1px solid @gray-lighte
 .tabs-merch{
   background: #333;
   height: 100%;
-}
-.tabs-merch > .nav-tabs{
-  margin: 0;
-  background: #fff;
-  float: left;
-  border-bottom: 0;
-  border-top: 1px solid #ccc;
-  background: #333;
-}
-.tabs-merch > .nav-tabs > li{
-  background: #333;
-  text-align: center;
-  margin: 0;
-  font-weight: normal;
-  float: none;
-  border: 0px;
-  margin-bottom: 1px;
-}
-.tabs-merch > .nav-tabs > li > a {
-  height: @tabs-merch-height;
-  font-family: @font-family-sans-serif;
-  width: @tabs-merch-width;
-  border: none;
-  margin: 0;
-  padding-left: 0;
-  padding-right: 0;
-  border-radius: 0;
-  font-weight: normal;
-}
-.tabs-merch .nav-tabs > .active > a,
-.tabs-merch .nav-tabs > .active > a:hover,
-.tabs-merch .nav-tabs > .active > a:focus {
-  color: #fff;
-  filter: none !important;
-  border: 0px;
-  border-bottom-color: none;
-  cursor: pointer;
-  font-weight: normal;
-}
-//Arrow
-.tabs-merch .nav-tabs > .active > a:after{
-  content:"\e211";
-  font-family: Glyphicons;
-  font-size: 36px;
-  line-height: 18px;
-  display: inline-block;
-  float: right;
-  margin-top: -65px;
-  margin-right: 0px;
-  text-shadow: 0px;
-  background: none !important;
-  color: #DFDFDF;
-}
-.tabs-merch > .nav-tabs > li span{
-  display: block;
-  font-weight: normal;
-  text-transform: uppercase;
-  line-height: 18px;
-  font-size: 14px;
-}
-// callout
-.tabs-merch > .nav-tabs > li .callout{
-  margin-top: 8px;
-  filter: none;
-  text-shadow: none;
-  border-radius: 0px;
-  background: none;
-  padding: 0px;
-  font-family: @font-family-serif;
-  font-size: 24px;
-  font-weight: normal;
 
+  > .nav-tabs{
+    margin: 0;
+    background: #fff;
+    float: left;
+    border-bottom: 0;
+    border-top: 1px solid #ccc;
+    background: #333;
+
+    > li{
+      background: #333;
+      text-align: center;
+      margin: 0;
+      font-weight: normal;
+      float: none;
+      border: 0px;
+      margin-bottom: 1px;
+    }
+    > li > a {
+      height: @tabs-merch-height;
+      font-family: @font-family-sans-serif;
+      width: @tabs-merch-width;
+      border: none;
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+      border-radius: 0;
+      font-weight: normal;
+    }
+    > li span{
+      display: block;
+      font-weight: normal;
+      text-transform: uppercase;
+      line-height: 18px;
+      font-size: 14px;
+    }
+    // callout
+    > li .callout{
+      margin-top: 8px;
+      filter: none;
+      text-shadow: none;
+      border-radius: 0px;
+      background: none;
+      padding: 0px;
+      font-family: @font-family-serif;
+      font-size: 24px;
+      font-weight: normal;
+
+    }
+    > .active > a,
+    > .active > a:hover,
+    > .active > a:focus,
+    > .active .callout{
+      color: @white;
+      border: 0px;
+      border-bottom-color: none;
+      cursor: pointer;
+      font-weight: normal;
+    }
+    //Arrow
+    > .active > a:after{
+      content:"\e211";
+      font-family: Glyphicons;
+      font-size: 36px;
+      line-height: 18px;
+      display: inline-block;
+      float: right;
+      margin-top: -65px;
+      margin-right: 0px;
+      text-shadow: 0px;
+      background: none !important;
+      color: #DFDFDF;
+    }
+
+  }
+  .tabs-merch-season { font-size: 1em; font-weight: normal;}
+  .tab-content{
+    //  background: #232323;
+    background: #333;
+  }
+  .tab-pane{
+    //  background: url(../../../img/jos-navs-bg.png);
+    background: #DFDFDF;
+    padding: @padding-value-base @padding-value-half;
+    padding-left: @padding-value*2;
+    margin-left: @tabs-merch-width;
+    padding-top: @padding-value;
+  }
 }
-.tabs-merch .tabs-merch-season { font-size: 1em; font-weight: normal;}
-.tabs-merch .tab-content{
-  //  background: #232323;
-  background: #333;
-}
-.tabs-merch .tab-pane{
-  //  background: url(../../../img/jos-navs-bg.png);
-  background: #DFDFDF;
-  padding: @padding-value-base @padding-value-half;
-  padding-left: @padding-value*2;
-  margin-left: @tabs-merch-width;
-  padding-top: @padding-value;
-}
+
 
 // header
 .col-page-title{
