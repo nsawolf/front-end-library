@@ -114,14 +114,8 @@
     padding: @padding-value;
     border-bottom: 1px solid #ccc;
 
-	.img-wrapper{margin-bottom: @padding-value;}
-	.width-130{width:130px;}
-	.width-150{width:150px;}
-	.width-175{width:175px;}
-	.width-200{width:200px;}
-	.width-275{width:275px;}
-	.height-200{height:200px;}
-	.gray-border{border:1px solid #ccc;}
+	
+	
 	
     img.pull-right{padding-left: @padding-value; padding-bottom: @padding-value;}
     img.pull-left{padding-right: @padding-value; padding-bottom: @padding-value;}
@@ -140,6 +134,20 @@
       list-style-position: outside;
       &:hover{text-decoration: none; cursor: default;}
     }
+    
+    .img-wrapper{margin-bottom: @padding-value;}
+	.width-130{width:130px;}
+	.width-150{width:150px;}
+	.width-175{width:175px;}
+	.width-200{width:200px;}
+	.width-275{width:275px;}
+	.height-200{height:200px;}
+	.gray-border{border:1px solid #ccc;}
+	img.gray-border{
+		padding:0; 
+		margin-left:15px; 
+		margin-bottom:15px;
+	}
 
     // Video
     > span{.video(); border: 1px solid @gray-lighter;}  // kaltura creates this element
