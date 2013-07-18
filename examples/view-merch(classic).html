@@ -153,14 +153,7 @@
                             <div id="collapse1" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <p>Check out this short and informative video that highlights the most important information on the Back to School Blitz.</p>
-                                    <video controls="" preload="none" poster="http://placehold.it/420x236&text=tbd">
-                                        <source id="mp4"
-                                                src="http://resources.yearbookavenue.jostens.com/wp-content/uploads/2012/10/Yearbook-Commercial.mp4"
-                                                type="video/mp4">
-                                        <!--<source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">-->
-                                        <!--<source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">-->
-                                        <p>Your user agent does not support the HTML5 Video element.</p>
-                                    </video>
+                                    <div id="blitzVideoLG"></div>
                                 </div>
                             </div>
                         </div>
@@ -537,16 +530,7 @@
 	
 				<hr />
 	
-				<span>
-				   <object style="width: 100%; height: 100%;;display:block;" class=""id="testVideo"name="testVideo"data="http://cdnapi.kaltura.com/index.php/kwidget/wid/_943871/uiconf_id/7838722/entry_id/1_0kaya2it"type="application/x-shockwave-flash">
-						  <param name="movie" value="http://cdnapi.kaltura.com/index.php/kwidget/wid/_943871/uiconf_id/7838722/entry_id/1_0kaya2it">
-						  <param name="flashvars" value="&amp; autoPlay=false"><paramname="wmode"value="transparent">
-						  <param name="allowFullScreen" value="true">
-						  <param name="allowNetworking" value="all">
-						  <param name="allowScriptAccess" value="always">
-						  <param name="bgcolor" value="#000000">
-				   </object>
-				</span>
+				<div id="blitzVideoSM"></div>
 					 <p>
 					<strong>Back-to-school blitz video:</strong> These tips and ideas will help you generate school-wide buzz and create a successful blitz.
 					</p>
@@ -682,12 +666,10 @@
                             <div id="collapseB01" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <p>Check out this short and informative video that highlights the most important information on the Fall Blitz.</p>
-                                    <video controls="" preload="none" poster="http://placehold.it/420x236&text=tbd">
+                                    <video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png">
                                         <source id="mp4"
                                                 src="http://resources.yearbookavenue.jostens.com/wp-content/uploads/2012/10/Yearbook-Commercial.mp4"
                                                 type="video/mp4">
-                                        <!--<source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">-->
-                                        <!--<source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">-->
                                         <p>Your user agent does not support the HTML5 Video element.</p>
                                     </video>
                                 </div>
@@ -1060,7 +1042,7 @@
                     <div class="panel-heading">Here's the Deal</div>
                     <p>Bacon ipsum dolor sit amet ground round shankle pork belly drumstick swine t-bone. Sausage corned beef spare ribs, cow jowl pastrami brisket.</p>
                     <label>Awesome Video!</label>
-                    <video controls="" preload="none" poster="http://placehold.it/420x236&text=tbd">
+                    <video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png">
                         <source id="mp4" src="http://resources.yearbookavenue.jostens.com/wp-content/uploads/2012/10/Yearbook-Commercial.mp4" type="video/mp4">
                         <p>Your user agent does not support the HTML5 Video element.</p>
                     </video>
@@ -1244,7 +1226,7 @@
                             <div id="collapseC1" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <p>Check out this short and informative video that highlights the most important information on the Winter Blitz.</p>
-                                    <video controls="" preload="none" poster="http://placehold.it/420x236&text=tbd">
+                                    <video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png">
                                         <source id="mp4"
                                                 src="http://resources.yearbookavenue.jostens.com/wp-content/uploads/2012/10/Yearbook-Commercial.mp4"
                                                 type="video/mp4">
@@ -1832,7 +1814,7 @@
                             <div id="collapseD1" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <p>Check out this short and informative video that highlights the most important information on the Spring Blitz.</p>
-                                    <video controls="" preload="none" poster="http://placehold.it/420x236&text=tbd">
+                                    <video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png">
                                         <source id="mp4"
                                                 src="http://resources.yearbookavenue.jostens.com/wp-content/uploads/2012/10/Yearbook-Commercial.mp4"
                                                 type="video/mp4">
@@ -2398,10 +2380,24 @@
          =================================== */
 //        mw.setConfig('Kaltura.LeadWithHTML5', true);
         kWidget.embed({
-            'targetId': 'testVideo',
+            'targetId': 'blitzVideoSM',
             'wid': '_943871',
             'uiconf_id': '7838722',
-            'entry_id': '1_0kaya2it',
+            'entry_id': '1_4a5tv1ml',
+            'width': '100%',
+            'height': '100%',
+            'flashvars': {
+                'autoPlay': false
+            },
+            'params':{
+                'wmode': 'transparent'
+            }
+        });
+        kWidget.embed({
+            'targetId': 'blitzVideoLG',
+            'wid': '_943871',
+            'uiconf_id': '7838722',
+            'entry_id': '1_4a5tv1ml',
             'width': '100%',
             'height': '100%',
             'flashvars': {
