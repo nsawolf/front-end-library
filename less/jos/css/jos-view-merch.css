@@ -30,7 +30,7 @@
     left: 0;
   }
   .col-metrics {
-    width: 60%;
+    width: 50%;
   }
 }
 @media screen and (max-width: 992px) {
