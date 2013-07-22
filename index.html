@@ -15,6 +15,7 @@
         thead th:hover{background: #aaa; cursor: pointer;}
         .dataTables_paginate a {background: #ccc; color: #000; padding: 8px 15px; cursor: pointer; font-weight: bold; margin-right: 4px; margin-top: 0px; display: inline-block;}
         .dataTables_paginate a:hover {background: #aaa; text-decoration: none;}
+        .col-lg-12,
         #myTabContent{margin-bottom: 20px;}
         .img-thumbnail{max-width:300px; margin-top: 20px; box-shadow: 0 3px 8px rgba(0,0,0,.125); margin-bottom: 10px;}
         label{display: block; font-style: italic;}
@@ -43,6 +44,7 @@
                 <li><a href="#components" data-toggle="tab">Components</a></li>
                 <li><a href="#views" data-toggle="tab">Views</a></li>
                 <li><a href="#experiences" data-toggle="tab">Experiences</a></li>
+                <li><a href="#themes" data-toggle="tab">Themes</a></li>
 
             </ul>
             <div id="myTabContent" class="tab-content">
@@ -100,7 +102,7 @@
                         <h3>Catalog Attributes</h3>
                         <p>Here's what will help describe Library Records in the Catalog</p>
                         <h4>Status</h4>
-                        <p>Statuses will define where a component is in the development lifecycle:</p>
+                        <p><code>Statuses</code> will define where a <code>Record</code> is in the development lifecycle:</p>
                         <ol>
                             <li>Needs Review</li>
                             <li>In Review</li>
@@ -122,15 +124,6 @@
                             <li>Dev: development :)</li>
                             <li>Prod: The real deal holyfield</li>
                         </ul>
-                        <h3>Other</h3>
-                        <!--<h4>Examples</h4>-->
-                        <!--<p>The purpose of the examples are:</p>-->
-                        <!--<ul>-->
-                            <!--<li>Design discussion focus</li>-->
-                            <!--<li>Responsive Testing</li>-->
-                            <!--<li>Reference</li>-->
-                        <!--</ul>-->
-                        <h4>Prototypes</h4>
 
                     </div>
                 </div>
@@ -165,6 +158,9 @@
                 </div>
                 <div class="tab-pane fade" id="experiences">
                     <table id="datagrid-experiences" class="table table-striped table-hover"></table>
+                </div>
+                <div class="tab-pane fade" id="themes">
+                    <table id="datagrid-themes" class="table table-striped table-hover"></table>
                 </div>
 
             </div>
@@ -215,82 +211,87 @@
 <script type="text/javascript" charset="utf-8">
     /* Data set - can contain whatever information you want */
     var aDataSetComponents = [
-        ['Common','Grid System','<a href="examples/b-index.html#grid">Bootstrap</a> (Old) | <a href="http://rnikitin.github.io/examples/grid/">Temp bs3 docs</a>','Global','Submitted'],
-        ['Common','Typography','<a href="examples/b-index.html#type">Bootstrap</a> | <a href="examples/b-typography.html">Custom</a>','Global','Submitted'],
-        ['Common','Code','<a href="examples/b-index.html#code">Bootstrap</a>','Global','Submitted'],
-        ['Common','Tables','<a href="examples/b-index.html#tables">Bootstrap</a>','Global','Submitted'],
-        ['Common','Forms','<a href="examples/b-index.html#forms">Bootstrap</a>','Global','Submitted'],
-        ['Common','Buttons','<a href="examples/b-index.html#buttons">Bootstrap</a> | <a href="examples/b-buttons.html">Custom</a>','Global','Submitted'],
-        ['Common','Images','<a href="examples/b-index.html#images">Bootstrap</a>','Global','Submitted'],
-        ['Common','Helper Classes','<a href="examples/b-index.html#helper-classes">Bootstrap</a>','Global','Submitted'],
-        ['Common','Responsive Utilities','<a href="examples/b-index.html#responsive-utilities">Bootstrap</a>','Global','Submitted'],
+        ['Common','Grid System','<a href="examples/b-index.html#grid">Bootstrap</a> (Old) | <a href="http://rnikitin.github.io/examples/grid/">Temp bs3 docs</a>','Needs Review'],
+        ['Common','Typography','<a href="examples/b-index.html#type">Bootstrap</a> | <a href="examples/b-typography.html">Custom</a>','Needs Review'],
+        ['Common','Code','<a href="examples/b-index.html#code">Bootstrap</a>','Needs Review'],
+        ['Common','Tables','<a href="examples/b-index.html#tables">Bootstrap</a>','Needs Review'],
+        ['Common','Forms','<a href="examples/b-index.html#forms">Bootstrap</a>','Needs Review'],
+        ['Common','Buttons','<a href="examples/b-index.html#buttons">Bootstrap</a> | <a href="examples/b-buttons.html">Custom</a>','Needs Review'],
+        ['Common','Images','<a href="examples/b-index.html#images">Bootstrap</a>','Needs Review'],
+        ['Common','Helper Classes','<a href="examples/b-index.html#helper-classes">Bootstrap</a>','Needs Review'],
+        ['Common','Responsive Utilities','<a href="examples/b-index.html#responsive-utilities">Bootstrap</a>','Needs Review'],
 
-        ['Comp:Bootstrap','Icons','<a href="examples/b-index.html#icons">Bootstrap</a> | <a href="docs/glyphicons/index.html">Custom</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Menu Dropdowns','<a href="examples/b-index.html#dropdowns">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Button Groups','<a href="examples/b-index.html#btn-groups">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Button Dropdowns','<a href="examples/b-index.html#btn-dropdowns">Bootstrap</a> | <a href="examples/b-button-dropdowns.html">Custom</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Navs','<a href="examples/b-index.html#nav">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Navbar','<a href="examples/b-index.html#navbar">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Breadcrumbs','<a href="examples/b-index.html#breadcrumbs">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Pagination','<a href="examples/b-index.html#pagination">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Labels','<a href="examples/b-index.html#labels">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Badges','<a href="examples/b-index.html#badges">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Typography','<a href="examples/b-index.html#typo-components">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Alerts','<a href="examples/b-index.html#alerts">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Progress Bars','<a href="examples/b-index.html#progress">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Media Object','<a href="examples/b-index.html#media">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','List Group','<a href="examples/b-index.html#list-group">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Panels','<a href="examples/b-index.html#panels">Bootstrap</a> | <a href="examples/b-panels.html">Custom</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Wells','<a href="examples/b-index.html#wells">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Modal','<a href="examples/b-index.html#modals">Bootstrap</a> | <a href="examples/b-modal.html">Custom</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Tooltips','<a href="examples/b-index.html#tooltips">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Popovers','<a href="examples/b-index.html#popovers">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Button(JS)','<a href="examples/b-index.html#js-buttons">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Accordion','<a href="examples/b-index.html#collapse">Bootstrap</a> | <a href="examples/b-accordion.html">Custom</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Carousel','<a href="examples/b-index.html#carousel">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Typeahead','<a href="examples/b-index.html#typeahead">Bootstrap</a>','Global','Submitted'],
-        ['Comp:Bootstrap','Affix','<a href="examples/b-index.html#affix">Bootstrap</a>','Global','Submitted'],
+        ['Comp:Bootstrap','Icons','<a href="examples/b-index.html#icons">Bootstrap</a> | <a href="docs/glyphicons/index.html">Custom</a>','Needs Review'],
+        ['Comp:Bootstrap','Menu Dropdowns','<a href="examples/b-index.html#dropdowns">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Button Groups','<a href="examples/b-index.html#btn-groups">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Button Dropdowns','<a href="examples/b-index.html#btn-dropdowns">Bootstrap</a> | <a href="examples/b-button-dropdowns.html">Custom</a>','Needs Review'],
+        ['Comp:Bootstrap','Navs','<a href="examples/b-index.html#nav">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Navbar','<a href="examples/b-index.html#navbar">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Breadcrumbs','<a href="examples/b-index.html#breadcrumbs">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Pagination','<a href="examples/b-index.html#pagination">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Labels','<a href="examples/b-index.html#labels">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Badges','<a href="examples/b-index.html#badges">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Typography','<a href="examples/b-index.html#typo-components">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Alerts','<a href="examples/b-index.html#alerts">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Progress Bars','<a href="examples/b-index.html#progress">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Media Object','<a href="examples/b-index.html#media">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','List Group','<a href="examples/b-index.html#list-group">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Panels','<a href="examples/b-index.html#panels">Bootstrap</a> | <a href="examples/b-panels.html">Custom</a>','Needs Review'],
+        ['Comp:Bootstrap','Wells','<a href="examples/b-index.html#wells">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Modal','<a href="examples/b-index.html#modals">Bootstrap</a> | <a href="examples/b-modal.html">Custom</a>','Needs Review'],
+        ['Comp:Bootstrap','Tooltips','<a href="examples/b-index.html#tooltips">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Popovers','<a href="examples/b-index.html#popovers">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Button(JS)','<a href="examples/b-index.html#js-buttons">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Accordion','<a href="examples/b-index.html#collapse">Bootstrap</a> | <a href="examples/b-accordion.html">Custom</a>','Needs Review'],
+        ['Comp:Bootstrap','Carousel','<a href="examples/b-index.html#carousel">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Typeahead','<a href="examples/b-index.html#typeahead">Bootstrap</a>','Needs Review'],
+        ['Comp:Bootstrap','Affix','<a href="examples/b-index.html#affix">Bootstrap</a>','Needs Review'],
 
-        ['Comp:Custom','Background Media','<a href="examples/jos-backgroundmedia.html">Custom</a>','view:homepage','Submitted'],
-        ['Comp:Custom','Callouts','<a href="examples/jos-callouts.html">Custom</a>','Global','Submitted'],
-        ['Comp:Custom','Controlpanel-Submenu','<a href="examples/jos-controlpanel-submenu.html">Custom</a>','view:homepage','Submitted'],
-        ['Comp:Custom','List Group - Checklist','<a href="examples/jos-list-group-checklist.html">Custom</a>','Global','Submitted'],
-        ['Comp:Custom','Metrics','<a href="examples/jos-metrics.html">Custom</a>','Global','Submitted'],
-        ['Comp:Custom','Navbar - Mainmenu','<a href="examples/jos-navbar-mainmenu.html">Custom</a>','Global | view:homepage','Submitted'],
-        ['Comp:Custom','Navbar - Toolbar','<a href="examples/jos-navbar-toolbar.html">Custom</a>','Global','Submitted'],
-        ['Comp:Custom','Cover List','<a href="examples/jos-coverlist.html">Custom</a>','exp:yba | view:coverlaunch','Submitted'],
-        ['Comp:Custom','Autocolumn','<a href="examples/jos-autocolumn.html">Custom</a>','exp:yba | view:coverchoose','Submitted'],
-        ['Comp:Custom','Detail Content','<a href="examples/jos-detailcontent.html">Custom</a>','exp:yba | view:homepage','Submitted'],
-        ['Comp:Custom','Footer','<a href="examples/jos-footer.html">Custom</a>','exp:yba | view:homepage','Submitted'],
-        ['Comp:Custom','Timeline','<a href="examples/jos-timeline.html">Custom</a>','exp:yba | view:merch','Submitted']
+        ['Comp:Custom','Background Media','<a href="examples/jos-backgroundmedia.html">Custom</a>','Needs Review'],
+        ['Comp:Custom','Callouts','<a href="examples/jos-callouts.html">Custom</a>','Needs Review'],
+        ['Comp:Custom','Controlpanel-Submenu','<a href="examples/jos-controlpanel-submenu.html">Custom</a>','Needs Review'],
+        ['Comp:Custom','List Group - Checklist','<a href="examples/jos-list-group-checklist.html">Custom</a>','Needs Review'],
+        ['Comp:Custom','Metrics','<a href="examples/jos-metrics.html">Custom</a>','Needs Review'],
+        ['Comp:Custom','Navbar - Mainmenu','<a href="examples/jos-navbar-mainmenu.html">Custom</a>','Needs Review'],
+        ['Comp:Custom','Navbar - Toolbar','<a href="examples/jos-navbar-toolbar.html">Custom</a>','Needs Review'],
+        ['Comp:Custom','Cover List','<a href="examples/jos-coverlist.html">Custom</a>','Needs Review'],
+        ['Comp:Custom','Autocolumn','<a href="examples/jos-autocolumn.html">Custom</a>','Needs Review'],
+        ['Comp:Custom','Detail Content','<a href="examples/jos-detailcontent.html">Custom</a>','Needs Review'],
+        ['Comp:Custom','Footer','<a href="examples/jos-footer.html">Custom</a>','Needs Review'],
+        ['Comp:Custom','Timeline','<a href="examples/jos-timeline.html">Custom</a>','Needs Review']
     ];
     var aDataSetViews = [
-        ['Homepage','<a href="examples/view-homepage.html">Custom</a>','YBA','Submitted'],
-        ['Merch','<a href="examples/view-merch.html">Custom</a>','YBA','Submitted'],
-//        ['Cover Launch','<a href="examples/view-coverlaunch.html">Custom</a>','YBA','Submitted'],
-//        ['Cover Choose','<a href="examples/view-coverchoose.html">Custom</a>','YBA','Submitted'],
-        ['Login','<a href="examples/view-login.html">Custom</a>','YBA','Submitted'],
-        ['Book','<a href="examples/view-book.html">Custom</a>','YBA','Submitted']
+        ['Homepage','<a href="examples/view-homepage.html">Custom</a>','YBA','Needs Review'],
+        ['Merch','<a href="examples/view-merch.html">Custom</a>','YBA','Needs Review'],
+        ['Merch(Classic)','<a href="examples/view-merch(classic).html">Custom</a>','YBA','Needs Review'],
+        ['Login','<a href="examples/view-login.html">Custom</a>','YBA','Needs Review'],
+        ['Book','<a href="examples/view-book.html">Custom</a>','YBA','Needs Review']
     ];
     var aDataSetExperiences = [
-        ['YBA','<a href="http://jostenscreative.com/demo/yba">Demo</a> | <a href="#">Dev</a> | <a href="http://yearbookavenue.jostens.com">Prod</a>','-','Active'],
-        ['JCOM','Demo | <a href="#">Dev</a> | <a href="http://jostens.com">Prod</a>','-','Active']
+        ['YBA','<a href="http://jostenscreative.com/demo/yba">Demo</a> | <a href="#">Dev</a> | <a href="http://yearbookavenue.jostens.com">Prod</a>','-','Approved'],
+        ['YBA(Beta)','<a href="http://jostenscreative.com/demo/yba">Demo</a> | <a href="#">Dev</a> | <a href="http://yearbookavenue.jostens.com">Prod</a>','-','Needs Review'],
+        ['JCOM','Demo | <a href="#">Dev</a> | <a href="http://jostens.com">Prod</a>','-','Approved']
+    ];
+    var aDataSetThemes = [
+        ['YBA Classic','The current state, disparate collection of designs for YBA.','<a href="examples/theme-yba-classic.html">Style Tile/Preview/Docs?</a>','Needs Review'],
+        ['YBA Metro','Flat, dark design. ','<a href="examples/theme-yba-metro.html">Style Tile/Preview/Docs?</a>','Needs Review']
     ];
 
     $(document).ready(function() {
         $('#datagrid-components').dataTable( {
             "aaData": aDataSetComponents,
+            "iDisplayLength": 100,
             "aoColumns": [
                 { "sTitle": "Category" },
                 { "sTitle": "Name" },
                 { "sTitle": "Docs/Examples"},
-                { "sTitle": "Where Used"},
                 { "sTitle": "Status" }
 
             ]
         } );
         $('#datagrid-views').dataTable( {
             "aaData": aDataSetViews,
+            "iDisplayLength": 100,
             "aoColumns": [
                 { "sTitle": "Name" },
                 { "sTitle": "Docs/Examples"},
@@ -301,9 +302,21 @@
         } );
         $('#datagrid-experiences').dataTable( {
             "aaData": aDataSetExperiences,
+            "iDisplayLength": 100,
             "aoColumns": [
                 { "sTitle": "Name" },
                 { "sTitle": "Environments" },
+                { "sTitle": "Docs/Examples"},
+                { "sTitle": "Status" }
+
+            ]
+        } );
+        $('#datagrid-themes').dataTable( {
+            "aaData": aDataSetThemes,
+            "iDisplayLength": 100,
+            "aoColumns": [
+                { "sTitle": "Name" },
+                { "sTitle": "Description" },
                 { "sTitle": "Docs/Examples"},
                 { "sTitle": "Status" }
 
