@@ -516,11 +516,12 @@
 				<span id="offerDisplay">
 					Order by BTS BLITZ END DATE to save <$xx> on your yearbook and select up to four free icons with the purchase of personalization!
 				</span>
+				<br />
 				<c:if test="${requestScope.session.roleId == 5
 									 || requestScope.session.roleId == 4
 									 || requestScope.session.roleId == 3
 									 || requestScope.session.roleId == 2}"><!-- Consultant, Sales Rep, Adviser, Business Manager -->
-					<a href="/sell/offerings" class="clearfix">See offer details</a>
+					<a href="/sell/offerings">See offer details</a>
 				</c:if>
 				</p>
 
