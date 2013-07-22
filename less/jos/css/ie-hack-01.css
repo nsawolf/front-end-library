@@ -1,2 +1,14 @@
-.panel-metrics-fixed{display:none;}
-.panel-ie{display:block;}
+/* ==================================
+    IE Hacks for:
+    - view-merch(classic).html
+=================================== */
+.panel-metrics-fixed {
+  display: none;
+}
+.panel-ie {
+  display: block;
+}
+.panel-metrics .coverage {
+  width: 194px;
+  margin: 0 auto;
+}
