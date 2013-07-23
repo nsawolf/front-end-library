@@ -500,7 +500,7 @@
 				</c:if>
 				</p>
 
-				<a class="btn" href="/itpays/entersales.asp">Print Order Forms</a>
+				<a class="btn" href="/ItPays/OrderFormDetails.asp?&CATID=88879&Pers=N">Print Order Forms</a>
 				<a class="btn" href="/itpays/entersales.asp">Enter Sales</a>
 	
 				<hr />
@@ -639,12 +639,14 @@
                             <div id="collapseB01" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <p>Check out this short and informative video that highlights the most important information on the Fall Blitz.</p>
-                                    <video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png">
-                                        <source id="mp4"
+                                    <div class="video">
+										<video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png" style="width:100%;">
+											<source id="mp4"
                                                 src=""
                                                 type="video/mp4">
-                                        <p>Your user agent does not support the HTML5 Video element.</p>
-                                    </video>
+											<p>Your user agent does not support the HTML5 Video element.</p>
+										</video>
+									</div>
                                 </div>
                             </div>
                         </div>
@@ -988,15 +990,69 @@
                 </div>
             </div>
             <div class="col col-lg-3 col-pull-6">
-                <div class="panel ">
+                <!--<div class="panel ">
                     <div class="panel-heading">Here's the Deal</div>
                     <p>Bacon ipsum dolor sit amet ground round shankle pork belly drumstick swine t-bone. Sausage corned beef spare ribs, cow jowl pastrami brisket.</p>
                     <label>Awesome Video!</label>
-                    <!--<video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png">
-                        <source id="" src="">
-                        <p>Your user agent does not support the HTML5 Video element.</p>
-                    </video>-->
-                </div>
+					<div class="video">
+						<video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png" style="width:100%;">
+							<source id="" src="">
+							<p>Your user agent does not support the HTML5 Video element.</p>
+						</video>
+                    </div>
+                </div>-->
+                <div class="panel panel-heresthedeal">
+					<div class="panel-heading">
+					here's the deal
+					</div>
+
+					<label id="offerDetailLabel">
+					fall offer:
+					</label>
+
+					<p id="offerDetailDate">
+					June 1 - September 29
+					</p>
+
+					<label id="blitzDetailLabel">
+					fall blitz:
+					</label>
+
+					<p id="blitzDetailDate">
+					September 9 - September 27
+					</p>
+	
+					<hr />
+
+					<span id="offerDetailPrice" class="callout callout--circle pull-right">
+						$37
+					</span>
+					<p>
+					<span id="offerDisplay">
+						Order by FALL BLITZ END DATE to save <$xx> on your yearbook and select up to four free icons with the purchase of personalization!
+					</span>
+					<br />
+					<c:if test="${requestScope.session.roleId == 5
+										 || requestScope.session.roleId == 4
+										 || requestScope.session.roleId == 3
+										 || requestScope.session.roleId == 2}"><!-- Consultant, Sales Rep, Adviser, Business Manager -->
+						<a href="/ItPays/OrderFormDetails.asp?&CATID=${catalogId}&Pers=N">See offer details</a>
+					</c:if>
+					</p>
+
+					<a class="btn" href="/ItPays/OrderFormDetails.asp?&CATID=88879&Pers=N">Print Order Forms</a>
+					<a class="btn" href="/itpays/entersales.asp">Enter Sales</a>
+	
+					<hr />
+	
+					<div class="video">
+						<video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png" style="width:100%;">
+							<source id="" src="">
+							<p>Your user agent does not support the HTML5 Video element.</p>
+						</video>
+                    </div>
+					<p><strong>Fall blitz video:</strong> These tips and ideas will help you generate school-wide buzz and create a successful blitz.</p>
+				</div>
             </div>
             <div class="col col-lg-3">
                 <div class="panel panel-metrics">
@@ -1018,7 +1074,7 @@
 
                     <h2>3x Coverage</h2>
                     <figure>
-                        <div id="gauge" class="100x100px"></div>
+                        <div id="gauge" class="100x100px coverage"></div>
                     </figure>
                     
                 </div>
@@ -1150,10 +1206,58 @@
                 </div>
             </div>
             <div class="col col-lg-3">
-                <div class="panel ">
-                    <div class="panel-heading">Panel Heading</div>
-                    This is a panel
-                </div>
+                <div class="panel panel-heresthedeal">
+					<div class="panel-heading">
+					here's the deal
+					</div>
+
+					<label id="offerDetailLabel">
+					winter offer:
+					</label>
+
+					<p id="offerDetailDate">
+					June 1 - September 29
+					</p>
+
+					<label id="blitzDetailLabel">
+					winter blitz:
+					</label>
+
+					<p id="blitzDetailDate">
+					September 9 - September 27
+					</p>
+	
+					<hr />
+
+					<span id="offerDetailPrice" class="callout callout--circle pull-right">
+						$37
+					</span>
+					<p>
+					<span id="offerDisplay">
+						Order by WINTER BLITZ END DATE to save <$xx> on your yearbook and select up to four free icons with the purchase of personalization!
+					</span>
+					<br />
+					<c:if test="${requestScope.session.roleId == 5
+										 || requestScope.session.roleId == 4
+										 || requestScope.session.roleId == 3
+										 || requestScope.session.roleId == 2}"><!-- Consultant, Sales Rep, Adviser, Business Manager -->
+						<a href="/ItPays/OrderFormDetails.asp?&CATID=${catalogId}&Pers=N">See offer details</a>
+					</c:if>
+					</p>
+
+					<a class="btn" href="/ItPays/OrderFormDetails.asp?&CATID=88879&Pers=N">Print Order Forms</a>
+					<a class="btn" href="/itpays/entersales.asp">Enter Sales</a>
+	
+					<hr />
+	
+					<div class="video">
+						<video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png" style="width:100%;">
+							<source id="" src="">
+							<p>Your user agent does not support the HTML5 Video element.</p>
+						</video>
+                    </div>
+					<p><strong>Winter blitz video:</strong> These tips and ideas will help you generate school-wide buzz and create a successful blitz.</p>
+				</div>
             </div>
             <div class="col col-lg-6">
                 <div class="panel panel-primary">
@@ -1176,14 +1280,14 @@
                             <div id="collapseC1" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <p>Check out this short and informative video that highlights the most important information on the Winter Blitz.</p>
-                                    <video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png">
-                                        <source id="mp4"
-                                                src="http://resources.yearbookavenue.jostens.com/wp-content/uploads/2012/10/Yearbook-Commercial.mp4"
+                                    <div class="video">
+										<video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png" style="width:100%;">
+											<source id="mp4"
+                                                src=""
                                                 type="video/mp4">
-                                        <!--<source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">-->
-                                        <!--<source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">-->
-                                        <p>Your user agent does not support the HTML5 Video element.</p>
-                                    </video>
+											<p>Your user agent does not support the HTML5 Video element.</p>
+										</video>
+									</div>
                                 </div>
                             </div>
                         </div>
@@ -1595,7 +1699,7 @@
 
                     <h2>3x Coverage</h2>
                     <figure>
-                        <img src="http://placehold.it/100x100" class="img-circle">
+                        <div id="gauge" class="100x100px coverage"></div>
                     </figure>
                     
                 </div>
@@ -1715,10 +1819,58 @@
                 </div>
             </div>
             <div class="col col-lg-3">
-                <div class="panel ">
-                    <div class="panel-heading">Panel Heading</div>
-                    This is a panel
-                </div>
+                <div class="panel panel-heresthedeal">
+					<div class="panel-heading">
+					here's the deal
+					</div>
+
+					<label id="offerDetailLabel">
+					spring offer:
+					</label>
+
+					<p id="offerDetailDate">
+					June 1 - September 29
+					</p>
+
+					<label id="blitzDetailLabel">
+					spring blitz:
+					</label>
+
+					<p id="blitzDetailDate">
+					September 9 - September 27
+					</p>
+	
+					<hr />
+
+					<span id="offerDetailPrice" class="callout callout--circle pull-right">
+						$37
+					</span>
+					<p>
+					<span id="offerDisplay">
+						Order by SPRING BLITZ END DATE to save <$xx> on your yearbook and select up to four free icons with the purchase of personalization!
+					</span>
+					<br />
+					<c:if test="${requestScope.session.roleId == 5
+										 || requestScope.session.roleId == 4
+										 || requestScope.session.roleId == 3
+										 || requestScope.session.roleId == 2}"><!-- Consultant, Sales Rep, Adviser, Business Manager -->
+						<a href="/ItPays/OrderFormDetails.asp?&CATID=${catalogId}&Pers=N">See offer details</a>
+					</c:if>
+					</p>
+
+					<a class="btn" href="/ItPays/OrderFormDetails.asp?&CATID=88879&Pers=N">Print Order Forms</a>
+					<a class="btn" href="/itpays/entersales.asp">Enter Sales</a>
+	
+					<hr />
+	
+					<div class="video">
+						<video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png" style="width:100%;">
+							<source id="" src="">
+							<p>Your user agent does not support the HTML5 Video element.</p>
+						</video>
+                    </div>
+					<p><strong>Spring blitz video:</strong> These tips and ideas will help you generate school-wide buzz and create a successful blitz.</p>
+				</div>
             </div>
             <div class="col col-lg-6">
                 <div class="panel panel-primary">
@@ -1741,14 +1893,14 @@
                             <div id="collapseD1" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <p>Check out this short and informative video that highlights the most important information on the Spring Blitz.</p>
-                                    <video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png">
-                                        <source id="mp4"
-                                                src="http://resources.yearbookavenue.jostens.com/wp-content/uploads/2012/10/Yearbook-Commercial.mp4"
+                                    <div class="video">
+										<video controls="" preload="none" poster="../img/view-merch/bl_videoPlaceholder.png" style="width:100%;">
+											<source id="mp4"
+                                                src=""
                                                 type="video/mp4">
-                                        <!--<source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">-->
-                                        <!--<source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">-->
-                                        <p>Your user agent does not support the HTML5 Video element.</p>
-                                    </video>
+											<p>Your user agent does not support the HTML5 Video element.</p>
+										</video>
+									</div>
                                 </div>
                             </div>
                         </div>
@@ -2153,8 +2305,8 @@
                     <!--<span class="panel-expand-trigger glyphicon glyphicon-zoom_in"></span>-->
 
                     <h2>3x Coverage</h2>
-                    <figure>
-                        <img src="http://placehold.it/100x100" class="img-circle">
+                     <figure>
+                        <div id="gauge" class="100x100px coverage"></div>
                     </figure>
                     
                 </div>
