@@ -4630,86 +4630,77 @@ a.list-group-item.active {
 .panel-metrics {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000357}}
-.panel-metrics .coverage {
-  width: 100%;
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000360}}
-.panel-metrics .coverage svg {
-  width: 156px;
-}
-@-moz-document url-prefix() {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000364}}
-  .panel-metrics-fixed {
-    padding: 0 0 30px 0;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000367}}
-  .panel-metrics .coverage {
-    width: 194px;
-    margin: 0 auto;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000367}}
 .panel-metrics > h2 {
   font-size: 1.5em;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000371}}
+.panel-metrics > figure {
+  width: 156px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000372}}
+.panel-metrics > figure #gauge {
+  height: 120px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000374}}
 .panel-metrics > figcaption > label {
   font-size: 1.2em;
   font-weight: normal;
   line-height: 1.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000379}}
 .metrics-badge {
   margin-bottom: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000384}}
 .panel-login {
   padding: 30px 0px;
   width: 360px;
   margin: 0 auto;
   margin-top: 60px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000389}}
 .panel-login img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000395}}
 .panel-login img:last-of-type {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\0000398}}
 .panel-login input,
 .panel-login select {
   margin-bottom: 20px;
   margin-left: 0px;
   width: 260px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\00003103}}
 .panel-login .btn-primary {
   margin-bottom: 30px;
   margin-right: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\00003111}}
 .panel-heresthedeal hr {
   border-top: 1px solid #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\00003114}}
 .panel-heresthedeal label {
   text-transform: capitalize;
 }
 /* Integrations
 =================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\00003124}}
 .accordion-flush {
   margin: 0px -15px -15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-panels\.less}line{font-family:\00003130}}
 .panel .btn {
   margin-bottom: 4px;
 }
@@ -6702,8 +6693,10 @@ a.thumbnail:focus {
   overflow: hidden;
   padding-bottom: 56.25%;
   display: block;
+  border: 1px solid #eeeeee;
+  margin-bottom: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\000039}}
 .video iframe,
 .video object,
 .video embed {
@@ -6713,7 +6706,7 @@ a.thumbnail:focus {
   width: 100%;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000316}}
 object.video {
   position: relative;
   height: 0;
@@ -6721,9 +6714,10 @@ object.video {
   padding-bottom: 56.25%;
   display: block;
   padding: 0 !important;
-  border: 5px solid green;
+  border: 1px solid #eeeeee;
+  margin-bottom: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\000039}}
 object.video iframe,
 object.video object,
 object.video embed {
@@ -6735,27 +6729,27 @@ object.video embed {
 }
 /* Img Sizes
 =================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000327}}
 .img-size-mini {
   width: 130px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000328}}
 .img-size-small {
   width: 150px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000329}}
 .img-size-medium {
   width: 175px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000330}}
 .img-size-large {
   width: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000331}}
 .img-size-huge {
   width: 275px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\0000334}}
 .height-200 {
   height: 200px;
 }
@@ -7257,6 +7251,27 @@ a.list-group-item.active > .badge,
   margin-left: 15px;
   margin-bottom: 15px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-accordion\.less}line{font-family:\00003148}}
+.jos-accordion-checklist .accordion-inner object.video {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  display: block;
+  margin-bottom: 15px;
+  padding-bottom: 56.25px;
+  border: 1px solid #eeeeee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\000039}}
+.jos-accordion-checklist .accordion-inner object.video iframe,
+.jos-accordion-checklist .accordion-inner object.video object,
+.jos-accordion-checklist .accordion-inner object.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/carousel\.less}line{font-family:\000037}}
 .carousel {
   position: relative;
@@ -7743,7 +7758,6 @@ a.list-group-item.active > .badge,
   display: block;
   font-family: "Jubilat", Georgia, serif;
   font-size: 16px;
-  font-weight: bold;
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   color: #fff;
