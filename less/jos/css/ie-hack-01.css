@@ -2,15 +2,12 @@
     IE Hacks for:
     - view-merch(classic).html
 =================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/ie-hack-01\.less}line{font-family:\000037}}
 .panel-metrics-fixed {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/ie-hack-01\.less}line{font-family:\000038}}
 .panel-ie {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/ie-hack-01\.less}line{font-family:\0000315}}
 .jos-accordion-checklist .accordion-inner span:last-child {
   position: relative;
   height: auto;
@@ -18,7 +15,6 @@
   padding-bottom: 0;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/ie-hack-01\.less}line{font-family:\0000322}}
 .jos-accordion-checklist .accordion-inner object.video {
   position: relative;
 }
