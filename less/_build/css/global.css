@@ -7236,25 +7236,33 @@ a.list-group-item.active > .badge,
   margin-bottom: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-accordion\.less}line{font-family:\00003148}}
-.jos-accordion-checklist .accordion-inner object.video {
+.jos-accordion-checklist .accordion-inner span:last-child {
   position: relative;
   height: 0;
   overflow: hidden;
   padding-bottom: 56.25%;
   display: block;
-  margin-bottom: 15px;
-  padding-bottom: 56.25px;
   border: 1px solid #eeeeee;
+  margin-bottom: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-media\.less}line{font-family:\000039}}
-.jos-accordion-checklist .accordion-inner object.video iframe,
-.jos-accordion-checklist .accordion-inner object.video object,
-.jos-accordion-checklist .accordion-inner object.video embed {
+.jos-accordion-checklist .accordion-inner span:last-child iframe,
+.jos-accordion-checklist .accordion-inner span:last-child object,
+.jos-accordion-checklist .accordion-inner span:last-child embed {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-accordion\.less}line{font-family:\00003149}}
+.jos-accordion-checklist .accordion-inner object.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #eeeeee;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/carousel\.less}line{font-family:\000037}}
 .carousel {
