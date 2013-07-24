@@ -104,11 +104,11 @@
                         <h4>Status</h4>
                         <p><code>Statuses</code> will define where a <code>Record</code> is in the development lifecycle:</p>
                         <ol>
-                            <li>Needs Review</li>
-                            <li>In Review</li>
-                            <li>Approved</li>
-                            <li>Retired</li>
-                            <li>Not Supported</li>
+                            <li><strong>Needs Review:</strong> Idea has been created; sketch, Photoshop, whatever...</li>
+                            <li><strong>In Review:</strong> Necessary parties review as needed: UX Team, stakeholders, product owners, etc...</li>
+                            <li><strong>Approved:</strong> Ready for production</li>
+                            <li><strong>Retired:</strong> Still supported, but no longer advancing in design</li>
+                            <li><strong>Not Supported:</strong> A.k.a. "Deprecated"</li>
                         </ol>
 
                         <h4>Docs</h4>
@@ -367,12 +367,11 @@
             html: 'true',
             title: 'Status',
             content: '<ol>' +
-                    '<li>Submitted</li>' +
+                    '<li>Needs Review</li>' +
                     '<li>In Review</li>' +
-                    '<li>Accepted</li>' +
-                    '<li>Production</li>' +
-                    '<li>Legacy</li>' +
-                    '<li>Retired</li></ol>'
+                    '<li>Approved</li>' +
+                    '<li>Retired</li>' +
+                    '<li>Not Supported</li></ol>'
 
         });
     } );
