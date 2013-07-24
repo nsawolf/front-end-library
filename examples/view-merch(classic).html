@@ -33,14 +33,14 @@
 <!--START MODULE-->
 <div class="tabbable tabs-merch">
     <ul class="nav nav-tabs">
-        <li class=" jos-theme-01">
+        <li class="active jos-theme-01">
             <a href="#exampleTab01" data-toggle="tab">
                 <span>Back to </span>
                 <span class="tabs-merch-season">School</span>
                 <span class="callout callout--circle">$65</span>
             </a>
         </li>
-        <li class="active jos-theme-02">
+        <li class="jos-theme-02">
             <a href="#exampleTab02" data-toggle="tab">
                 <span class="tabs-merch-season">Fall</span>
                 <span>Offer</span>
@@ -2441,6 +2441,7 @@
 
         }
 
+
         $('.completed-tasks').on('click', function () {
             filterCompleted('.completed-tasks', '.jos-list-group-merch');
         });
@@ -2596,5 +2597,28 @@
 
     });
 </script>
+
+<!--[if lt IE 9]>
+<script>
+    /* IE Responsive Media Size Hack
+     =================================== */
+
+    // Definition
+    function videoResize(elem){
+        var $elem = $(elem);
+        $elem.each(function(){
+            var width = $(this).outerWidth();
+            var height = (9*width)/16;
+            $(this).outerHeight(height);
+        });
+
+    }
+
+    // Instance
+    $(window).resize(function(){
+        videoResize($('.video'));
+    });
+</script>
+<![endif]-->
 </body>
 </html>
