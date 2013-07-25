@@ -1076,7 +1076,7 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#216d9d;backgr
 .jos-accordion-checklist .accordion-inner .img-wrapper{margin-bottom:15px}
 .jos-accordion-checklist .accordion-inner .gray-border{border:1px solid #ccc}
 .jos-accordion-checklist .accordion-inner img.gray-border{padding:0;margin-left:15px;margin-bottom:15px}
-.jos-accordion-checklist .accordion-inner span:last-child{position:relative;height:0;overflow:hidden;padding-bottom:56.25%;display:block;border:1px solid #eee;margin-bottom:15px}.jos-accordion-checklist .accordion-inner span:last-child iframe,.jos-accordion-checklist .accordion-inner span:last-child object,.jos-accordion-checklist .accordion-inner span:last-child embed{position:absolute;top:0;left:0;width:100%;height:100%}
+.jos-accordion-checklist .accordion-inner span{position:relative;height:0;overflow:hidden;padding-bottom:56.25%;display:block;border:1px solid #eee;margin-bottom:15px;border:0}.jos-accordion-checklist .accordion-inner span iframe,.jos-accordion-checklist .accordion-inner span object,.jos-accordion-checklist .accordion-inner span embed{position:absolute;top:0;left:0;width:100%;height:100%}
 .jos-accordion-checklist .accordion-inner object.video{position:absolute;top:0;left:0;width:100%;height:100%;border:1px solid #eee}
 .carousel{position:relative}
 .carousel-inner{position:relative;overflow:hidden;width:100%}
