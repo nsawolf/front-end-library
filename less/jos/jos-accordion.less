@@ -144,8 +144,7 @@
 	}
 
     // Video
-    //object{.video-inner();}
-    span:last-child{.video();}
+    span{.video();}  // Need to do this because when Kaltura converts to flash, it creates a parent object that has no direct selector to find. NOT IDEAL
     object.video{
       .video-inner();
 
