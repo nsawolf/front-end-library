@@ -1150,7 +1150,7 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{color:#216d9d;backgr
 .jos-detailcontent{position:absolute;top:0;right:0;left:0;bottom:0;background:#fdfdfd;padding:10px 15px;overflow:auto;z-index:1010}
 .jos-appcanvas{position:absolute;top:0;right:0;bottom:0;left:0;overflow:hidden}
 .jos-appcanvas-content{position:absolute;top:0;right:0;bottom:0;left:0;overflow-x:hidden;overflow-y:auto;padding:15px;-webkit-transition:.5s;-moz-transition:.5s;-o-transition:.5s;transition:.5s}
-.jos-appcanvas-above{position:absolute;top:0;right:0;left:2}
+.jos-appcanvas-above{position:absolute;top:0;right:0;left:0}
 .jos-appcanvas-below{position:absolute;bottom:0;right:0;left:0}
 .jos-backgroundmedia .jos-appcanvas-content{background:url(../../../img/jos-backgroundmedia-raster.png) transparent repeat left top}
 .int-jos-controlpanel.shift-default .jos-appcanvas-content{top:0;right:0;bottom:0;left:0}

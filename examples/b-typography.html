@@ -7,6 +7,16 @@
 
     <!-- styles -->
     <link href="../less/_build/css/global.css" rel="stylesheet"> <!-- build file of all styles for example -->
+    <style>
+        /*Styles for docs*/
+        .docs-header{background: #eee; border-bottom: 1px solid #ccc; padding: 10px 16px; position: fixed; height: 50px; right: 0; left: 0; top: 0; z-index: 4000; box-shadow: 0 3px 8px rgba(0,0,0,.125);}
+        .docs-header h3{margin: 0px; margin-right: 15px; display: inline-block; font-size: 18px;}
+        .docs-header h3 small{font-size: 18px;}
+        .docs-aside{background: #eee; border-left: 1px solid #ccc; padding: 10px 16px; position: fixed; top: 50px; right: 0px; bottom: 0px; width: 300px; overflow: scroll;}
+        .docs-aside h2{font-size: 18px;}
+        .example-content{position: absolute; left: 0px; top: 50px; right: 300px; bottom: 0px; padding:  30px 16px 8px 16px; overflow: scroll;}
+        .example-label{position: absolute; top: -20px; left: 0px; padding: 4px 16px; background: #fff; font-size: 14px; border-radius: 0px 0px 8px 0px; border: 2px solid #eee; font-family: arial; border-top: 0px; border-left: 0px;}
+    </style>
 
     <!-- scripts -->
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -14,11 +24,37 @@
     <!-- Typekit Scripts -->
     <script type="text/javascript" src="//use.typekit.net/hon8eiw.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 </head>
 
 <body>
 
-<div class="container">
+<div class="docs-aside">
+    <h2>Usage Notes</h2>
+    <label>H2</label>
+    <p>Make sure to do this...</p>
+    <p><a class="label" href="view-homepage.html">Example: View-homepage</a></p>
+    <label>Body Copy</label>
+    <p>Make sure to do this...</p>
+    <p><a class="label" href="view-homepage.html">Example: View-homepage</a></p>
+    <label>Special Treatment</label>
+    <p>Make sure to do this...</p>
+    <p><a class="label" href="view-homepage.html">Example: View-homepage</a></p>
+    <label>H2</label>
+    <p>Make sure to do this...</p>
+    <p><a class="label" href="view-homepage.html">Example: View-homepage</a></p>
+
+</div>
+
+<div class="docs-header">
+    <h3>Name: <small>Typography</small></h3>
+    <h3>Type: <small>Component</small></h3>
+    <h3>Version: <small>1</small></h3>
+</div>
+
+
+<div class="container example-content">
+    <h3 class="example-label">Example</h3>
     <h1>Bootstrap heading 1</h1>
     <h2>Bootstrap heading 2</h2>
     <h3>Bootstrap heading 3</h3>

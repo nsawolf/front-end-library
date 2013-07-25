@@ -10,36 +10,30 @@
 =================================== */
 /*20*14px = 280px*/
 @media screen and (max-width: 480px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-view-merch\.less}line{font-family:\0000311}}
   .col-metrics,
   .col-pull-6 {
     width: 100%;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-view-merch\.less}line{font-family:\0000315}}
   .col-metrics,
   .col-pull-6 {
     width: 50%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-view-merch\.less}line{font-family:\0000319}}
   .col-checklist.col-push-3 {
     left: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-view-merch\.less}line{font-family:\0000320}}
   .col-pull-6 {
     width: 50%;
     left: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-view-merch\.less}line{font-family:\0000321}}
   .col-metrics {
     width: 50%;
   }
 }
 @media screen and (max-width: 992px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adamschnaare\/vcs\/front-end-library(git)\/less\/jos\/jos-view-merch\.less}line{font-family:\0000324}}
   .col-timeline {
     display: none;
   }
